@@ -6,3 +6,4 @@ redcarpet:
     'autolink', 'tables', 'with_toc_data'
   ]
 pygments: false
+permalink: date
