@@ -6,4 +6,5 @@ redcarpet:
     'autolink', 'tables', 'with_toc_data'
   ]
 pygments: false
+future: false
 permalink: /:title.html
