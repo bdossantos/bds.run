@@ -1,4 +1,5 @@
 name: Running plans
+timezone: Europe/Paris
 markdown: redcarpet
 redcarpet:
   extensions: [
