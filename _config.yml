@@ -1,4 +1,6 @@
-name: Running plans
+name: ./runner.sh
+author: "Benjamin Dos Santos"
+email: "benjamin[dot]dossantos[at]gmail[dot]com"
 timezone: Europe/Paris
 markdown: redcarpet
 redcarpet:
@@ -8,4 +10,12 @@ redcarpet:
   ]
 pygments: false
 future: false
-permalink: /:title.html
+permalink: /:year/:month/:day/:title.html
+
+links:
+  - title: A propos
+    url: /about.html
+  - title: Todo-list
+    url: /todo-list.html
+  - title: Archives
+    url: /archives.html

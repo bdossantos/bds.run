@@ -2,9 +2,19 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<article class="post">
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p class="meta">
+      <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}">
+        {{ page.date | date_to_long_string }}
+      </time>
+       - {{ page.categories | join: ', ' }}
+    </p>
+  </header>
 
-<div class="post">
-  {{ content }}
-</div>
+  <section>{{ content }}</section>
+
+  <footer>
+  </footer>
+</article>

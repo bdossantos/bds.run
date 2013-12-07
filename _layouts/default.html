@@ -10,6 +10,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <style>
+        body {
+          font-family: 'Droid Sans', sans-serif;
+        }
+        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -18,14 +24,31 @@
 
         <div id="main">
             <header>
-              <h1><a href="/">Carnet d'entraînement</a></h1>
+              <h1>
+                <a href="/">
+                  ./runner.sh
+                </a>
+              </h1>
+
+              <p id="baseline">
+                Carnet d'entraînement, récits de course, etc ...
+              </p>
+
+              <nav role="navigation" id="top-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <ul>
+                {% for link in site.links %}
+                  <li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+                {% endfor %}
+                </ul>
+              </nav>
             </header>
 
             <div id="content">
               {{ content }}
             </div>
 
-            <footer>
+            <footer id="footer">
+              <small>© 2013 ./runner.sh</small>
             </footer>
         </div>
 
