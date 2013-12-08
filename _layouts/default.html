@@ -6,8 +6,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>{% if page.title %}{{ page.title }} // {% endif %}runner.sh</title>
+        <meta name="description" content="{{ page.description }}">
+        <meta name="google-site-verification" content="{{ site.google_verify }}">
+        {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+        <link rel="canonical" href="{{ canonical }}">
+        <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.name }} Feed">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -37,7 +41,7 @@
               <nav role="navigation" id="top-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
                 <ul>
                 {% for link in site.links %}
-                  <li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+                  <li><a href="{{ link.url }}">{{ link.title }}</a></li>
                 {% endfor %}
                 </ul>
               </nav>
