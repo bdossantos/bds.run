@@ -1,4 +1,5 @@
 name: ./runner.sh
+url: http://runner.sh
 author: "Benjamin Dos Santos"
 email: "benjamin[dot]dossantos[at]gmail[dot]com"
 timezone: Europe/Paris
