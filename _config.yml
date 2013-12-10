@@ -12,6 +12,7 @@ redcarpet:
 pygments: false
 future: false
 permalink: /:year/:month/:day/:title.html
+google_verify: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
 
 links:
   - title: A propos
