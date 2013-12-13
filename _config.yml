@@ -11,6 +11,7 @@ redcarpet:
   ]
 pygments: false
 future: false
+exclude: ['Rakefile', 'Gemfile*', ]
 permalink: /:year/:month/:day/:title.html
 google_verify: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
 google_analytics: 'UA-9203113-5'
