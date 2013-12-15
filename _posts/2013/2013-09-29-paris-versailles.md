@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Paris-Versailles
+description: Mon Paris-Versailles 2013
 category: courses
 ---
 
