@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Entraînement novembre 2013
-category: entraînement
+title: Entrainement novembre 2013
+category: entrainement
 ---
 
 Au programme pour novembre/decembre, préparation "cross".

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Entraînement décembre 2013
-category: entraînement
+title: Entrainement décembre 2013
+category: entrainement
 ---
 
 ### Semaine du 2 au 8 décembre
