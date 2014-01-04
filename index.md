@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Carnet d'entrainement, récits de course, etc ...
+description:
 ---
 
 <ul id="articles">
