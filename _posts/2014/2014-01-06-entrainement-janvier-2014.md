@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Entrainement janvier 2014
+description: Mon plan d'entrainement de janvier 2014
 category: entrainement
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Entrainement novembre 2013
+description: Mon plan d'entrainement de novembre 2013
 category: entrainement
 ---
 
