@@ -20,6 +20,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Marathon du Médoc](http://www.marathondumedoc.com/)
 * [Semi-Marathon Marjevols-Mende](http://www.marvejols-mende.org)
 * [Course des Remparts de Provins](http://www.coursedesremparts.fr)
+* [The great wall marathon](http://great-wall-marathon.com)
 
 ### Trail
 
