@@ -63,6 +63,7 @@ Les sensations sont très bonnes, j'en profite pour relâcher pour prendre un pe
 de vitesse. Mais il y a toujours autant de monde et je dois "freiner" à plusieurs
 reprise pour ne pas me prendre le coureur devant. Dommage car j'en avais sous
 le pied pour descendre bien plus vite !
+
 ### La fin de course
 
 Quelques bosses et légères descentes puis me voilà sur l'avenue de Paris où
@@ -87,3 +88,5 @@ Le départ par vague c'est très bien, mais cela combiné avec des sas par
 niveau/objectif serait encore mieux.
 
 Course à refaire l'an prochain !
+
+<img class="ctr img-thumbnail" src="{% base64 https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2013/pv2013.jpg %}" />
