@@ -87,3 +87,5 @@ termine dans les 1h44, un peu déçu également.
 
 Une chose est sûre, je referai cette superbe course, mais mieux entrainé vu
 que maintenant je sais à quoi m'attendre.
+
+<img class="ctr img-thumbnail" src="{% base64 https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2013/sc2013.jpg %}" />
