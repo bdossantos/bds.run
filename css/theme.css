@@ -171,8 +171,32 @@ img {
   max-width: 100%;
 }
 
+.ctr {
+  margin: 0 auto;
+  display: block;
+}
+
+
+#footer::before {
+  content: "";
+  display: block;
+  max-width: 95%
+  margin: 0 auto;
+  height: 1px;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
+  background: -moz-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
+  background: -ms-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
+  background: -o-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
+}
+
 #footer {
+  margin-top: 4em;
+  font-size: 80%;
   text-align: center;
+}
+
+#footlinks a {
+  margin-right: 1.35em;
 }
 
 table {
