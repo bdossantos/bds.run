@@ -167,6 +167,10 @@ ul p {
   margin-top: 0;
 }
 
+#share a {
+  margin-right: 0.5em;
+}
+
 img {
   max-width: 100%;
 }
