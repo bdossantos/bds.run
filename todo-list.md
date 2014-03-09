@@ -3,7 +3,7 @@ layout: default
 title: Les Courses que je souhaite faire, un jour.
 ---
 
-## Les Courses dans ma "todo list", en vrac :
+## Les Courses dans ma "todo list" :
 
 ### Route
 
