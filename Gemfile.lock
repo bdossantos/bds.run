@@ -24,6 +24,8 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.9.7)
       toml (~> 0.1.0)
+    jekyll-redirect-from (0.3.1)
+      jekyll (~> 1.4)
     jekyll_image_encode (0.0.3)
     juicer (1.1.1)
       cmdparse
@@ -64,6 +66,7 @@ PLATFORMS
 DEPENDENCIES
   gsl
   jekyll
+  jekyll-redirect-from
   jekyll_image_encode
   juicer
   rake
