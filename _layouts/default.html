@@ -25,6 +25,7 @@
         <!-- Prefetch -->
         <link rel="dns-prefetch" href="//runner.sh">
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="dns-prefetch" href="//runnersh.disqus.com">
         <link rel="dns-prefetch" href="//www.google-analytics.com">
 
         <meta name="google-site-verification" content="{{ site.google_verify }}">
@@ -80,6 +81,17 @@
               <p>© {{ site.time | date: "%Y" }} ./runner.sh</p>
             </footer>
         </div>
+
+        {% if page.category %}
+        <script>
+        var disqus_shortname = 'runnersh';
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+        </script>
+        {% endif %}
 
         <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
