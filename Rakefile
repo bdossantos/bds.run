@@ -10,7 +10,7 @@ RASPBERRY='pi@192.168.0.252:/srv/http/runner.sh'
 
 desc 'Jekyll build'
 task :jekyll_build do
-  puts '# Jekyll build'
+  puts '--> Jekyll build'
   system "find #{BUILD_DIR} | xargs chmod 755"
   system "rm -rf #{BUILD_DIR}"
   system "jekyll build -d #{BUILD_DIR}"
@@ -65,53 +65,21 @@ end
 
 desc 'Bower install'
 task :bower_install do
-  puts '# Get assets'
+  puts '--> Grab front-end packages with Bower'
   system "#{BOWER} install"
-end
-
-desc 'Merge stylesheets'
-task :minify_css do
-  puts '# Merge all css'
-  system "juicer merge --force #{BUILD_DIR}/css/main.css -o " +
-         "#{BUILD_DIR}/css/main.css"
-end
-
-desc 'Merges JavaScripts'
-task :minify_js do
-  puts '# Merge JS'
-  system "juicer merge -i --force #{BUILD_DIR}/js/common.js"
 end
 
 desc 'Minify all html'
 task :minify_html do
-  puts '# Minifying all html'
+  puts '--> Minifying html'
   system "find #{BUILD_DIR} -type f -name '*.html' " +
     "| xargs -I '%' -P 4 -n 1 #{HTML_COMPRESSOR} --remove-intertag-spaces " +
     "--compress-css --compress-js --js-compressor yui '%' -o '%'"
 end
 
-desc 'Minify All'
-task :minify => [:minify_css, :minify_js, :inline_css, :minify_html]
-
-desc 'Inlinify CSS'
-task :inline_css do
-  minified_css = File.open("#{BUILD_DIR}/css/main.css", 'r').read
-
-  Dir.glob("#{BUILD_DIR}/**/*.html") do |name|
-    File.open(name, 'r+') do |f|
-      new_file = f.read.sub \
-        /<link rel="stylesheet" href="\/css\/main.css\">/,
-        "<style>#{minified_css}</style>"
-
-      f.truncate 0
-      f.write new_file
-    end
-  end
-end
-
 desc "Gzip"
 task :gzip, [:ext] => [:gzip_all] do |t, args|
-  puts "GZipping '#{args.ext}'"
+  puts "--> GZipping '#{args.ext}'"
   system "find #{BUILD_DIR} -type f -name '*.#{args.ext}' -print0 | " +
          "xargs -0 -I % -P 4 -n 1 sh -c 'gzip -9 < % > %.gz'"
 end
@@ -125,7 +93,7 @@ end
 
 desc 'upload to s3'
 task :upload_to_s3 do
-  puts 'Sync media files first + set cache expires'
+  puts '--> Sync media files first + set cache expires'
   system "s3cmd sync \
       --no-preserve \
       --guess-mime-type \
@@ -139,7 +107,7 @@ task :upload_to_s3 do
       #{BUILD_DIR}/ \
       #{BUCKET}"
 
-  puts 'Sync Javascript and CSS assets next (Cache: expire in 1 week)'
+  puts '--> Sync Javascript and CSS assets next (Cache: expire in 1 week)'
   system "s3cmd sync \
       --no-preserve \
       --guess-mime-type \
@@ -152,7 +120,7 @@ task :upload_to_s3 do
       #{BUILD_DIR}/ \
       #{BUCKET}"
 
-  puts 'Sync Gzipped files'
+  puts '--> Sync Gzipped files'
   system "s3cmd sync \
       --no-preserve \
       --guess-mime-type \
@@ -164,7 +132,7 @@ task :upload_to_s3 do
       #{BUILD_DIR}/ \
       #{BUCKET}"
 
-  puts 'Sync everything else, but ignore the assets!'
+  puts '--> Sync everything else, but ignore the assets!'
   system "s3cmd sync \
       --no-preserve \
       --guess-mime-type \
@@ -177,7 +145,7 @@ task :upload_to_s3 do
       #{BUILD_DIR}/ \
       #{BUCKET}"
 
-  puts 'Sync: remaining files & delete removed'
+  puts '--> Sync remaining files & delete removed'
   system "s3cmd sync \
       --no-preserve \
       --acl-public \
@@ -204,7 +172,7 @@ task :deploy do
   puts '--> Start Deploy'
   Rake::Task['bower_install'].invoke
   Rake::Task['jekyll_build'].invoke
-  Rake::Task['minify'].invoke
+  Rake::Task['minify_html'].invoke
   Rake::Task['gzip_all'].invoke
   Rake::Task['fix_files_permissions'].invoke
   Rake::Task['upload_to_s3'].invoke
