@@ -11,7 +11,7 @@ redcarpet:
   ]
 pygments: false
 future: false
-exclude: ['Rakefile', 'Gemfile*', ]
+exclude: ['Rakefile', 'Gemfile*', 'bower.json', ]
 gems: ['jekyll_image_encode', ]
 permalink: /:year/:month/:day/:title.html
 google_verify: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
