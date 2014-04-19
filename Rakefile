@@ -4,6 +4,7 @@ LIBS_DIR = '_libs'
 BUILD_DIR = '_build'
 HTML_COMPRESSOR=`which htmlcompressor`.chomp
 YUI_COMPRESSOR=`which yuicompressor`.chomp
+BOWER=`which bower`.chomp
 BUCKET='s3://runner.sh'
 RASPBERRY='pi@192.168.0.252:/srv/http/runner.sh'
 
@@ -60,6 +61,12 @@ task :sitemap do
   rescue LoadError
     puts '! Could not ping Google about our sitemap, because Net::HTTP or URI could not be found.'
   end
+end
+
+desc 'Bower install'
+task :bower_install do
+  puts '# Get assets'
+  system "#{BOWER} install"
 end
 
 desc 'Merge stylesheets'
@@ -195,6 +202,7 @@ end
 desc 'Full deployement task'
 task :deploy do
   puts '--> Start Deploy'
+  Rake::Task['bower_install'].invoke
   Rake::Task['jekyll_build'].invoke
   Rake::Task['minify'].invoke
   Rake::Task['gzip_all'].invoke
