@@ -9,7 +9,7 @@ redcarpet:
     'no_intra_emphasis', 'fenced_code_blocks',
     'autolink', 'tables', 'with_toc_data'
   ]
-pygments: false
+highlighter: false
 future: false
 exclude: ['Rakefile', 'Gemfile*', 'bower.json', ]
 gems: ['jekyll_image_encode', 'jekyll-assets', ]
