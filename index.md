@@ -8,7 +8,7 @@ description:
 {% for post in site.posts %}
   <li>
     <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-      <time datetime="{{ post.date | date_to_xmlschema }}">
+      <time pubdate datetime="{{ post.date | date_to_xmlschema }}">
         {{ post.date | date_to_string }}
       </time>
       <h2>
