@@ -3,12 +3,7 @@ url: http://runner.sh
 author: "Benjamin Dos Santos"
 email: "benjamin[dot]dossantos[at]gmail[dot]com"
 timezone: Europe/Paris
-markdown: redcarpet
-redcarpet:
-  extensions: [
-    'no_intra_emphasis', 'fenced_code_blocks',
-    'autolink', 'tables', 'with_toc_data'
-  ]
+markdown: kramdown
 highlighter: false
 future: false
 exclude: ['Rakefile', 'Gemfile*', 'bower.json', ]
