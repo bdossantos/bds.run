@@ -30,3 +30,4 @@ title: Les Courses que je souhaite faire, un jour.
 * [La course des Templiers](http://festivaldestempliers.blogspot.fr/)
 * [L'Ultra-Trail du Mont-Blanc](http://www.ultratrailmb.com/)
 * [La diagonale des fous](http://www.grandraid-reunion.com/)
+* [Lyon urban trail](http://www.lyonurbantrail.com/)
