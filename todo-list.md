@@ -31,3 +31,4 @@ title: Les Courses que je souhaite faire, un jour.
 * [L'Ultra-Trail du Mont-Blanc](http://www.ultratrailmb.com/)
 * [La diagonale des fous](http://www.grandraid-reunion.com/)
 * [Lyon urban trail](http://www.lyonurbantrail.com/)
+* [Trail Ubaye Salomon](http://www.athletic-club-ubaye.fr/)
