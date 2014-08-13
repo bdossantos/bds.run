@@ -7,7 +7,7 @@ markdown: kramdown
 highlighter: false
 future: false
 exclude: ['Rakefile', 'Gemfile*', 'bower.json', ]
-gems: ['jekyll_image_encode', 'jekyll-assets', ]
+gems: ['jekyll_image_encode', 'jekyll-assets', 'jekyll-sitemap', ]
 permalink: /:year/:month/:day/:title.html
 google_verify: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
 google_analytics: 'UA-9203113-5'
