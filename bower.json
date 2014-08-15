@@ -2,6 +2,6 @@
   "name": "runner.sh",
   "version": "0.0.1",
   "dependencies": {
-    "html5-boilerplate": "861c359e40eeeba2cf978bebf47b5c1c54c903ce"
+    "html5-boilerplate": "287f12229e1841a280e5176588f66ae433761fd0"
   }
 }
