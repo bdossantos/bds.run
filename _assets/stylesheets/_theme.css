@@ -12,6 +12,7 @@ body {
 }
 
 #top-nav ul {
+  padding: 0;
   margin-left: 0;
   -webkit-padding-start: 0;
   -webkit-margin-before: 0;
@@ -70,6 +71,7 @@ ul p {
 }
 
 #articles {
+  padding: 0;
   list-style-type: none;
   -webkit-padding-start: 0;
 }
