@@ -2,12 +2,12 @@ require 'English'
 
 LIBS_DIR = '_libs'
 BUILD_DIR = '_build'
-HTML_COMPRESSOR=`which htmlcompressor`.chomp
-YUI_COMPRESSOR=`which yuicompressor`.chomp
-BOWER=`which bower`.chomp
+HTML_COMPRESSOR = `which htmlcompressor`.chomp
+YUI_COMPRESSOR = `which yuicompressor`.chomp
+BOWER = `which bower`.chomp
 WGET = `which wget`.chomp
-BUCKET='s3://runner.sh'
-RASPBERRY='pi@192.168.0.252:/srv/http/runner.sh'
+BUCKET = 's3://runner.sh'
+RASPBERRY = 'pi@192.168.0.252:/srv/http/runner.sh'
 
 desc 'Jekyll build'
 task :jekyll_build do
@@ -20,30 +20,30 @@ end
 desc 'Begin a new post'
 task :post do
   title = ENV['title'] || 'new-post'
-  tags = ENV["tags"] || '[]'
+  tags = ENV['tags'] || '[]'
   category = ENV['category'] || ''
-  category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
+  category = "\"#{category.gsub(/-/, ' ')}\"" unless category.empty?
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
 
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now)\
            .strftime('%Y-%m-%d')
   rescue
-    puts "Error - date format must be YYYY-MM-DD."
+    puts 'Error - date format must be YYYY-MM-DD.'
     exit 1
   end
 
   filename = File.join('_posts', "#{date}-#{slug}.md")
   if File.exist?(filename)
     abort('rake aborted!') if ask("#{filename} already exists. " +
-                              "Do you want to overwrite?", ['y', 'n']) == 'n'
+                              'Do you want to overwrite?', %w(y n)) == 'n'
   end
 
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts '---'
     post.puts 'layout: post'
-    post.puts "title: \"#{title.gsub(/-/,' ')}\""
+    post.puts "title: \"#{title.gsub(/-/, ' ')}\""
     post.puts 'description: ""'
     post.puts "category: #{category}"
     post.puts "tags: #{tags}"
@@ -60,7 +60,8 @@ task :sitemap do
     Net::HTTP.get('www.google.com', '/webmasters/tools/ping?sitemap=' +
     URI.escape('http://runner.sh/sitemap.xml'))
   rescue LoadError
-    puts '! Could not ping Google about our sitemap, because Net::HTTP or URI could not be found.'
+    puts '! Could not ping Google about our sitemap, because Net::HTTP ' \
+         'or URI could not be found.'
   end
 end
 
@@ -78,7 +79,7 @@ task :minify_html do
     "--compress-css --compress-js --js-compressor yui '%' -o '%'"
 end
 
-desc "Gzip"
+desc 'Gzip'
 task :gzip, [:ext] => [:gzip_all] do |t, args|
   puts "--> GZipping '#{args.ext}'"
   system "find #{BUILD_DIR} -type f -name '*.#{args.ext}' -print0 | " +
