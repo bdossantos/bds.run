@@ -9,11 +9,11 @@ title: A propos.
 
 Benjamin, 25 ans, chausse du 42½ et pratique la course à pied depuis 2009.
 
-Je cours avant tout pour le plaisir et [m'entraine][1] au moins 3 fois par
+Je cours avant tout pour le plaisir et m'entraine au moins 3 fois par
 semaine, le plus souvent à la sensation et de temps en temps sur la piste où
 j'en profite pour fractionner histoire d'entretenir la caisse.
-Mon type de séance préféré est le [fartlek][2], bien qu'il soit difficile de
-développer sa [VMA][3] sur ce genre de séance.
+Mon type de séance préféré est le [fartlek][1], bien qu'il soit difficile de
+développer sa [VMA][2] sur ce genre de séance.
 Peu importe l'important c'est de courir, avaler des kilomètres,
 s'éssouffler.
 
@@ -45,11 +45,11 @@ Marathon      | N/A         | N/A                           | N/A
 J'ai essayé plusieurs marques et modèles depuis que je cours : Asics, Mizuno,
 Adidas ...
 
-Après quelques blessures ([périostites][4]) dû à des modèles probablement
+Après quelques blessures ([périostites][3]) dû à des modèles probablement
 inadaptés à ma foulée et morphologie j'ai trouvé le modèle qui me va bien.
 
 Il sagit de Nike, et plus particulièrement leur modèle minimaliste : [Nike
-Free Run][5]. Vous savez ce sont celles que certains hipster sédentaires
+Free Run][4]. Vous savez ce sont celles que certains hipster sédentaires
 portent, généralement couleur fluo.
 
 Je trouve ce modèle au drop faible très confortable malgré le peu d'amortis
@@ -60,8 +60,7 @@ et surtout bien adapté à ma foulée à tendance medio pied.
 Sans hésiter **Paris-Versailles** pour son parcours et le **Sedan-Charleville**
 pour son ambiance, parcours et ferveur populaire.
 
-[1]: /entrainement
-[2]: http://fr.wikipedia.org/wiki/Fartlek
-[3]: http://fr.wikipedia.org/wiki/Vitesse_maximale_a%C3%A9robie
-[4]: http://fr.wikipedia.org/wiki/P%C3%A9riostite
-[5]: http://www.i-run.fr/recherche.html?nom=nike+free
+[1]: http://fr.wikipedia.org/wiki/Fartlek
+[2]: http://fr.wikipedia.org/wiki/Vitesse_maximale_a%C3%A9robie
+[3]: http://fr.wikipedia.org/wiki/P%C3%A9riostite
+[4]: http://www.i-run.fr/recherche.html?nom=nike+free
