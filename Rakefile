@@ -1,10 +1,11 @@
-require 'juicer'
+require 'English'
 
 LIBS_DIR = '_libs'
 BUILD_DIR = '_build'
 HTML_COMPRESSOR=`which htmlcompressor`.chomp
 YUI_COMPRESSOR=`which yuicompressor`.chomp
 BOWER=`which bower`.chomp
+WGET = `which wget`.chomp
 BUCKET='s3://runner.sh'
 RASPBERRY='pi@192.168.0.252:/srv/http/runner.sh'
 
@@ -91,6 +92,13 @@ task :gzip_all do
   Rake::Task[:gzip].execute('js')
 end
 
+desc 'Test for 404s'
+task :check_404 do
+  puts '--> Check for broken links'
+  system "#{WGET} --spider -q -r -e robots=off -p http://127.0.0.1:4000"
+  fail '404 found !' if $CHILD_STATUS.to_i != 0
+end
+
 desc 'upload to s3'
 task :upload_to_s3 do
   puts '--> Sync media files first + set cache expires'
@@ -175,6 +183,7 @@ task :deploy do
   Rake::Task['minify_html'].invoke
   Rake::Task['gzip_all'].invoke
   Rake::Task['fix_files_permissions'].invoke
+  Rake::Task['check_404'].invoke
   Rake::Task['upload_to_s3'].invoke
   Rake::Task['upload_to_pi'].invoke
   puts '--> End'
