@@ -5,7 +5,7 @@ description:
 ---
 
 <ul id="articles">
-{% for post in site.posts %}
+{% for post in site.posts limit:8 %}
   <li>
     <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
       <time pubdate datetime="{{ post.date | date_to_xmlschema }}">
