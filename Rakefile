@@ -96,7 +96,7 @@ end
 desc 'Test for 404s'
 task :check_404 do
   puts '--> Check for broken links'
-  system "#{WGET} --spider -q -r -e robots=off -p http://127.0.0.1:4000"
+  system "#{WGET} --spider -q -r -e robots=off -p http://127.0.0.1:4001 -O /dev/null"
   fail '404 found !' if $CHILD_STATUS.to_i != 0
 end
 
