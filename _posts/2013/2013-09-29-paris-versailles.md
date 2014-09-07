@@ -13,7 +13,12 @@ difficile.
 idéale dans le calendrier et son profil en font une excellente course
 préparatoire pour le Sedan-Charleville prévu la semaine suivante.
 
-![Parcours du Paris-Versailles]({{ '2013/paris_versailles_2013.jpg' | asset_path }})
+<img
+  class="ctr img-thumbnail"
+  alt="Parcours du Paris-Versailles"
+  data-src="{{ '2013/paris_versailles_2013.jpg' | asset_path }}"
+  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+  onload="lzld(this)" />
 
 ### L'échauffement
 
@@ -89,4 +94,8 @@ niveau/objectif serait encore mieux.
 
 Course à refaire l'an prochain !
 
-<img class="ctr img-thumbnail" src="https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2013/pv2013.jpg" />
+<img
+  class="ctr img-thumbnail"
+  data-src="https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2013/pv2013.jpg"
+  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+  onload="lzld(this)" />
