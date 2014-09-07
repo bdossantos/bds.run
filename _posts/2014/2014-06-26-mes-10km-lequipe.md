@@ -50,7 +50,7 @@ Je franchis finalement la ligne d'arrivée, le chrono sur la ligne m'annonce
 45' et quelque (temps officiel) et en rentrant le site m'annoncera un
 temps officicel de 41' tout rond.
 
-<img class="ctr img-thumbnail" src="{% base64 https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2014/10kmlequipe2014.png %}" />
+<img class="ctr img-thumbnail" src="https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2014/10kmlequipe2014.png" />
 
 ### Bilan
 

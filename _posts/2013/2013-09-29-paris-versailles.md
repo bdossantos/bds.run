@@ -89,4 +89,4 @@ niveau/objectif serait encore mieux.
 
 Course à refaire l'an prochain !
 
-<img class="ctr img-thumbnail" src="{% base64 https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2013/pv2013.jpg %}" />
+<img class="ctr img-thumbnail" src="https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2013/pv2013.jpg" />
