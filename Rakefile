@@ -166,8 +166,8 @@ end
 desc 'Fix files permissions'
 task :fix_files_permissions do
   puts '--> Fix files permissions'
-  system "find #{BUILD_DIR} -type f | xargs chmod 444"
-  system "find #{BUILD_DIR} -type d | xargs chmod 555"
+  system "find #{BUILD_DIR} -type f | xargs chmod 644"
+  system "find #{BUILD_DIR} -type d | xargs chmod 755"
 end
 
 desc 'Upload to Raspberry Pi'
