@@ -33,9 +33,10 @@ changer de la route et des courses populaires "surpeuplées".
 
 **Distance**  | **Temps**   | **Course**                    | **Année**
 :-------------|:------------|:------------------------------|:--------------
-10Km          | 39'02       | 10Km de Clichy                | 2012
-15Km          | 1h05        | Sedan-Charleville (24,3Km)    | 2013
-Semi-Marathon | 1h32        | Sedan-Charleville (24,3Km)    | 2013
+10Km          | 39:02       | 10Km de Clichy                | 2012
+15Km          | 1:00:11     | 20Km de Paris                 | 2014
+20Km          | 1:20:32     | 20Km de Paris                 | 2014
+Semi-Marathon | 1:32:00     | Sedan-Charleville (24,3Km)    | 2013
 Marathon      | N/A         | N/A                           | N/A
 
 ## Mes chaussures
