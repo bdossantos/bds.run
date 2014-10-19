@@ -13,7 +13,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Bay to Breakers](http://baytobreakers.com)
 * [Marseille-Cassis](http://www.marseille-cassis.com)
 * ✔ <del>[Paris-Versailles](http://www.parisversailles.com)</del>
-* [20km de Paris](http://www.20kmparis.com)
+* ✔ <del>[20km de Paris](http://www.20kmparis.com)</del>
 * ✔ <del>[Semi-Marathon de Paris](http://www.semideparis.com)</del>
 * [Marathon de Paris](http://www.parismarathon.com)
 * [Marathon de la Baie du Mont Saint Michel](http://www.montsaintmichel-marathon.com/)
