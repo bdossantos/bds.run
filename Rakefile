@@ -1,3 +1,4 @@
+require 'html/proofer'
 require 'English'
 
 LIBS_DIR = '_libs'
@@ -94,10 +95,20 @@ task :gzip_all do
 end
 
 desc 'Test for 404s'
-task :check_404 do
+task :check_html do
   puts '--> Check for broken links'
-  system "#{WGET} --spider -q -r -e robots=off -p http://127.0.0.1:4001 -O /dev/null"
-  fail '404 found !' if $CHILD_STATUS.to_i != 0
+  #system "#{WGET} --spider -q -r -e robots=off -p http://127.0.0.1:4001 -O /dev/null"
+  #fail '404 found !' if $CHILD_STATUS.to_i != 0
+  HTML::Proofer.new(
+    BUILD_DIR,
+    {
+      :ext => '.html',
+      :verbose => true,
+      :parallel => { :in_processes => 4 },
+      :href_ignore => [ '#', '/twitter.com/', '/disqus.com/' ],
+      :validate_html => false,
+    }
+  ).run
 end
 
 desc 'upload to s3'
@@ -184,7 +195,7 @@ task :deploy do
   Rake::Task['minify_html'].invoke
   Rake::Task['gzip_all'].invoke
   Rake::Task['fix_files_permissions'].invoke
-  Rake::Task['check_404'].invoke
+  Rake::Task['check_html'].invoke
   Rake::Task['upload_to_s3'].invoke
   Rake::Task['upload_to_pi'].invoke
   puts '--> End'
