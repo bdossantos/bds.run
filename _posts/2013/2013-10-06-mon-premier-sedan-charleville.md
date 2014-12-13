@@ -90,7 +90,7 @@ que maintenant je sais à quoi m'attendre.
 
 <img
   class="ctr img-thumbnail"
-  data-src="https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2013/sc2013.jpg"
+  data-src="{{ '2013/10/sc.jpg' | asset_path }}"
   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
   onload="lzld(this)" />
 
