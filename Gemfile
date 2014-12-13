@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll-redirect-from'
 gem 'jekyll_image_encode'
+gem 'image_optim_pack'
 gem 'jekyll-sitemap'
 gem 'yui-compressor'
 gem 'jekyll-assets'
