@@ -1,4 +1,5 @@
 require 'html/proofer'
+require 'image_optim'
 require 'English'
 
 LIBS_DIR = '_libs'
@@ -91,6 +92,15 @@ task :gzip_all do
   Rake::Task[:gzip].execute('html')
   Rake::Task[:gzip].execute('css')
   Rake::Task[:gzip].execute('js')
+end
+
+desc 'Image optimization'
+task :image_optimization do
+  puts '--> Optimize images'
+  image_optim = ImageOptim.new(:pngout => false, :svgo => false)
+  image_optim.optimize_images!(Dir['**/*.png', '**/*.jpg']) do |unoptimized, optimized|
+    puts "#{unoptimized} => #{optimized}" if optimized
+  end
 end
 
 desc 'Test for 404s'
@@ -193,6 +203,7 @@ task :deploy do
   Rake::Task['jekyll_build'].invoke
   Rake::Task['minify_html'].invoke
   Rake::Task['gzip_all'].invoke
+  Rake::Task['image_optimization'].invoke
   Rake::Task['fix_files_permissions'].invoke
   Rake::Task['check_html'].invoke
   Rake::Task['upload_to_s3'].invoke
