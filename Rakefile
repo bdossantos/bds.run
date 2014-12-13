@@ -13,7 +13,6 @@ RASPBERRY = 'pi@192.168.0.252:/srv/http/runner.sh'
 desc 'Jekyll build'
 task :jekyll_build do
   puts '--> Jekyll build'
-  system "find #{BUILD_DIR} | xargs chmod 755"
   system "rm -rf #{BUILD_DIR}"
   system "jekyll build -d #{BUILD_DIR}"
 end
