@@ -26,7 +26,7 @@ title: Les Courses que je souhaite faire, un jour.
 ### Trail
 
 * [La saintélyon](http://www.saintelyon.com)
-* [Trail des deux Baies](http://www.traild2b.fr)
+* [Trail des deux Baies](http://www.traildes2baies.fr/)
 * [Ardennes Mega Trail](http://www.ardennes-megatrail.com/)
 * [La course des Templiers](http://festivaldestempliers.blogspot.fr/)
 * [L'Ultra-Trail du Mont-Blanc](http://www.ultratrailmb.com/)
