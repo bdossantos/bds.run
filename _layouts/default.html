@@ -21,10 +21,10 @@
 
         <!-- Prefetch -->
         <link rel="dns-prefetch" href="//runner.sh">
-        <link rel="dns-prefetch" href="//fonts.googleapis.com">
-        <link rel="dns-prefetch" href="//runnersh.disqus.com">
-        <link rel="dns-prefetch" href="//www.google-analytics.com">
-        <link rel="dns-prefetch" href="//dl.dropboxusercontent.com">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" data-proofer-ignore>
+        <link rel="dns-prefetch" href="//runnersh.disqus.com" data-proofer-ignore>
+        <link rel="dns-prefetch" href="//www.google-analytics.com" data-proofer-ignore>
+        <link rel="dns-prefetch" href="//dl.dropboxusercontent.com" data-proofer-ignore>
 
         <meta name="google-site-verification" content="{{ site.google_verify }}">
         {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
