@@ -13,37 +13,37 @@ annulé deux jours avant à cause des grèves. Heureusement, [capitainetrain][2]
 est là.
 
 Débarqué à Lyon en milieu de matinée je rode dans la gare pour faire passer
-le temps en en attendant mon ami avec qui nous nous sommes lancé ce challenge.
+le temps en attendant mon ami avec qui nous nous sommes lancés ce challenge.
 Une fois tous les deux sur place, nous rejoingons un de ses amis qui a
 gentillement proposé de nous loger pour le weekend à l'ocasion de la course.
 Le temps de manger un morceau, se poser un peu, préparer nos camelback et le
 fameux Gatosport on décide de décoller de l'appartement vers 17h30 afin d'éviter
-les problèmes pour rejoindre Gerland. La fête des lumières tombe se déroule le
+les problèmes pour rejoindre Gerland. La fête des lumières se déroule le
 même jour et ce n'est pas simple de circuler dans le centre ville.
 
-Après plusieurs tentatives raté avec les transports en commun et Uber,
+Après plusieurs tentatives ratées avec les transports en commun et Uber,
 nous décidons de rejoindre le lieu de retrait des dossards en marchant/footing
-cool. Déjà 5Km dans les pattes et un petit coup de foid en bonus.
+cool. Déjà 5Km dans les pattes et un petit coup de froid en bonus.
 Une fois sur place nous devons se split en deux pour retirer nos dossards.
 Après une bonne demie-heure d'attente nous nous retrouvons pour le retrait des
 "cadeaux" au village expo (des gants).
-Une fois ces formalités remplis, nous faisons comme tout le monde pour passer
+Une fois ces formalités remplies, nous faisons comme tout le monde pour passer
 le temps : une photo sous l'arche d'arrivée puis se poser dans les gradins
 en attendant la navette :-)
 
-Vers 21h nous rejoingons les bus qui vont nous ammener à Soucieu-en-Jarret,
+Vers 21h nous rejoignons les bus qui vont nous ammener à Soucieu-en-Jarret,
 lieu de départ du 22Km. Il fait carrément trop chaud pendant le trajet, les 30
 minutes de bus semblent interminables ... Une fois sur place, on nous largue à
 côté d'un gymnase où nous attendrons le début des hostilités au chaud.
 Dernier check de l'équipement, et nous sortons pour nous diriger vers la ligne
 de départ en footing cool. Le fait que le départ soit à environ un borne du
 gymnase m'arrange, moi qui craignait ne pas avoir le temps de m'échauffer.
-On a le temps de faire quelques lignes droite et se placer vers l'avant du SAS.
+On a le temps de faire quelques lignes droites et se placer vers l'avant du SAS.
 Cela change des grandes courses populaires à Paris.
 
 ### Le départ
 
-23H pile et le départ est donné, je ne pars pas trop lentement pour ne pas être
+23H pile et le départ est donné, je pars à bon rythme pour éviter d'être
 enfermé. Avec mon pote nous avons décidé avant le départ de faire la course à
 notre rythme et de se retrouver à l'arrivée. Je me cale donc à 4' au
 kilomètre pendant toute la portion de route du début de course.
@@ -53,34 +53,34 @@ chevilles.
 De suite je me rends compte que ma frontale "d'entrée de gamme" risque d'être
 juste, j'ai parfois du mal à anticiper les pièges au sol.
 Je lève un peu le pied dans cette descente (et toutes les suivantes) pour éviter
-éviter de me blesser inutilement. Ce temps "perdu" sera compensé dans les
-les descentes sur bitume où je vais pouvoir envoyer.
+de me blesser inutilement. Ce temps "perdu" sera compensé dans les descentes sur
+bitume où je vais pouvoir envoyer.
 
 Vont s'enchainer ensuite une longue série de montées et descentes sur chemin
-assez glissants. Cette course étant mon premier trail, je suis  "surpris" de
+assez glissant. Cette course étant mon premier trail, je suis "surpris" de
 voir des gens marcher dans les côtes. Ne pouvant pas doubler car trop étroit,
 j'en fait de même et profite de ces moments pour me ravitailler et récupérer.
 La mi-course est là, j'arrive au ravitaillement.
-Je suis frais et j'ai mon camelback donc je décide de ne pas m'arréter (oh le
+Je suis frais et j'ai mon camelback donc je décide de ne pas m'arrêter (oh le
 fou !). Les bornes s'enchainent, je m'éclate bien, alterner chemin/route
-rends la course très plaisante.
+rend la course très plaisante.
 
 ### La fin de course
 
-La fameuse côte repéré sur le profile aux environs du kilomètre 17 se profile
-enfin. Elle est assez raide, mon camelback est vide et il y a un vent
+J'arrive à la fameuse côte du kilomètre 17.
+Elle est assez raide, mon camelback est vide et il y a un vent
 de face pas très agréable. Je vais alterner marche et course pour limiter la
 casse. En haut un bénévole m'annoncera que je suis 124ème, je regarde
 mon chrono et suis un peu étonné d'être aussi "bien" placé malgré mon temps de
 passage.
-La fin de course va être difficile, une série longues marches casse-pates
-qui débouchent sur les quais et du plats jusqu'à la fin. Je tourne environ à 5'
+La fin de course va être difficile, une série longues marches casse-pattes
+qui débouchent sur les quais et du plat jusqu'à la fin. Je tourne environ à 5'
 au kilomètre, niveau cardio tout va bien mais j'ai l'impression de ne pas
 pouvoir aller plus vite. Le manque d'entrainement je pense.
 
 ### Bilan
 
-Je coupe l'a ligne d'arrivée en **2h05 et 14 secondes** et termine **109/1658**.
+Je coupe la ligne d'arrivée en **2h05 et 14 secondes** et termine **109/1658**.
 Bilan très positif, je suis très content de mon premier trail. Je me suis
 vraiment amusé dans les descentes rendues un peu techniques par le manque de
 visibilité et la gadoue.
@@ -124,7 +124,7 @@ plus de D+ et moins de route tant qu'à faire.
 | 23    | 5:05.0 | 2:03:50      | -- | -- |
 | 24    | 0:44.8 | 2:04:35      | -- | -- |
 
-#### Profile
+#### Profil
 
 <img
   class="ctr img-thumbnail"
