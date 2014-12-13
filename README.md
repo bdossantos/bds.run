@@ -1,5 +1,7 @@
 # runner.sh
 
+[![Build Status](https://travis-ci.org/bdossantos/runner.sh.svg)](https://travis-ci.org/bdossantos/runner.sh)
+
 It's the whole code of my [weblog][1] and Running plans, open sourced.
 Basicly it's a simple static website powered by [Jekyll][2].
 
