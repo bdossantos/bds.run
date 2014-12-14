@@ -14,7 +14,7 @@ est là.
 
 Débarqué à Lyon en milieu de matinée je rode dans la gare pour faire passer
 le temps en attendant mon ami avec qui nous nous sommes lancés ce challenge.
-Une fois tous les deux sur place, nous rejoingons un de ses amis qui a
+Une fois tous les deux sur place, nous rejoignons un de ses amis qui a
 gentillement proposé de nous loger pour le weekend à l'ocasion de la course.
 Le temps de manger un morceau, se poser un peu, préparer nos camelback et le
 fameux Gatosport on décide de décoller de l'appartement vers 17h30 afin d'éviter
