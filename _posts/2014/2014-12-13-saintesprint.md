@@ -144,6 +144,18 @@ plus de D+ et moins de route tant qu'à faire.
 
 Le détail est sur [Garmin Connect][3]
 
+### Bonus
+
+Mes [Terra Kiger][4] après le course, elles ont pris cher.
+
+<img
+  class="ctr img-thumbnail"
+  alt="Parcours de la Saintésprint"
+  data-src="{{ '2014/12/saintesprint_terra_kiger.jpg' | asset_path }}"
+  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+  onload="lzld(this)" />
+
 [1]: http://www.saintelyon.com/
 [2]: https://www.capitainetrain.com/
 [3]: http://connect.garmin.com/modern/activity/646516025
+[4]: {% post_url /2014/2014-10-15-nike-air-zoom-terra-kiger-2 %}
