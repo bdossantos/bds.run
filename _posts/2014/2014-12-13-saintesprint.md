@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Une Saintésprint pour finir l'année
-description: Récit de de course de ma Saintésprint
+description: Récit de ma Saintésprint 2014
 category: courses
 ---
 
