@@ -26,6 +26,7 @@ title: Les Courses que je souhaite faire, un jour.
 ### Trail
 
 * [Ardennes Mega Trail](http://www.ardennes-megatrail.com/)
+* [L'Ardechois Trail](http://www.trailardechois.com/)
 * [L'Ultra-Trail du Mont-Blanc](http://www.ultratrailmb.com/)
 * [La course des Templiers](http://festivaldestempliers.blogspot.fr/)
 * [La diagonale des fous](http://www.grandraid-reunion.com/)
