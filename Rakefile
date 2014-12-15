@@ -15,7 +15,8 @@ desc 'Jekyll build'
 task :jekyll_build do
   puts '--> Jekyll build'
   system "rm -rf #{BUILD_DIR}"
-  system "jekyll build -d #{BUILD_DIR}"
+  system "jekyll build -d #{BUILD_DIR} \
+                       --config _config.yml,_config_production.yml"
 end
 
 desc 'Begin a new post'
