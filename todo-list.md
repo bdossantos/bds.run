@@ -34,4 +34,5 @@ title: Les Courses que je souhaite faire, un jour.
 * [La saintélyon](http://www.saintelyon.com)
 * [Lyon urban trail](http://www.lyonurbantrail.com/)
 * [Trail Ubaye Salomon](http://www.athletic-club-ubaye.fr/)
+* [Trail des Passerelles du Monteynard](http://trail-passerelles-monteynard.fr/)
 * [Trail des deux Baies](http://www.traildes2baies.fr/)
