@@ -32,6 +32,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [La course des Templiers](http://festivaldestempliers.blogspot.fr/)
 * [La diagonale des fous](http://www.grandraid-reunion.com/)
 * [La saintélyon](http://www.saintelyon.com)
+* [Le Restonica Trail](http://restonicatrail.fr/)
 * [Lyon urban trail](http://www.lyonurbantrail.com/)
 * [Trail Ubaye Salomon](http://www.athletic-club-ubaye.fr/)
 * [Trail des Passerelles du Monteynard](http://trail-passerelles-monteynard.fr/)
