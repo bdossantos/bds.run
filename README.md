@@ -22,8 +22,10 @@ It's my personnal weblog, the code has been opensourced for educational purpose
 only.
 
 ```bash
-brew install htmlcompressor yuicompressor s3cmd nodejs
-npm install bower
+brew install htmlcompressor yuicompressor s3cmd nodejs \
+             advancecomp gifsicle jhead jpegoptim jpeg \
+             optipng pngcrush pngquant
+npm install -g bower
 rake deploy
 ```
 
