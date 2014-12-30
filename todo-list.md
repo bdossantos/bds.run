@@ -37,3 +37,4 @@ title: Les Courses que je souhaite faire, un jour.
 * [Trail Ubaye Salomon](http://www.athletic-club-ubaye.fr/)
 * [Trail des Passerelles du Monteynard](http://trail-passerelles-monteynard.fr/)
 * [Trail des deux Baies](http://www.traildes2baies.fr/)
+* [Trail en Aubrac](http://www.courirenaubrac.com/)
