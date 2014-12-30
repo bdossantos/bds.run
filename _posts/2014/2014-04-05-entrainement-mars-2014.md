@@ -14,8 +14,6 @@ totalement.
 J'espère vite retrouver la forme pour planifier quelques courses dans les mois
 à venir.
 
-|                  |                |
-| ---------------- | -------------- |
 | Séances          | 12             |
 | Distance         | 64.60 km       |
 | Durée            | 5:38:14 h:m:s  |

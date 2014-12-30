@@ -5,8 +5,6 @@ description: Bilan entrainements juillet 2014
 category: entrainement
 ---
 
-|                  |                |
-| ---------------- | -------------- |
 | Séances          | 17             |
 | Distance         | 121.28 km      |
 | Durée            | 10:49:42 h:m:s |

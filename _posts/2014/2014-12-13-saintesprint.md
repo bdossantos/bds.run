@@ -90,7 +90,6 @@ plus de D+ et moins de route tant qu'à faire.
 
 ### Statistiques
 
-| ---------------- | -------------- |
 | Distance         | 23.15 km       |
 | Durée            | 02:04:35 h:m:s |
 | D+               | 410 m          |

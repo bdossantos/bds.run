@@ -5,8 +5,6 @@ description: Bilan entrainements juin 2014
 category: entrainement
 ---
 
-|                  |                |
-| ---------------- | -------------- |
 | Séances          | 15             |
 | Distance         | 101.67 km      |
 | Durée            | 8:26:25 h:m:s  |

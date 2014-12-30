@@ -5,8 +5,6 @@ description: Bilan entrainements novembre 2014
 category: entrainement
 ---
 
-|                  |                |
-| ---------------- | -------------- |
 | Séances          | 18             |
 | Distance         | 102.49 km      |
 | Durée            | 9:22:04 h:m:s  |

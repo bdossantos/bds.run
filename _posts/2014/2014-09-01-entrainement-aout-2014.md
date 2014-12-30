@@ -5,8 +5,6 @@ description: Bilan entrainements août 2014
 category: entrainement
 ---
 
-|                  |                |
-| ---------------- | -------------- |
 | Séances          | 16             |
 | Distance         | 107.97 km      |
 | Durée            | 9:13:51 h:m:s  |

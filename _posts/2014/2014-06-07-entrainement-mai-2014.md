@@ -8,8 +8,6 @@ category: entrainement
 La forme revient très doucement, pour le coup je me suis inscris aux
 [10 Km l'Équipe pour][1] pour me remotiver.
 
-|                  |                |
-| ---------------- | -------------- |
 | Séances          | 12             |
 | Distance         | 75.44 km       |
 | Durée            | 6:34:24 h:m:s  |
