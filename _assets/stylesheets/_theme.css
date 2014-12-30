@@ -31,7 +31,7 @@ body {
 }
 
 #content {
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 a {
@@ -54,7 +54,7 @@ h1 a {
 
 #baseline {
   margin-top: 0;
-  font-style: italic;
+  margin-bottom: 0;
 }
 
 #content strong {
@@ -62,8 +62,7 @@ h1 a {
 }
 
 .meta {
-  margin-top: -0.5em;
-  font-style: italic;
+  margin-top: 0;
 }
 
 ul p {
@@ -76,12 +75,16 @@ ul p {
   -webkit-padding-start: 0;
 }
 
-#articles h2 {
-  margin-top: 0;
+#articles h2, .post h2 {
+  margin-bottom: 0;
 }
 
 #share a {
   margin-right: 0.5em;
+}
+
+.quiet {
+  color: #9a9a9a;
 }
 
 img {
