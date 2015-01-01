@@ -59,11 +59,19 @@ et surtout bien adapté à ma foulée à tendance medio pied.
 Sans hésiter **Paris-Versailles** pour son parcours et le **Sedan-Charleville**
 pour son ambiance, parcours et ferveur populaire.
 
+## Ce super blog
+
+Tout le monde s'en fou, mais ce blog génial est généré avec [Jekyll][8], les
+sources sont disponibles sur [Github][9] et il est hébergé sur un
+[Raspberry Pi][10] dans mon salon.
+
+Plus de détails techniques [ici][11] pour les intéressés.
+
 ## Me contacter
 
-* [Twitter](http://twitter.com/benjamin_ds)
-* [Google+](https://plus.google.com/+BenjaminDosSantos)
-* [Garmin connect](http://connect.garmin.com/modern/profile/bdossantos)
+* [Twitter][12]
+* [Google+][13]
+* [Garmin connect][14]
 
 [1]: http://fr.wikipedia.org/wiki/Fartlek
 [2]: http://fr.wikipedia.org/wiki/Vitesse_maximale_a%C3%A9robie
@@ -72,3 +80,10 @@ pour son ambiance, parcours et ferveur populaire.
 [5]: http://twitter.com/benjamin_ds
 [6]: https://plus.google.com/+BenjaminDosSantos
 [7]: http://connect.garmin.com/modern/profile/bdossantos
+[8]: http://jekyllrb.com/
+[9]: https://github.com/bdossantos/runner.sh
+[10]: http://fr.wikipedia.org/wiki/Raspberry_Pi
+[11]: /humans.txt
+[12]: https://twitter.com/benjamin_ds
+[13]: https://plus.google.com/+BenjaminDosSantos
+[14]: http://connect.garmin.com/modern/profile/bdossantos
