@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec java -jar /usr/local/src/htmlcompressor-1.5.3.jar "$@"
