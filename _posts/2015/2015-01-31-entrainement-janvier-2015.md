@@ -20,7 +20,7 @@ Ce n'est pas gagné, mais il me reste presque deux mois de "préparation".
 _Les pieds ne vont pas là où le coeur n'est pas_
 
 <iframe
-  width="720"
+  width="100%"
   height="400"
   frameborder="0"
   class="ctr"
