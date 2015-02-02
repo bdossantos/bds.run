@@ -6,6 +6,7 @@ timezone: Europe/Paris
 markdown: kramdown
 highlighter: false
 future: false
+lsi: true
 exclude: ['README.md', 'Rakefile', 'Gemfile*', 'bower.json', ]
 gems: ['jekyll_image_encode', 'jekyll-assets', 'jekyll-sitemap', ]
 permalink: /:year/:month/:day/:title.html
