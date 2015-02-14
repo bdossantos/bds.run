@@ -37,6 +37,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Le Restonica Trail](http://restonicatrail.fr/)
 * [Lyon urban trail](http://www.lyonurbantrail.com/)
 * [Trail Ubaye Salomon](http://www.athletic-club-ubaye.fr/)
-* [Trail des Passerelles du Monteynard](http://trail-passerelles-monteynard.fr/)
 * [Trail des deux Baies](http://www.traildes2baies.fr/)
+* [Trail des forts de Besançon](http://www.traildesforts.com/)
+* [Trail des Passerelles du Monteynard](http://trail-passerelles-monteynard.fr/)
 * [Trail en Aubrac](http://www.courirenaubrac.com/)
