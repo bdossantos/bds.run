@@ -41,6 +41,7 @@
           font-family: 'Lato', sans-serif;
         }
         </style>
+        <script>{% asset lazyload/build/lazyload.min.js %}</script>
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
         <!--[if lt IE 7]>
@@ -96,8 +97,6 @@
         {% endif %}
 
         <script>
-        {% asset lazyload/build/lazyload.min.js %}
-
         WebFontConfig = {
           google: {
             families: [ 'Lato:400,700' ],
