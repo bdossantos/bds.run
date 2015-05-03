@@ -205,8 +205,25 @@ task :deploy do
   Rake::Task['gzip_all'].invoke
   Rake::Task['image_optimization'].invoke
   Rake::Task['fix_files_permissions'].invoke
-  Rake::Task['check_html'].invoke
   Rake::Task['upload_to_s3'].invoke
   Rake::Task['upload_to_pi'].invoke
+  Rake::Task['check_html'].invoke
   puts '--> End'
+end
+
+desc 'Clean activities CSV'
+task :clean_activites_csv do
+  ACTIVITIES = './_data/activities/'
+
+  # Clean whitespaces
+  system "find #{ACTIVITIES} -type f -name '*.csv' | \
+          xargs -n 1 -P 4 gsed -i -e 's/^[ \t]*//' -e 's/[ \t]*$//'"
+
+  # Clean last blank line
+  system "find #{ACTIVITIES} -type f -name '*.csv' | \
+          xargs -n 1 -P 4 gsed -i '/^ *$/d'"
+
+  # Clean useless line
+  system "find #{ACTIVITIES} -type f -name '*.csv' | \
+          xargs -n 1 -P 4 gsed -i '/Activities by bdossantos/d'"
 end
