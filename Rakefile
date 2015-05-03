@@ -100,16 +100,14 @@ desc 'Image optimization'
 task :image_optimization do
   puts '--> Optimize images'
   image_optim = ImageOptim.new(:pngout => false, :svgo => false)
-  image_optim.optimize_images!(Dir['**/*.png', '**/*.jpg']) do |unoptimized, optimized|
-    puts "#{unoptimized} => #{optimized}" if optimized
+  image_optim.optimize_images!(Dir['**/*.png', '**/*.jpg']) do |u, o|
+    puts "#{u} => #{o}" if o
   end
 end
 
 desc 'Test for 404s'
 task :check_html do
   puts '--> Check for broken links'
-  #system "#{WGET} --spider -q -r -e robots=off -p http://127.0.0.1:4001 -O /dev/null"
-  #fail '404 found !' if $CHILD_STATUS.to_i != 0
   HTML::Proofer.new(
     BUILD_DIR,
     {
