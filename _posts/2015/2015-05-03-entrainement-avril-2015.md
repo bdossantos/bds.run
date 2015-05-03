@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Entrainement mai 2015
-description: Bilan sportif du mois de mai 2015
+title: Entrainement avril 2015
+description: Bilan sportif du mois d'avril 2015
 category: entrainement
 ---
 
