@@ -9,7 +9,7 @@ YUI_COMPRESSOR = `which yuicompressor`.chomp
 BOWER = `which bower`.chomp
 WGET = `which wget`.chomp
 BUCKET = 's3://runner.sh'
-RASPBERRY = 'pi@192.168.0.252:/srv/http/runner.sh'
+RASPBERRY = 'pi@192.168.1.2:/srv/http/runner.sh'
 RACK_ENV = ENV['RACK_ENV'] || 'production'
 
 desc 'Jekyll build'
