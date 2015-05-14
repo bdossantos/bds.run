@@ -26,7 +26,7 @@ il est 9h20, il y a du monde, et les bénévoles semblent débordés.
 Ils indiquent aux coureurs d'aller voir ailleurs car ils vont être à court
 d'étiquettes ... 10 minutes plus tard voilà mon sac déposé, en échange on me
 donne un ticket avec un numéro pour récupérer mon sac. Je le glisse dans la
-poche arrière de mon sac avec mon ravito en espérant ne pas la perdre pendant
+poche arrière de mon short avec mon ravito en espérant ne pas la perdre pendant
 la course. Un bracelet comme sur d'autres courses aurait été plus pratique.
 
 Je me dirige vers les SaS en trottinant en espérant pouvoir me placer
