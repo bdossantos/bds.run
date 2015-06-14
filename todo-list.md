@@ -34,6 +34,7 @@ title: Les Courses que je souhaite faire, un jour.
 * ✔ <del>[La Saintésprint](http://www.saintelyon.com)</del>
 * [La Saintéxpress](http://www.saintelyon.com)
 * [La Saintélyon](http://www.saintelyon.com)
+* [La Skyrhune](https://www.facebook.com/skyrhune)
 * [Le Restonica Trail](http://restonicatrail.fr/)
 * [Lyon urban trail](http://www.lyonurbantrail.com/)
 * [Trail Ubaye Salomon](http://www.athletic-club-ubaye.fr/)
