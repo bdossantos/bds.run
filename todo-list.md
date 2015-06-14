@@ -42,3 +42,4 @@ title: Les Courses que je souhaite faire, un jour.
 * [Trail des forts de Besançon](http://www.traildesforts.com/)
 * [Trail des Passerelles du Monteynard](http://trail-passerelles-monteynard.fr/)
 * [Trail en Aubrac](http://www.courirenaubrac.com/)
+* [Zegama Aizkorri](https://www.facebook.com/zegamaiaizkorri)
