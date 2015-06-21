@@ -27,6 +27,7 @@ title: Les Courses que je souhaite faire, un jour.
 
 * [Ardennes Mega Trail](http://www.ardennes-megatrail.com/)
 * [Eco-Trail de Paris](http://www.traildeparis.com/)
+* [Impérial Trail](https://www.facebook.com/imperialtrail)
 * [L'Ardechois Trail](http://www.trailardechois.com/)
 * [L'Ultra-Trail du Mont-Blanc](http://www.ultratrailmb.com/)
 * [La course des Templiers](http://festivaldestempliers.blogspot.fr/)
