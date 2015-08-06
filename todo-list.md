@@ -8,7 +8,7 @@ title: Les Courses que je souhaite faire, un jour.
 ### Route
 
 * ✔ <del>[20km de Paris](http://www.20kmparis.com)</del>
-* [Bay to Breakers](http://baytobreakers.com)
+* [Bay to Breakers](http://zapposbaytobreakers.com/)
 * [Défi du Jerzual](http://defidujerzual.fr)
 * [Les Foulées du Gois](http://www.lesfouleesdugois.com)
 * [Course des Remparts de Provins](http://www.coursedesremparts.fr)
