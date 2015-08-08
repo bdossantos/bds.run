@@ -38,6 +38,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [La Skyrhune](https://www.facebook.com/skyrhune)
 * [Le Restonica Trail](http://restonicatrail.fr/)
 * [Lyon urban trail](http://www.lyonurbantrail.com/)
+* [Sierre-Zinal](http://www.sierre-zinal.com/)
 * [Trail Ubaye Salomon](http://www.athletic-club-ubaye.fr/)
 * [Trail des deux Baies](http://www.traildes2baies.fr/)
 * [Trail des forts de Besançon](http://www.traildesforts.com/)
