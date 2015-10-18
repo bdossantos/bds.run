@@ -2,7 +2,7 @@
   "name": "runner.sh",
   "version": "0.0.1",
   "dependencies": {
-    "html5-boilerplate": "c97c23c06e7a5e90e692a1548fd0f0dd94e44190",
-    "lazyload": "3.0.2"
+    "html5-boilerplate": "5.2.0",
+    "lazyload": "3.2.1"
   }
 }
