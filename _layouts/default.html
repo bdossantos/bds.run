@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{% if page.title %}{{ page.title }} // {% endif %}runner.sh</title>
+        <title>{% if page.title %}{{ page.title }} // {% endif %}bds.run</title>
         <meta name="description" content="{{ page.description }}">
 
         <!-- Twitter Card -->
@@ -23,7 +23,7 @@
         {% if page.cover %}<meta property="og:image" content="{{ page.cover | asset_path }}">{% endif %}
 
         <!-- Prefetch -->
-        <link rel="dns-prefetch" href="//runner.sh">
+        <link rel="dns-prefetch" href="//bds.run">
         <link rel="dns-prefetch" href="//fonts.googleapis.com" data-proofer-ignore>
         <link rel="dns-prefetch" href="//runnersh.disqus.com" data-proofer-ignore>
         <link rel="dns-prefetch" href="//www.google-analytics.com" data-proofer-ignore>
@@ -52,7 +52,7 @@
             <header>
               <h1>
                 <a href="/">
-                  ./runner.sh
+                  bds.run
                 </a>
               </h1>
 
@@ -81,7 +81,7 @@
                 <a href="/atom.xml">RSS</a>
               </p>
 
-              <p>© {{ site.time | date: "%Y" }} ./runner.sh</p>
+              <p>© {{ site.time | date: "%Y" }} bds.run</p>
             </footer>
         </div>
 
@@ -119,7 +119,7 @@
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', '{{ site.google_analytics }}', 'runner.sh');
+        ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
         </script>
     </body>

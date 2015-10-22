@@ -1,5 +1,5 @@
 {
-  "name": "runner.sh",
+  "name": "bds.run",
   "version": "0.0.1",
   "dependencies": {
     "html5-boilerplate": "5.2.0",

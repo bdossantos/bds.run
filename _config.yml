@@ -1,5 +1,5 @@
-name: ./runner.sh
-url: http://runner.sh
+name: bds.run
+url: http://bds.run
 author: "Benjamin Dos Santos"
 email: "benjamin[dot]dossantos[at]gmail[dot]com"
 timezone: Europe/Paris

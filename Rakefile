@@ -8,8 +8,8 @@ HTML_COMPRESSOR = `which htmlcompressor`.chomp
 YUI_COMPRESSOR = `which yuicompressor`.chomp
 BOWER = `which bower`.chomp
 WGET = `which wget`.chomp
-BUCKET = 's3://runner.sh'
-RASPBERRY = 'pi@192.168.1.2:/srv/http/runner.sh'
+BUCKET = 's3://bds.run'
+RASPBERRY = 'pi@192.168.1.2:/srv/http/bds.run'
 RACK_ENV = ENV['RACK_ENV'] || 'production'
 
 desc 'Jekyll build'
@@ -61,7 +61,7 @@ task :sitemap do
     require 'uri'
     puts '* Pinging Google about our sitemap'
     Net::HTTP.get('www.google.com', '/webmasters/tools/ping?sitemap=' +
-    URI.escape('http://runner.sh/sitemap.xml'))
+               URI.escape('http://bds.run/sitemap.xml'))
   rescue LoadError
     puts '! Could not ping Google about our sitemap, because Net::HTTP ' \
          'or URI could not be found.'
