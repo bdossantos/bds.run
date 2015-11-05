@@ -26,7 +26,7 @@ title: Les Courses que je souhaite faire, un jour.
 ### Trail
 
 * [Ardennes Mega Trail](http://www.ardennes-megatrail.com/)
-* [Eco-Trail Funchal-Madeira Island](http://ecotrailmadeira.com/)
+* ✔ <del>[Eco-Trail Funchal-Madeira Island 40Km](http://ecotrailmadeira.com/)</del>
 * [Eco-Trail de Paris](http://www.traildeparis.com/)
 * [GR20](http://www.le-gr20.com/fr/)
 * [Impérial Trail](https://www.facebook.com/imperialtrail)
