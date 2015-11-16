@@ -19,6 +19,12 @@ addons:
 before_script:
   - npm install -g bower
   - bower install
+  - wget --quiet https://htmlcompressor.googlecode.com/files/htmlcompressor-1.5.3.jar
+  - wget --quiet https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.jar
+  - mv *.jar /tmp && mkdir -p ./bin
+  - echo 'exec java -jar /tmp/htmlcompressor-1.5.3.jar "$@"' > ./bin/htmlcompressor
+  - echo 'exec java -jar /tmp/yuicompressor-2.4.8.jar "$@"' > ./bin/yuicompressor
+  - chmod +x ./bin/htmlcompressor ./bin/yuicompressor
 install:
   - bundle install
 script:
@@ -31,3 +37,4 @@ env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     - RACK_ENV=test
+    - PATH="$PATH:$PWD/bin"
