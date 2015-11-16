@@ -28,8 +28,7 @@ before_script:
 install:
   - bundle install
 script:
-  - bundle exec rake jekyll_build
-  - bundle exec rake check_html
+  - bundle exec rake deploy
 branches:
   only:
     - master
@@ -38,3 +37,5 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     - RACK_ENV=test
     - PATH="$PATH:$PWD/bin"
+    - secure: "rjMjXaSs25snAcZgszn2FzH/qDvj7V0NtN4szjkemHQa22aemqIZsr6XDlwqBbZnXiLkGJ1PEzkba7Yvdf6PUBlONaa+Vwsq8l1y1TyPIrwFITFwE77gj38u8AU3TIfD6EAYh9+NVZEN53VQS+s5ZHHVbnR+3gVDWiZJ/IMPP/g="
+    - secure: "T6DvqQN9aCls2Pi6dXD5hbvJQ70axzGB5+ZKRecKxDaupqwEEq0BuXjyX42cpHeJYjVGtu7TSADwhKzk6u3/8bxsw/F2cedgoT/efC0Hwo8uXmMIFpp/azKOIIGrebScXRLGVonic8aAFOBiCrfyqz8hiUBoYv3+YJ+7e719dLI="

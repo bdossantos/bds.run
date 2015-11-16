@@ -112,9 +112,8 @@ task :check_html do
     BUILD_DIR,
     {
       :ext => '.html',
-      :verbose => true,
       :parallel => { :in_processes => 4 },
-      :href_ignore => [ '#', '/twitter.com/', '/disqus.com/' ],
+      :url_ignore => [ '#', '/twitter.com/', '/disqus.com/' ],
       :validate_html => false,
     }
   ).run
@@ -196,6 +195,34 @@ task :upload_to_pi do
   system "rsync -zav --delete #{BUILD_DIR}/ #{RASPBERRY}/"
 end
 
+desc 'Publish to Github Pages'
+task :publish_to_gh_pages do
+  puts '--> Publish to Github Pages'
+
+  fail 'Run deploy task' unless File.exist?(BUILD_DIR)
+
+  sha = `git rev-parse HEAD`.strip
+  Dir.chdir(BUILD_DIR) do
+    system 'rm -rf .git && git init && git add . >/dev/null 2>&1'
+
+    if ENV['EMAIL']
+      system "git config --global user.email '#{ENV['EMAIL']}'"
+      system 'git config --global user.name "Travis-CI"'
+    end
+
+    fail 'Failed to commit' \
+      unless system "git commit --allow-empty -m 'Updating to #{sha} [skip-ci]' >/dev/null 2>&1"
+
+    if ENV['TOKEN']
+      # hide output
+      output = system "git push -f https://#{ENV['TOKEN']}:x-oauth-basic@github.com/bdossantos/runner.sh master:gh-pages >/dev/null 2>&1"
+      output = nil
+    else
+      system 'git push -f https://github.com/bdossantos/runner.sh master:gh-pages >/dev/null 2>&1'
+    end
+  end
+end
+
 desc 'Full deployement task'
 task :deploy do
   puts '--> Start Deploy'
@@ -205,8 +232,7 @@ task :deploy do
   Rake::Task['gzip_all'].invoke
   Rake::Task['image_optimization'].invoke
   Rake::Task['fix_files_permissions'].invoke
-  Rake::Task['upload_to_s3'].invoke
-  Rake::Task['upload_to_pi'].invoke
+  Rake::Task['publish_to_gh_pages'].invoke
   Rake::Task['check_html'].invoke
   puts '--> End'
 end
