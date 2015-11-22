@@ -1,33 +1,39 @@
 name: bds.run
 url: http://bds.run
-author: "Benjamin Dos Santos"
-email: "benjamin[dot]dossantos[at]gmail[dot]com"
+author: 'Benjamin Dos Santos'
+email: 'benjamin[dot]dossantos[at]gmail[dot]com'
 timezone: Europe/Paris
 markdown: kramdown
-highlighter: false
+highlighter: rouge
 future: false
 lsi: true
-exclude: [
-  'README.md', 'Rakefile', 'Gemfile*', 'bower.json', 'docker-compose.yml',
-  'Dockerfile',
-]
-gems: ['jekyll_image_encode', 'jekyll-assets', 'jekyll-sitemap', ]
+exclude:
+  - Dockerfile
+  - Gemfile*
+  - README.md
+  - Rakefile
+  - bower.json
+  - docker-compose.yml
+gems:
+  - jekyll-assets
+  - jekyll-sitemap
+  - jekyll_image_encode
 permalink: /:year/:month/:day/:title.html
 google_verify: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
 google_analytics: 'UA-9203113-5'
 twitter: 'benjamin_ds'
 assets:
-  cache: true
+  cache: .asset-cache
   dirname: assets
-  baseurl: /assets/
-  cachebust: hard
-  css_compressor: yui
-  js_compressor: yui
+  prefix: /assets/
   sources:
     - _assets/images
     - _assets/stylesheets
     - _assets/javascripts
     - _bower
+  features:
+    automatic_image_size: true
+    automatic_image_alt : true
 links:
   - title: Blog
     url: /

@@ -1,2 +1,5 @@
 assets:
-  baseurl: http://bds.run/assets
+  compress:
+    css: true
+    js: true
+  digest: true
