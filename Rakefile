@@ -10,13 +10,13 @@ BOWER = `which bower`.chomp
 WGET = `which wget`.chomp
 BUCKET = 's3://bds.run'
 RASPBERRY = 'pi@192.168.1.2:/srv/http/bds.run'
-RACK_ENV = ENV['RACK_ENV'] || 'production'
+JEKYLL_ENV = ENV['JEKYLL_ENV'] || 'development'
 
 desc 'Jekyll build'
 task :jekyll_build do
   puts '--> Jekyll build'
   system "rm -rf #{BUILD_DIR}"
-  config = File.exist?("_config_#{RACK_ENV}.yml") ? ",_config_#{RACK_ENV}.yml" : nil
+  config = File.exist?("_config_#{JEKYLL_ENV}.yml") ? ",_config_#{JEKYLL_ENV}.yml" : nil
   system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}"
 end
 
