@@ -111,7 +111,7 @@ img {
 #footer::before {
   content: "";
   display: block;
-  max-width: 95%
+  max-width: 95%;
   margin: 0 auto;
   height: 1px;
   background: -webkit-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
