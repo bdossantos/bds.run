@@ -26,6 +26,7 @@ title: Les Courses que je souhaite faire, un jour.
 ### Trail
 
 * [Ardennes Mega Trail](http://www.ardennes-megatrail.com/)
+* [Cortina trail](http://www.ultratrail.it/en/)
 * ✔ <del>[Eco-Trail Funchal-Madeira Island 40Km](http://ecotrailmadeira.com/)</del>
 * [Eco-Trail de Paris](http://www.traildeparis.com/)
 * [GR20](http://www.le-gr20.com/fr/)
@@ -35,6 +36,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [La Saintélyon](http://www.saintelyon.com)
 * ✔ <del>[La Saintésprint](http://www.saintelyon.com)</del>
 * [La Saintéxpress](http://www.saintelyon.com)
+* [Lavaredo ultra trail](http://www.ultratrail.it/en/)
 * [La Skyrhune](https://www.facebook.com/skyrhune)
 * [La course des Templiers](http://festivaldestempliers.blogspot.fr/)
 * [La diagonale des fous](http://www.grandraid-reunion.com/)
