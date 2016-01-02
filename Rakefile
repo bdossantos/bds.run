@@ -243,13 +243,13 @@ task :clean_activites_csv do
 
   # Clean whitespaces
   system "find #{ACTIVITIES} -type f -name '*.csv' | \
-          xargs -n 1 -P 4 gsed -i -e 's/^[ \t]*//' -e 's/[ \t]*$//'"
+          xargs -n 1 -P 4 sed -i -e 's/^[ \t]*//' -e 's/[ \t]*$//'"
 
   # Clean last blank line
   system "find #{ACTIVITIES} -type f -name '*.csv' | \
-          xargs -n 1 -P 4 gsed -i '/^ *$/d'"
+          xargs -n 1 -P 4 sed -i '/^ *$/d'"
 
   # Clean useless line
   system "find #{ACTIVITIES} -type f -name '*.csv' | \
-          xargs -n 1 -P 4 gsed -i '/Activities by bdossantos/d'"
+          xargs -n 1 -P 4 sed -i '/Activities by bdossantos/d'"
 end
