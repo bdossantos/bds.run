@@ -115,6 +115,7 @@ task :check_html do
       :parallel => { :in_processes => 4 },
       :url_ignore => [ '#', '/twitter.com/', '/disqus.com/' ],
       :validate_html => false,
+      :disable_external => true
     }
   ).run
 end
