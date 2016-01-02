@@ -16,6 +16,7 @@ exclude:
   - docker-compose.yml
 gems:
   - jekyll-assets
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll_image_encode
 permalink: /:year/:month/:day/:title.html
@@ -43,3 +44,5 @@ links:
     url: /todo-list.html
   - title: Archives
     url: /archives.html
+feed:
+  path: atom.xml
