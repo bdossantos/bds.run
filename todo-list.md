@@ -43,6 +43,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Le Grand Trail du Saint-Jacques](http://www.trailsaintjacques.com/)
 * [Le Restonica Trail](http://restonicatrail.fr/)
 * [Lyon urban trail](http://www.lyonurbantrail.com/)
+* [Madeira Island Ultra Trail](http://www.madeiraultratrail.com/)
 * [Sierre-Zinal](http://www.sierre-zinal.com/)
 * [Trail Ubaye Salomon](http://www.athletic-club-ubaye.fr/)
 * [Trail des Passerelles du Monteynard](http://trail-passerelles-monteynard.fr/)
