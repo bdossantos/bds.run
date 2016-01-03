@@ -34,6 +34,7 @@
         <link rel="canonical" href="{{ canonical }}">
         <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.name }} Feed">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <style>{% asset main %}</style>
         <style>
         /*! {{ site.time | date_to_rfc822 }} */
@@ -41,6 +42,8 @@
           font-family: 'Lato', sans-serif;
         }
         </style>
+        {% if page.chartist %}<style>{% asset chartist/dist/chartist.min.css %}</style>{% endif %}
+
         <script>{% asset lazyload/build/lazyload.min.js %}</script>
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
@@ -94,6 +97,11 @@
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
         </script>
+        {% endif %}
+
+        {% if page.chartist %}
+        <script>{% asset chartist/dist/chartist.min.js %}</script>
+        <script>{{ page.chartist }}</script>
         {% endif %}
 
         <script>
