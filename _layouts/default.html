@@ -42,7 +42,7 @@
           font-family: 'Lato', sans-serif;
         }
         </style>
-        {% if page.chartist %}<style>{% asset chartist/dist/chartist.min.css %}</style>{% endif %}
+        {% if page.chartist %}{% css chartist/dist/chartist.min.css %}{% endif %}
 
         <script>{% asset lazyload/build/lazyload.min.js %}</script>
     </head>
@@ -99,11 +99,6 @@
         </script>
         {% endif %}
 
-        {% if page.chartist %}
-        <script>{% asset chartist/dist/chartist.min.js %}</script>
-        <script>{{ page.chartist }}</script>
-        {% endif %}
-
         <script>
         WebFontConfig = {
           google: {
@@ -130,5 +125,10 @@
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
         </script>
+
+        {% if page.chartist %}
+        {% js chartist/dist/chartist.min.js %}
+        <script>{{ page.chartist }}</script>
+        {% endif %}
     </body>
 </html>
