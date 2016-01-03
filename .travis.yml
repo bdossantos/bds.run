@@ -21,10 +21,10 @@ before_script:
   - bower install
   - wget --quiet https://htmlcompressor.googlecode.com/files/htmlcompressor-1.5.3.jar
   - wget --quiet https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.jar
-  - mv *.jar /tmp && mkdir -p ./bin
-  - echo 'exec java -jar /tmp/htmlcompressor-1.5.3.jar "$@"' > ./bin/htmlcompressor
-  - echo 'exec java -jar /tmp/yuicompressor-2.4.8.jar "$@"' > ./bin/yuicompressor
-  - chmod +x ./bin/htmlcompressor ./bin/yuicompressor
+  - mv *.jar /tmp && mkdir -p ./_bin
+  - echo 'exec java -jar /tmp/htmlcompressor-1.5.3.jar "$@"' > ./_bin/htmlcompressor
+  - echo 'exec java -jar /tmp/yuicompressor-2.4.8.jar "$@"' > ./_bin/yuicompressor
+  - chmod +x ./_bin/htmlcompressor ./_bin/yuicompressor
 install:
   - bundle install
 script:
@@ -36,6 +36,6 @@ env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     - JEKYLL_ENV=production
-    - PATH="$PATH:$PWD/bin"
+    - PATH="$PATH:$PWD/_bin"
     - secure: "rjMjXaSs25snAcZgszn2FzH/qDvj7V0NtN4szjkemHQa22aemqIZsr6XDlwqBbZnXiLkGJ1PEzkba7Yvdf6PUBlONaa+Vwsq8l1y1TyPIrwFITFwE77gj38u8AU3TIfD6EAYh9+NVZEN53VQS+s5ZHHVbnR+3gVDWiZJ/IMPP/g="
     - secure: "T6DvqQN9aCls2Pi6dXD5hbvJQ70axzGB5+ZKRecKxDaupqwEEq0BuXjyX42cpHeJYjVGtu7TSADwhKzk6u3/8bxsw/F2cedgoT/efC0Hwo8uXmMIFpp/azKOIIGrebScXRLGVonic8aAFOBiCrfyqz8hiUBoYv3+YJ+7e719dLI="
