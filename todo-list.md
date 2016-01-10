@@ -51,5 +51,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Trail des deux Baies](http://www.traildes2baies.fr/)
 * [Trail des forts de Besançon](http://www.traildesforts.com/)
 * [Trail en Aubrac](http://www.courirenaubrac.com/)
+* [Transgrancanaria](http://www.transgrancanaria.net/)
 * [Transvulcania](http://transvulcania.info/)
+* [UT4M](http://ut4m.fr/)
 * [Zegama Aizkorri](https://www.facebook.com/zegamaiaizkorri)
