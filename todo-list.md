@@ -5,6 +5,9 @@ title: Les Courses que je souhaite faire, un jour.
 
 ## Ma "done list" :
 
+* [10km Paris centre](http://www.10kmpariscentre.com/)
+* [10km de Reims](http://www.runinreims.com/fr)
+* [10km l'Equipe](http://www.10km.lequipe.fr/)
 * [20km de Paris](http://www.20kmparis.com)
 * [Eco-Trail Funchal-Madeira Island 40Km](http://ecotrailmadeira.com/)
 * [La Saintésprint](http://www.saintelyon.com)
