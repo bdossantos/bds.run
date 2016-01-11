@@ -7,27 +7,13 @@ title: A propos.
 
 ## Qui suis-je ?
 
-Benjamin, 26 ans, chausse du 42½ et pratique la course à pied depuis 2009.
+Benjamin, 27 ans, chausse du 42½ et pratique la course à pied depuis 2009.
 
 Je cours avant tout pour le plaisir et m'entraine au moins 3 fois par
 semaine, le plus souvent à la sensation et de temps en temps sur la piste où
 j'en profite pour fractionner histoire d'entretenir la caisse.
 Mon type de séance préféré est le [fartlek][1], bien qu'il soit difficile de
 développer sa [VMA][2] avec ces allures.
-
-Courir me permet de me retrouver avec moi même, me dégourdir, réfléchir,
-penser à autre chose. Je m'entraine la majorité du temps seul, mais il
-m'arrive d'enchainer quelques tours de parc / piste avec des
-coureurs sympas / amis croisés au détour d'une séance.
-
-## "C'est quoi ta distance ?"
-
-Pour l'instant je ne cours que des 10Km et, depuis peu, au moins un semi-marathon
-par an. Ces distances me conviennent bien et je ne suis pas attiré par des
-courses plus longues pour le moment.
-
-L'an prochain je ferai peut être une apparition sur trail court pour
-changer de la route et des courses populaires "surpeuplées".
 
 ### Mes (modestes) chronos
 
@@ -41,18 +27,11 @@ Marathon      | N/A         | N/A                           | N/A
 
 ## Mes chaussures
 
-J'ai essayé plusieurs marques et modèles depuis que je cours : Asics, Mizuno,
-Adidas ...
+Je cours avec des modèles minimalistes : [Nike Free][4] pour la route et Kiger
+pour le trail.
 
-Après quelques blessures ([périostites][3]) dû à des modèles probablement
-inadaptés à ma foulée et morphologie j'ai trouvé le modèle qui me va bien.
-
-Il s'agit de Nike, et plus particulièrement leur modèle minimaliste : [Nike
-Free Run][4]. Vous savez ce sont celles que certains hipster sédentaires
-portent, généralement couleur fluo.
-
-Je trouve ce modèle au drop faible très confortable malgré le peu d'amortis
-et surtout bien adapté à ma foulée à tendance medio pied.
+Je trouve ces modèles au drop faible très confortables malgré le peu d'amortis
+et surtout bien adaptés à ma foulée à tendance medio pied.
 
 ## Mes courses préférées
 
@@ -61,7 +40,7 @@ pour son ambiance, parcours et ferveur populaire.
 
 ## Ce super blog
 
-Tout le monde s'en fou, mais ce blog génial est généré avec [Jekyll][8], les
+Tout le monde s'en fou, mais ce super site est généré avec [Jekyll][8], les
 sources sont disponibles sur [Github][9] et il est hébergé sur un
 [Raspberry Pi][10] dans mon salon.
 
