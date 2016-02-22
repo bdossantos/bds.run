@@ -24,6 +24,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Course des Remparts de Provins](http://www.coursedesremparts.fr)
 * [Défi du Jerzual](http://defidujerzual.fr)
 * [Eco-Trail de Paris](http://www.traildeparis.com/)
+* [Etna Trail](http://www.etnatrail.it/en/)
 * [GR20](http://www.le-gr20.com/fr/)
 * [Impérial Trail](https://www.facebook.com/imperialtrail)
 * [L'Ardechois Trail](http://www.trailardechois.com/)
