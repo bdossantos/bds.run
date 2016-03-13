@@ -19,9 +19,9 @@ développer sa [VMA][2] avec ces allures.
 
 **Distance**  | **Temps**   | **Course**                    | **Année**
 :-------------|:------------|:------------------------------|:--------------
-10Km          | 39:02       | 10Km de Clichy                | 2012
-15Km          | 1:00:11     | 20Km de Paris                 | 2014
-20Km          | 1:20:32     | 20Km de Paris                 | 2014
+10Km          | 38:32       | [10Km de Clichy][10k]         | 2016
+15Km          | 1:00:11     | [20Km de Paris][15k]          | 2014
+20Km          | 1:20:32     | [20Km de Paris][20k]          | 2014
 Semi-Marathon | 1:32:00     | Sedan-Charleville (24,3Km)    | 2013
 Marathon      | N/A         | N/A                           | N/A
 
@@ -66,3 +66,6 @@ Plus de détails techniques [ici][11] pour les intéressés.
 [12]: https://twitter.com/benjamin_ds
 [13]: https://plus.google.com/+BenjaminDosSantos
 [14]: http://connect.garmin.com/modern/profile/bdossantos
+[10k]: https://www.strava.com/activities/515612740
+[15k]: https://www.strava.com/activities/213348008
+[20k]: https://www.strava.com/activities/213348008
