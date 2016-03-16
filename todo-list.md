@@ -44,6 +44,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Marathon de la Baie du Mont Saint Michel](http://www.montsaintmichel-marathon.com/)
 * [Marathon du Médoc](http://www.marathondumedoc.com/)
 * [Marseille-Cassis](http://www.marseille-cassis.com)
+* [Mongolia Sunrise to Sunset](http://ms2s.dk/)
 * [New York City Marathon](http://www.tcsnycmarathon.org/)
 * [Semi-Marathon Marjevols-Mende](http://www.marvejols-mende.org)
 * [Sierre-Zinal](http://www.sierre-zinal.com/)
