@@ -1,4 +1,4 @@
-require 'html/proofer'
+require 'html-proofer'
 require 'image_optim'
 require 'English'
 
@@ -108,7 +108,7 @@ end
 desc 'Test for 404s'
 task :check_html do
   puts '--> Check for broken links'
-  HTML::Proofer.new(
+  HTMLProofer.check_directory(
     BUILD_DIR,
     {
       :ext => '.html',
