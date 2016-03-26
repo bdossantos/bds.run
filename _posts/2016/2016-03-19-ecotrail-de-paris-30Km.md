@@ -7,7 +7,7 @@ category: compétition
 
 Aujourd'hui j'étais au départ de l'[Ecotrail de Paris][1], sur le 30Km.
 J'avais pour objectif 2h20 mais une douleur juste au dessus du genou
-gauche ainsi qu'une petite erreur de parcours m'a fait peu fait "perdre" de
+gauche ainsi qu'une petite erreur de parcours m'a un peu fait "perdre" de
 temps.
 
 Je suis tout de même satisfait de ma course et assez étonné de mon classement :
