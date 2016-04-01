@@ -57,4 +57,5 @@ title: Les Courses que je souhaite faire, un jour.
 * [Transgrancanaria](http://www.transgrancanaria.net/)
 * [Transvulcania](http://transvulcania.info/)
 * [UT4M](http://ut4m.fr/)
+* [Ultra Trail Cordillera Blanca](http://www.perutrailrunning.pe/)
 * [Zegama Aizkorri](https://www.facebook.com/zegamaiaizkorri)
