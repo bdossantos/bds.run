@@ -15,6 +15,8 @@ title: Les Courses que je souhaite faire, un jour.
 * [Paris-Versailles](http://www.parisversailles.com)
 * [Sedan-Charleville](#)
 * [Semi-Marathon de Paris](http://www.semideparis.com)
+* [Transvulcania - Half-Marathon](http://transvulcania.info/events-item/half-marathon/)
+* [Transvulcania - KM Vertical](http://transvulcania.info/events-item/km-v/)
 
 ## Ma "todo list" :
 
