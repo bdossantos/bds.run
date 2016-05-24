@@ -67,6 +67,8 @@ GEM
       jekyll (>= 2.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
+    jekyll-seo-tag (1.4.0)
+      jekyll (~> 3.0)
     jekyll-sitemap (0.10.0)
     jekyll-watch (1.4.0)
       listen (~> 3.0, < 3.1)
@@ -126,6 +128,7 @@ DEPENDENCIES
   jekyll-assets
   jekyll-feed
   jekyll-redirect-from
+  jekyll-seo-tag
   jekyll-sitemap
   jekyll_image_encode
   juicer
