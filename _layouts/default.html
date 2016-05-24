@@ -3,30 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{% if page.title %}{{ page.title }} // {% endif %}bds.run</title>
         <meta name="description" content="{{ page.description }}">
+
+        {% seo %}
+        {% if page.cover %}<meta property="og:image" content="{{ page.cover | asset_path }}">{% endif %}
 
         <!-- Cosmetic -->
         <meta name="theme-color" content="#222">
         <meta name="msapplication-navbutton-color" content="#222">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-        <!-- Twitter Card -->
-        <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-        <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-        <meta name="twitter:creator" content="@{{ site.twitter }}">
-        <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-        {% if page.cover %}<meta name="twitter:image" name="{{ page.cover | asset_path }}">{% endif %}
-
-        <!-- Open Graph -->
-        <meta property="og:locale" content="fr_FR">
-        <meta property="og:type" content="article">
-        <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-        <meta property="og:site_name" content="{{ site.name }}">
-        {% if page.cover %}<meta property="og:image" content="{{ page.cover | asset_path }}">{% endif %}
 
         <!-- Prefetch -->
         <link rel="dns-prefetch" href="//bds.run">
