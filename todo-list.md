@@ -23,6 +23,7 @@ title: Les Courses que je souhaite faire, un jour.
 
 * [Aladaglar Sky Trail](https://aladaglarskytrail.com/)
 * [Ardennes Mega Trail](http://www.ardennes-megatrail.com/)
+* [Azores Trail Run](http://www.azorestrailrun.com/)
 * [Bay to Breakers](http://zapposbaytobreakers.com/)
 * [Cortina trail](http://www.ultratrail.it/en/)
 * [Course des Remparts de Provins](http://www.coursedesremparts.fr)
