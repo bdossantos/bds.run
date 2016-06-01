@@ -18,7 +18,7 @@ retard.
 Globalement je suis assez satisfait de ma course, même si je pense que je
 pouvais mieux faire. Je termine 72 / 468.
 
-### Profile
+### Profil
 
 <img
   class="ctr img-thumbnail"
