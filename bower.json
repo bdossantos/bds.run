@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "html5-boilerplate": "5.3.0",
-    "lazyload": "3.2.1",
+    "lazyload": "3.2.2",
     "chartist": "0.9.5"
   }
 }
