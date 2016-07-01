@@ -3,9 +3,9 @@ layout: default
 title: A propos.
 ---
 
-# A propos
+## A propos
 
-## Qui suis-je ?
+### Qui suis-je ?
 
 Benjamin, 27 ans, chausse du 42½ et pratique la course à pied depuis 2009.
 
@@ -15,7 +15,7 @@ j'en profite pour fractionner histoire d'entretenir la caisse.
 Mon type de séance préféré est le [fartlek][1], bien qu'il soit difficile de
 développer sa [VMA][2] avec ces allures.
 
-### Mes (modestes) chronos
+#### Mes (modestes) chronos
 
 **Distance**  | **Temps**   | **Course**                    | **Année**
 :-------------|:------------|:------------------------------|:--------------
@@ -26,7 +26,7 @@ développer sa [VMA][2] avec ces allures.
 Semi-Marathon | 1:32:00     | Sedan-Charleville (24,3Km)    | 2013
 Marathon      | N/A         | N/A                           | N/A
 
-## Mes chaussures
+### Mes chaussures
 
 Je cours avec des modèles minimalistes : [Nike Free][4] pour la route et Kiger
 pour le trail.
@@ -34,12 +34,12 @@ pour le trail.
 Je trouve ces modèles au drop faible très confortables malgré le peu d'amortis
 et surtout bien adaptés à ma foulée à tendance medio pied.
 
-## Mes courses préférées
+### Mes courses préférées
 
 Sans hésiter **Paris-Versailles** pour son parcours et le **Sedan-Charleville**
 pour son ambiance, parcours et ferveur populaire.
 
-## Ce super blog
+### Ce super blog
 
 Tout le monde s'en fou, mais ce super site est généré avec [Jekyll][8], les
 sources sont disponibles sur [Github][9] et il est hébergé sur un
@@ -47,7 +47,7 @@ sources sont disponibles sur [Github][9] et il est hébergé sur un
 
 Plus de détails techniques [ici][11] pour les intéressés.
 
-## Me contacter
+### Me contacter
 
 * [Twitter][12]
 * [Google+][13]
