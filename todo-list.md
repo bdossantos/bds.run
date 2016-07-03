@@ -51,6 +51,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Marseille-Cassis](http://www.marseille-cassis.com)
 * [Mongolia Sunrise to Sunset](http://ms2s.dk/)
 * [New York City Marathon](http://www.tcsnycmarathon.org/)
+* [Pierra Menta Eté](http://www.pierramenta-ete.com/)
 * [Semi-Marathon Marjevols-Mende](http://www.marvejols-mende.org)
 * [Sierre-Zinal](http://www.sierre-zinal.com/)
 * [The great wall marathon](http://great-wall-marathon.com)
