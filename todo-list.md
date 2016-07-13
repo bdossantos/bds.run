@@ -26,7 +26,6 @@ title: Les Courses que je souhaite faire, un jour.
 * [Ardennes Mega Trail](http://www.ardennes-megatrail.com/)
 * [Azores Trail Run](http://www.azorestrailrun.com/)
 * [Bay to Breakers](http://zapposbaytobreakers.com/)
-* [Cortina trail](http://www.ultratrail.it/en/)
 * [Course des Remparts de Provins](http://www.coursedesremparts.fr)
 * [Défi du Jerzual](http://defidujerzual.fr)
 * [Etna Trail](http://www.etnatrail.it/en/)
