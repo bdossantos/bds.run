@@ -7,4 +7,4 @@ category: entrainement
 
 | Distance         | 147.7 km      |
 | Durée            | 15:23 h:m     |
-| Gain d’altitude  | 4,365 m       |
+| Gain d’altitude  | 4,217 m       |
