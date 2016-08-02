@@ -7,7 +7,7 @@ title: A propos.
 
 ### Qui suis-je ?
 
-Benjamin, 27 ans, chausse du 42½ et pratique la course à pied depuis 2009.
+Benjamin, 28 ans, chausse du 42½ et pratique la course à pied depuis 2009.
 
 Je cours avant tout pour le plaisir et m'entraine au moins 3 fois par
 semaine, le plus souvent à la sensation et de temps en temps sur la piste où
