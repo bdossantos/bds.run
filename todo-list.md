@@ -61,6 +61,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Trail en Aubrac](http://www.courirenaubrac.com/)
 * [Transgrancanaria](http://www.transgrancanaria.net/)
 * [Transvulcania](http://transvulcania.info/)
+* [Tromso Skyrace](https://tromsoskyrace.com/)
 * [Troodos mountain ultra](http://www.troodosultra.com/en/home/)
 * [UT4M](http://ut4m.fr/)
 * [Ultra Trail Cordillera Blanca](http://www.perutrailrunning.pe/)
