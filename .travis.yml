@@ -6,16 +6,8 @@ rvm:
 addons:
   apt:
     packages:
-      - advancecomp
       - default-jre-headless
-      - gifsicle
-      - jhead
-      - jpegoptim
       - libgsl0-dev
-      - libjpeg-progs
-      - optipng
-      - pngcrush
-      - pngquant
 cache: bundler
 before_script:
   - npm install -g bower
