@@ -19,7 +19,7 @@ addons:
 before_script:
   - npm install -g bower
   - bower install
-  - wget --quiet https://htmlcompressor.googlecode.com/files/htmlcompressor-1.5.3.jar
+  - wget --quiet https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/htmlcompressor/htmlcompressor-1.5.3.jar
   - wget --quiet https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.jar
   - mv *.jar /tmp && mkdir -p ./_bin
   - echo 'exec java -jar /tmp/htmlcompressor-1.5.3.jar "$@"' > ./_bin/htmlcompressor
