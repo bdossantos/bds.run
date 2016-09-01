@@ -16,6 +16,7 @@ addons:
       - optipng
       - pngcrush
       - pngquant
+cache: bundler
 before_script:
   - npm install -g bower
   - bower install
