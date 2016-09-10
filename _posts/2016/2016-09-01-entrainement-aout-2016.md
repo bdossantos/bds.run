@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Entrainement juillet 2016
-description: Bilan sportif du mois de juillet 2016
+title: Entrainement août 2016
+description: Bilan sportif du mois de août 2016
 category: entrainement
 ---
 
