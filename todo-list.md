@@ -19,6 +19,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Semi-Marathon de Paris](http://www.semideparis.com)
 * [Transvulcania - Half-Marathon](http://transvulcania.info/events-item/half-marathon/)
 * [Transvulcania - KM Vertical](http://transvulcania.info/events-item/km-v/)
+* [Vietnam Mountain Marathon](http://vietnammountainmarathon.com/)
 
 ## Ma "todo list" :
 
