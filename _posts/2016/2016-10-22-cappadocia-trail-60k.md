@@ -30,3 +30,16 @@ l'eau + sucre. Côté solide je me suis contenté de bananes chopés aux ravitos
   data-src='https://www.strava.com/activities/752344313/embed/9c675b4aba6176ec7d755dc0100308193912e790'
   onload='lzld(this)'>
 </iframe>
+
+### Photos
+
+{% for i in (1..5) %}
+{%
+  img
+  "2016/10/cappadocia-trail-{{ i }}.jpg"
+  magick:half
+  magick:quality:90
+  alt:'Cappadocia Trail'
+  class:'ctr img-thumbnail'
+%}
+{% endfor %}
