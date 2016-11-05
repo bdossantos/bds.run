@@ -22,7 +22,7 @@ pouvais mieux faire. Je termine 72 / 468.
 
 <img
   class="ctr img-thumbnail"
-  alt="Profile de la Saintésprint"
+  alt="Profile Transvulcania half-marathon"
   data-src="{{ '2016/05/transvulcania-half-marathon-profile.jpg' | asset_path }}"
   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
   onload="lzld(this)" />
@@ -38,5 +38,18 @@ pouvais mieux faire. Je termine 72 / 468.
   data-src='https://www.strava.com/activities/568110091/embed/4a5600e157bc5570ad0322d9b3503dc5aa679424'
   onload='lzld(this)'>
 </iframe>
+
+### Photos
+
+{% for i in (1..5) %}
+{%
+  img
+  "2016/05/transvulcania-{{ i }}.jpg"
+  magick:half
+  magick:quality:90
+  alt:'Transvulcania half-marathon'
+  class:'ctr img-thumbnail'
+%}
+{% endfor %}
 
 [1]: {% post_url 2016-05-05-transvulcania-km-vertical %}
