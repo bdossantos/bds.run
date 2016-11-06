@@ -66,5 +66,6 @@ title: Les Courses que je souhaite faire, un jour.
 * [Tromso Skyrace](https://tromsoskyrace.com/)
 * [Troodos mountain ultra](http://www.troodosultra.com/en/home/)
 * [UT4M](http://ut4m.fr/)
+* [Ultra Tour Mt Siguniang](http://www.utms.com.cn/)
 * [Ultra Trail Cordillera Blanca](http://www.perutrailrunning.pe/)
 * [Zegama Aizkorri](https://www.facebook.com/zegamaiaizkorri)
