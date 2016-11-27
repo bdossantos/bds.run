@@ -15,6 +15,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Ecotrail d'Oslo 30km](http://ecotrailoslo.com)
 * [Ecotrail de Paris 30km](http://www.traildeparis.com/)
 * [La Saintésprint](http://www.saintelyon.com)
+* [Morocco Race 65K](https://www.facebook.com/morrocorace)
 * [Paris-Versailles](http://www.parisversailles.com)
 * [Sedan-Charleville](#)
 * [Semi-Marathon de Paris](http://www.semideparis.com)
