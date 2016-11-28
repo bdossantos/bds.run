@@ -3,6 +3,7 @@ layout: post
 title: Cortina Trail
 description: Mon Cortina Trail 2016
 category: compétition
+cover: 2016/06/cortina-trail-4.jpg
 ---
 
 ### Ma course

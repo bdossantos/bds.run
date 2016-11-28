@@ -3,6 +3,7 @@ layout: post
 title: Transvulcania - Half Marathon
 description: Transvulcania, mon premier KM Vertical
 category: compétition
+cover: 2016/05/transvulcania-5.jpg
 ---
 
 Un jour après le [Kilomètre Vertical][1] j'étais au départ du "Semi Marathon"

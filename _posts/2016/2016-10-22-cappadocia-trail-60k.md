@@ -3,6 +3,7 @@ layout: post
 title: Cappadocia Trail 60K
 description: Mon Cappadocia Trail 60K 2016
 category: compétition
+cover: 2016/10/cappadocia-trail-5.jpg
 ---
 
 Ce n'était pas mon jour.
