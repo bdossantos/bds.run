@@ -52,4 +52,4 @@ pouvais mieux faire. Je termine 72 / 468.
 %}
 {% endfor %}
 
-[1]: {% post_url 2016-05-05-transvulcania-km-vertical %}
+[1]: {{ site.baseurl }}{% post_url /2016/2016-05-05-transvulcania-km-vertical %}
