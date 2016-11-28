@@ -23,7 +23,18 @@ gems:
 permalink: /:year/:month/:day/:title.html
 google_verify: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
 google_analytics: 'UA-9203113-5'
-twitter: 'benjamin_ds'
+twitter:
+  username: benjamin_ds
+social:
+  name: Benjamin Dos Santos
+  links:
+    - https://twitter.com/benjamin_ds
+    - https://www.facebook.com/benjamin.ds
+    - https://www.linkedin.com/in/benjaminds
+    - https://plus.google.com/+BenjaminDosSantos
+    - https://github.com/bdossantos
+    - https://keybase.io/bdossantos
+google_site_verification: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
 assets:
   cache: .asset-cache
   dirname: assets
