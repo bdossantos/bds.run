@@ -50,12 +50,6 @@ Je franchis finalement la ligne d'arrivée, le chrono sur la ligne m'annonce
 45' et quelque (temps officiel) et en rentrant le site m'annoncera un
 temps officicel de 41' tout rond.
 
-<img
-  class="ctr img-thumbnail"
-  data-src="https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2014/10kmlequipe2014.jpg"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
-
 ### Bilan
 
 Les sensations étaient bonnes ! Cela est encourageant pour les courses à venir.

@@ -93,9 +93,3 @@ Le départ par vague c'est très bien, mais cela combiné avec des sas par
 niveau/objectif serait encore mieux.
 
 Course à refaire l'an prochain !
-
-<img
-  class="ctr img-thumbnail"
-  data-src="https://dl.dropboxusercontent.com/u/5236486/runner.sh/img/2013/pv2013.jpg"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
