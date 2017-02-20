@@ -25,6 +25,7 @@ title: Les Courses que je souhaite faire, un jour.
 
 ## Ma "todo list" :
 
+* [Aconcagua Ultra Trail](http://www.aconcaguaultratrail.com.ar/)
 * [Aladaglar Sky Trail](https://aladaglarskytrail.com/)
 * [Ardennes Mega Trail](http://www.ardennes-megatrail.com/)
 * [Azores Trail Run](http://www.azorestrailrun.com/)
@@ -45,6 +46,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Le Grand Trail du Saint-Jacques](http://www.trailsaintjacques.com/)
 * [Le Restonica Trail](http://restonicatrail.fr/)
 * [Les Foulées du Gois](http://www.lesfouleesdugois.com)
+* [Lesotho Ultra Trail](http://www.lesothoultratrail.com/)
 * [Lyon urban trail](http://www.lyonurbantrail.com/)
 * [Madeira Island Ultra Trail](http://www.madeiraultratrail.com/)
 * [Marathon de Paris](http://www.parismarathon.com)

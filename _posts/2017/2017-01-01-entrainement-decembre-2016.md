@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Entrainement decembre 2017
+title: Entrainement decembre 2016
 description: Bilan sportif du mois de decembre 2016
 category: entrainement
 ---
