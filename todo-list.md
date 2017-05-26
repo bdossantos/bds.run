@@ -9,6 +9,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [10km de Reims](http://www.runinreims.com/fr)
 * [10km l'Equipe](http://www.10km.lequipe.fr/)
 * [20km de Paris](http://www.20kmparis.com)
+* [Azores Trail Run - Pico Vertical Kilometer](https://www.azorestrailrun.com/)
 * [Cappadocia Trail 60K](https://cappadociaultratrail.com/)
 * [Cortina trail](http://www.ultratrail.it/en/)
 * [Ecotrail Funchal-Madeira Island 40km](http://ecotrailmadeira.com/)
