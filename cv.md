@@ -14,7 +14,7 @@ title: Mon CV sportif
   {% assign year=thisyear %}
 <h3>{{ thisyear }}</h3>
   {% endif %}
-* [{{ post.title }}]({{ post.url }}){% if post.country %}{{ post.country | prepend: ' - ' }}{% endif %}
+{% if post.country %}{{ post.country | append: ' ' }}{% endif %}[{{ post.title }}]({{ post.url }}){% if post.summary %}<i>{{ post.summary | prepend: ' - ' }}</i>{% endif %}
 {% endfor %}
 
 ### 2009 à 2014
