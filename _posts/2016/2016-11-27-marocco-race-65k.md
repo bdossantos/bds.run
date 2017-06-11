@@ -5,6 +5,7 @@ description: Ma Morocco Race 65K 2016
 category: compétition
 cover: 2016/11/MR65-3.jpg
 country: 🇲🇦
+summary: 62km / 2875 D+, 09:33:17, 29th
 ---
 
 Je n'avais pas du tout prévu de faire cette course, je m'y suis inscrit sur

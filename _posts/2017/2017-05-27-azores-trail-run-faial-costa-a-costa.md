@@ -5,6 +5,7 @@ description: Ma FCC
 category: compétition
 cover: 2017/05/ATR-1.jpg
 country: 🇵🇹
+summary: 42 km / 2600 D+, 06:23:07, 102th
 ---
 
 Bilan de cette course : dans le dur. Je me tords la cheville au bout de 3 bornes,

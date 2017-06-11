@@ -5,6 +5,7 @@ description: Transvulcania, mon premier KM Vertical
 category: compétition
 cover: 2016/05/transvulcania-5.jpg
 country: 🇪🇸
+summary: 24km / 2075 D+, 03:30:40, 72th
 ---
 
 Un jour après le [Kilomètre Vertical][1] j'étais au départ du "Semi Marathon"
