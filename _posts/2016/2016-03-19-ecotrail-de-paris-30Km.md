@@ -3,6 +3,7 @@ layout: post
 title: Ecotrail de Paris 30K
 description: Reprise de la compétition avec l'Ecotrail de Paris 30K
 category: compétition
+country: 🇫🇷
 ---
 
 Aujourd'hui j'étais au départ de l'[Ecotrail de Paris][1], sur le 30Km.

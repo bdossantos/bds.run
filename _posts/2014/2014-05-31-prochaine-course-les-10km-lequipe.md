@@ -2,7 +2,7 @@
 layout: post
 title: "Prochaine course : les 10 Km l'équipe"
 description: Ma reprise se fera aux 10 Km l'équipe.
-category: compétition
+category: entrainement
 ---
 
 Comme l'an dernier, ma reprise se fera aux [10 Km l'équipe][1].

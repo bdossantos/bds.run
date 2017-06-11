@@ -4,6 +4,7 @@ title: Transvulcania - KM Vertical
 description: Transvulcania, mon premier KM Vertical
 category: compétition
 cover: 2016/05/transvulcania-5.jpg
+country: 🇪🇸
 ---
 
 Aujourd'hui j'étais au départ de mon premier KM Vertical à La Palma :

@@ -4,6 +4,7 @@ title: Azores Trail Run - Faial Costa a Costa
 description: Ma FCC
 category: compétition
 cover: 2017/05/ATR-1.jpg
+country: 🇵🇹
 ---
 
 Bilan de cette course : dans le dur. Je me tords la cheville au bout de 3 bornes,

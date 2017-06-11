@@ -4,6 +4,7 @@ title: Morocco Race 65K
 description: Ma Morocco Race 65K 2016
 category: compétition
 cover: 2016/11/MR65-3.jpg
+country: 🇲🇦
 ---
 
 Je n'avais pas du tout prévu de faire cette course, je m'y suis inscrit sur

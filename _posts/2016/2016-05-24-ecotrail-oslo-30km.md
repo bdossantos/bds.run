@@ -3,6 +3,7 @@ layout: post
 title: Ecotrail Oslo - 30km
 description: Mon Ecotrail d'Oslo, 30km
 category: compétition
+country: 🇳🇴
 ---
 
 ### Ma course

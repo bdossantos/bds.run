@@ -4,6 +4,7 @@ title: Vietnam Mountain Marathon
 description: Mon Vietnam Mountain Marathon 2016
 category: compétition
 cover: 2016/09/vmm-3.jpg
+country: 🇻🇳
 ---
 
 Départ en montée rapide, puis gros ralentissement dans la première descente à

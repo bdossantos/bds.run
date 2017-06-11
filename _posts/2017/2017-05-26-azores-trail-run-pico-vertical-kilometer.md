@@ -4,6 +4,7 @@ title: Azores Trail Run - Pico Vertical Kilometer
 description: Ma Morocco Race 65K 2016
 category: compétition
 cover: 2017/05/ATR-1.jpg
+country: 🇵🇹
 ---
 
 Des conditions exécrables : température proche de 0 degré, un vent glacial, de

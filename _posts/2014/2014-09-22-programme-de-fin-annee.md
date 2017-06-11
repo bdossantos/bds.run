@@ -2,7 +2,7 @@
 layout: post
 title: Programme de fin d'année
 description: Les compétitions prévues jusqu'à la fin de l'année
-category: compétition
+category: entrainement
 ---
 
 Il y a bien trop de courses intéressantes en septembre et octobre, il a fallu
