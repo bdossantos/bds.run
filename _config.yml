@@ -50,11 +50,11 @@ assets:
 links:
   - title: Blog
     url: /
-  - title: A propos
-    url: /about.html
-  - title: Todo-list
-    url: /todo-list.html
   - title: Archives
     url: /archives.html
+  - title: CV
+    url: /cv.html
+  - title: A propos
+    url: /about.html
 feed:
   path: atom.xml
