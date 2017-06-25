@@ -19,15 +19,10 @@ title: Mon CV sportif
 
 ### 2009 à 2014
 
-Principalement des courses sur route, dont :
-
-* [10km Paris centre](http://www.10kmpariscentre.com/)
-* [10km de Reims](http://www.runinreims.com/fr)
-* [10km l'Equipe](http://www.10km.lequipe.fr/)
-* [20km de Paris](http://www.20kmparis.com)
-* [Paris-Versailles](http://www.parisversailles.com)
-* [Sedan-Charleville](#)
-* [Semi-Marathon de Paris](http://www.semideparis.com)
+Principalement des courses sur route, dont entre autre les [10km Paris centre](http://www.10kmpariscentre.com/),
+[10km de Reims](http://www.runinreims.com/fr), [10km l'Equipe](http://www.10km.lequipe.fr/),
+[20km de Paris](http://www.20kmparis.com), [Paris-Versailles](http://www.parisversailles.com),
+[Sedan-Charleville](#), [Semi-Marathon de Paris](http://www.semideparis.com) [...]
 
 ## ITRA cotation *
 
