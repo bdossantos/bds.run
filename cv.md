@@ -4,7 +4,9 @@ title: Mon CV sportif
 cover: 2016/11/MR65-3.jpg
 ---
 
-## Compétitions
+## CV Sportif
+
+### Compétitions
 
 {% assign year = 2013 %}
 {% for post in site.categories["compétition"] %}
@@ -13,30 +15,30 @@ cover: 2016/11/MR65-3.jpg
   {% endcapture %}
   {% if year != thisyear %}
   {% assign year=thisyear %}
-<h3>{{ thisyear }}</h3>
+<h4>{{ thisyear }}</h4>
   {% endif %}
 {% if post.country %}{{ post.country | append: ' ' }}{% endif %}[{{ post.title }}]({{ post.url }}){% if post.summary %}<i>{{ post.summary | prepend: ' - ' }}</i>{% endif %}
 {% endfor %}
 
-### 2009 à 2014
+#### 2009 à 2014
 
 Principalement des courses sur route, dont entre autre les [10km Paris centre](http://www.10kmpariscentre.com/),
 [10km de Reims](http://www.runinreims.com/fr), [10km l'Equipe](http://www.10km.lequipe.fr/),
 [20km de Paris](http://www.20kmparis.com), [Paris-Versailles](http://www.parisversailles.com),
 [Sedan-Charleville](#), [Semi-Marathon de Paris](http://www.semideparis.com) [...]
 
-## ITRA cotation *
+### Index de performance ITRA*
 
-Trail category              | **Cotation ( / 1000)** | **Cotation ( / 1000) Men's best cotation**
-:---------------------------|:-----------------------|:------------------------------------------
-Trail Ultra XL ( >= 100 km)	|	N/A                    | 919
-Trail Ultra L (70 to 99 km)	|	N/A                    | 916
-Trail Ultra M (42 to 69 km)	| 531	                   | 914
-Trail (<42km)	              | 585	                   | 925
+Trail category              | **Cotation ( / 1000)** |
+:---------------------------|:-----------------------|
+Trail Ultra XL ( >= 100 km)	|	N/A                    |
+Trail Ultra L (70 to 99 km)	|	N/A                    |
+Trail Ultra M (42 to 69 km)	| 531	                   |
+Trail (<42km)	              | 585	                   |
 
 _* [International Trail Running Association][ITRA]_
 
-## Références chronométriques
+### Références chronométriques
 
 **Distance**  | **Temps**   | **Course**                    | **Année**
 :-------------|:------------|:------------------------------|:--------------
@@ -47,9 +49,9 @@ _* [International Trail Running Association][ITRA]_
 Semi-Marathon | 1:32:00     | Sedan-Charleville (24,3Km)    | 2013
 Marathon      | N/A         | N/A                           | N/A
 
-## Formation
+### Formations
 
-### 2010 - 2012
+#### 2010 - 2012
 
 Licencié à L'[ASPTT Athlétisme Charleville-Mézières][ASPTT], entrainé par
 Pascal Billaudel. Merci à lui de m'avoir littéralement appris à courir.
