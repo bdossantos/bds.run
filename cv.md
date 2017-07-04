@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Mon CV sportif
+cover: 2016/11/MR65-3.jpg
 ---
 
 ## Compétitions
