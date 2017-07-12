@@ -2,5 +2,5 @@ assets:
   compress:
     css: true
     js: true
-  cdn: http://bds.run
+  cdn: //bds.run
   digest: true
