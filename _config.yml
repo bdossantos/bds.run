@@ -14,7 +14,7 @@ exclude:
   - Rakefile
   - bower.json
   - docker-compose.yml
-gems:
+plugins:
   - jekyll-assets
   - jekyll-feed
   - jekyll-seo-tag
