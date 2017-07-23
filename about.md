@@ -7,21 +7,7 @@ title: A propos.
 
 ### Qui suis-je ?
 
-Benjamin, 28 ans, chausse du 42½ et pratique la course à pied depuis 2009.
-
-Je cours avant tout pour le plaisir et m'entraine au moins 3 fois par
-semaine, le plus souvent à la sensation et de temps en temps sur la piste où
-j'en profite pour fractionner histoire d'entretenir la caisse.
-Mon type de séance préféré est le [fartlek][1], bien qu'il soit difficile de
-développer sa [VMA][2] avec ces allures.
-
-### Ce super blog
-
-Tout le monde s'en fou, mais ce super site est généré avec [Jekyll][8], les
-sources sont disponibles sur [Github][9] et il est hébergé sur un
-[Raspberry Pi][10] dans mon salon.
-
-Plus de détails techniques [ici][11] pour les intéressés.
+Benjamin, 29 ans, chausse du 42½, pratique la course à pied depuis 2009.
 
 ### Me contacter
 
