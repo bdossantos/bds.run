@@ -1,6 +1,7 @@
 ---
 layout: default
 title: A propos.
+description: Benjamin, 29, Runner.
 ---
 
 ## A propos
