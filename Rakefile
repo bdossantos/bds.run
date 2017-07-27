@@ -8,8 +8,6 @@ HTML_COMPRESSOR = `which htmlcompressor`.chomp
 YUI_COMPRESSOR = `which yuicompressor`.chomp
 BOWER = `which bower`.chomp
 WGET = `which wget`.chomp
-BUCKET = 's3://bds.run'
-RASPBERRY = 'pi@192.168.1.2:/srv/http/bds.run'
 JEKYLL_ENV = ENV['JEKYLL_ENV'] || 'development'
 
 desc 'Jekyll build'
@@ -18,54 +16,6 @@ task :jekyll_build do
   system "rm -rf #{BUILD_DIR}"
   config = File.exist?("_config_#{JEKYLL_ENV}.yml") ? ",_config_#{JEKYLL_ENV}.yml" : nil
   system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}"
-end
-
-desc 'Begin a new post'
-task :post do
-  title = ENV['title'] || 'new-post'
-  tags = ENV['tags'] || '[]'
-  category = ENV['category'] || ''
-  category = "\"#{category.gsub(/-/, ' ')}\"" unless category.empty?
-  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-
-  begin
-    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now)\
-           .strftime('%Y-%m-%d')
-  rescue
-    puts 'Error - date format must be YYYY-MM-DD.'
-    exit 1
-  end
-
-  filename = File.join('_posts', "#{date}-#{slug}.md")
-  if File.exist?(filename)
-    abort('rake aborted!') if ask("#{filename} already exists. " +
-                              'Do you want to overwrite?', %w(y n)) == 'n'
-  end
-
-  puts "Creating new post: #{filename}"
-  open(filename, 'w') do |post|
-    post.puts '---'
-    post.puts 'layout: post'
-    post.puts "title: \"#{title.gsub(/-/, ' ')}\""
-    post.puts 'description: ""'
-    post.puts "category: #{category}"
-    post.puts "tags: #{tags}"
-    post.puts '---'
-  end
-end
-
-desc 'Notify Google of the new sitemap'
-task :sitemap do
-  begin
-    require 'net/http'
-    require 'uri'
-    puts '* Pinging Google about our sitemap'
-    Net::HTTP.get('www.google.com', '/webmasters/tools/ping?sitemap=' +
-               URI.escape('http://bds.run/sitemap.xml'))
-  rescue LoadError
-    puts '! Could not ping Google about our sitemap, because Net::HTTP ' \
-         'or URI could not be found.'
-  end
 end
 
 desc 'Bower install'
@@ -120,80 +70,11 @@ task :check_html do
   ).run
 end
 
-desc 'upload to s3'
-task :upload_to_s3 do
-  puts '--> Sync media files first + set cache expires'
-  system "s3cmd sync \
-      --no-preserve \
-      --guess-mime-type \
-      --acl-public \
-      --exclude '*.*' \
-      --include '*.png' \
-      --include '*.jpg' \
-      --include '*.ico' \
-      --add-header='Expires: Sat, 20 Nov 2020 18:46:39 GMT' \
-      --add-header='Cache-Control: max-age=6048000' \
-      #{BUILD_DIR}/ \
-      #{BUCKET}"
-
-  puts '--> Sync Javascript and CSS assets next (Cache: expire in 1 week)'
-  system "s3cmd sync \
-      --no-preserve \
-      --guess-mime-type \
-      --acl-public \
-      --exclude '*.*' \
-      --include '*.css' \
-      --include '*.js' \
-      --add-header='Cache-Control: max-age=604800' \
-      --add-header='Vary: Accept-Encoding' \
-      #{BUILD_DIR}/ \
-      #{BUCKET}"
-
-  puts '--> Sync Gzipped files'
-  system "s3cmd sync \
-      --no-preserve \
-      --guess-mime-type \
-      --acl-public \
-      --exclude '*.*' \
-      --include '*.gz' \
-      --add-header='Cache-Control: max-age=604800' \
-      --add-header='Content-Encoding: gzip' \
-      #{BUILD_DIR}/ \
-      #{BUCKET}"
-
-  puts '--> Sync everything else, but ignore the assets!'
-  system "s3cmd sync \
-      --no-preserve \
-      --guess-mime-type \
-      --acl-public \
-      --exclude '*.*' \
-      --exclude '.htaccess' \
-      --include '*.html' \
-      --add-header='Cache-Control: max-age=7200, must-revalidate' \
-      --add-header='Vary: Accept-Encoding' \
-      #{BUILD_DIR}/ \
-      #{BUCKET}"
-
-  puts '--> Sync remaining files & delete removed'
-  system "s3cmd sync \
-      --no-preserve \
-      --acl-public \
-      --delete-removed \
-      #{BUILD_DIR}/ \
-      #{BUCKET}"
-end
-
 desc 'Fix files permissions'
 task :fix_files_permissions do
   puts '--> Fix files permissions'
-  system "find #{BUILD_DIR} -type f | xargs chmod 644"
-  system "find #{BUILD_DIR} -type d | xargs chmod 755"
-end
-
-desc 'Upload to Raspberry Pi'
-task :upload_to_pi do
-  puts '--> Upload to Raspberry Pi'
-  system "rsync -zav --delete #{BUILD_DIR}/ #{RASPBERRY}/"
+  system "find #{BUILD_DIR} -type f | xargs -n 1 -P 4 chmod 644"
+  system "find #{BUILD_DIR} -type d | xargs -n 1 -P 4 chmod 755"
 end
 
 desc 'Publish to Github Pages'
