@@ -77,46 +77,15 @@ task :fix_files_permissions do
   system "find #{BUILD_DIR} -type d | xargs -n 1 -P 4 chmod 755"
 end
 
-desc 'Publish to Github Pages'
-task :publish_to_gh_pages do
-  puts '--> Publish to Github Pages'
-
-  raise 'Run deploy task' unless File.exist?(BUILD_DIR)
-
-  sha = `git rev-parse HEAD`.strip
-  Dir.chdir(BUILD_DIR) do
-    system 'rm -rf .git && git init && git add . >/dev/null 2>&1'
-
-    if ENV['EMAIL']
-      system "git config --global user.email '#{ENV['EMAIL']}'"
-      system 'git config --global user.name "Travis-CI"'
-    end
-
-    raise 'Failed to commit' \
-      unless system "git commit --allow-empty -m 'Updating to #{sha} [skip-ci]' >/dev/null 2>&1"
-
-    if ENV['TOKEN']
-      # hide output, ignore rubocoping
-      # rubocop:disable UselessAssignment
-      # rubocop:disable LineLength
-      output = system "git push -f https://#{ENV['TOKEN']}:x-oauth-basic@github.com/bdossantos/runner.sh master:gh-pages >/dev/null 2>&1"
-      output = nil
-    else
-      system 'git push -f https://github.com/bdossantos/runner.sh master:gh-pages >/dev/null 2>&1'
-    end
-  end
-end
-
-desc 'Full deployement task'
-task :deploy do
-  puts '--> Start Deploy'
+desc 'Full build task'
+task :build do
+  puts '--> Start build'
   Rake::Task['bower_install'].invoke
   Rake::Task['jekyll_build'].invoke
   Rake::Task['minify_html'].invoke
   Rake::Task['gzip_all'].invoke
   Rake::Task['image_optimization'].invoke
   Rake::Task['fix_files_permissions'].invoke
-  Rake::Task['publish_to_gh_pages'].invoke
   Rake::Task['check_html'].invoke
   puts '--> End'
 end
