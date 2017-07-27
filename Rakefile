@@ -27,15 +27,15 @@ end
 desc 'Minify all html'
 task :minify_html do
   puts '--> Minifying html'
-  system "find #{BUILD_DIR} -type f -name '*.html' " +
-    "| xargs -I '%' -P 4 -n 1 #{HTML_COMPRESSOR} --remove-intertag-spaces " +
+  system "find #{BUILD_DIR} -type f -name '*.html' " \
+    "| xargs -I '%' -P 4 -n 1 #{HTML_COMPRESSOR} --remove-intertag-spaces " \
     "--compress-css --compress-js --js-compressor yui '%' -o '%'"
 end
 
 desc 'Gzip'
-task :gzip, [:ext] => [:gzip_all] do |t, args|
+task :gzip, [:ext] => [:gzip_all] do |_t, args|
   puts "--> GZipping '#{args.ext}'"
-  system "find #{BUILD_DIR} -type f -name '*.#{args.ext}' -print0 | " +
+  system "find #{BUILD_DIR} -type f -name '*.#{args.ext}' -print0 | " \
          "xargs -0 -I % -P 4 -n 1 sh -c 'gzip -9 < % > %.gz'"
 end
 
@@ -49,7 +49,7 @@ end
 desc 'Image optimization'
 task :image_optimization do
   puts '--> Optimize images'
-  image_optim = ImageOptim.new(:pngout => false, :svgo => false)
+  image_optim = ImageOptim.new(pngout: false, svgo: false)
   image_optim.optimize_images!(Dir['**/*.png', '**/*.jpg']) do |u, o|
     puts "#{u} => #{o}" if o
   end
@@ -61,11 +61,11 @@ task :check_html do
   HTMLProofer.check_directory(
     BUILD_DIR,
     {
-      :ext => '.html',
-      :parallel => { :in_processes => 4 },
-      :url_ignore => [ '#', '/twitter.com/', '/disqus.com/' ],
-      :validate_html => false,
-      :disable_external => true
+      ext: '.html',
+      parallel: { in_processes: 4 },
+      url_ignore: ['#', '/twitter.com/', '/disqus.com/'],
+      validate_html: false,
+      disable_external: true
     }
   ).run
 end
@@ -81,7 +81,7 @@ desc 'Publish to Github Pages'
 task :publish_to_gh_pages do
   puts '--> Publish to Github Pages'
 
-  fail 'Run deploy task' unless File.exist?(BUILD_DIR)
+  raise 'Run deploy task' unless File.exist?(BUILD_DIR)
 
   sha = `git rev-parse HEAD`.strip
   Dir.chdir(BUILD_DIR) do
@@ -92,11 +92,13 @@ task :publish_to_gh_pages do
       system 'git config --global user.name "Travis-CI"'
     end
 
-    fail 'Failed to commit' \
+    raise 'Failed to commit' \
       unless system "git commit --allow-empty -m 'Updating to #{sha} [skip-ci]' >/dev/null 2>&1"
 
     if ENV['TOKEN']
-      # hide output
+      # hide output, ignore rubocoping
+      # rubocop:disable UselessAssignment
+      # rubocop:disable LineLength
       output = system "git push -f https://#{ENV['TOKEN']}:x-oauth-basic@github.com/bdossantos/runner.sh master:gh-pages >/dev/null 2>&1"
       output = nil
     else
