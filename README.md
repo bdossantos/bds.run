@@ -1,6 +1,6 @@
 # runner.sh
 
-[![Build Status](https://travis-ci.org/bdossantos/bds.run.svg)](https://travis-ci.org/bdossantos/runner.sh)
+[![Build Status](https://travis-ci.org/bdossantos/bds.run.svg)](https://travis-ci.org/bdossantos/bds.run)
 
 It's the whole code of my [weblog][1] and Running plans, open sourced.
 Basicly it's a simple static website powered by [Jekyll][2].
