@@ -2,10 +2,15 @@
 layout: default
 title: Mon CV sportif
 description: Benjamin, 29, Runner.
+redirect_from:
+  - /about.html
 cover: 2016/11/MR65-3.jpg
 ---
 
 ## CV Sportif
+
+Benjamin Dos Santos, 29 ans, chausse du 42½, pratique la course à pied depuis
+2009.
 
 ### Compétitions
 
@@ -65,9 +70,18 @@ Pascal Billaudel. Merci à lui de m'avoir littéralement appris à courir.
 Merci également à Christian Haquin, un sacré coureur qui m'a beaucoup inspiré et
 appris.
 
+### Me contacter
+
+* [Twitter][twitter]
+* [Google+][g+]
+* [Strava][strava]
+
 [10k]: https://www.strava.com/activities/515612740
 [15k]: https://www.strava.com/activities/213348008
 [20k]: https://www.strava.com/activities/213348008
 [30k]: https://www.strava.com/activities/520826081
 [ASPTT]: http://asptt08.athle.com/
 [ITRA]: http://www.i-tra.org/community/benjamin.dos%20santos/557280/
+[twitter]: https://twitter.com/benjamin_ds
+[g+]: https://plus.google.com/+BenjaminDosSantos
+[strava]: https://www.strava.com/athletes/6925704
