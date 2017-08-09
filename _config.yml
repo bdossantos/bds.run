@@ -56,7 +56,5 @@ links:
     url: /archives.html
   - title: CV
     url: /cv.html
-  - title: A propos
-    url: /about.html
 feed:
   path: atom.xml
