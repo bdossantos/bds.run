@@ -3,6 +3,7 @@ layout: default
 title: Mon CV sportif
 description: Benjamin, 29, Runner.
 redirect_from:
+  - /about
   - /about.html
 cover: 2016/11/MR65-3.jpg
 ---
