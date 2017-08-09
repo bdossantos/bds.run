@@ -72,6 +72,7 @@ appris.
 
 ### Me contacter
 
+* [Site personnel][bds]
 * [Twitter][twitter]
 * [Google+][g+]
 * [Strava][strava]
@@ -82,6 +83,7 @@ appris.
 [30k]: https://www.strava.com/activities/520826081
 [ASPTT]: http://asptt08.athle.com/
 [ITRA]: http://www.i-tra.org/community/benjamin.dos%20santos/557280/
+[bds]: https://b-ds.fr
 [twitter]: https://twitter.com/benjamin_ds
 [g+]: https://plus.google.com/+BenjaminDosSantos
 [strava]: https://www.strava.com/athletes/6925704
