@@ -5,6 +5,7 @@ description: Benjamin, 29, Runner.
 redirect_from:
   - /about
   - /about.html
+permalink: /cv.html
 cover: 2016/11/MR65-3.jpg
 ---
 

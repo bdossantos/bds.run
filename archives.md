@@ -2,6 +2,7 @@
 layout: default
 title: Archives
 description: Les archives du blog
+permalink: /archives.html
 ---
 
 ## Archives
