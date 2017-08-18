@@ -11,9 +11,12 @@ description:
       <h2>
         <a itemprop="name" href="{{ post.url }}">{{ post.title }}</a>
       </h2>
-      <time pubdate datetime="{{ post.date | date_to_xmlschema }}" class="quiet">
-        {{ post.date | date_to_string }}
-      </time>
+      <p class="meta">
+        <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}">
+          {{ post.date | date: "%d/%m/%Y" }}
+        </time>
+         - {{ post.categories | join: ', ' }}
+      </p>
     </article>
   </li>
 {% endfor %}
