@@ -4,3 +4,5 @@ assets:
     js: true
   cdn: //bds.run
   digest: true
+lsi: true
+future: false
