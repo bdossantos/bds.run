@@ -7,9 +7,9 @@ html {
 }
 
 body {
+  color: #46433A;
   font-size: 24px;
   line-height: 1.5;
-  color: #46433A;
 }
 
 #title {
@@ -55,9 +55,8 @@ h1 a {
 }
 
 #baseline {
-  margin-top: 0;
   margin-bottom: 0;
-  font-style: italic;
+  margin-top: 0;
 }
 
 #content strong {
