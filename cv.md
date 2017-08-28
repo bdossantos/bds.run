@@ -11,6 +11,8 @@ cover: 2016/11/MR65-3.jpg
 
 ## CV Sportif
 
+### Présentation
+
 Benjamin Dos Santos, 29 ans, chausse du 42½, modeste routard reconverti à
 l'ultra trail.
 
@@ -74,9 +76,8 @@ Marathon      | N/A         | N/A                           | N/A
 #### 2010 - 2012
 
 Licencié à L'[ASPTT Athlétisme Charleville-Mézières][ASPTT], entrainé par
-Pascal Billaudel. Merci à lui de m'avoir littéralement appris à courir.
-Merci également à Christian Haquin, un sacré coureur qui m'a beaucoup inspiré et
-appris.
+Pascal Billaudel. Merci à lui ainsi qu'à Christian Haquin de m'avoir appris à
+courir.
 
 ### Me contacter
 
