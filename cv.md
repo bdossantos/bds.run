@@ -20,7 +20,7 @@ l'ultra trail.
 framboises, faire du vélo, voyager, la photo, le saumon.
 
 💔 J'aime pas trop : courir en ville, les descentes trop techniques, les filtres
-snapchat.
+snapchat, les foulées d'instagrameuses.
 
 ### Compétitions
 
