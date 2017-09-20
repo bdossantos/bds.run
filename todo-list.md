@@ -11,6 +11,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Bay to Breakers](http://zapposbaytobreakers.com/)
 * [Etna Trail](http://www.etnatrail.it/en/)
 * [GR20](http://www.le-gr20.com/fr/)
+* [Glen Coe Skyline](www.skylinescotland.com)
 * [Impérial Trail](https://www.facebook.com/imperialtrail)
 * [L'Ardechois Trail](http://www.trailardechois.com/)
 * [L'Ultra-Trail du Mont-Blanc](http://www.ultratrailmb.com/)
