@@ -1,0 +1,11 @@
+{% for i in (1..include.count) %}
+  <img
+    data-src="{%
+    asset_path '{{ include.photos }}-{{ i }}.jpg'
+    magick:half
+    magick:quality:90
+    class:'ctr img-thumbnail'
+    %}"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    onload="lzld(this)">
+{% endfor %}
