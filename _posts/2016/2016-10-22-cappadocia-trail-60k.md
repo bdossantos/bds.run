@@ -36,13 +36,4 @@ l'eau + sucre. Côté solide je me suis contenté de bananes chopés aux ravitos
 
 ### Photos
 
-{% for i in (1..5) %}
-{%
-  img
-  "2016/10/cappadocia-trail-{{ i }}.jpg"
-  magick:half
-  magick:quality:90
-  alt:'Cappadocia Trail'
-  class:'ctr img-thumbnail'
-%}
-{% endfor %}
+{% include photos.html photos='2016/10/cappadocia-trail' count=5 %}

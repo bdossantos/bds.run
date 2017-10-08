@@ -26,13 +26,4 @@ vers la fin.
 
 ### Photos
 
-{% for i in (1..2) %}
-{%
-  img
-  "2017/06/ST-{{ i }}.jpg"
-  magick:half
-  magick:quality:90
-  alt:'Ecotrail Stockholm'
-  class:'ctr img-thumbnail'
-%}
-{% endfor %}
+{% include photos.html photos='2017/06/ST' count=2 %}

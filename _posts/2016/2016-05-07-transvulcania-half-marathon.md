@@ -44,15 +44,6 @@ pouvais mieux faire. Je termine 72 / 468.
 
 ### Photos
 
-{% for i in (1..5) %}
-{%
-  img
-  "2016/05/transvulcania-{{ i }}.jpg"
-  magick:half
-  magick:quality:90
-  alt:'Transvulcania half-marathon'
-  class:'ctr img-thumbnail'
-%}
-{% endfor %}
+{% include photos.html photos='2016/05/transvulcania' count=5 %}
 
 [1]: {{ site.baseurl }}{% post_url /2016/2016-05-05-transvulcania-km-vertical %}

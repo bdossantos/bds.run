@@ -30,13 +30,4 @@ Je termine 18 sur 407 finisher.
 
 ### Photos
 
-{% for i in (1..4) %}
-{%
-  img
-  "2016/09/vmm-{{ i }}.jpg"
-  magick:half
-  magick:quality:90
-  alt:'Vietnam Mountain Marathon'
-  class:'ctr img-thumbnail'
-%}
-{% endfor %}
+{% include photos.html photos='2016/09/vmm' count=4 %}

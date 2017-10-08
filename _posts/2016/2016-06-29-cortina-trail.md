@@ -24,13 +24,4 @@ summary: 48km / 2700 D+, 07:11:53, 231th
 
 ### Photos
 
-{% for i in (1..5) %}
-{%
-  img
-  "2016/06/cortina-trail-{{ i }}.jpg"
-  magick:half
-  magick:quality:90
-  alt:'Cortina trail'
-  class:'ctr img-thumbnail'
-%}
-{% endfor %}
+{% include photos.html photos='2016/06/cortina-trail' count=5 %}

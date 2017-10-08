@@ -39,13 +39,4 @@ jusqu'à la fin et m’ont évité l’abandon.
 
 ### Photos
 
-{% for i in (1..5) %}
-{%
-  img
-  "2016/11/MR65-{{ i }}.jpg"
-  magick:half
-  magick:quality:90
-  alt:'Morocco Race 65'
-  class:'ctr img-thumbnail'
-%}
-{% endfor %}
+{% include photos.html photos='2016/11/MR65' count=5 %}

@@ -25,13 +25,4 @@ beaucoup de boue, du vent violent sur la Caldera.
 
 ### Photos
 
-{% for i in (1..5) %}
-{%
-  img
-  "2017/05/ATR-{{ i }}.jpg"
-  magick:half
-  magick:quality:90
-  alt:'Azores Trail Run - Faial Costa a Costa'
-  class:'ctr img-thumbnail'
-%}
-{% endfor %}
+{% include photos.html photos='2017/05/ATR' count=5 %}
