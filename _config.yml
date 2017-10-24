@@ -1,3 +1,5 @@
+---
+
 name: bds.run
 url: https://bds.run
 author: 'Benjamin Dos Santos'
@@ -48,7 +50,7 @@ assets:
     - _bower
   features:
     automatic_image_size: true
-    automatic_image_alt : true
+    automatic_image_alt: true
 links:
   - title: Blog
     url: /
