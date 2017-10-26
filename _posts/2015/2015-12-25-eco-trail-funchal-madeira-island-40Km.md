@@ -3,7 +3,7 @@ layout: post
 title: Eco-Trail Funchal-Madeira Island 40Km
 description: Récit de mon Funchal-Madeira Island 40Km
 category: compétition
-cover: 2015/12/eco-trail-funchal-madeira-island-40-4.jpg
+image: assets/2015/12/eco-trail-funchal-madeira-island-40-4.jpg
 country: 🇵🇹
 summary: 40Km / 3200 D+, 06:58:00
 ---

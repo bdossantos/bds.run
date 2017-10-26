@@ -3,7 +3,7 @@ layout: post
 title: Azores Trail Run - Pico Vertical Kilometer
 description: Ma Morocco Race 65K 2016
 category: compétition
-cover: 2017/05/ATR-1.jpg
+image: assets/2017/05/ATR-1.jpg
 country: 🇵🇹
 summary: 3km / 800 D+, 46:00, 36th
 ---

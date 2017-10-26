@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Trail de Bourbon
-description: Mon premier
+description: Mon premier trail s'est soldé par un DNF
 category: compétition
-cover: 2017/10/TDB-3.jpg
+image: assets/2017/10/TDB-3.jpg
 country: 🇫🇷
 summary: 111 km / 6500 D+, DNF
 ---

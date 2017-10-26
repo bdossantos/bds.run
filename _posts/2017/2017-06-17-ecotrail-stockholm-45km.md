@@ -3,7 +3,7 @@ layout: post
 title: Ecotrail Stockholm 45 Km
 description: Mon Ecotrail de Stockholm
 category: compétition
-cover: 2017/06/ST-2.jpg
+image: assets/2017/06/ST-2.jpg
 country: 🇸🇪
 summary: 45 km / 1200m D+, 04:52:12, 16th
 ---

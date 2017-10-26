@@ -3,7 +3,7 @@ layout: post
 title: Morocco Race 65K
 description: Ma Morocco Race 65K 2016
 category: compétition
-cover: 2016/11/MR65-3.jpg
+image: assets/2016/11/MR65-3.jpg
 country: 🇲🇦
 summary: 62km / 2875 D+, 09:33:17, 29th
 ---

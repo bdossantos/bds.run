@@ -3,7 +3,7 @@ layout: post
 title: Transvulcania - Half Marathon
 description: Transvulcania, mon premier KM Vertical
 category: compétition
-cover: 2016/05/transvulcania-5.jpg
+image: assets/2016/05/transvulcania-5.jpg
 country: 🇪🇸
 summary: 24km / 2075 D+, 03:30:40, 72th
 ---

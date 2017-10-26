@@ -3,7 +3,7 @@ layout: post
 title: Transvulcania - KM Vertical
 description: Transvulcania, mon premier KM Vertical
 category: compétition
-cover: 2016/05/transvulcania-5.jpg
+image: assets/2016/05/transvulcania-5.jpg
 country: 🇪🇸
 summary: 7km / 1200 D+, 01:26:53
 ---

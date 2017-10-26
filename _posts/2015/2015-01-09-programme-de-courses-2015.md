@@ -3,7 +3,7 @@ layout: post
 title: Programme 2015
 category: entrainement
 description: Mon programme de courses pour la saison 2015
-cover: 2015/01/ardechois_trail.jpg
+image: assets/2015/01/ardechois_trail.jpg
 ---
 
 ### L'Éco-trail de Paris - 21/03/15
