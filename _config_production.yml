@@ -5,6 +5,5 @@ assets:
     css: true
     js: true
   cdn: https://bds.run
-  digest: true
 lsi: true
 future: false

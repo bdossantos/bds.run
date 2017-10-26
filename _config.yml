@@ -41,6 +41,7 @@ social:
 google_site_verification: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
 assets:
   cache: .asset-cache
+  digest: false
   dirname: assets
   prefix: /assets/
   sources:
