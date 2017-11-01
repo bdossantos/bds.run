@@ -5,7 +5,7 @@ description: Mon premier trail s'est soldé par un DNF
 category: compétition
 image: assets/2017/10/TDB-3.jpg
 country: 🇫🇷
-summary: 111 km / 6500 D+, DNF
+summary: 111 km, 6500m D+, DNF
 ---
 
 Très bonnes sensations dans les côtes, très mauvaises dans les descentes

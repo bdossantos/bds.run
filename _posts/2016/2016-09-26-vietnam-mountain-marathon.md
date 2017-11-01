@@ -5,7 +5,7 @@ description: Mon Vietnam Mountain Marathon 2016
 category: compétition
 image: assets/2016/09/vmm-3.jpg
 country: 🇻🇳
-summary: 43km / 2100 D+, 05:54:30, 18th
+summary: 43km, 2100m D+, 05:54:30, 18th
 ---
 
 Départ en montée rapide, puis gros ralentissement dans la première descente à

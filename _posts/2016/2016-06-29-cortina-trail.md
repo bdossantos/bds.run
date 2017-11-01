@@ -5,7 +5,7 @@ description: Mon Cortina Trail 2016
 category: compétition
 image: assets/2016/06/cortina-trail-4.jpg
 country: 🇮🇹
-summary: 48km / 2700 D+, 07:11:53, 231th
+summary: 48km, 2700m D+, 07:11:53, 231th
 ---
 
 ### Ma course

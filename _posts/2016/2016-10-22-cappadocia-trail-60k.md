@@ -5,7 +5,7 @@ description: Mon Cappadocia Trail 60K 2016
 category: compétition
 image: assets/2016/10/cappadocia-trail-5.jpg
 country: 🇹🇷
-summary: 60km / 1800 D+, 08:05:33, 36th
+summary: 60km, 1800m D+, 08:05:33, 36th
 ---
 
 Ce n'était pas mon jour.

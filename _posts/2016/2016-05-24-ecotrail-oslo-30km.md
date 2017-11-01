@@ -4,7 +4,7 @@ title: Ecotrail Oslo - 30km
 description: Mon Ecotrail d'Oslo, 30km
 category: compétition
 country: 🇳🇴
-summary: 30km / 600 D+, 02:37:50, 45th
+summary: 30km, 600m D+, 02:37:50, 45th
 ---
 
 ### Ma course

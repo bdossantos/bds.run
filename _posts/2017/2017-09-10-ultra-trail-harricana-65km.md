@@ -4,7 +4,7 @@ title: Ultra-Trail Harricana 65 Km
 description: Mon UTHC 65
 category: compétition
 country: 🇨🇦
-summary: 65 km / 2000m D+, 8:36:19, 69th
+summary: 65km, 2000m D+, 8:36:19, 69th
 ---
 
 Bonnes jambes et sensations, mais le parcours très humide jusqu'à la mi-course
