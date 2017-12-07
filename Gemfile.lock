@@ -147,6 +147,8 @@ GEM
       ethon (>= 0.8.0)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
+    uglifier (4.0.1)
+      execjs (>= 0.3.0, < 3)
     yell (2.0.7)
 
 PLATFORMS
@@ -170,6 +172,7 @@ DEPENDENCIES
   rb-gsl
   sass
   strava-api-v3
+  uglifier
 
 BUNDLED WITH
    1.15.3
