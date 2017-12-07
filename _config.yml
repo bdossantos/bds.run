@@ -40,7 +40,11 @@ social:
     - https://www.strava.com/athletes/6925704
 google_site_verification: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
 assets:
-  cache: .asset-cache
+  caching:
+    path: '.jekyll-cache/assets'
+    type: memory
+    enabled: true
+  compression: true
   digest: false
   dirname: assets
   prefix: /assets/
@@ -49,9 +53,9 @@ assets:
     - _assets/stylesheets
     - _assets/javascripts
     - _bower
-  features:
-    automatic_image_size: true
-    automatic_image_alt: true
+  plugins:
+    img: {optim: {}}
+  gzip: true
 links:
   - title: Blog
     url: /

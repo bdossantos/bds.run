@@ -4,6 +4,7 @@ assets:
   compress:
     css: true
     js: true
-  cdn: https://bds.run
+  cdn:
+    url: https://bds.run
 lsi: true
 future: false

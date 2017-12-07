@@ -1,8 +1,5 @@
 <img
-  data-src="{%
-  asset_path '{{ include.photo }}'
-  magick:quality:90
-  %}"
+  data-src="{{ include.photo | asset:'@mgick:half @path' }}"
   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
   class='ctr img-thumbnail'
   onload="lzld(this)">
