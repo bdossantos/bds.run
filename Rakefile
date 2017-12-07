@@ -46,15 +46,6 @@ task :gzip_all do
   Rake::Task[:gzip].execute('js')
 end
 
-desc 'Image optimization'
-task :image_optimization do
-  puts '--> Optimize images'
-  image_optim = ImageOptim.new(pngout: false, svgo: false)
-  image_optim.optimize_images!(Dir['**/*.png', '**/*.jpg']) do |u, o|
-    puts "#{u} => #{o}" if o
-  end
-end
-
 desc 'Test for 404s'
 task :check_html do
   puts '--> Check for broken links'
@@ -84,7 +75,6 @@ task :build do
   Rake::Task['jekyll_build'].invoke
   Rake::Task['minify_html'].invoke
   Rake::Task['gzip_all'].invoke
-  Rake::Task['image_optimization'].invoke
   Rake::Task['fix_files_permissions'].invoke
   Rake::Task['check_html'].invoke
   puts '--> End'
