@@ -45,9 +45,7 @@ assets:
     type: memory
     enabled: true
   compression: true
-  digest: false
-  dirname: assets
-  prefix: /assets/
+  destination: '/assets'
   sources:
     - _assets/images
     - _assets/stylesheets

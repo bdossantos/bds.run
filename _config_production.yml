@@ -6,5 +6,6 @@ assets:
     js: true
   cdn:
     url: https://bds.run
+    destination: '/assets'
 lsi: true
 future: false
