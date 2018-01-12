@@ -14,7 +14,7 @@ exclude:
   - Gemfile*
   - README.md
   - Rakefile
-  - bower.json
+  - node_modules
   - docker-compose.yml
 plugins:
   - jekyll-assets
@@ -50,7 +50,7 @@ assets:
     - _assets/images
     - _assets/stylesheets
     - _assets/javascripts
-    - _bower
+    - node_modules
   plugins:
     img: {optim: {}}
   gzip: true

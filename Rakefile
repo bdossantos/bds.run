@@ -6,7 +6,7 @@ LIBS_DIR = '_libs'
 BUILD_DIR = '_build'
 HTML_COMPRESSOR = `which htmlcompressor`.chomp
 YUI_COMPRESSOR = `which yuicompressor`.chomp
-BOWER = `which bower`.chomp
+BOWER = `which npm`.chomp
 WGET = `which wget`.chomp
 JEKYLL_ENV = ENV['JEKYLL_ENV'] || 'development'
 
@@ -18,10 +18,10 @@ task :jekyll_build do
   system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}"
 end
 
-desc 'Bower install'
-task :bower_install do
+desc 'npm install'
+task :npm_install do
   puts '--> Grab front-end packages with Bower'
-  system "#{BOWER} install"
+  system "#{NPM} install"
 end
 
 desc 'Minify all html'
@@ -71,7 +71,7 @@ end
 desc 'Full build task'
 task :build do
   puts '--> Start build'
-  Rake::Task['bower_install'].invoke
+  Rake::Task['npm_install'].invoke
   Rake::Task['jekyll_build'].invoke
   Rake::Task['minify_html'].invoke
   Rake::Task['gzip_all'].invoke

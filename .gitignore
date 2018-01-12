@@ -1,6 +1,6 @@
 _site
 _build
 _drafts
-_bower
 .jekyll-assets-cache/
 .bundle/
+node_modules

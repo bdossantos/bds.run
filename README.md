@@ -25,7 +25,7 @@ only.
 brew install htmlcompressor yuicompressor s3cmd nodejs \
              advancecomp gifsicle jhead jpegoptim jpeg \
              optipng pngcrush pngquant
-npm install -g bower
+npm install
 rake deploy
 ```
 
