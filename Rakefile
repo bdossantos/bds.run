@@ -6,7 +6,7 @@ LIBS_DIR = '_libs'
 BUILD_DIR = '_build'
 HTML_COMPRESSOR = `which htmlcompressor`.chomp
 YUI_COMPRESSOR = `which yuicompressor`.chomp
-BOWER = `which npm`.chomp
+NPM = `which npm`.chomp
 WGET = `which wget`.chomp
 JEKYLL_ENV = ENV['JEKYLL_ENV'] || 'development'
 
