@@ -1,4 +1,4 @@
-# runner.sh
+# bds.run
 
 [![Build Status](https://travis-ci.org/bdossantos/bds.run.svg)](https://travis-ci.org/bdossantos/bds.run)
 
