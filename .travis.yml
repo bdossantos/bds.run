@@ -1,4 +1,5 @@
 ---
+
 language: ruby
 sudo: false
 addons:
@@ -22,7 +23,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $TOKEN
+  github_token: "$GITHUB_TOKEN"
   local_dir: _build
   target_branch: gh-pages
   name: Travis-CI
@@ -36,5 +37,4 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     - JEKYLL_ENV=production
     - PATH="$PATH:$PWD/_bin"
-    - secure: "rjMjXaSs25snAcZgszn2FzH/qDvj7V0NtN4szjkemHQa22aemqIZsr6XDlwqBbZnXiLkGJ1PEzkba7Yvdf6PUBlONaa+Vwsq8l1y1TyPIrwFITFwE77gj38u8AU3TIfD6EAYh9+NVZEN53VQS+s5ZHHVbnR+3gVDWiZJ/IMPP/g="
-    - secure: "T6DvqQN9aCls2Pi6dXD5hbvJQ70axzGB5+ZKRecKxDaupqwEEq0BuXjyX42cpHeJYjVGtu7TSADwhKzk6u3/8bxsw/F2cedgoT/efC0Hwo8uXmMIFpp/azKOIIGrebScXRLGVonic8aAFOBiCrfyqz8hiUBoYv3+YJ+7e719dLI="
+    - secure: HHn4fB95S+0AmpLwH6z/yc2OHl8ZWj2BLZiJomEf2or6sJHc1AvDz/6scseXMip4KEt+jd0hICuJ32VkuYq7VUk3dDg/PRMiIVODPxis2x4amtx04HmMn1ZY7BKubLGuIK30YdkxG3dzVrRk/HDEshO8aE+/x6y90SSlIJ/hJB8=
