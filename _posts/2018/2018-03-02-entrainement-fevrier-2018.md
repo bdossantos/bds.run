@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Entrainement mars 2018
-description: Bilan sportif du mois de mars 2018
+title: Entrainement février 2018
+description: Bilan sportif du mois de février 2018
 category: entrainement
 ---
 
