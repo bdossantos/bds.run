@@ -1,6 +1,10 @@
-_site
+.asset-cache/
+.bundle/
+.jekyll-assets-cache/
+.jekyll-cache/
+.rake_tasks
+.sass-cache/
 _build
 _drafts
-.jekyll-assets-cache/
-.bundle/
+_site
 node_modules
