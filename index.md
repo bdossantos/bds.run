@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Carnet d'entrainement, récits de course, etc ...
-description:
+description: Carnet d'entrainement, récits de course, photos de course.
 ---
 
 <ul id="articles">
