@@ -23,14 +23,18 @@
         <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.name }} Feed">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        {% asset main.css @inline %}
+        <!-- CSS -->
+        {% if jekyll.environment == 'critical.css' %}
+          {% asset critical.css @inline %}
+        {% endif %}
 
-        <style>
-          /*! {{ site.time | date_to_rfc822 }} */
-          body {
-            font-family: 'Lora', sans-serif;
-          }
-        </style>
+        <link rel="preload" href="{% asset main.css @path %}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+        <noscript>
+          {% asset main.css %}
+        </noscript>
+
+        {% asset fg-loadcss/dist/loadCSS.min @inline %}
 
         {% if page.chartist %}{% asset chartist/dist/scss/chartist @inline %}{% endif %}
 

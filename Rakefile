@@ -8,6 +8,7 @@ HTML_COMPRESSOR = `which htmlcompressor`.chomp
 YUI_COMPRESSOR = `which yuicompressor`.chomp
 NPM = `which npm`.chomp
 WGET = `which wget`.chomp
+UNCSS = 'node_modules/uncss/bin/uncss'
 JEKYLL_ENV = ENV['JEKYLL_ENV'] || 'development'
 
 desc 'Jekyll build'
@@ -15,7 +16,20 @@ task :jekyll_build do
   puts '--> Jekyll build'
   system "rm -rf #{BUILD_DIR}"
   config = File.exist?("_config_#{JEKYLL_ENV}.yml") ? ",_config_#{JEKYLL_ENV}.yml" : nil
-  system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}"
+
+  system 'touch _assets/stylesheets/critical.css' if JEKYLL_ENV == 'production'
+  system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}" || exit(1)
+
+  if JEKYLL_ENV == 'production'
+    puts '--> Run UnCSS'
+    system "#{UNCSS} #{BUILD_DIR}/index.html --stylesheets " \
+      "file://$(find $PWD/_build/assets -type f -name 'main-*.css') " \
+      '> _assets/stylesheets/critical.css' || exit(1)
+
+    system 'JEKYLL_ENV=critical.css ' \
+      "jekyll build -d #{BUILD_DIR} --config _config.yml#{config} --incremental" \
+        || exit(1)
+  end
 end
 
 desc 'npm install'
