@@ -2,7 +2,7 @@
   "name": "bds.run",
   "version": "0.0.1",
   "dependencies": {
-    "html5-boilerplate": "5.3.0",
+    "html5-boilerplate": "6.1.0",
     "lazyloadjs": "3.2.2",
     "chartist": "0.9.5",
     "uncss": "0.16.2",
