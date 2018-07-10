@@ -43,11 +43,9 @@ Principalement des courses sur route, dont entre autre les [10km Paris centre](h
 [20km de Paris](http://www.20kmparis.com), [Paris-Versailles](http://www.parisversailles.com),
 [Sedan-Charleville](#), [Semi-Marathon de Paris](http://www.semideparis.com) [...]
 
-<!--
 #### Map
 
-<script src="https://embed.github.com/view/geojson/bdossantos/runner.sh/master/_data/races.geojson?height=400&width=720"></script>
--->
+<script src="https://embed.github.com/view/geojson/bdossantos/{{ site.name }}/master/_data/races.geojson?height=400&width=720"></script>
 
 ### Index de performance ITRA*
 
