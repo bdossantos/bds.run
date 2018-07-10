@@ -62,14 +62,16 @@ _* [International Trail Running Association][ITRA]_
 
 ### Références chronométriques
 
-**Distance**  | **Temps**   | **Course**                    | **Année**
-:-------------|:------------|:------------------------------|:--------------
-10Km          | 38:32       | [10Km de Clichy][10k]         | 2016
-15Km          | 1:00:11     | [20Km de Paris][15k]          | 2014
-20Km          | 1:20:32     | [20Km de Paris][20k]          | 2014
-30Km          | 2:20:56     | [Ecotrail de Paris 30Km][30k] | 2016
-Semi-Marathon | 1:32:00     | Sedan-Charleville (24,3Km)    | 2013
-Marathon      | N/A         | N/A                           | N/A
+**Distance**  | **Temps**   | **Course**                        | **Année**
+:-------------|:------------|:----------------------------------|:--------------
+10Km          | 38:32       | [10 Km de Clichy][10k]            | 2016
+15Km          | 1:00:11     | [20 Km de Paris][15k]             | 2014
+20Km          | 1:20:32     | [20 Km de Paris][20k]             | 2014
+30Km          | 2:20:56     | [Ecotrail de Paris 30 Km][30k]    | 2016
+Semi-Marathon | 1:32:00     | Sedan-Charleville (24,3Km)        | 2013
+Marathon      | N/A         | N/A                               | N/A
+50Km          | 6:29:44     | [Ecotrail Reykjavik 82 Km][50k]   | N/A
+100Km         | 13:25:00    | [Ecotrail Reykjavik 82 Km][100k]  | N/A
 
 ### Formations
 
@@ -89,10 +91,16 @@ courir.
 [10k]: https://www.strava.com/activities/515612740
 [15k]: https://www.strava.com/activities/213348008
 [20k]: https://www.strava.com/activities/213348008
-[30k]: https://www.strava.com/activities/520826081
+[30k]: {{ site.baseurl }}{% post_url /2016/2016-03-19-ecotrail-de-paris-30Km %}
+[50k]: {{ site.baseurl }}{% post_url /2018/2018-07-06-ecotrail-reykjavik-82km %}
+[100k]: {{ site.baseurl }}{% post_url /2018/2018-07-06-ecotrail-reykjavik-82km %}
 [ASPTT]: http://asptt08.athle.com/
 [ITRA]: http://www.i-tra.org/community/benjamin.dos%20santos/557280/
 [bds]: https://b-ds.fr
 [twitter]: https://twitter.com/benjamin_ds
 [g+]: https://plus.google.com/+BenjaminDosSantos
 [strava]: https://www.strava.com/athletes/6925704
+
+<!--
+vim:spell spelllang=fr
+-->
