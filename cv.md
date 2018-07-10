@@ -13,7 +13,7 @@ cover: 2016/11/MR65-3.jpg
 
 ### Présentation
 
-Benjamin Dos Santos, 29 ans, chausse du 42½, modeste routard reconverti à
+Benjamin Dos Santos, 30 ans, chausse du 42½, modeste routard reconverti à
 l'ultra trail.
 
 ❤️ J'aime bien  : le Fartlek, les côtes, le zéro drop, les moutons Mérinos, les
