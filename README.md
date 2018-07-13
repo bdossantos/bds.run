@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/bdossantos/bds.run.svg)](https://travis-ci.org/bdossantos/bds.run)
 
 It's the whole code of my [weblog][1] and Running plans, open sourced.
-Basicly it's a simple static website powered by [Jekyll][2].
+Basically it's a simple static website powered by [Jekyll][2].
 
 ## Installation
 
@@ -23,8 +23,8 @@ only.
 
 ```bash
 brew install htmlcompressor yuicompressor s3cmd nodejs \
-             advancecomp gifsicle jhead jpegoptim jpeg \
-             optipng pngcrush pngquant
+  advancecomp gifsicle jhead jpegoptim jpeg \
+  optipng pngcrush pngquant
 npm install
 rake deploy
 ```
@@ -37,6 +37,6 @@ Code, templates, CSS & JS is released under the terms of the
 **Important note: You can freely reuse parts of the project code, but you can't
 republish the blog with this contents as is publicly.**
 
-[1]: http://runner.sh/
+[1]: https://bds.run/
 [2]: http://jekyllrb.com/
 [3]: http://sam.zoy.org/wtfpl/
