@@ -4,8 +4,12 @@ title: Cappadocia Trail 60K
 description: Mon Cappadocia Trail 60K 2016
 category: compétition
 image: assets/2016/10/cappadocia-trail-5.jpg
-country: 🇹🇷
-summary: 60km, 1800m D+, 08:05:33, 36th
+country: Turquie
+country_emoji: 🇹🇷
+distance: 60 km
+elevation: 1800 m
+time: '08:05:33 h:m:s'
+rank: 36
 ---
 
 Ce n'était pas mon jour.

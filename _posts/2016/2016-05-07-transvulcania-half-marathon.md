@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Transvulcania - Half Marathon
-description: Transvulcania, mon premier KM Vertical
+description: Transvulcania half marathon
 category: compétition
 image: assets/2016/05/transvulcania-5.jpg
-country: 🇪🇸
-summary: 24km, 2075m D+, 03:30:40, 72th
+country: Espagne
+country_emoji: 🇪🇸
+distance: 24 km
+elevation: 2075 m
+time: '03:30:40 h:m:s'
+rank: 72
 ---
 
 Un jour après le [Kilomètre Vertical][1] j'étais au départ du "Semi Marathon"

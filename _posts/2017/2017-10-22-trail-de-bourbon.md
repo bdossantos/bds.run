@@ -4,8 +4,12 @@ title: Trail de Bourbon
 description: Mon premier trail s'est soldé par un DNF
 category: compétition
 image: assets/2017/10/TDB-3.jpg
-country: 🇫🇷
-summary: 111 km, 6500m D+, DNF
+country: France
+country_emoji: 🇫🇷
+distance: 111 km
+elevation: 6500 m
+time: '11:47:09 h:m:s'
+rank: DNF
 ---
 
 Très bonnes sensations dans les côtes, très mauvaises dans les descentes

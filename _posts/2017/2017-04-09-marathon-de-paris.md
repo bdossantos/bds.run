@@ -3,7 +3,12 @@ layout: post
 title: Marathon de Paris - DNF
 description: Mon premier marathon de Paris
 category: compétition
-country: 🇫🇷
+country: France
+country_emoji: 🇫🇷
+distance: 42.2 km
+elevation: n/a
+time: '02:01:30 h:m:s'
+rank: n/a
 ---
 
 Mal au ventre du début à la fin (pour je ne sais quelle raison). Je lâche et

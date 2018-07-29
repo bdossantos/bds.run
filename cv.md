@@ -33,7 +33,8 @@ snapchat, les foulées d'instagrameuses.
   {% assign year=thisyear %}
 <h4>{{ thisyear }}</h4>
   {% endif %}
-{% if post.country %}{{ post.country | append: ' ' }}{% endif %}[{{ post.title }}]({{ post.url }}){% if post.summary %}<i>{{ post.summary | prepend: ' - ' }}</i>{% endif %}
+
+  {{ post.country_emoji | append: ' ' }}[{{ post.title }}]({{ post.url }}) - <i>{{ post.distance }}, {{ post.elevation }}, {{ post.time }}</i>
 {% endfor %}
 
 #### 2009 à 2014

@@ -4,8 +4,12 @@ title: Transvulcania - KM Vertical
 description: Transvulcania, mon premier KM Vertical
 category: compétition
 image: assets/2016/05/transvulcania-5.jpg
-country: 🇪🇸
-summary: 7km, 1200m D+, 01:26:53
+country: Espagne
+country_emoji: 🇪🇸
+distance: 7 km
+elevation: 1200 m
+time: '01:26:53 h:m:s'
+rank: n/a
 ---
 
 Aujourd'hui j'étais au départ de mon premier KM Vertical à La Palma :

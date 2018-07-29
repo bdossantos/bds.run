@@ -3,8 +3,12 @@ layout: post
 title: Ecotrail Reykjavik 82 Km
 description: Compte rendu de mon Reykjavik 82 Km
 category: compétition
-country: 🇮🇸
-summary: 101 Km, 1886 m D+, 13:31:56, 13th
+country: Iceland
+country_emoji: 🇮🇸
+distance: 101 km
+elevation: 1886 m
+time: '13:31:56 h:m:s'
+rank: 13
 ---
 
 J'étais supposé courir 82Km mais le marquage et le GPX un peu aléatoire ont fait

@@ -4,8 +4,12 @@ title: Cortina Trail
 description: Mon Cortina Trail 2016
 category: compétition
 image: assets/2016/06/cortina-trail-4.jpg
-country: 🇮🇹
-summary: 48km, 2700m D+, 07:11:53, 231th
+country: Italie
+country_emoji: 🇮🇹
+distance: 48 km
+elevation: 2700 m
+time: '07:11:53 h:m:s'
+rank: 231
 ---
 
 ### Ma course

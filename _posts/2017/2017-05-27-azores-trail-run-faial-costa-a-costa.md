@@ -4,8 +4,12 @@ title: Azores Trail Run - Faial Costa a Costa
 description: Ma FCC
 category: compétition
 image: assets/2017/05/ATR-1.jpg
+country: Portugal
 country: 🇵🇹
-summary: 42km, 2600m D+, 06:23:07, 102th
+distance: 42 km
+elevation: 2600 m
+time: '06:23:07 h:m:s'
+rank: 102
 ---
 
 Bilan de cette course : dans le dur. Je me tords la cheville au bout de 3 bornes,

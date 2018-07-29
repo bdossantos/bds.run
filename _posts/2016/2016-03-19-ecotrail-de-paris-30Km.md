@@ -3,8 +3,12 @@ layout: post
 title: Ecotrail de Paris 30K
 description: Reprise de la compétition avec l'Ecotrail de Paris 30K
 category: compétition
-country: 🇫🇷
-summary: 30km, 575m D+, 02:25:20, 76th
+country: France
+country_emoji: 🇫🇷
+distance: 30 km
+elevation: 575 m
+time: '02:25:20 h:m:s'
+rank: 76
 ---
 
 Aujourd'hui j'étais au départ de l'[Ecotrail de Paris][1], sur le 30Km.

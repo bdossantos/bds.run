@@ -3,8 +3,12 @@ layout: post
 title: Trail d'Orval de Florenville 19K
 description: Trail d'Orval de Florenville 19K
 category: compétition
-country: 🇧🇪
-summary: 20km, 800m D+, 01:48:02, 28th
+country: Belgique
+country_emoji: 🇧🇪
+distance: 20 km
+elevation: 800 m
+time: '01:48:02 h:m:s'
+rank: 28
 ---
 
 Départ très prudent à cause d'une petite gène à l'ischio dès le départ qui

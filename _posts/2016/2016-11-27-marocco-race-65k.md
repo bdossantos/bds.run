@@ -4,8 +4,12 @@ title: Morocco Race 65K
 description: Ma Morocco Race 65K 2016
 category: compétition
 image: assets/2016/11/MR65-3.jpg
-country: 🇲🇦
-summary: 62km, 2875m D+, 09:33:17, 29th
+country: Maroc
+country_emoji: 🇲🇦
+distance: 62 km
+elevation: 2875 m
+time: '09:33:17 h:m:s'
+rank: 29
 ---
 
 Je n'avais pas du tout prévu de faire cette course, je m'y suis inscrit sur

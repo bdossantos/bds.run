@@ -3,8 +3,12 @@ layout: post
 title: Ecotrail Oslo - 30km
 description: Mon Ecotrail d'Oslo, 30km
 category: compétition
-country: 🇳🇴
-summary: 30km, 600m D+, 02:37:50, 45th
+country: Norvège
+country_emoji: 🇳🇴
+distance: 30 km
+elevation: 600m
+time: '02:37:50 h:m:s'
+rank: 45
 ---
 
 ### Ma course
