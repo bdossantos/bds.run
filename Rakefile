@@ -34,7 +34,7 @@ end
 
 desc 'npm install'
 task :npm_install do
-  puts '--> Grab front-end packages with Bower'
+  puts '--> Grab front-end packages with npm'
   system "#{NPM} install"
 end
 
