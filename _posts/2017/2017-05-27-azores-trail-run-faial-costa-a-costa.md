@@ -5,7 +5,7 @@ description: Ma FCC
 category: compétition
 image: assets/2017/05/ATR-1.jpg
 country: Portugal
-country: 🇵🇹
+country_emoji: 🇵🇹
 distance: 42 km
 elevation: 2600 m
 time: '06:23:07 h:m:s'
