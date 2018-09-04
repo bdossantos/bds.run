@@ -1,6 +1,6 @@
 {% for i in (1..include.count) %}
   <img
-    data-src="{{ include.photos | append: '-' | append: i | append: '.jpg' | asset:'@path @magick:half @magick:quality=90' }}"
+    data-src="{{ include.photos | append: '-' | append: i | append: '.jpg' | asset:'@path @magick:quality=90' }}"
     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
     class='ctr img-thumbnail'
     onload="lzld(this)">
