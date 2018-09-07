@@ -109,6 +109,7 @@ img {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
