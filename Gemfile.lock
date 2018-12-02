@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.1)
+    activesupport (5.2.1.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -24,12 +24,12 @@ GEM
     extras (0.3.0)
       forwardable-extended (~> 2.5)
     fast-stemmer (1.0.2)
-    fastimage (2.1.4)
+    fastimage (2.1.5)
     ffi (1.9.25)
     forwardable-extended (2.6.0)
     fspath (3.1.0)
     gsl (2.1.0.3)
-    html-proofer (3.9.2)
+    html-proofer (3.9.3)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
       colorize (~> 0.8)
@@ -150,7 +150,7 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.19)
+    uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
     yell (2.0.7)
 
@@ -177,4 +177,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.16.2
+   1.17.1
