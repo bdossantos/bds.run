@@ -6,6 +6,6 @@
     "lazyloadjs": "3.2.2",
     "chartist": "0.9.5",
     "uncss": "0.16.2",
-    "fg-loadcss": "2.0.1"
+    "fg-loadcss": "2.1.0"
   }
 }
