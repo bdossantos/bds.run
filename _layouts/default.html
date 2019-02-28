@@ -1,111 +1,111 @@
 <!doctype html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        {% seo %}
+    {% seo %}
 
-        <!-- Cosmetic -->
-        <meta name="theme-color" content="#222">
-        <meta name="msapplication-navbutton-color" content="#222">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Cosmetic -->
+    <meta name="theme-color" content="#222">
+    <meta name="msapplication-navbutton-color" content="#222">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-        <!-- Prefetch -->
-        <link rel="dns-prefetch" href="//bds.run">
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" data-proofer-ignore>
-        <link rel="dns-prefetch" href="//www.google-analytics.com" data-proofer-ignore>
+    <!-- Prefetch -->
+    <link rel="dns-prefetch" href="//bds.run">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" data-proofer-ignore>
+    <link rel="dns-prefetch" href="//www.google-analytics.com" data-proofer-ignore>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        {% feed_meta %}
+    {% feed_meta %}
 
-        <!-- CSS -->
-        {% if jekyll.environment == 'critical.css' %}
-          {% asset critical.css @inline %}
-        {% endif %}
+    <!-- CSS -->
+    {% if jekyll.environment == 'critical.css' %}
+     {% asset critical.css @inline %}
+    {% endif %}
 
-        <link rel="preload" href="{% asset main.css @path %}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{% asset main.css @path %}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-        <noscript>
-          {% asset main.css %}
-        </noscript>
+    <noscript>
+     {% asset main.css %}
+    </noscript>
 
-        {% asset fg-loadcss/dist/loadCSS.min @inline %}
+    {% asset fg-loadcss/dist/loadCSS.min @inline %}
 
-        {% if page.chartist %}{% asset chartist/dist/scss/chartist @inline %}{% endif %}
+    {% if page.chartist %}{% asset chartist/dist/scss/chartist @inline %}{% endif %}
 
-        {% asset lazyloadjs/build/lazyload @inline %}
-      </head>
-    <body itemscope itemtype="http://schema.org/WebPage">
-        <!--[if lte IE 9]>
-          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+    {% asset lazyloadjs/build/lazyload @inline %}
+   </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <!--[if lte IE 9]>
+     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 
-        <div id="main">
-            <header>
-              <h1>
-                <a id="title" href="/">
-                  bds.run
-                </a>
-              </h1>
+    <div id="main">
+      <header>
+       <h1>
+        <a id="title" href="/">
+         bds.run
+        </a>
+       </h1>
 
-              <p id="baseline">
-                Carnet d'entrainement, récits de course, etc ...
-              </p>
+       <p id="baseline">
+        Carnet d'entrainement, récits de course, etc ...
+       </p>
 
-              <nav role="navigation" id="top-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
-                <ul>
-                {% for link in site.links %}
-                  <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-                {% endfor %}
-                </ul>
-              </nav>
-            </header>
+       <nav role="navigation" id="top-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <ul>
+        {% for link in site.links %}
+         <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        </ul>
+       </nav>
+      </header>
 
-            <div id="content">
-              {{ content }}
-            </div>
+      <div id="content">
+       {{ content }}
+      </div>
 
-            <footer id="footer">
-              <p id="footlinks">
-                <a href="https://www.strava.com/athletes/6925704">Strava</a>
-                <a href="http://twitter.com/benjamin_ds" rel="me">Twitter</a>
-                <a href="https://plus.google.com/+BenjaminDosSantos" rel="author">Google+</a>
-                <a href="/atom.xml">RSS</a>
-              </p>
+      <footer id="footer">
+       <p id="footlinks">
+        <a href="https://www.strava.com/athletes/6925704">Strava</a>
+        <a href="http://twitter.com/benjamin_ds" rel="me">Twitter</a>
+        <a href="https://plus.google.com/+BenjaminDosSantos" rel="author">Google+</a>
+        <a href="/atom.xml">RSS</a>
+       </p>
 
-              <p>© {{ site.time | date: "%Y" }} bds.run</p>
-            </footer>
-        </div>
+       <p>© {{ site.time | date: "%Y" }} bds.run</p>
+      </footer>
+    </div>
 
-        <script>
-          WebFontConfig = {
-            google: {
-              families: [ 'Lora' ]
-            }
-          };
+    <script>
+     WebFontConfig = {
+      google: {
+       families: [ 'Lora' ]
+      }
+     };
 
-          (function() {
-          var wf = document.createElement('script');
-          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-          wf.type = 'text/javascript';
-          wf.async = 'true';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(wf, s);
-          })();
+     (function() {
+     var wf = document.createElement('script');
+     wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+     '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+     wf.type = 'text/javascript';
+     wf.async = 'true';
+     var s = document.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(wf, s);
+     })();
 
-          window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-          ga('create', 'UA-9203113-5', 'auto'); ga('send', 'pageview')
-        </script>
+     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+     ga('create', 'UA-9203113-5', 'auto'); ga('send', 'pageview')
+    </script>
 
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
-        {% if page.chartist %}
-          {% asset chartist/dist/chartist @inline %}
-          <script>{{ page.chartist }}</script>
-        {% endif %}
-    </body>
+    {% if page.chartist %}
+     {% asset chartist/dist/chartist @inline %}
+     <script>{{ page.chartist }}</script>
+    {% endif %}
+  </body>
 </html>
