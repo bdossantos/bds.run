@@ -23,13 +23,13 @@
 
     <!-- CSS -->
     {% if jekyll.environment == 'critical.css' %}
-     {% asset critical.css @inline %}
+      {% asset critical.css @inline %}
     {% endif %}
 
     <link rel="preload" href="{% asset main.css @path %}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <noscript>
-     {% asset main.css %}
+      {% asset main.css %}
     </noscript>
 
     {% asset fg-loadcss/dist/loadCSS.min @inline %}
