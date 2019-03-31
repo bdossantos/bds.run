@@ -16,8 +16,8 @@ cover: 2016/11/MR65-3.jpg
 Benjamin Dos Santos, 30 ans, chausse du 42½, modeste routard reconverti à
 l'ultra trail.
 
-❤️ J'aime bien  : le Fartlek, les côtes, le zéro drop, les moutons Mérinos, les
-framboises, faire du vélo, voyager, la photo, le saumon.
+❤️ J'aime bien  : le Fartlek, les côtes, le zéro drop, les moutons Mérino, faire
+du vélo, voyager, le saumon.
 
 💔 J'aime pas trop : courir en ville, les descentes trop techniques, les filtres
 snapchat, les foulées d'instagrameuses.
