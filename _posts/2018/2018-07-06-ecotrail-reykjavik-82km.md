@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ecotrail Reykjavik 82 Km
+title: Ecotrail Reykjavik 82 km
 description: Compte rendu de mon Reykjavik 82 Km
 category: compétition
 country: Iceland

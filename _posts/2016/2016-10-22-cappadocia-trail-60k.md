@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cappadocia Trail 60K
+title: Cappadocia Trail 60 km
 description: Mon Cappadocia Trail 60K 2016
 category: compétition
 image: assets/2016/10/cappadocia-trail-5.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ecotrail Oslo - 30km
+title: Ecotrail Oslo - 30 km
 description: Mon Ecotrail d'Oslo, 30km
 category: compétition
 country: Norvège

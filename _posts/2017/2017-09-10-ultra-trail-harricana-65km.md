@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ultra-Trail Harricana 65 Km
+title: Ultra-Trail Harricana 65 km
 description: Mon UTHC 65
 category: compétition
 country: Canada

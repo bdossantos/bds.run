@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Trail d'Orval de Florenville 19K
-description: Trail d'Orval de Florenville 19K
+title: Trail d'Orval de Florenville 19 km
+description: Trail d'Orval de Florenville 19 km
 category: compétition
 country: Belgique
 country_emoji: 🇧🇪

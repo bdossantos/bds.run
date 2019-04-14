@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ecotrail de Paris 30K
+title: Ecotrail de Paris 30 km
 description: Reprise de la compétition avec l'Ecotrail de Paris 30K
 category: compétition
 country: France

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ecotrail Stockholm 45 Km
+title: Ecotrail Stockholm 45 km
 description: Mon Ecotrail de Stockholm
 category: compétition
 image: assets/2017/06/ST-2.jpg
