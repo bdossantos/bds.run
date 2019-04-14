@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trail de Bourbon
+title: Trail de Bourbon - DNF
 description: Mon premier trail s'est soldé par un DNF
 category: compétition
 image: assets/2017/10/TDB-3.jpg
