@@ -22,6 +22,8 @@
     {% feed_meta %}
 
     <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=optional" rel="stylesheet">
+
     {% if jekyll.environment == 'critical.css' %}
       {% asset critical.css @inline %}
     {% endif %}
@@ -79,27 +81,6 @@
        <p>© {{ site.time | date: "%Y" }} bds.run</p>
       </footer>
     </div>
-
-    <script>
-     WebFontConfig = {
-      google: {
-       families: [ 'Lora' ]
-      }
-     };
-
-     (function() {
-     var wf = document.createElement('script');
-     wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-     '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-     wf.type = 'text/javascript';
-     wf.async = 'true';
-     var s = document.getElementsByTagName('script')[0];
-     s.parentNode.insertBefore(wf, s);
-     })();
-
-     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-     ga('create', 'UA-9203113-5', 'auto'); ga('send', 'pageview')
-    </script>
 
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
