@@ -15,7 +15,12 @@ cover: 2016/11/MR65-3.jpg
 
 Benjamin Dos Santos, chausse du 42½, modeste routard reconverti à l'ultra trail.
 
-❤️ J'aime bien  : le Fartlek, les côtes, le zéro drop, les moutons Mérino, faire
+Depuis que je me sers de mes jambes j'ai parcouru
+{{ site.data.stats.totals.distance | divided_by: 1000 | round }} km,
+cumulé {{ site.data.stats.totals.elevation_gain }} m de dénivelé positif, durant
+{{ site.data.stats.totals.elapsed_time | divided_by: 3600 | round }} heures.
+
+❤️ J'aime bien : le Fartlek, les côtes, le zéro drop, les moutons Mérino, faire
 du vélo, voyager, le saumon, le minimalisme.
 
 💔 J'aime pas trop : courir en ville, les descentes trop techniques, les filtres
