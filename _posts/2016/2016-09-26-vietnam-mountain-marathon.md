@@ -9,7 +9,8 @@ country_emoji: 🇻🇳
 distance: 43 km
 elevation: 2100 m
 time: '05:54:30 h:m:s'
-distance: 18
+distance: 42 km
+rank: 18
 ---
 
 Départ en montée rapide, puis gros ralentissement dans la première descente à
