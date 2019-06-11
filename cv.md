@@ -69,8 +69,8 @@ _* [International Trail Running Association][ITRA]_
 30Km          | 2:20:56     | [Ecotrail de Paris 30 Km][30k]    | 2016
 Semi-Marathon | 1:32:00     | Sedan-Charleville (24,3Km)        | 2013
 Marathon      | N/A         | N/A                               | N/A
-50Km          | 6:29:44     | [Ecotrail Reykjavik 82 Km][50k]   | N/A
-100Km         | 13:25:00    | [Ecotrail Reykjavik 82 Km][100k]  | N/A
+50Km          | 6:29:44     | [Ecotrail Reykjavik 82 Km][50k]   | 2018
+100Km         | 13:25:00    | [Ecotrail Reykjavik 82 Km][100k]  | 2018
 
 ### Formations
 
