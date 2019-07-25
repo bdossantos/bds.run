@@ -7,14 +7,14 @@ html {
 }
 
 body {
-  font-family: 'Lora', sans-serif;
-  color: #46433A;
+  font-family: "Lora", sans-serif;
+  color: #46433a;
   font-size: 24px;
   line-height: 1.5;
 }
 
 #title {
-  color: #46433A;
+  color: #46433a;
 }
 
 #top-nav ul {
@@ -37,7 +37,7 @@ body {
 }
 
 a {
-  color: #CE534D;
+  color: #ce534d;
   text-decoration: none;
   font-weight: normal;
 }
@@ -79,7 +79,8 @@ ul p {
   -webkit-padding-start: 0;
 }
 
-#articles h2, .post h2 {
+#articles h2,
+.post h2 {
   margin-bottom: 0;
 }
 
@@ -106,8 +107,8 @@ img {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   max-width: 100%;
   width: 100%;
   height: auto;
@@ -119,10 +120,30 @@ img {
   max-width: 95%;
   margin: 0 auto;
   height: 1px;
-  background: -webkit-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
-  background: -moz-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
-  background: -ms-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
-  background: -o-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0),
+    #ccc,
+    rgba(255, 255, 255, 0)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0),
+    #ccc,
+    rgba(255, 255, 255, 0)
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0),
+    #ccc,
+    rgba(255, 255, 255, 0)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0),
+    #ccc,
+    rgba(255, 255, 255, 0)
+  );
 }
 
 #footer {
