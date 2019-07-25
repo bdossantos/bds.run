@@ -7,10 +7,9 @@ html {
 }
 
 body {
-  font-family: "Lora", sans-serif;
+  font-family: "Fira Mono", monospace;
   color: #46433a;
-  font-size: 24px;
-  line-height: 1.5;
+  font-size: 18px;
 }
 
 #title {
@@ -37,13 +36,17 @@ body {
 }
 
 a {
-  color: #ce534d;
-  text-decoration: none;
+  color: #0000ee;
+  text-decoration: underline;
   font-weight: normal;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
 }
 
 h1 {
@@ -52,7 +55,12 @@ h1 {
 
 h1 a {
   border-bottom: 0;
+  text-decoration: none;
   font-weight: bold;
+}
+
+h1 a:visited {
+  color: #0000ee;
 }
 
 #baseline {
