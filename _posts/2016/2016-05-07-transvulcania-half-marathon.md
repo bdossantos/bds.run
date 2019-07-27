@@ -27,12 +27,7 @@ pouvais mieux faire. Je termine 72 / 468.
 
 ### Profil
 
-<img
-  class="ctr img-thumbnail"
-  alt="Profile Transvulcania half-marathon"
-  data-src="{{ '2016/05/transvulcania-half-marathon-profile.jpg' | asset_path }}"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
+{% include photo.html photo='2016/05/transvulcania-half-marathon-profile.jpg' %}
 
 ### Ma course
 

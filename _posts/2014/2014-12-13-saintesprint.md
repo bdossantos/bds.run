@@ -125,21 +125,11 @@ plus de D+ et moins de route tant qu'à faire.
 
 #### Profil
 
-<img
-  class="ctr img-thumbnail"
-  alt="Profile de la Saintésprint"
-  data-src="{{ '2014/12/saintesprint_profile.jpg' | asset_path }}"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
+{% include photo.html photo='2014/12/saintesprint_profile.jpg' %}
 
 #### Parcours
 
-<img
-  class="ctr img-thumbnail"
-  alt="Parcours de la Saintésprint"
-  data-src="{{ '2014/12/saintesprint_map.jpg' | asset_path }}"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
+{% include photo.html photo='2014/12/saintesprint_map.jpg' %}
 
 Le détail est sur [Garmin Connect][3]
 
@@ -147,14 +137,11 @@ Le détail est sur [Garmin Connect][3]
 
 Mes [Terra Kiger][4] après le course, elles ont pris cher.
 
-<img
-  class="ctr img-thumbnail"
-  alt="Parcours de la Saintésprint"
-  data-src="{{ '2014/12/saintesprint_terra_kiger.jpg' | asset_path }}"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
+{% include photo.html photo='2014/12/saintesprint_terra_kiger.jpg' %}
 
 [1]: http://www.saintelyon.com/
 [2]: https://www.capitainetrain.com/
 [3]: http://connect.garmin.com/modern/activity/646516025
 [4]: {{ site.baseurl }}/{% post_url /2014/2014-10-15-nike-air-zoom-terra-kiger-2 %}
+
+<!-- vim: set spell spelllang=fr: -->

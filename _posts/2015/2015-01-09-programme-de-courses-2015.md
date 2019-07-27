@@ -13,12 +13,7 @@ Défi de distance car je n'ai jamais dépassé les 24 bornes.
 Je ne vise aucun chrono, l'objectif est de terminer et me remotiver. Pas si
 simple en ce moment.
 
-<img
-  class="ctr img-thumbnail"
-  alt="Statistiques 2014"
-  data-src="{{ '2015/01/paris_ecotrail_30km_profil.jpg' | asset_path }}"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
+{% include photo.html photo='2015/01/paris_ecotrail_30km_profil.jpg' %}
 
 ### Les Foulées dе Clіchy - 22/03/15
 
@@ -32,12 +27,7 @@ Peut être le 12 Km ou le 23 Km selon la forme du moment.
 
 J'espère pouvoir m'aligner sur le 20 Km (940 M D+/-).
 
-<img
-  class="ctr img-thumbnail"
-  alt="Statistiques 2014"
-  data-src="{{ '2015/01/ardechois_trail.jpg' | asset_path }}"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
+{% include photo.html photo='2015/01/ardechois_trail.jpg' %}
 
 <small>_crédit photo [www.trailardechois.com][2]_</small>
 

@@ -88,11 +88,7 @@ termine dans les 1h44, un peu déçu également.
 Une chose est sûre, je referai cette superbe course, mais mieux entrainé vu
 que maintenant je sais à quoi m'attendre.
 
-<img
-  class="ctr img-thumbnail"
-  data-src="{{ '2013/10/sc.jpg' | asset_path }}"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
+{% include photo.html photo='2013/10/sc.jpg' %}
 
 ### Statistiques
 

@@ -64,10 +64,7 @@ pas mal. Avoir gardé cette allure, tout en étant bien me prouve que je suis
 en sous régime sur 10Km. Il va falloir que prévois un 10 Km en début d'année
 prochaine pour tenter de battre mon record.
 
-<img class="ctr img-thumbnail"
-  data-src="{{ '2014/10/20km_paris.jpg' | asset_path }}"
-  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  onload="lzld(this)" />
+{% include photo.html photo='2014/10/20km_paris.jpg' %}
 
 ### Statistiques
 
