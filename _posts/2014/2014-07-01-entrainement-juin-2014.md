@@ -13,4 +13,4 @@ category: entrainement
 
 Dont une course, les [10 Km l'Equipe][1].
 
-[1]: {{ site.baseurl }}{% post_url /2014/2014-06-26-mes-10km-lequipe %}
+[1]: {% post_url /2014/2014-06-26-mes-10km-lequipe %}

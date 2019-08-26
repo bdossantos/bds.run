@@ -14,4 +14,4 @@ La forme revient très doucement, pour le coup je me suis inscris aux
 | Gain d'altitude  | 106 m          |
 | Vitesse moyenne  | 11.5 km/h      |
 
-[1]: {{ site.baseurl }}{% post_url /2014/2014-05-31-prochaine-course-les-10km-lequipe %}
+[1]: {% post_url /2014/2014-05-31-prochaine-course-les-10km-lequipe %}
