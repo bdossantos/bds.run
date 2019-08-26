@@ -9,5 +9,5 @@ Elles succèdent à mes [Kiger 2][1] en prévision de l'[Eco-Trail Funchal-Madei
 Island 40Km][2] qui se déroulera fin octobre.
 
 
-[1]: {{ site.baseurl }}{% post_url /2014/2014-10-15-nike-air-zoom-terra-kiger-2 %}
+[1]: {% post_url /2014/2014-10-15-nike-air-zoom-terra-kiger-2 %}
 [2]: http://ecotrailmadeira.com/

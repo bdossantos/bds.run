@@ -13,4 +13,4 @@ category: entrainement
 
 Très peu de kilomètres, mais du D+ notamment grâce à la [Saintésprint][1].
 
-[1]: {{ site.baseurl }}{% post_url /2014/2014-12-13-saintesprint %}
+[1]: {% post_url /2014/2014-12-13-saintesprint %}

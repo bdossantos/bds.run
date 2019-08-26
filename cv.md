@@ -89,9 +89,9 @@ courir.
 [10k]: https://www.strava.com/activities/515612740
 [15k]: https://www.strava.com/activities/213348008
 [20k]: https://www.strava.com/activities/213348008
-[30k]: {{ site.baseurl }}{% post_url /2016/2016-03-19-ecotrail-de-paris-30Km %}
-[50k]: {{ site.baseurl }}{% post_url /2018/2018-07-06-ecotrail-reykjavik-82km %}
-[100k]: {{ site.baseurl }}{% post_url /2018/2018-07-06-ecotrail-reykjavik-82km %}
+[30k]: {% post_url /2016/2016-03-19-ecotrail-de-paris-30Km %}
+[50k]: {% post_url /2018/2018-07-06-ecotrail-reykjavik-82km %}
+[100k]: {% post_url /2018/2018-07-06-ecotrail-reykjavik-82km %}
 [ASPTT]: http://asptt08.athle.com/
 [ITRA]: http://www.i-tra.org/community/benjamin.dos%20santos/557280/
 [bds]: https://b-ds.fr

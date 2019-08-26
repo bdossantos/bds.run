@@ -45,4 +45,4 @@ pouvais mieux faire. Je termine 72 / 468.
 
 {% include photos.html photos='2016/05/transvulcania' count=5 %}
 
-[1]: {{ site.baseurl }}{% post_url /2016/2016-05-05-transvulcania-km-vertical %}
+[1]: {% post_url /2016/2016-05-05-transvulcania-km-vertical %}
