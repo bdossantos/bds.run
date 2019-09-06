@@ -60,5 +60,15 @@ links:
     url: /archives.html
   - title: CV
     url: /cv.html
+collections:
+  photos:
+    output: true
+    permalink: /photos/:name.html
+defaults:
+  - scope:
+      path: ""
+      type: "photos"
+    values:
+      layout: default
 feed:
   path: atom.xml
