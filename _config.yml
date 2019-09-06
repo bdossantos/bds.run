@@ -1,9 +1,8 @@
 ---
-
 name: bds.run
 url: https://bds.run
-author: 'Benjamin Dos Santos'
-email: 'benjamin[dot]dossantos[at]gmail[dot]com'
+author: "Benjamin Dos Santos"
+email: "benjamin[dot]dossantos[at]gmail[dot]com"
 timezone: Europe/Paris
 markdown: kramdown
 highlighter: rouge
@@ -25,7 +24,7 @@ plugins:
   - jekyll-sitemap
   - jekyll_image_encode
 permalink: /:year/:month/:day/:title.html
-google_verify: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
+google_verify: "J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I"
 twitter:
   username: benjamin_ds
 social:
@@ -38,21 +37,21 @@ social:
     - https://github.com/bdossantos
     - https://keybase.io/bdossantos
     - https://www.strava.com/athletes/6925704
-google_site_verification: 'J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I'
+google_site_verification: "J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I"
 assets:
   caching:
-    path: '.jekyll-cache/assets'
+    path: ".jekyll-cache/assets"
     type: memory
     enabled: true
   compression: true
-  destination: '/assets'
+  destination: "/assets"
   sources:
     - _assets/images
     - _assets/stylesheets
     - _assets/javascripts
     - node_modules
   plugins:
-    img: {optim: {}}
+    img: { optim: {} }
   gzip: true
 links:
   - title: Blog
