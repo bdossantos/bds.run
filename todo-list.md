@@ -32,6 +32,7 @@ title: Les Courses que je souhaite faire, un jour.
 * [Ring of Fire](http://rof.co.nz/)
 * [Sierre-Zinal](http://www.sierre-zinal.com/)
 * [Tarawera Ultra Marathon](http://www.taraweraultra.co.nz/)
+* [The Great North Trail](https://bikepacking.com/news/great-north-trail-cycling-uk)
 * [The great wall marathon](http://great-wall-marathon.com)
 * [Transgrancanaria](http://www.transgrancanaria.net/)
 * [Transvulcania](http://transvulcania.info/)
