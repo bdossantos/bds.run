@@ -15,7 +15,6 @@
     <!-- Prefetch -->
     <link rel="dns-prefetch" href="//bds.run">
     <link rel="dns-prefetch" href="//fonts.googleapis.com" data-proofer-ignore>
-    <link rel="dns-prefetch" href="//www.google-analytics.com" data-proofer-ignore>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -80,12 +79,6 @@
        <p>© {{ site.time | date: "%Y" }} bds.run</p>
       </footer>
     </div>
-
-    <script>
-      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-      ga('create', 'UA-9203113-5', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
     {% if page.chartist %}
      {% asset chartist/dist/chartist @inline %}
