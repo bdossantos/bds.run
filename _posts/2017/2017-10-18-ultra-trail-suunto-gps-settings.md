@@ -45,6 +45,7 @@ Voici la configuration que j'utilise pour un Ultra :
 * Affichage du centre :
   * Altitude
 * Affichage inférieur :
+  * Ascent
   * Descent
   * Vertical speed
 
@@ -59,3 +60,10 @@ Voici la configuration que j'utilise pour un Ultra :
   * Average pace
   * Day time
   * Battery
+
+### Ecran #5 : Graph
+
+* Affichage du centre :
+  * Le graphique avec le profil du dénivelé
+* Affichage inférieur :
+  * Altitude
