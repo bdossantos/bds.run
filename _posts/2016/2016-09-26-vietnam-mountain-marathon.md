@@ -30,7 +30,7 @@ Je termine 18 sur 407 finisher.
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/723122337/embed/6e414f6fc47d1b09b4b6328d713410a0e3dc92fc'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 ### Photos

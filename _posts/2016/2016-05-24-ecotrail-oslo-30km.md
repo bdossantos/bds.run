@@ -22,5 +22,5 @@ Classement 45/448, et environ 1Km dans la mauvaise direction.
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/583244352/embed/a54b37cdee6560cf8664131fda92c653a8b3a318'
-  onload='lzld(this)'>
+  >
 </iframe>

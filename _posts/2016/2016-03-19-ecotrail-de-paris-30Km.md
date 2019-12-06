@@ -30,7 +30,7 @@ Maintenant place à la récupération, la saison va être chargée.
   allowtransparency='true'
   scrolling='no'
   data-src='http://www.strava.com/activities/520826081/embed/fc480187c5536dfd32521516ca20f9a27f3b1dac'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 [1]: http://www.traildeparis.com/

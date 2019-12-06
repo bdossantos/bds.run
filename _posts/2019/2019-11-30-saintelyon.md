@@ -27,7 +27,7 @@ Pas de défaillance ni de gros bobos.
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/2904875567/embed/3933d180da3506f14ed2a0e25c34bef0b0acdee3'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 <!--

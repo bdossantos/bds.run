@@ -21,7 +21,7 @@ Malade, explosion complète au début, pause, puis second souffle fin du parcour
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/2528160342/embed/d521452b6a8e6f97d9809dd4f16659d833e91f62'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 <!--

@@ -38,7 +38,7 @@ jusqu'à la fin et m’ont évité l’abandon.
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/786321977/embed/5ffd8d5ffc2059e7edf835c9a9e393bfa398b022'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 ### Photos

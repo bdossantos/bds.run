@@ -35,7 +35,7 @@ l'eau + sucre. Côté solide je me suis contenté de bananes chopés aux ravitos
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/752344313/embed/9c675b4aba6176ec7d755dc0100308193912e790'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 ### Photos

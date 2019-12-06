@@ -1,7 +1,9 @@
 {% for i in (1..include.count) %}
   <img
+    class='lozad ctr img-thumbnail'
     data-src="{{ include.photos | append: '-' | append: i | append: '.jpg' | asset:'@path @magick:quality=90' }}"
-    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-    class='ctr img-thumbnail'
-    onload="lzld(this)">
+    />
+  <noscript>
+    <img src="{{ include.photos | append: '-' | append: i | append: '.jpg' | asset:'@path @magick:quality=90' }}" />
+  </noscript>
 {% endfor %}

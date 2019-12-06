@@ -38,7 +38,7 @@
 
     {% if page.chartist %}{% asset chartist/dist/scss/chartist @inline %}{% endif %}
 
-    {% asset lazyloadjs/build/lazyload @inline %}
+    {% asset lozad/dist/lozad @inline %}
    </head>
   <body itemscope itemtype="http://schema.org/WebPage">
     <!--[if lte IE 9]>
@@ -81,6 +81,10 @@
       </footer>
     </div>
 
+    <script>
+      const observer = lozad();
+      observer.observe();
+    </script>
     {% if page.chartist %}
      {% asset chartist/dist/chartist @inline %}
      <script>{{ page.chartist }}</script>

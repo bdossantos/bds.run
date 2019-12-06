@@ -23,7 +23,7 @@ rank: 231
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/620283722/embed/90d8fdd4528843c94b90d66f3a28955ad020a720'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 ### Photos

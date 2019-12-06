@@ -28,7 +28,7 @@ Des difficultés à m'alimenter, douleurs à l'estomac et légère déshydratati
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/2433911647/embed/f5b78c94cf504d629ab064737b1c37cd7a8a5b06'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 <!--

@@ -23,5 +23,5 @@ me fera perdre pas mal de temps (manque de technique).
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/1176431872/embed/a993d60cabc035ad3ba727c9063b945893dde086'
-  onload='lzld(this)'>
+  >
 </iframe>

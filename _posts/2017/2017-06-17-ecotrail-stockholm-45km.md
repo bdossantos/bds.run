@@ -25,7 +25,7 @@ vers la fin.
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/1040917318/embed/1f0e11e7706e648b118178dab06e4e3721081e15'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 ### Photos

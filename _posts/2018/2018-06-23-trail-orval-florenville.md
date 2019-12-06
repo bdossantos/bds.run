@@ -28,7 +28,7 @@ Merci Florenville, je reviendrai.
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/1656948799/embed/7cc1c955bed569fda8cb98f704ca6f0d37daf6c0'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 <!--

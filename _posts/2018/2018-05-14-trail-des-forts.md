@@ -25,7 +25,7 @@ Contre performance, il est temps de s'y remettre sérieusement !
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/1569642543/embed/13501f4c950e4de73ff43035d815787a8b28ec94'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 <!--

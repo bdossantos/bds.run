@@ -27,5 +27,5 @@ _Les pieds ne vont pas là où le coeur n'est pas_
   allowfullscreen
   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
   data-src="https://www.youtube.com/embed/odOJE0tneto"
-  onload="lzld(this)">
+  >
 </iframe>

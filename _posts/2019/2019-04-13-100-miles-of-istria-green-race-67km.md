@@ -31,7 +31,7 @@ Pas de difficulté à m'alimenter, pas de gros bobos.
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/2287591446/embed/fd3e9db5d06d711ba72246a4e626a0b35f121f5d'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 <!--

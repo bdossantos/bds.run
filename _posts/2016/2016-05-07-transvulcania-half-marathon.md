@@ -38,7 +38,7 @@ pouvais mieux faire. Je termine 72 / 468.
   allowtransparency='true'
   scrolling='no'
   data-src='https://www.strava.com/activities/568110091/embed/4a5600e157bc5570ad0322d9b3503dc5aa679424'
-  onload='lzld(this)'>
+  >
 </iframe>
 
 ### Photos
