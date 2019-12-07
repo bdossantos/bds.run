@@ -28,13 +28,7 @@
       {% asset critical.css @inline %}
     {% endif %}
 
-    <link rel="preload" href="{% asset main.css @path %}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-    <noscript>
-      {% asset main.css %}
-    </noscript>
-
-    {% asset fg-loadcss/dist/loadCSS.min @inline %}
+    {% asset main.css %}
 
     {% if page.chartist %}{% asset chartist/dist/scss/chartist @inline %}{% endif %}
 
