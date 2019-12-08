@@ -19,12 +19,4 @@ morceau).
 
 ### Ma course
 
-<iframe
-  height='405'
-  width='100%'
-  frameborder='0'
-  allowtransparency='true'
-  scrolling='no'
-  data-src='https://www.strava.com/activities/1006659692/embed/28552b8a8214b810bb79090c13b432c0be2c1053'
-  >
-</iframe>
+{% include strava.md src='https://www.strava.com/activities/1006659692/embed/28552b8a8214b810bb79090c13b432c0be2c1053' %}

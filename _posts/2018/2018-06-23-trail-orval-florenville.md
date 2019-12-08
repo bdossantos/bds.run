@@ -21,15 +21,7 @@ Merci Florenville, je reviendrai.
 
 ### Ma course
 
-<iframe
-  height='405'
-  width='100%'
-  frameborder='0'
-  allowtransparency='true'
-  scrolling='no'
-  data-src='https://www.strava.com/activities/1656948799/embed/7cc1c955bed569fda8cb98f704ca6f0d37daf6c0'
-  >
-</iframe>
+{% include strava.md src='https://www.strava.com/activities/1656948799/embed/7cc1c955bed569fda8cb98f704ca6f0d37daf6c0' %}
 
 <!--
 vim:spell spelllang=fr

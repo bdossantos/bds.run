@@ -24,15 +24,7 @@ Pas de difficulté à m'alimenter, pas de gros bobos.
 
 ### Ma course
 
-<iframe
-  height='405'
-  width='100%'
-  frameborder='0'
-  allowtransparency='true'
-  scrolling='no'
-  data-src='https://www.strava.com/activities/2287591446/embed/fd3e9db5d06d711ba72246a4e626a0b35f121f5d'
-  >
-</iframe>
+{% include strava.md src='https://www.strava.com/activities/2287591446/embed/fd3e9db5d06d711ba72246a4e626a0b35f121f5d' %}
 
 <!--
 vim:spell spelllang=fr

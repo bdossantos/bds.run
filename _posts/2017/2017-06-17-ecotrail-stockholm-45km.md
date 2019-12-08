@@ -18,15 +18,7 @@ vers la fin.
 
 ### Ma course
 
-<iframe
-  height='405'
-  width='100%'
-  frameborder='0'
-  allowtransparency='true'
-  scrolling='no'
-  data-src='https://www.strava.com/activities/1040917318/embed/1f0e11e7706e648b118178dab06e4e3721081e15'
-  >
-</iframe>
+{% include strava.md src='https://www.strava.com/activities/1040917318/embed/1f0e11e7706e648b118178dab06e4e3721081e15' %}
 
 ### Photos
 

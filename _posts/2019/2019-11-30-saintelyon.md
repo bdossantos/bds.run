@@ -20,15 +20,7 @@ Pas de défaillance ni de gros bobos.
 
 ### Ma course
 
-<iframe
-  height='405'
-  width='100%'
-  frameborder='0'
-  allowtransparency='true'
-  scrolling='no'
-  data-src='https://www.strava.com/activities/2904875567/embed/3933d180da3506f14ed2a0e25c34bef0b0acdee3'
-  >
-</iframe>
+{% include strava.md src='https://www.strava.com/activities/2904875567/embed/3933d180da3506f14ed2a0e25c34bef0b0acdee3' %}
 
 <!--
 vim:spell spelllang=fr

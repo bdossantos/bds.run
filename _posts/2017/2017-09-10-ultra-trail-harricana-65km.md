@@ -16,12 +16,4 @@ me fera perdre pas mal de temps (manque de technique).
 
 ### Ma course
 
-<iframe
-  height='405'
-  width='100%'
-  frameborder='0'
-  allowtransparency='true'
-  scrolling='no'
-  data-src='https://www.strava.com/activities/1176431872/embed/a993d60cabc035ad3ba727c9063b945893dde086'
-  >
-</iframe>
+{% include strava.md src='https://www.strava.com/activities/1176431872/embed/a993d60cabc035ad3ba727c9063b945893dde086' %}

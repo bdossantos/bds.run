@@ -23,15 +23,7 @@ Je termine 18 sur 407 finisher.
 
 ### Ma course
 
-<iframe
-  height='405'
-  width='100%'
-  frameborder='0'
-  allowtransparency='true'
-  scrolling='no'
-  data-src='https://www.strava.com/activities/723122337/embed/6e414f6fc47d1b09b4b6328d713410a0e3dc92fc'
-  >
-</iframe>
+{% include strava.md src='https://www.strava.com/activities/723122337/embed/6e414f6fc47d1b09b4b6328d713410a0e3dc92fc' %}
 
 ### Photos
 

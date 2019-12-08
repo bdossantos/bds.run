@@ -39,15 +39,7 @@ Next.
 
 ### Ma course
 
-<iframe
-  height='405'
-  width='100%'
-  frameborder='0'
-  allowtransparency='true'
-  scrolling='no'
-  data-src='https://www.strava.com/activities/1240956726/embed/55629669bed02cd5d822750be1e05ebef0f10106'
-  >
-</iframe>
+{% include strava.md src='https://www.strava.com/activities/1240956726/embed/55629669bed02cd5d822750be1e05ebef0f10106' %}
 
 ### Photos
 
