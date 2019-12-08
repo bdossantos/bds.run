@@ -5,6 +5,6 @@
     data-proofer-ignore
     />
   <noscript>
-    <img src="{{ include.photos | append: '-' | append: i | append: '.jpg' | asset:'@path @magick:quality=90' }}" data-proofer-ignore />
+    <img class='ctr img-thumbnail' src="{{ include.photos | append: '-' | append: i | append: '.jpg' | asset:'@path @magick:quality=90' }}" data-proofer-ignore />
   </noscript>
 {% endfor %}
