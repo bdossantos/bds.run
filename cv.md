@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mon CV sportif
-description: Benjamin, 30, Runner.
+description: Benjamin, 31, Runner.
 redirect_from:
   - /about
   - /about.html
