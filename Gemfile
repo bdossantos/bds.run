@@ -7,16 +7,17 @@ gem 'gsl'
 gem 'html-proofer'
 gem 'image_optim'
 gem 'image_optim_pack'
-gem 'jekyll'
+# https://github.com/jekyll/jekyll/issues/8049
+gem "jekyll", github: "jekyll/jekyll"
 gem 'mini_magick'
 gem 'rake'
 gem 'sass'
-gem 'sprockets', '~> 3.7'
+gem 'sprockets', github: "rails/sprockets"
 gem 'strava-api-v3'
 gem 'uglifier'
 
 group :jekyll_plugins do
-  gem 'jekyll-assets'
+  gem 'jekyll-assets', github: "envygeeks/jekyll-assets"
   gem 'jekyll-feed'
   gem 'jekyll-redirect-from'
   gem 'jekyll-seo-tag'
