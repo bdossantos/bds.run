@@ -22,7 +22,7 @@
     {% feed_meta %}
 
     <!-- CSS -->
-    {% if jekyll.environment == 'critical.css' %}
+    {% if jekyll.environment == 'production' %}
       {% asset critical.css @inline %}
     {% endif %}
 

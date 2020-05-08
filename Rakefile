@@ -25,10 +25,7 @@ task :jekyll_build do
     system "#{UNCSS} #{BUILD_DIR}/index.html --stylesheets " \
       "file://$(find $PWD/_build/assets -type f -name 'main-*.css') " \
       '> _assets/stylesheets/critical.css' || exit(1)
-
-    system 'JEKYLL_ENV=critical.css ' \
-      "jekyll build -d #{BUILD_DIR} --config _config.yml#{config} --incremental" \
-        || exit(1)
+    system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}" || exit(1)
   end
 end
 
