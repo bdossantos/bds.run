@@ -1,11 +1,10 @@
 ---
-
 assets:
   compress:
     css: true
     js: true
   cdn:
     url: https://bds.run
-    destination: '/assets'
+    destination: "/assets"
 lsi: true
 future: false
