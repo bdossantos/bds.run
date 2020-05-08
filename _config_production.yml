@@ -4,7 +4,8 @@ assets:
     css: true
     js: true
   cdn:
-    url: https://bds.run
+    baseurl: false
     destination: "/assets"
+    url: https://bds.run
 lsi: true
 future: false
