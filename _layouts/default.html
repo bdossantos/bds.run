@@ -26,7 +26,8 @@
       {% asset critical.css @inline %}
     {% endif %}
 
-    {% asset main.css data-proofer-ignore %}
+    <link rel="preload" href="{% asset main.css @path %}" as="style" onload="this.onload=null;this.rel='stylesheet'" data-proofer-ignore>
+    <noscript>{% asset main.css data-proofer-ignore %}</noscript>
 
     {% if page.chartist %}{% asset chartist/dist/scss/chartist @inline %}{% endif %}
 
