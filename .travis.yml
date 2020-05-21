@@ -1,12 +1,13 @@
 ---
-
 language: ruby
 sudo: false
 addons:
   apt:
     packages:
       - libgsl0-dev
-cache: bundler
+cache:
+  bundler: true
+  npm: true
 before_script:
   - npm install
 install:
