@@ -4,8 +4,6 @@ require 'English'
 
 LIBS_DIR = '_libs'
 BUILD_DIR = '_build'
-HTML_COMPRESSOR = `which htmlcompressor`.chomp
-YUI_COMPRESSOR = `which yuicompressor`.chomp
 NPM = `which npm`.chomp
 WGET = `which wget`.chomp
 UNCSS = 'node_modules/uncss/bin/uncss'
@@ -38,9 +36,13 @@ end
 desc 'Minify all html'
 task :minify_html do
   puts '--> Minifying html'
+  # node_modules/.bin/html-minifier  --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true _build/index.html
   system "find #{BUILD_DIR} -type f -name '*.html' " \
-    "| xargs -I '%' -P 4 -n 1 #{HTML_COMPRESSOR} --remove-intertag-spaces " \
-    "--compress-css --compress-js --js-compressor yui '%' -o '%'"
+    "| xargs -I '%' -P 4 -n 1 node_modules/.bin/html-minifier " \
+    "--collapse-whitespace --remove-comments --remove-optional-tags " \
+    "--remove-redundant-attributes --remove-script-type-attributes " \
+    "--remove-tag-whitespace --use-short-doctype --minify-css true " \
+    "--minify-js true '%' -o '%'"
 end
 
 desc 'Gzip'
