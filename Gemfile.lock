@@ -16,28 +16,8 @@ GIT
       sprockets (~> 4.0.beta7)
 
 GIT
-  remote: https://github.com/jekyll/jekyll.git
-  revision: a5112f39641ace64808350d38dfa3254db719221
-  specs:
-    jekyll (4.0.0)
-      addressable (~> 2.4)
-      colorator (~> 1.0)
-      em-websocket (~> 0.5)
-      i18n (~> 1.0)
-      jekyll-sass-converter (~> 2.0)
-      jekyll-watch (~> 2.0)
-      kramdown (~> 2.1)
-      kramdown-parser-gfm (~> 1.0)
-      liquid (~> 4.0)
-      mercenary (~> 0.4.0)
-      pathutil (~> 0.9)
-      rouge (~> 3.0)
-      safe_yaml (~> 1.0)
-      terminal-table (~> 1.8)
-
-GIT
   remote: https://github.com/rails/sprockets.git
-  revision: 9909da64595ddcfa1e7ee40ed1d99738961288ec
+  revision: 9f4b2f5fb77257b789c920f72dedbf0a1c0cafd6
   specs:
     sprockets (4.0.0)
       concurrent-ruby (~> 1.0)
@@ -103,6 +83,21 @@ GEM
       image_optim (~> 0.19)
     image_size (2.0.2)
     in_threads (1.5.4)
+    jekyll (4.0.1)
+      addressable (~> 2.4)
+      colorator (~> 1.0)
+      em-websocket (~> 0.5)
+      i18n (>= 0.9.5, < 2)
+      jekyll-sass-converter (~> 2.0)
+      jekyll-watch (~> 2.0)
+      kramdown (~> 2.1)
+      kramdown-parser-gfm (~> 1.0)
+      liquid (~> 4.0)
+      mercenary (~> 0.3.3)
+      pathutil (~> 0.9)
+      rouge (~> 3.0)
+      safe_yaml (~> 1.0)
+      terminal-table (~> 1.8)
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-redirect-from (0.16.0)
@@ -129,10 +124,10 @@ GEM
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    mercenary (0.4.0)
+    mercenary (0.3.6)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2020.0425)
+    mime-types-data (3.2020.0512)
     mimemagic (0.3.5)
     mini_magick (4.10.1)
     mini_portile2 (2.4.0)
@@ -148,7 +143,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progress (3.5.2)
-    public_suffix (4.0.4)
+    public_suffix (4.0.5)
     rack (2.2.2)
     rainbow (3.0.0)
     rake (13.0.1)
@@ -156,7 +151,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
-    rouge (3.18.0)
+    rouge (3.19.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -190,7 +185,7 @@ DEPENDENCIES
   html-proofer
   image_optim
   image_optim_pack
-  jekyll!
+  jekyll
   jekyll-assets!
   jekyll-feed
   jekyll-redirect-from

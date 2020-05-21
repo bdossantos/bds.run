@@ -8,7 +8,7 @@ gem 'html-proofer'
 gem 'image_optim'
 gem 'image_optim_pack'
 # https://github.com/jekyll/jekyll/issues/8049
-gem "jekyll", github: "jekyll/jekyll"
+gem "jekyll"
 gem 'mini_magick'
 gem 'rake'
 gem 'sass'
