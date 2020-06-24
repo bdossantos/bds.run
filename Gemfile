@@ -13,7 +13,7 @@ gem 'mini_magick'
 gem 'rake'
 gem 'sass'
 gem 'sprockets', github: "rails/sprockets"
-gem 'strava-api-v3'
+gem 'strava-ruby-client'
 gem 'uglifier'
 
 group :jekyll_plugins do
