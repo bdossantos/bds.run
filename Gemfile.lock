@@ -81,7 +81,7 @@ GEM
       image_optim (~> 0.19)
     image_size (2.0.2)
     in_threads (1.5.4)
-    jekyll (4.1.0)
+    jekyll (4.1.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
