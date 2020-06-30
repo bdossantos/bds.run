@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-exec java -jar /usr/local/src/yuicompressor-2.4.8.jar "$@"
