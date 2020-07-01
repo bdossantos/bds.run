@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Les Courses que je souhaite faire, un jour.
+title: Les Courses/défis sportifs  que je souhaite faire, un jour.
 ---
 
 ## Ma "todo list" :
@@ -42,3 +42,6 @@ title: Les Courses que je souhaite faire, un jour.
 * [Ultra Tour Mt Siguniang](http://www.utms.com.cn/)
 * [Ultra Trail Cordillera Blanca](http://www.perutrailrunning.pe/)
 * [Zegama Aizkorri](https://www.facebook.com/zegamaiaizkorri)
+* [French divide](https://www.frenchdivide.com/en/)
+* [Born to ride](#)
+* [La route des cols](https://www.lespyrenees.net/route_des_cols)
