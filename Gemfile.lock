@@ -79,6 +79,9 @@ GEM
     image_optim_pack (0.6.0.20200215)
       fspath (>= 2.1, < 4)
       image_optim (~> 0.19)
+    image_optim_pack (0.6.0.20200215-x86_64-darwin)
+      fspath (>= 2.1, < 4)
+      image_optim (~> 0.19)
     image_size (2.0.2)
     in_threads (1.5.4)
     jekyll (4.1.1)
@@ -96,6 +99,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-compose (0.12.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-feed (0.15.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-redirect-from (0.16.0)
@@ -172,6 +177,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-19
 
 DEPENDENCIES
   classifier-reborn
@@ -181,6 +187,7 @@ DEPENDENCIES
   image_optim_pack
   jekyll
   jekyll-assets!
+  jekyll-compose
   jekyll-feed
   jekyll-redirect-from
   jekyll-seo-tag

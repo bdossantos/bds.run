@@ -18,6 +18,7 @@ gem 'uglifier'
 
 group :jekyll_plugins do
   gem 'jekyll-assets', github: "envygeeks/jekyll-assets"
+  gem 'jekyll-compose'
   gem 'jekyll-feed'
   gem 'jekyll-redirect-from'
   gem 'jekyll-seo-tag'
