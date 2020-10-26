@@ -37,7 +37,7 @@ body {
 
 a {
   color: #0000ee;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: normal;
 }
 
@@ -46,7 +46,7 @@ a:hover {
 }
 
 a:visited {
-  color: #551a8b;
+  color: #0000ee;
 }
 
 h1 {
