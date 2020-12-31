@@ -20,11 +20,11 @@ Longeville-sur-Mer et Redon.
 Les plus :
 
 - Rien à dire sur le vélo, il est fait pour ce genre "d'aventure" : fiable,
-  confortable, pneumatiques destinée à la route qui a été très efficace même sur
+  confortable, pneumatique destinée à la route qui a été très efficace même sur
   les portions Gravel et sous-bois
 - Aucune crevaison : je suis parti sur gonflé et je n'ai pas mis un seul coup de
   pompe du séjour ...
-- Komoot en mode touring produit vraiment des Map de qualité, plutôt safe avec
+- Komoot en mode touring produit vraiment des Maps de qualités, plutôt safe avec
   toujours le petit chemin de traverse gravel/bois pour casser la monotonie et
   les jambes
 - La fiabilité de la Suunto Ambit Peak 3 n'est plus à prouver (sauf si tu ne sais
@@ -32,14 +32,14 @@ Les plus :
 
 Les moins :
 
-- Prendre des manchette mérinos plutôt que des manchettes windstopper
+- Prendre des manchettes mérinos plutôt que des manchettes windstopper
   un peu trop chaudes pour cette saison
 - Mon gilet de visibilité est très bien pour du commute mais dommage que la
   fermeture n'est pas bidirectionnelle pour jouer plus facilement sur l'aération
   pour ce genre de sorties longues
 - Avoir un porte gourde à la potence pour moins galérer à sortir ma gourde de
   ma poche arrière
-- Pour la tenu civile : peut être un sweat/polaire technique et ultra
+- Pour la tenue civile : peut être un sweat/polaire technique et ultra
   light/rapide à sécher plutôt qu'une chemise et des basquettes plus light
   (Merrell, Vivo ...)
 
