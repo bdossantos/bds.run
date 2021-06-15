@@ -1,0 +1,10 @@
+{
+  "name": "bds.run",
+  "version": "0.0.1",
+  "dependencies": {
+    "html5-boilerplate": "8.0.0",
+    "html-minifier": "4.0.0",
+    "lozad": "1.16.0",
+    "uncss": "0.17.3"
+  }
+}

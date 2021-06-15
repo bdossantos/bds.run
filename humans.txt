@@ -1,0 +1,24 @@
+/* TEAM */
+Creator: Benjamin Dos Santos
+Contact: benjamin[dot]dossantos[at]gmail[dot]com
+Twitter: @benjamin_ds
+Location: Europe/Paris
+
+/* THANKS */
+THE INTERNET
+HTML5 BoilerPlate : html5boilerplate.com/
+Ruby : www.ruby-lang.org/
+Jekyll : jekyllrb.com/
+Github : github.com/
+Google Closure compiler : code.google.com/intl/fr/closure/compiler/
+YUI Compressor : yui.github.io/yuicompressor/
+HTML Compressor : code.google.com/p/htmlcompressor/
+Lozad : apoorv.pro/lozad.js/
+Raspberry Pi : http://www.raspberrypi.org/
+Debian : https://www.debian.org/
+
+/* SITE */
+Last update: 2021-06-15
+Standards: HTML5, CSS3
+Components: Normalize.css, Lozad.js
+Software: Jekyll, Vim, Git, Mac OS X
