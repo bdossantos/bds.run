@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/sprockets.git
-  revision: 2c38d99930421c22896a65e1d384edf90830f4c3
+  revision: d7cd8119291573801f337caef21e8fce99e68d9f
   specs:
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -37,7 +37,7 @@ GEM
     classifier-reborn (2.2.0)
       fast-stemmer (~> 1.0)
     colorator (1.1.0)
-    concurrent-ruby (1.1.8)
+    concurrent-ruby (1.1.9)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
