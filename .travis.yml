@@ -31,4 +31,4 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     - JEKYLL_ENV=production
     - PATH="$PATH:$PWD/_bin"
-    - secure: HHn4fB95S+0AmpLwH6z/yc2OHl8ZWj2BLZiJomEf2or6sJHc1AvDz/6scseXMip4KEt+jd0hICuJ32VkuYq7VUk3dDg/PRMiIVODPxis2x4amtx04HmMn1ZY7BKubLGuIK30YdkxG3dzVrRk/HDEshO8aE+/x6y90SSlIJ/hJB8=
+    - secure: bovQFbxlxqoY66Ti4mVyQEaPJ28SUX/FShZkGeZU+K0p8bE1qp4E0h1ApfdQmxEpHlN0hYsRToSvEH43S6HlVT5yc9HRLqibIvb1YBYPo/mgIKB0OtquhDGGZAq+VOKznhGy96CwjgNCeIj2wcQddGAASkJq/IF3uTZVPUyq+ew=
