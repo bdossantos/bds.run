@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2021-08-01T10:44:02+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement juillet 2021</title><link href="https://bds.run/2021/07/31/entrainement-juillet-2021.html" rel="alternate" type="text/html" title="Entrainement juillet 2021" /><published>2021-07-31T00:00:00+02:00</published><updated>2021-07-31T00:00:00+02:00</updated><id>https://bds.run/2021/07/31/entrainement-juillet-2021</id><content type="html" xml:base="https://bds.run/2021/07/31/entrainement-juillet-2021.html">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2021-09-05T12:17:42+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement août 2021</title><link href="https://bds.run/2021/09/05/entrainement-aout-2021.html" rel="alternate" type="text/html" title="Entrainement août 2021" /><published>2021-09-05T00:00:00+02:00</published><updated>2021-09-05T00:00:00+02:00</updated><id>https://bds.run/2021/09/05/entrainement-aout-2021</id><content type="html" xml:base="https://bds.run/2021/09/05/entrainement-aout-2021.html">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Distance&lt;/td&gt;
+      &lt;td&gt;852.6 km&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gain d’altitude&lt;/td&gt;
+      &lt;td&gt;3884 m&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Durée&lt;/td&gt;
+      &lt;td&gt;44:21 h:m&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Course à pied + vélo + commute&lt;/p&gt;
+
+&lt;!--
+vim:spell spelllang=fr
+--&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 852.6 km Gain d’altitude 3884 m Durée 44:21 h:m</summary></entry><entry><title type="html">Entrainement juillet 2021</title><link href="https://bds.run/2021/07/31/entrainement-juillet-2021.html" rel="alternate" type="text/html" title="Entrainement juillet 2021" /><published>2021-07-31T00:00:00+02:00</published><updated>2021-07-31T00:00:00+02:00</updated><id>https://bds.run/2021/07/31/entrainement-juillet-2021</id><content type="html" xml:base="https://bds.run/2021/07/31/entrainement-juillet-2021.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Distance&lt;/td&gt;
@@ -179,23 +200,4 @@ vim:spell spelllang=fr
 
 &lt;!--
 vim:spell spelllang=fr
---&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 332.1 km Gain d’altitude 1002 m Durée 24:13 h:m</summary></entry><entry><title type="html">Entrainement novembre 2020</title><link href="https://bds.run/2020/11/30/entrainement-novembre-2020.html" rel="alternate" type="text/html" title="Entrainement novembre 2020" /><published>2020-11-30T00:00:00+01:00</published><updated>2020-11-30T00:00:00+01:00</updated><id>https://bds.run/2020/11/30/entrainement-novembre-2020</id><content type="html" xml:base="https://bds.run/2020/11/30/entrainement-novembre-2020.html">&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Distance&lt;/td&gt;
-      &lt;td&gt;423.9 km&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gain d’altitude&lt;/td&gt;
-      &lt;td&gt;1009 m&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Durée&lt;/td&gt;
-      &lt;td&gt;35:13 h:m&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Course à pied + vélo + commute&lt;/p&gt;
-
-&lt;!-- vim: setlocal spell spelllang=fr --&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 423.9 km Gain d’altitude 1009 m Durée 35:13 h:m</summary></entry></feed>
+--&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 332.1 km Gain d’altitude 1002 m Durée 24:13 h:m</summary></entry></feed>
