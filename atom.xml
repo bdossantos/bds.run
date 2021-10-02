@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2021-09-28T08:16:34+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement août 2021</title><link href="https://bds.run/2021/09/05/entrainement-aout-2021.html" rel="alternate" type="text/html" title="Entrainement août 2021" /><published>2021-09-05T00:00:00+02:00</published><updated>2021-09-05T00:00:00+02:00</updated><id>https://bds.run/2021/09/05/entrainement-aout-2021</id><content type="html" xml:base="https://bds.run/2021/09/05/entrainement-aout-2021.html">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2021-10-02T22:55:58+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement septembre 2021</title><link href="https://bds.run/2021/10/02/entrainement-septembre-2021.html" rel="alternate" type="text/html" title="Entrainement septembre 2021" /><published>2021-10-02T00:00:00+02:00</published><updated>2021-10-02T00:00:00+02:00</updated><id>https://bds.run/2021/10/02/entrainement-septembre-2021</id><content type="html" xml:base="https://bds.run/2021/10/02/entrainement-septembre-2021.html">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Distance&lt;/td&gt;
+      &lt;td&gt;839.7 km&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gain d’altitude&lt;/td&gt;
+      &lt;td&gt;5462 m&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Durée&lt;/td&gt;
+      &lt;td&gt;45:02 h:m&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Course à pied + vélo + commute&lt;/p&gt;
+
+&lt;!--
+vim:spell spelllang=fr
+--&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 839.7 km Gain d’altitude 5462 m Durée 45:02 h:m</summary></entry><entry><title type="html">Entrainement août 2021</title><link href="https://bds.run/2021/09/05/entrainement-aout-2021.html" rel="alternate" type="text/html" title="Entrainement août 2021" /><published>2021-09-05T00:00:00+02:00</published><updated>2021-09-05T00:00:00+02:00</updated><id>https://bds.run/2021/09/05/entrainement-aout-2021</id><content type="html" xml:base="https://bds.run/2021/09/05/entrainement-aout-2021.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Distance&lt;/td&gt;
@@ -179,25 +200,4 @@ vim:spell spelllang=fr
 
 &lt;!--
 vim:spell spelllang=fr
---&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="bilan" /><summary type="html">Une pandémie, 332 jours actifs, 552 heures, 8170 kilomètres à rouler et courir, 47043 mètres de dénivelé positifs, 1 course.</summary></entry><entry><title type="html">Entrainement décembre 2020</title><link href="https://bds.run/2020/12/31/entrainement-decembre-2020.html" rel="alternate" type="text/html" title="Entrainement décembre 2020" /><published>2020-12-31T00:00:00+01:00</published><updated>2020-12-31T00:00:00+01:00</updated><id>https://bds.run/2020/12/31/entrainement-decembre-2020</id><content type="html" xml:base="https://bds.run/2020/12/31/entrainement-decembre-2020.html">&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Distance&lt;/td&gt;
-      &lt;td&gt;332.1 km&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gain d’altitude&lt;/td&gt;
-      &lt;td&gt;1002 m&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Durée&lt;/td&gt;
-      &lt;td&gt;24:13 h:m&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Course à pied + vélo + commute&lt;/p&gt;
-
-&lt;!--
-vim:spell spelllang=fr
---&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 332.1 km Gain d’altitude 1002 m Durée 24:13 h:m</summary></entry></feed>
+--&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="bilan" /><summary type="html">Une pandémie, 332 jours actifs, 552 heures, 8170 kilomètres à rouler et courir, 47043 mètres de dénivelé positifs, 1 course.</summary></entry></feed>
