@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2021-11-16T09:59:09+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement octobre 2021</title><link href="https://bds.run/2021/11/01/entrainement-octobre-2021.html" rel="alternate" type="text/html" title="Entrainement octobre 2021" /><published>2021-11-01T00:00:00+01:00</published><updated>2021-11-01T00:00:00+01:00</updated><id>https://bds.run/2021/11/01/entrainement-octobre-2021</id><content type="html" xml:base="https://bds.run/2021/11/01/entrainement-octobre-2021.html">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2021-11-28T20:50:08+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">La SaintéSprint</title><link href="https://bds.run/2021/11/21/saintesprint.html" rel="alternate" type="text/html" title="La SaintéSprint" /><published>2021-11-21T00:00:00+01:00</published><updated>2021-11-21T00:00:00+01:00</updated><id>https://bds.run/2021/11/21/saintesprint</id><content type="html" xml:base="https://bds.run/2021/11/21/saintesprint.html">&lt;p&gt;Dossard pris à la dernière minute parce qu’il fallait bien faire une course
+cette année.&lt;/p&gt;
+
+&lt;p&gt;Je me suis pas si mal débrouillé malgré le manque de bornes à pied/pas de
+préparation.&lt;/p&gt;
+
+&lt;p&gt;Les plus :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bonnes jambes malgré le manque d’entrainement&lt;/li&gt;
+  &lt;li&gt;Bon cardio, je pense que j’étais en sous régime&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les moins :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trop lent dans la seule descente “technique” du parcours&lt;/li&gt;
+  &lt;li&gt;Trop couvert, j’ai eu trop chaud !&lt;/li&gt;
+  &lt;li&gt;Sac de trail qui n’arrétait pas de se déserrer/bouger&lt;/li&gt;
+  &lt;li&gt;Mal placé au départ&lt;/li&gt;
+  &lt;li&gt;Trop dans l’économie dans la seconde partie de la course pourtant descendante&lt;/li&gt;
+  &lt;li&gt;J’ai marché dans la seul difficultée du parcours (côte du 17ème)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ma-course&quot;&gt;Ma course&lt;/h3&gt;
+
+&lt;iframe class=&quot;lozad&quot; height=&quot;405&quot; width=&quot;100%&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; data-src=&quot;https://www.strava.com/activities/6315194967/embed/54b909ae172c25bbeffe5129264e450d1a81fdce&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;!--
+vim:spell spelllang=fr
+--&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="compétition" /><summary type="html">Dossard pris à la dernière minute parce qu’il fallait bien faire une course cette année.</summary></entry><entry><title type="html">Entrainement octobre 2021</title><link href="https://bds.run/2021/11/01/entrainement-octobre-2021.html" rel="alternate" type="text/html" title="Entrainement octobre 2021" /><published>2021-11-01T00:00:00+01:00</published><updated>2021-11-01T00:00:00+01:00</updated><id>https://bds.run/2021/11/01/entrainement-octobre-2021</id><content type="html" xml:base="https://bds.run/2021/11/01/entrainement-octobre-2021.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Distance&lt;/td&gt;
@@ -187,25 +218,4 @@ vim:spell spelllang=fr
 
 &lt;!--
 vim:spell spelllang=fr
---&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 419.3 km Gain d’altitude 845 m Durée 25:38 h:m</summary></entry><entry><title type="html">Entrainement janvier 2021</title><link href="https://bds.run/2021/01/31/entrainement-janvier-2021.html" rel="alternate" type="text/html" title="Entrainement janvier 2021" /><published>2021-01-31T00:00:00+01:00</published><updated>2021-01-31T00:00:00+01:00</updated><id>https://bds.run/2021/01/31/entrainement-janvier-2021</id><content type="html" xml:base="https://bds.run/2021/01/31/entrainement-janvier-2021.html">&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Distance&lt;/td&gt;
-      &lt;td&gt;684.8 km&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gain d’altitude&lt;/td&gt;
-      &lt;td&gt;2602 m&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Durée&lt;/td&gt;
-      &lt;td&gt;40:08 h:m&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Course à pied + vélo + commute&lt;/p&gt;
-
-&lt;!--
-vim:spell spelllang=fr
---&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 684.8 km Gain d’altitude 2602 m Durée 40:08 h:m</summary></entry></feed>
+--&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 419.3 km Gain d’altitude 845 m Durée 25:38 h:m</summary></entry></feed>
