@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2021-11-28T20:54:42+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">La SaintéSprint</title><link href="https://bds.run/2021/11/21/saintesprint.html" rel="alternate" type="text/html" title="La SaintéSprint" /><published>2021-11-21T00:00:00+01:00</published><updated>2021-11-21T00:00:00+01:00</updated><id>https://bds.run/2021/11/21/saintesprint</id><content type="html" xml:base="https://bds.run/2021/11/21/saintesprint.html">&lt;p&gt;Dossard pris à la dernière minute parce qu’il fallait bien faire une course
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2021-12-05T21:52:06+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement novembre 2021</title><link href="https://bds.run/2021/12/05/entrainement-novembre-2021.html" rel="alternate" type="text/html" title="Entrainement novembre 2021" /><published>2021-12-05T00:00:00+01:00</published><updated>2021-12-05T00:00:00+01:00</updated><id>https://bds.run/2021/12/05/entrainement-novembre-2021</id><content type="html" xml:base="https://bds.run/2021/12/05/entrainement-novembre-2021.html">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Distance&lt;/td&gt;
+      &lt;td&gt;616.6 km&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gain d’altitude&lt;/td&gt;
+      &lt;td&gt;692 m&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Durée&lt;/td&gt;
+      &lt;td&gt;40:39 h:m&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Course à pied + vélo + commute&lt;/p&gt;
+
+&lt;!--
+vim:spell spelllang=fr
+--&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 616.6 km Gain d’altitude 692 m Durée 40:39 h:m</summary></entry><entry><title type="html">La SaintéSprint</title><link href="https://bds.run/2021/11/21/saintesprint.html" rel="alternate" type="text/html" title="La SaintéSprint" /><published>2021-11-21T00:00:00+01:00</published><updated>2021-11-21T00:00:00+01:00</updated><id>https://bds.run/2021/11/21/saintesprint</id><content type="html" xml:base="https://bds.run/2021/11/21/saintesprint.html">&lt;p&gt;Dossard pris à la dernière minute parce qu’il fallait bien faire une course
 cette année.&lt;/p&gt;
 
 &lt;p&gt;Je me suis pas si mal débrouillé malgré le manque de bornes à pied/pas de
@@ -197,25 +218,4 @@ vim:spell spelllang=fr
 
 &lt;!--
 vim:spell spelllang=fr
---&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 379.5 km Gain d’altitude 1108 m Durée 22:32 h:m</summary></entry><entry><title type="html">Entrainement février 2021</title><link href="https://bds.run/2021/03/01/entrainement-fevrier-2021.html" rel="alternate" type="text/html" title="Entrainement février 2021" /><published>2021-03-01T00:00:00+01:00</published><updated>2021-03-01T00:00:00+01:00</updated><id>https://bds.run/2021/03/01/entrainement-fevrier-2021</id><content type="html" xml:base="https://bds.run/2021/03/01/entrainement-fevrier-2021.html">&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Distance&lt;/td&gt;
-      &lt;td&gt;419.3 km&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gain d’altitude&lt;/td&gt;
-      &lt;td&gt;845 m&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Durée&lt;/td&gt;
-      &lt;td&gt;25:38 h:m&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Course à pied + vélo + commute&lt;/p&gt;
-
-&lt;!--
-vim:spell spelllang=fr
---&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 419.3 km Gain d’altitude 845 m Durée 25:38 h:m</summary></entry></feed>
+--&gt;</content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html">Distance 379.5 km Gain d’altitude 1108 m Durée 22:32 h:m</summary></entry></feed>
