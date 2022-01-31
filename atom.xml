@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2022-01-31T17:03:12+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Bilan 2021</title><link href="https://bds.run/2022/01/01/bilan-2021.html" rel="alternate" type="text/html" title="Bilan 2021" /><published>2022-01-01T00:00:00+01:00</published><updated>2022-01-01T00:00:00+01:00</updated><id>https://bds.run/2022/01/01/bilan-2021</id><content type="html" xml:base="https://bds.run/2022/01/01/bilan-2021.html"><![CDATA[<p>Pandémie pour la deuxième année consécutive, 345 jours actifs, 477 heures,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2022-01-31T22:43:34+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement janvier 2022</title><link href="https://bds.run/2022/01/31/entrainement-janvier-2022.html" rel="alternate" type="text/html" title="Entrainement janvier 2022" /><published>2022-01-31T00:00:00+01:00</published><updated>2022-01-31T00:00:00+01:00</updated><id>https://bds.run/2022/01/31/entrainement-janvier-2022</id><content type="html" xml:base="https://bds.run/2022/01/31/entrainement-janvier-2022.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>670.2 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>3247 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>35:47 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de janvier 2022]]></summary></entry><entry><title type="html">Bilan 2021</title><link href="https://bds.run/2022/01/01/bilan-2021.html" rel="alternate" type="text/html" title="Bilan 2021" /><published>2022-01-01T00:00:00+01:00</published><updated>2022-01-01T00:00:00+01:00</updated><id>https://bds.run/2022/01/01/bilan-2021</id><content type="html" xml:base="https://bds.run/2022/01/01/bilan-2021.html"><![CDATA[<p>Pandémie pour la deuxième année consécutive, 345 jours actifs, 477 heures,
 8763 kilomètres à rouler et courir, 34843 mètres de dénivelé positifs, 1 course.</p>
 
 <p><img class="lozad ctr img-thumbnail" data-src="https://bds.run/assets/2021/05/PATH-1-353f601346512b9b10c6a0b82dea9a575893d58f08b58e632dff309e7567d73ad7c877c63260ace4478f9eedd363d72a06af042b079cbbdd64b7b75c5400cee1.jpg" data-proofer-ignore="" /></p>
@@ -193,25 +214,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de juin 2021]]></summary></entry><entry><title type="html">Entrainement mai 2021</title><link href="https://bds.run/2021/06/02/entrainement-mai-2021.html" rel="alternate" type="text/html" title="Entrainement mai 2021" /><published>2021-06-02T00:00:00+02:00</published><updated>2021-06-02T00:00:00+02:00</updated><id>https://bds.run/2021/06/02/entrainement-mai-2021</id><content type="html" xml:base="https://bds.run/2021/06/02/entrainement-mai-2021.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>977.1 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>5661 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>48:12 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mai 2021]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de juin 2021]]></summary></entry></feed>
