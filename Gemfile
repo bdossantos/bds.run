@@ -3,7 +3,6 @@
 source 'https://rubygems.org'
 
 gem 'classifier-reborn'
-gem 'gsl'
 gem 'html-proofer'
 gem 'image_optim'
 gem 'image_optim_pack'

@@ -78,7 +78,6 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     fspath (3.1.2)
-    gsl (2.1.0.3)
     hashie (5.0.0)
     html-proofer (3.19.3)
       addressable (~> 2.3)
@@ -205,7 +204,6 @@ PLATFORMS
 
 DEPENDENCIES
   classifier-reborn
-  gsl
   html-proofer
   image_optim
   image_optim_pack
