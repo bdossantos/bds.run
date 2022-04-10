@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2022-04-08T12:43:53+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement février 2022</title><link href="https://bds.run/2022/03/01/entrainement-fevrier-2022.html" rel="alternate" type="text/html" title="Entrainement février 2022" /><published>2022-03-01T00:00:00+01:00</published><updated>2022-03-01T00:00:00+01:00</updated><id>https://bds.run/2022/03/01/entrainement-fevrier-2022</id><content type="html" xml:base="https://bds.run/2022/03/01/entrainement-fevrier-2022.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2022-04-10T14:43:22+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement mars 2022</title><link href="https://bds.run/2022/04/10/entrainement-mars-2022.html" rel="alternate" type="text/html" title="Entrainement mars 2022" /><published>2022-04-10T00:00:00+02:00</published><updated>2022-04-10T00:00:00+02:00</updated><id>https://bds.run/2022/04/10/entrainement-mars-2022</id><content type="html" xml:base="https://bds.run/2022/04/10/entrainement-mars-2022.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>613.9 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>3254 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>33:05 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mars 2022]]></summary></entry><entry><title type="html">Entrainement février 2022</title><link href="https://bds.run/2022/03/01/entrainement-fevrier-2022.html" rel="alternate" type="text/html" title="Entrainement février 2022" /><published>2022-03-01T00:00:00+01:00</published><updated>2022-03-01T00:00:00+01:00</updated><id>https://bds.run/2022/03/01/entrainement-fevrier-2022</id><content type="html" xml:base="https://bds.run/2022/03/01/entrainement-fevrier-2022.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -193,25 +214,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'août 2021]]></summary></entry><entry><title type="html">Entrainement juillet 2021</title><link href="https://bds.run/2021/07/31/entrainement-juillet-2021.html" rel="alternate" type="text/html" title="Entrainement juillet 2021" /><published>2021-07-31T00:00:00+02:00</published><updated>2021-07-31T00:00:00+02:00</updated><id>https://bds.run/2021/07/31/entrainement-juillet-2021</id><content type="html" xml:base="https://bds.run/2021/07/31/entrainement-juillet-2021.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>998.9 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>4472 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>50:15 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de juillet 2021]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'août 2021]]></summary></entry></feed>
