@@ -38,10 +38,10 @@ snapchat, les foulées d'instagrameuses.
 
 #### 2009 à 2014
 
-Principalement des courses sur route, dont entre autre les [10km Paris centre](http://www.10kmpariscentre.com/),
-[10km de Reims](http://www.runinreims.com/fr), [10km l'Equipe](http://www.10km.lequipe.fr/),
-[20km de Paris](http://www.20kmparis.com), [Paris-Versailles](http://www.parisversailles.com),
-[Sedan-Charleville](#), [Semi-Marathon de Paris](http://www.semideparis.com) [...]
+Principalement des courses sur route, dont entre autre les [10km Paris centre](https://www.10kmpariscentre.com/),
+[10km de Reims](https://www.runinreims.com/fr), [10km l'Equipe](https://www.10km.lequipe.fr/),
+[20km de Paris](https://www.20kmparis.com), [Paris-Versailles](https://www.parisversailles.com),
+[Sedan-Charleville](#), [Semi-Marathon de Paris](https://www.semideparis.com) [...]
 
 #### Map
 
@@ -91,8 +91,8 @@ courir.
 [30k]: {% post_url /2016/2016-03-19-ecotrail-de-paris-30Km %}
 [50k]: {% post_url /2018/2018-07-06-ecotrail-reykjavik-82km %}
 [100k]: {% post_url /2018/2018-07-06-ecotrail-reykjavik-82km %}
-[ASPTT]: http://asptt08.athle.com/
-[ITRA]: http://www.i-tra.org/community/benjamin.dos%20santos/557280/
+[ASPTT]: https://asptt08.athle.com/
+[ITRA]: https://itra.run/RunnerSpace/DOS.SANTOS.Benjamin/557280
 [bds]: https://b-ds.fr
 [twitter]: https://twitter.com/benjamin_ds
 [strava]: https://www.strava.com/athletes/6925704
