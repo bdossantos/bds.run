@@ -23,7 +23,7 @@ Le détail de ma course est sur [Strava][2].
 
 Maintenant place à la récupération, la saison va être chargée.
 
-{% include strava.md src='http://www.strava.com/activities/520826081/embed/fc480187c5536dfd32521516ca20f9a27f3b1dac' %}
+{% include strava.md src='https://www.strava.com/activities/520826081/embed/fc480187c5536dfd32521516ca20f9a27f3b1dac' %}
 
-[1]: http://www.traildeparis.com/
-[2]: http://www.strava.com/athletes/6925704
+[1]: https://www.traildeparis.com/
+[2]: https://www.strava.com/athletes/6925704

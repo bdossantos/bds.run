@@ -16,5 +16,5 @@ Moins de motivation ce mois-ci, surement le froid ! Sinon je serai à la
 sera nocturne. Je vais enfin inaugurer mes [Terra Kiger][2] (en compétition)
 et ma lampe Frontale.
 
-[1]: http://www.saintelyon.com/levenement/parcours/#21km
+[1]: https://www.saintelyon.com/levenement/parcours/#21km
 [2]: {% post_url /2014/2014-10-15-nike-air-zoom-terra-kiger-2 %}

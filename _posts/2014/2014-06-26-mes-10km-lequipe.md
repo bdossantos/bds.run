@@ -56,4 +56,4 @@ Les sensations étaient bonnes ! Cela est encourageant pour les courses à venir
 En revanche, sur ce coup je suis clairement déçu de la précision de ma
 Garmin ...
 
-[1]: http://fr.wikipedia.org/wiki/Yohann_Diniz
+[1]: https://fr.wikipedia.org/wiki/Yohann_Diniz

@@ -13,4 +13,4 @@ Si tout va bien, j'espère très rapidement pouvoir m'entrainer à nouveau comme
 il se doit afin de préparer un objectif. Paris-Versailles ? Un Semi-Marathon ?
 On verra bien d'ici là.
 
-[1]: http://www.10km.lequipe.fr/
+[1]: https://www.10km.lequipe.fr/

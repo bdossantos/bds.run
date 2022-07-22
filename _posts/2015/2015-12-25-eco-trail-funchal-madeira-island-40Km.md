@@ -27,5 +27,5 @@ vraiment pris cher sachant que je me suis blessé une semaine avant.
 Une bonne [tendinite du fascia lata][2] bien handicapante dans toutes
 les descentes.
 
-[1]: http://ecotrailmadeira.com/
-[2]: http://entrainement-sportif.fr/tendinite-fascia-lata.htm
+[1]: https://ecotrailmadeira.com/
+[2]: https://entrainement-sportif.fr/tendinite-fascia-lata.htm

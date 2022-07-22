@@ -42,5 +42,5 @@ J'ai mon chrono 2014 à battre sur cette sympathique épreuve (600D+ / 300 D-).
 Note pour plus tard : acheter une nouvelle frontale et m'arrêter au
 ravitaillement.
 
-[1]: http://traildeparis.com/
-[2]: http://www.trailardechois.com/
+[1]: https://traildeparis.com/
+[2]: https://www.trailardechois.com/

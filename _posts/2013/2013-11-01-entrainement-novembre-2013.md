@@ -47,5 +47,5 @@ Dimanche              | Footing 30' + 3x10' à 80% VMA R=5' + 10' cool
 Ce plan est basé sur celui de [conseils course à pied][1] consultable à
 cette [adresse][2].
 
-[2]: http://www.conseils-courseapied.com/
-[1]: http://www.conseils-courseapied.com/plans-entrainement/plan-entrainement-cross-country-phase1.html
+[2]: https://www.conseils-courseapied.com/
+[1]: https://www.conseils-courseapied.com/plans-entrainement/plan-entrainement-cross-country-phase1.html

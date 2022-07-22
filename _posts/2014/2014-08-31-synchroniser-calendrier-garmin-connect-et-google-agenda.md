@@ -12,4 +12,4 @@ très bien.
 À noter qu'il y a bien un délai de propagation aléatoire des événements
 à chaque mises à jours, mais cela reste correcte.
 
-[1]: http://www.wanarun.net/blog/synchroniser-garmin-connect-google-agenda-39884.html
+[1]: https://www.wanarun.net/blog/synchroniser-garmin-connect-google-agenda-39884.html

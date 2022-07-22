@@ -52,6 +52,6 @@ sauvé.
 Je verrai pour en faire des graphiques super cool pour me la jouer, mesurer ma
 progression, etc.
 
-[1]: http://www.voiesvertes.com/htm_partenaire/departementpart08.htm
-[2]: http://connect.garmin.com/modern/profile/bdossantos
+[1]: https://www.voiesvertes.com/htm_partenaire/departementpart08.htm
+[2]: https://connect.garmin.com/modern/profile/bdossantos
 [3]: https://github.com/bdossantos/runner.sh/tree/master/_data/activities

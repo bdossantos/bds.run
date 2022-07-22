@@ -111,5 +111,5 @@ prochaine pour tenter de battre mon record.
 Le détail sur [Garmin Connect][3]
 
 [1]: /todo-list.html
-[2]: http://connect.garmin.com/modern/activity/553161072
-[3]: http://connect.garmin.com/modern/activity/610789133
+[2]: https://connect.garmin.com/modern/activity/553161072
+[3]: https://connect.garmin.com/modern/activity/610789133

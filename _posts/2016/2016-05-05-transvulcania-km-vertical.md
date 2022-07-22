@@ -47,4 +47,4 @@ refaire, mais avec une meilleure préparation et sans sac à dos ...
 
 {% include strava.md src='https://www.strava.com/activities/566719309/embed/61d017b74ea5896151e7c55aa32548662c5a6b40' %}
 
-[1]: http://transvulcania.info/events-item/km-v/
+[1]: https://transvulcania.info/events-item/km-v/
