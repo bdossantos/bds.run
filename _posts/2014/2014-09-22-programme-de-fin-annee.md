@@ -43,6 +43,6 @@ un cross long et une Corrida.
 
 [1]: {% post_url /2013/2013-09-29-paris-versailles %}
 [2]: {% post_url /2013/2013-10-06-mon-premier-sedan-charleville %}
-[3]: /todo-list.html
+[3]: #
 [4]: https://www.saintelyon.com/levenement/details-des-epreuves/21km/#informations-tab-link
 [5]: https://www.saintelyon.com/levenement/details-des-epreuves/75km/#informations-tab-link
