@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2022-07-21T22:17:58+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement juin 2022</title><link href="https://bds.run/2022/07/01/entrainement-juin-2022.html" rel="alternate" type="text/html" title="Entrainement juin 2022" /><published>2022-07-01T00:00:00+02:00</published><updated>2022-07-01T00:00:00+02:00</updated><id>https://bds.run/2022/07/01/entrainement-juin-2022</id><content type="html" xml:base="https://bds.run/2022/07/01/entrainement-juin-2022.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2022-07-22T20:19:35+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Ut4M 20 Vercors,</title><link href="https://bds.run/2022/07/21/ut4m-20-vercors.html" rel="alternate" type="text/html" title="Ut4M 20 Vercors," /><published>2022-07-21T00:00:00+02:00</published><updated>2022-07-21T00:00:00+02:00</updated><id>https://bds.run/2022/07/21/ut4m-20-vercors</id><content type="html" xml:base="https://bds.run/2022/07/21/ut4m-20-vercors.html"><![CDATA[<p>Parti très doucement en supposant que les jambes seraient entamées par le vélo
+des jours précédents (~450km en 3 jours pour faire Gien-Grenoble).</p>
+
+<p>J’ai progressivement grignoté des places jusqu’au sommet.
+Après le passage de la crête au ralenti j’ai pu dérouler jusqu’à l’arrivée.</p>
+
+<p>Je termine 21 ème.</p>
+
+<p>Les plus :</p>
+
+<ul>
+  <li>Bonnes jambes malgré les 3 jours de vélo précédent la course</li>
+  <li>Bon cardio, je pense que j’étais en sous régime (~155BPM)</li>
+  <li>Bonne gestion de la chaleur</li>
+</ul>
+
+<p>Les moins :</p>
+
+<ul>
+  <li>RAS</li>
+</ul>
+
+<h3 id="ma-course">Ma course</h3>
+
+<iframe class="lozad" height="405" width="100%" frameborder="0" allowtransparency="true" scrolling="no" data-src="https://www.strava.com/activities/7503797636/embed/f51114cec58ed874c9a7d4947715b1cc24e7e8fe">
+</iframe>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="compétition" /><summary type="html"><![CDATA[Compte rendu de mon Ut4M 20 Vercors]]></summary></entry><entry><title type="html">Entrainement juin 2022</title><link href="https://bds.run/2022/07/01/entrainement-juin-2022.html" rel="alternate" type="text/html" title="Entrainement juin 2022" /><published>2022-07-01T00:00:00+02:00</published><updated>2022-07-01T00:00:00+02:00</updated><id>https://bds.run/2022/07/01/entrainement-juin-2022</id><content type="html" xml:base="https://bds.run/2022/07/01/entrainement-juin-2022.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -183,35 +212,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de novembre 2021]]></summary></entry><entry><title type="html">La SaintéSprint</title><link href="https://bds.run/2021/11/21/saintesprint.html" rel="alternate" type="text/html" title="La SaintéSprint" /><published>2021-11-21T00:00:00+01:00</published><updated>2021-11-21T00:00:00+01:00</updated><id>https://bds.run/2021/11/21/saintesprint</id><content type="html" xml:base="https://bds.run/2021/11/21/saintesprint.html"><![CDATA[<p>Dossard pris à la dernière minute parce qu’il fallait bien faire une course
-cette année.</p>
-
-<p>Je me suis pas si mal débrouillé malgré le manque de bornes à pied/pas de
-préparation.</p>
-
-<p>Les plus :</p>
-
-<ul>
-  <li>Bonnes jambes malgré le manque d’entrainement</li>
-  <li>Bon cardio, je pense que j’étais en sous régime</li>
-</ul>
-
-<p>Les moins :</p>
-
-<ul>
-  <li>Trop lent dans la seule descente “technique” du parcours</li>
-  <li>Trop couvert, j’ai eu trop chaud !</li>
-  <li>Sac de trail qui n’arrétait pas de se déserrer/bouger</li>
-  <li>Mal placé au départ</li>
-  <li>Trop dans l’économie dans la seconde partie de la course pourtant descendante</li>
-  <li>J’ai marché dans la seul difficultée du parcours (côte du 17ème)</li>
-</ul>
-
-<h3 id="ma-course">Ma course</h3>
-
-<iframe class="lozad" height="405" width="100%" frameborder="0" allowtransparency="true" scrolling="no" data-src="https://www.strava.com/activities/6315194967/embed/54b909ae172c25bbeffe5129264e450d1a81fdce">
-</iframe>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="compétition" /><summary type="html"><![CDATA[Compte rendu de ma deuxième SaintéSprint]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de novembre 2021]]></summary></entry></feed>
