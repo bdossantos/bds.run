@@ -81,7 +81,7 @@ GEM
     fspath (3.1.2)
     gsl (2.1.0.3)
     hashie (5.0.0)
-    html-proofer (4.3.2)
+    html-proofer (4.4.0)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogiri (~> 1.13)
