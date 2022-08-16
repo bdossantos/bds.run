@@ -142,6 +142,6 @@ Mes [Terra Kiger][4] après le course, elles ont pris cher.
 [1]: https://www.saintelyon.com/
 [2]: https://www.capitainetrain.com/
 [3]: https://connect.garmin.com/modern/activity/646516025
-[4]: {{ site.baseurl }}/{% post_url /2014/2014-10-15-nike-air-zoom-terra-kiger-2 %}
+[4]: {% post_url /2014/2014-10-15-nike-air-zoom-terra-kiger-2 %}
 
 <!-- vim: set spell spelllang=fr: -->
