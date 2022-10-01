@@ -49,12 +49,11 @@ Principalement des courses sur route, dont entre autre les [10km Paris centre](h
 
 ### Index de performance ITRA*
 
-Trail category              | **Cotation ( / 1000)** |
-:---------------------------|:-----------------------|
-Trail Ultra XL ( >= 100 km)	|	N/A                    |
-Trail Ultra L (70 to 99 km)	|	N/A                    |
-Trail Ultra M (42 to 69 km)	| 531	                   |
-Trail (<42km)	              | 585	                   |
+Distance category           | General   | Half Marathon | 50K   | 50M   |
+:---------------------------|:----------|:--------------|:------|:------|
+ITRA Performance Index	    |	598       | 598           | 421   | 421   |
+Best ITRA Score             |	616       | 616           | 534   | 0     |
+Races Finished              | 19/20	    | 6/6           | 7/7   | 0/0   |
 
 _* [International Trail Running Association][ITRA]_
 
