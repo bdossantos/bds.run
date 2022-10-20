@@ -1,9 +1,13 @@
 <img
-  class='lozad ctr img-thumbnail'
+  class="lozad ctr img-thumbnail"
   data-src="{{ include.photo | asset:'@path @magick:quality=90' }}"
   data-proofer-ignore
-  />
+/>
 
 <noscript>
-  <img class="ctr img-thumbnail" src="{{ include.photo | asset:'@path @magick:quality=90' }}" data-proofer-ignore/>
+  <img
+    class="ctr img-thumbnail"
+    src="{{ include.photo | asset:'@path @magick:quality=90' }}"
+    data-proofer-ignore
+  />
 </noscript>

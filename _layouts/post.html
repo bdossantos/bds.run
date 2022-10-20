@@ -3,22 +3,22 @@ layout: default
 ---
 
 <article class="post">
- <header>
-  <h2>{{ page.title }}</h2>
-  <p class="meta">
-   <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}">
-    {{ page.date | date: "%d/%m/%Y" }}
-   </time>
-   - {{ page.categories | join: ', ' }}
-  </p>
- </header>
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p class="meta">
+      <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}">
+        {{ page.date | date: "%d/%m/%Y" }}
+      </time>
+      - {{ page.categories | join: ', ' }}
+    </p>
+  </header>
 
- <section>{{ content }}</section>
+  <section>{{ content }}</section>
 
- <footer>
-  <section id="related">
-   <p>Sur le même thème :</p>
-   {% include related_posts.html %}
-  </section>
- </footer>
+  <footer>
+    <section id="related">
+      <p>Sur le même thème :</p>
+      {% include related_posts.html %}
+    </section>
+  </footer>
 </article>
