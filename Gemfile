@@ -3,12 +3,11 @@
 source 'https://rubygems.org'
 
 gem 'classifier-reborn'
-gem 'gsl'
 gem 'html-proofer'
 gem 'image_optim'
 gem 'image_optim_pack'
 # https://github.com/jekyll/jekyll/issues/8049
-gem "jekyll"
+gem "jekyll", '4.2.2'
 gem 'mini_magick'
 gem 'rake'
 gem 'sass'
