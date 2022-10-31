@@ -7,5 +7,5 @@ assets:
     baseurl: false
     destination: "/assets"
     url: https://bds.run
-lsi: true
+lsi: false
 future: false
