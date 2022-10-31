@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'classifier-reborn'
-gem 'html-proofer'
+gem 'html-proofer', '4.4.3'
 gem 'image_optim'
 gem 'image_optim_pack'
 # https://github.com/jekyll/jekyll/issues/8049
