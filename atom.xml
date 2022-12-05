@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2022-12-02T20:30:58+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement novembre 2022</title><link href="https://bds.run/2022/12/02/entrainement-novembre-2022.html" rel="alternate" type="text/html" title="Entrainement novembre 2022" /><published>2022-12-02T00:00:00+01:00</published><updated>2022-12-02T00:00:00+01:00</updated><id>https://bds.run/2022/12/02/entrainement-novembre-2022</id><content type="html" xml:base="https://bds.run/2022/12/02/entrainement-novembre-2022.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2022-12-05T20:19:56+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">La SaintExpress</title><link href="https://bds.run/2022/12/03/saintexpress.html" rel="alternate" type="text/html" title="La SaintExpress" /><published>2022-12-03T00:00:00+01:00</published><updated>2022-12-03T00:00:00+01:00</updated><id>https://bds.run/2022/12/03/saintexpress</id><content type="html" xml:base="https://bds.run/2022/12/03/saintexpress.html"><![CDATA[<p>Tout simplement, parce qu’il faut bien utiliser sa frontale au moins une fois
+par an.</p>
+
+<p>Conditions loin d’être idéales : brouillard et pluie/neige fondu presque tout
+le long.</p>
+
+<p>Sans parler de l’attente très longue pour embarquer dans les bus menant au
+départ/arrivée qui m’a laissé que 10 minutes pour me changer.
+Je suis parti sans aucun warm-up.</p>
+
+<p>Les plus :</p>
+
+<ul>
+  <li>Bonnes jambes</li>
+  <li>La pluie et le manque de visibilité a rendu les passages dans les chemins
+  plus compliqué que prévu, mais je ne pense pas que j’aurai pu aller beaucoup
+  plus vite aujourd’hui</li>
+</ul>
+
+<p>Les moins :</p>
+
+<ul>
+  <li>Comme après chaque update firmware, ma Suunto a crashé</li>
+  <li>Trop lent dans les descentes “techniques” du parcours</li>
+  <li>Pas trop dans un bon mood/manque d’envie au départ à cause de la logistique
+  chaotique</li>
+  <li>Je ne me suis casi pas ravitaillé (1 bidon de 500ml de flotte et 3 gels),
+  car dès le départ j’ai eu des crampes d’estomac : eau trop froide ?</li>
+  <li>Manque de grip dans les portions grasses</li>
+</ul>
+
+<!--
+### Ma course
+
+<iframe
+  class='lozad'
+  height='405'
+  width='100%'
+  frameborder='0'
+  allowtransparency='true'
+  scrolling='no'
+  data-src='https://www.strava.com/activities/6315194967/embed/54b909ae172c25bbeffe5129264e450d1a81fdce'
+  >
+</iframe>
+
+-->
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="compétition" /><summary type="html"><![CDATA[Compte rendu de ma première SaintExpress]]></summary></entry><entry><title type="html">Entrainement novembre 2022</title><link href="https://bds.run/2022/12/02/entrainement-novembre-2022.html" rel="alternate" type="text/html" title="Entrainement novembre 2022" /><published>2022-12-02T00:00:00+01:00</published><updated>2022-12-02T00:00:00+01:00</updated><id>https://bds.run/2022/12/02/entrainement-novembre-2022</id><content type="html" xml:base="https://bds.run/2022/12/02/entrainement-novembre-2022.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -195,25 +244,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'avril 2022]]></summary></entry><entry><title type="html">Entrainement mars 2022</title><link href="https://bds.run/2022/04/10/entrainement-mars-2022.html" rel="alternate" type="text/html" title="Entrainement mars 2022" /><published>2022-04-10T00:00:00+02:00</published><updated>2022-04-10T00:00:00+02:00</updated><id>https://bds.run/2022/04/10/entrainement-mars-2022</id><content type="html" xml:base="https://bds.run/2022/04/10/entrainement-mars-2022.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>613.9 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>3254 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>33:05 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mars 2022]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'avril 2022]]></summary></entry></feed>
