@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2022-12-29T19:48:23+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">La SaintExpress</title><link href="https://bds.run/2022/12/03/saintexpress.html" rel="alternate" type="text/html" title="La SaintExpress" /><published>2022-12-03T00:00:00+01:00</published><updated>2022-12-03T00:00:00+01:00</updated><id>https://bds.run/2022/12/03/saintexpress</id><content type="html" xml:base="https://bds.run/2022/12/03/saintexpress.html"><![CDATA[<p>Tout simplement, parce qu’il faut bien utiliser sa frontale au moins une fois
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2023-01-01T18:50:28+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Bilan 2022</title><link href="https://bds.run/2023/01/01/bilan-2022.html" rel="alternate" type="text/html" title="Bilan 2022" /><published>2023-01-01T00:00:00+01:00</published><updated>2023-01-01T00:00:00+01:00</updated><id>https://bds.run/2023/01/01/bilan-2022</id><content type="html" xml:base="https://bds.run/2023/01/01/bilan-2022.html"><![CDATA[<p>364 jours actifs, 470 heures, 7836 kilomètres à rouler et courir, 45761 mètres
+de dénivelé positifs, 2 courses.</p>
+
+<p><img class="lozad ctr img-thumbnail" data-src="https://bds.run/assets/2022/12/PATH-1-0943241fda83d4b20fb4782336b14cc38b96c29a765952a33951e92c6dc8c71cd205961afd15f7b9228ed58d944ef9d1bf29d3a1e1ad71fd07c6fba1f689d8cb.jpg" data-proofer-ignore="" /></p>
+
+<noscript>
+  <img class="ctr img-thumbnail" src="https://bds.run/assets/2022/12/PATH-1-0943241fda83d4b20fb4782336b14cc38b96c29a765952a33951e92c6dc8c71cd205961afd15f7b9228ed58d944ef9d1bf29d3a1e1ad71fd07c6fba1f689d8cb.jpg" data-proofer-ignore="" />
+</noscript>
+
+<p><img class="lozad ctr img-thumbnail" data-src="https://bds.run/assets/2022/12/PATH-2-e9211728d8803f3988760e8e8f0031c4e827714fff1c3b3d7db6f52fe681b4018b8f25df2742a315b51a6d3fea0ebd68ab9bd4fbf4b87ca87bce2872c527e7ef.jpg" data-proofer-ignore="" /></p>
+
+<noscript>
+  <img class="ctr img-thumbnail" src="https://bds.run/assets/2022/12/PATH-2-e9211728d8803f3988760e8e8f0031c4e827714fff1c3b3d7db6f52fe681b4018b8f25df2742a315b51a6d3fea0ebd68ab9bd4fbf4b87ca87bce2872c527e7ef.jpg" data-proofer-ignore="" />
+</noscript>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="bilan" /><summary type="html"><![CDATA[Bilan sportif de ma saison 2022]]></summary></entry><entry><title type="html">Entrainement décembre 2022</title><link href="https://bds.run/2022/12/31/entrainement-decembre-2022.html" rel="alternate" type="text/html" title="Entrainement décembre 2022" /><published>2022-12-31T00:00:00+01:00</published><updated>2022-12-31T00:00:00+01:00</updated><id>https://bds.run/2022/12/31/entrainement-decembre-2022</id><content type="html" xml:base="https://bds.run/2022/12/31/entrainement-decembre-2022.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>327 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>2338 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>28:34 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de décembre 2022]]></summary></entry><entry><title type="html">La SaintExpress</title><link href="https://bds.run/2022/12/03/saintexpress.html" rel="alternate" type="text/html" title="La SaintExpress" /><published>2022-12-03T00:00:00+01:00</published><updated>2022-12-03T00:00:00+01:00</updated><id>https://bds.run/2022/12/03/saintexpress</id><content type="html" xml:base="https://bds.run/2022/12/03/saintexpress.html"><![CDATA[<p>Tout simplement, parce qu’il faut bien utiliser sa frontale au moins une fois
 par an.</p>
 
 <p>Conditions loin d’être idéales : brouillard et pluie/neige fondu presque tout
@@ -202,46 +240,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de juin 2022]]></summary></entry><entry><title type="html">Entrainement mai 2022</title><link href="https://bds.run/2022/05/31/entrainement-mai-2022.html" rel="alternate" type="text/html" title="Entrainement mai 2022" /><published>2022-05-31T00:00:00+02:00</published><updated>2022-05-31T00:00:00+02:00</updated><id>https://bds.run/2022/05/31/entrainement-mai-2022</id><content type="html" xml:base="https://bds.run/2022/05/31/entrainement-mai-2022.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>785.8 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>4324 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>42:12 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mai 2022]]></summary></entry><entry><title type="html">Entrainement avril 2022</title><link href="https://bds.run/2022/05/03/entrainement-avril-2022.html" rel="alternate" type="text/html" title="Entrainement avril 2022" /><published>2022-05-03T00:00:00+02:00</published><updated>2022-05-03T00:00:00+02:00</updated><id>https://bds.run/2022/05/03/entrainement-avril-2022</id><content type="html" xml:base="https://bds.run/2022/05/03/entrainement-avril-2022.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>806.4 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>3979 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>43:35 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'avril 2022]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de juin 2022]]></summary></entry></feed>
