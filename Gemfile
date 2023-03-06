@@ -11,7 +11,7 @@ gem "jekyll", '4.3.2'
 gem 'mini_magick'
 gem 'rake'
 gem 'sass'
-gem 'sprockets', github: "rails/sprockets", ref: 'v4.0.3'
+gem 'sprockets', github: "rails/sprockets", ref: 'v4.2.0'
 gem 'strava-ruby-client'
 gem 'uglifier'
 

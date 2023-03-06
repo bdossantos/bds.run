@@ -17,12 +17,12 @@ GIT
 
 GIT
   remote: https://github.com/rails/sprockets.git
-  revision: 52c364146aa9037f8490c9b475878a7a125147d1
-  ref: v4.0.3
+  revision: a0ac27b67abb5f76ac5e820bfac289ca07cceaea
+  ref: v4.2.0
   specs:
-    sprockets (4.0.3)
+    sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
-      rack (> 1, < 3)
+      rack (>= 2.2.4, < 4)
 
 GEM
   remote: https://rubygems.org/
@@ -154,7 +154,7 @@ GEM
     progress (3.6.0)
     public_suffix (5.0.1)
     racc (1.6.2)
-    rack (2.2.6.3)
+    rack (3.0.4.2)
     rainbow (3.1.1)
     rake (13.0.6)
     rb-fsevent (0.11.2)
