@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2023-04-24T11:57:49+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">TansAubrac 50K</title><link href="https://bds.run/2023/04/22/transaubrac-50k.html" rel="alternate" type="text/html" title="TansAubrac 50K" /><published>2023-04-22T00:00:00+02:00</published><updated>2023-04-22T00:00:00+02:00</updated><id>https://bds.run/2023/04/22/transaubrac-50k</id><content type="html" xml:base="https://bds.run/2023/04/22/transaubrac-50k.html"><![CDATA[<p>Départ prudent, il devait pleuvoir mais finalement il fait sec et tant mieux.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2023-05-01T14:57:15+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement avril 2023</title><link href="https://bds.run/2023/05/01/entrainement-avril-2023.html" rel="alternate" type="text/html" title="Entrainement avril 2023" /><published>2023-05-01T00:00:00+02:00</published><updated>2023-05-01T00:00:00+02:00</updated><id>https://bds.run/2023/05/01/entrainement-avril-2023</id><content type="html" xml:base="https://bds.run/2023/05/01/entrainement-avril-2023.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>767.9 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>6973 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>58:17 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'avril 2023]]></summary></entry><entry><title type="html">TansAubrac 50K</title><link href="https://bds.run/2023/04/22/transaubrac-50k.html" rel="alternate" type="text/html" title="TansAubrac 50K" /><published>2023-04-22T00:00:00+02:00</published><updated>2023-04-22T00:00:00+02:00</updated><id>https://bds.run/2023/04/22/transaubrac-50k</id><content type="html" xml:base="https://bds.run/2023/04/22/transaubrac-50k.html"><![CDATA[<p>Départ prudent, il devait pleuvoir mais finalement il fait sec et tant mieux.
 Je trouve que beaucoup de gens sont partis vite (ou c’est moi qui est lent) et
 décide d’avancer a mon rythme. Je n’ai pas spécialement d’objectif
 chronométrique ou place car je m’aligne pas forcément très frais suites aux
@@ -242,25 +263,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'octobre 2022]]></summary></entry><entry><title type="html">Entrainement septembre 2022</title><link href="https://bds.run/2022/10/01/entrainement-septembre-2022.html" rel="alternate" type="text/html" title="Entrainement septembre 2022" /><published>2022-10-01T00:00:00+02:00</published><updated>2022-10-01T00:00:00+02:00</updated><id>https://bds.run/2022/10/01/entrainement-septembre-2022</id><content type="html" xml:base="https://bds.run/2022/10/01/entrainement-septembre-2022.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>482.7 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>2837 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>32:54 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de septembre 2022]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'octobre 2022]]></summary></entry></feed>
