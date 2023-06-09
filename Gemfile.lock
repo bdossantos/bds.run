@@ -50,7 +50,7 @@ GEM
     exifr (1.4.0)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
-    faraday (2.7.4)
+    faraday (2.7.6)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-multipart (1.0.4)
@@ -75,7 +75,7 @@ GEM
       yell (~> 2.0)
       zeitwerk (~> 2.5)
     http_parser.rb (0.8.0)
-    i18n (1.12.0)
+    i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     image_optim (0.31.3)
       exifr (~> 1.2, >= 1.2.2)
@@ -178,7 +178,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     sassc (2.4.0)
       ffi (~> 1.9)
-    strava-ruby-client (1.0.1)
+    strava-ruby-client (1.1.0)
       activesupport
       faraday (>= 2.0)
       faraday-multipart (>= 1.0)
@@ -194,7 +194,7 @@ GEM
     unicode-display_width (2.4.2)
     webrick (1.8.1)
     yell (2.2.2)
-    zeitwerk (2.6.7)
+    zeitwerk (2.6.8)
 
 PLATFORMS
   arm64-darwin-22
