@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2023-06-27T10:16:37+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement mai 2023</title><link href="https://bds.run/2023/06/02/entrainement-mai-2023.html" rel="alternate" type="text/html" title="Entrainement mai 2023" /><published>2023-06-02T00:00:00+02:00</published><updated>2023-06-02T00:00:00+02:00</updated><id>https://bds.run/2023/06/02/entrainement-mai-2023</id><content type="html" xml:base="https://bds.run/2023/06/02/entrainement-mai-2023.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2023-07-02T22:10:41+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement juin 2023</title><link href="https://bds.run/2023/07/02/entrainement-juin-2023.html" rel="alternate" type="text/html" title="Entrainement juin 2023" /><published>2023-07-02T00:00:00+02:00</published><updated>2023-07-02T00:00:00+02:00</updated><id>https://bds.run/2023/07/02/entrainement-juin-2023</id><content type="html" xml:base="https://bds.run/2023/07/02/entrainement-juin-2023.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>730.5 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>2658 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>46:35 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de juin 2023]]></summary></entry><entry><title type="html">Entrainement mai 2023</title><link href="https://bds.run/2023/06/02/entrainement-mai-2023.html" rel="alternate" type="text/html" title="Entrainement mai 2023" /><published>2023-06-02T00:00:00+02:00</published><updated>2023-06-02T00:00:00+02:00</updated><id>https://bds.run/2023/06/02/entrainement-mai-2023</id><content type="html" xml:base="https://bds.run/2023/06/02/entrainement-mai-2023.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -242,25 +263,4 @@ Je suis parti sans aucun warm-up.</p>
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="compétition" /><summary type="html"><![CDATA[Compte rendu de ma première SaintExpress]]></summary></entry><entry><title type="html">Entrainement novembre 2022</title><link href="https://bds.run/2022/12/02/entrainement-novembre-2022.html" rel="alternate" type="text/html" title="Entrainement novembre 2022" /><published>2022-12-02T00:00:00+01:00</published><updated>2022-12-02T00:00:00+01:00</updated><id>https://bds.run/2022/12/02/entrainement-novembre-2022</id><content type="html" xml:base="https://bds.run/2022/12/02/entrainement-novembre-2022.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>537.5 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>4146 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>38:16 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de novembre 2022]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="compétition" /><summary type="html"><![CDATA[Compte rendu de ma première SaintExpress]]></summary></entry></feed>
