@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2023-09-26T22:32:11+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Trail de la digue</title><link href="https://bds.run/2023/09/23/trail-de-la-digue.html" rel="alternate" type="text/html" title="Trail de la digue" /><published>2023-09-23T00:00:00+02:00</published><updated>2023-09-23T00:00:00+02:00</updated><id>https://bds.run/2023/09/23/trail-de-la-digue</id><content type="html" xml:base="https://bds.run/2023/09/23/trail-de-la-digue.html"><![CDATA[<p>Je suis parti la fleur au fusil, car je n’ai pas beaucoup galopé cette année
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2023-10-03T19:38:31+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement septembre 2023</title><link href="https://bds.run/2023/10/03/entrainement-septembre-2023.html" rel="alternate" type="text/html" title="Entrainement septembre 2023" /><published>2023-10-03T00:00:00+02:00</published><updated>2023-10-03T00:00:00+02:00</updated><id>https://bds.run/2023/10/03/entrainement-septembre-2023</id><content type="html" xml:base="https://bds.run/2023/10/03/entrainement-septembre-2023.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>763.6 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>5045 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>49:37 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de septembre 2023]]></summary></entry><entry><title type="html">Trail de la digue</title><link href="https://bds.run/2023/09/23/trail-de-la-digue.html" rel="alternate" type="text/html" title="Trail de la digue" /><published>2023-09-23T00:00:00+02:00</published><updated>2023-09-23T00:00:00+02:00</updated><id>https://bds.run/2023/09/23/trail-de-la-digue</id><content type="html" xml:base="https://bds.run/2023/09/23/trail-de-la-digue.html"><![CDATA[<p>Je suis parti la fleur au fusil, car je n’ai pas beaucoup galopé cette année
 et encore moins ces dernières semaines.</p>
 
 <p>Départ probablement un peu rapide car très roulant. Au ravito du 21k je me
@@ -227,25 +248,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de février 2023]]></summary></entry><entry><title type="html">Entrainement janvier 2023</title><link href="https://bds.run/2023/02/02/entrainement-janvier-2023.html" rel="alternate" type="text/html" title="Entrainement janvier 2023" /><published>2023-02-02T00:00:00+01:00</published><updated>2023-02-02T00:00:00+01:00</updated><id>https://bds.run/2023/02/02/entrainement-janvier-2023</id><content type="html" xml:base="https://bds.run/2023/02/02/entrainement-janvier-2023.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>661.7 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>2829 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>39:34 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de janvier 2023]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de février 2023]]></summary></entry></feed>
