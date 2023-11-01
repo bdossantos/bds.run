@@ -8,7 +8,7 @@ country: Portugal
 country_emoji: 🇵🇹
 distance: 3 km
 elevation: 800 m
-time: '46:00:00 h:m:s'
+time: '00:46:00 h:m:s'
 rank: 36th
 ---
 
