@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2023-10-31T15:58:51+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement septembre 2023</title><link href="https://bds.run/2023/10/03/entrainement-septembre-2023.html" rel="alternate" type="text/html" title="Entrainement septembre 2023" /><published>2023-10-03T00:00:00+02:00</published><updated>2023-10-03T00:00:00+02:00</updated><id>https://bds.run/2023/10/03/entrainement-septembre-2023</id><content type="html" xml:base="https://bds.run/2023/10/03/entrainement-septembre-2023.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2023-11-01T12:15:59+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement octobre 2023</title><link href="https://bds.run/2023/11/01/entrainement-octobre-2023.html" rel="alternate" type="text/html" title="Entrainement octobre 2023" /><published>2023-11-01T00:00:00+01:00</published><updated>2023-11-01T00:00:00+01:00</updated><id>https://bds.run/2023/11/01/entrainement-octobre-2023</id><content type="html" xml:base="https://bds.run/2023/11/01/entrainement-octobre-2023.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>654.7 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>2328 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>40:37 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'octobre 2023]]></summary></entry><entry><title type="html">Entrainement septembre 2023</title><link href="https://bds.run/2023/10/03/entrainement-septembre-2023.html" rel="alternate" type="text/html" title="Entrainement septembre 2023" /><published>2023-10-03T00:00:00+02:00</published><updated>2023-10-03T00:00:00+02:00</updated><id>https://bds.run/2023/10/03/entrainement-septembre-2023</id><content type="html" xml:base="https://bds.run/2023/10/03/entrainement-septembre-2023.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -227,25 +248,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mars 2023]]></summary></entry><entry><title type="html">Entrainement février 2023</title><link href="https://bds.run/2023/03/04/entrainement-fevrier-2023.html" rel="alternate" type="text/html" title="Entrainement février 2023" /><published>2023-03-04T00:00:00+01:00</published><updated>2023-03-04T00:00:00+01:00</updated><id>https://bds.run/2023/03/04/entrainement-fevrier-2023</id><content type="html" xml:base="https://bds.run/2023/03/04/entrainement-fevrier-2023.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>665.5 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>3091 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>36:15 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de février 2023]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mars 2023]]></summary></entry></feed>

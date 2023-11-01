@@ -18,7 +18,7 @@ Raspberry Pi : http://www.raspberrypi.org/
 Debian : https://www.debian.org/
 
 /* SITE */
-Last update: 2023-10-31
+Last update: 2023-11-01
 Standards: HTML5, CSS3
 Components: Normalize.css, Lozad.js
 Software: Jekyll, Vim, Git, Mac OS X
