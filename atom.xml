@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2024-01-06T17:53:26+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Bilan 2023</title><link href="https://bds.run/2024/01/01/bilan-2023.html" rel="alternate" type="text/html" title="Bilan 2023" /><published>2024-01-01T00:00:00+01:00</published><updated>2024-01-01T00:00:00+01:00</updated><id>https://bds.run/2024/01/01/bilan-2023</id><content type="html" xml:base="https://bds.run/2024/01/01/bilan-2023.html"><![CDATA[<p>364 jours actifs, 539 heures, 7813 kilomètres à rouler et courir, 49811 mètres
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2024-01-06T18:13:33+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Bilan 2023</title><link href="https://bds.run/2024/01/01/bilan-2023.html" rel="alternate" type="text/html" title="Bilan 2023" /><published>2024-01-01T00:00:00+01:00</published><updated>2024-01-01T00:00:00+01:00</updated><id>https://bds.run/2024/01/01/bilan-2023</id><content type="html" xml:base="https://bds.run/2024/01/01/bilan-2023.html"><![CDATA[<p>364 jours actifs, 539 heures, 7813 kilomètres à rouler et courir, 49811 mètres
 de dénivelé positif, 2 courses.</p>
 
 <p><img class="lozad ctr img-thumbnail" data-src="https://bds.run/assets/2023/12/WHW-1-0fc643ff59b6297d0d55b3481260f548d3a5938f584f5e04e7885ac631f8be09e82a1a91d47ab8fb55a2bd9dbc80d4669aefbc893858980c1fd48cce0d3111cf.jpg" data-proofer-ignore="" /></p>
@@ -9,7 +9,28 @@ de dénivelé positif, 2 courses.</p>
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="bilan" /><summary type="html"><![CDATA[Bilan sportif de ma saison 2023]]></summary></entry><entry><title type="html">Entrainement novembre 2023</title><link href="https://bds.run/2023/11/04/entrainement-novembre-2023.html" rel="alternate" type="text/html" title="Entrainement novembre 2023" /><published>2023-11-04T00:00:00+01:00</published><updated>2023-11-04T00:00:00+01:00</updated><id>https://bds.run/2023/11/04/entrainement-novembre-2023</id><content type="html" xml:base="https://bds.run/2023/11/04/entrainement-novembre-2023.html"><![CDATA[<table>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="bilan" /><summary type="html"><![CDATA[Bilan sportif de ma saison 2023]]></summary></entry><entry><title type="html">Entrainement decembre 2023</title><link href="https://bds.run/2023/12/31/entrainement-decembre-2023.html" rel="alternate" type="text/html" title="Entrainement decembre 2023" /><published>2023-12-31T00:00:00+01:00</published><updated>2023-12-31T00:00:00+01:00</updated><id>https://bds.run/2023/12/31/entrainement-decembre-2023</id><content type="html" xml:base="https://bds.run/2023/12/31/entrainement-decembre-2023.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>530.0 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>7754 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>29:11 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de decembre 2023]]></summary></entry><entry><title type="html">Entrainement novembre 2023</title><link href="https://bds.run/2023/11/04/entrainement-novembre-2023.html" rel="alternate" type="text/html" title="Entrainement novembre 2023" /><published>2023-11-04T00:00:00+01:00</published><updated>2023-11-04T00:00:00+01:00</updated><id>https://bds.run/2023/11/04/entrainement-novembre-2023</id><content type="html" xml:base="https://bds.run/2023/11/04/entrainement-novembre-2023.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -186,25 +207,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mai 2023]]></summary></entry><entry><title type="html">Entrainement avril 2023</title><link href="https://bds.run/2023/05/01/entrainement-avril-2023.html" rel="alternate" type="text/html" title="Entrainement avril 2023" /><published>2023-05-01T00:00:00+02:00</published><updated>2023-05-01T00:00:00+02:00</updated><id>https://bds.run/2023/05/01/entrainement-avril-2023</id><content type="html" xml:base="https://bds.run/2023/05/01/entrainement-avril-2023.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>767.9 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>6973 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>58:17 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'avril 2023]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mai 2023]]></summary></entry></feed>
