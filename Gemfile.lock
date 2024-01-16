@@ -39,7 +39,7 @@ GEM
       fast-stemmer (~> 1.0)
       matrix (~> 0.4)
     colorator (1.1.0)
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.2.3)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
