@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "html-minifier": "4.0.0",
-    "html5-boilerplate": "9.0.0",
+    "html5-boilerplate": "9.0.1",
     "lozad": "1.16.0",
     "uncss": "^0.17.3"
   }
