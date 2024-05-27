@@ -6,5 +6,8 @@
     "html5-boilerplate": "9.0.0",
     "lozad": "1.16.0",
     "uncss": "^0.17.3"
+  },
+  "devDependencies": {
+    "@divriots/jampack": "^0.24.4"
   }
 }

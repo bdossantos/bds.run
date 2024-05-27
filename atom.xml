@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2024-02-04T19:35:34+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement janvier 2024</title><link href="https://bds.run/2024/02/04/entrainement-janvier-2024.html" rel="alternate" type="text/html" title="Entrainement janvier 2024" /><published>2024-02-04T00:00:00+01:00</published><updated>2024-02-04T00:00:00+01:00</updated><id>https://bds.run/2024/02/04/entrainement-janvier-2024</id><content type="html" xml:base="https://bds.run/2024/02/04/entrainement-janvier-2024.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2024-05-27T15:13:53+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement avril 2024</title><link href="https://bds.run/2024/05/02/entrainement-avril-2024.html" rel="alternate" type="text/html" title="Entrainement avril 2024" /><published>2024-05-02T00:00:00+02:00</published><updated>2024-05-02T00:00:00+02:00</updated><id>https://bds.run/2024/05/02/entrainement-avril-2024</id><content type="html" xml:base="https://bds.run/2024/05/02/entrainement-avril-2024.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>133.2 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>2148 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>23:43 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'avril 2024]]></summary></entry><entry><title type="html">Entrainement mars 2024</title><link href="https://bds.run/2024/04/03/entrainement-mars-2024.html" rel="alternate" type="text/html" title="Entrainement mars 2024" /><published>2024-04-03T00:00:00+02:00</published><updated>2024-04-03T00:00:00+02:00</updated><id>https://bds.run/2024/04/03/entrainement-mars-2024</id><content type="html" xml:base="https://bds.run/2024/04/03/entrainement-mars-2024.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>242.5 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>2983 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>23:23 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mars 2024]]></summary></entry><entry><title type="html">Entrainement février 2024</title><link href="https://bds.run/2024/03/05/entrainement-fevrier-2024.html" rel="alternate" type="text/html" title="Entrainement février 2024" /><published>2024-03-05T00:00:00+01:00</published><updated>2024-03-05T00:00:00+01:00</updated><id>https://bds.run/2024/03/05/entrainement-fevrier-2024</id><content type="html" xml:base="https://bds.run/2024/03/05/entrainement-fevrier-2024.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>383.6 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>3969 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>32:37 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de février 2024]]></summary></entry><entry><title type="html">Entrainement janvier 2024</title><link href="https://bds.run/2024/02/04/entrainement-janvier-2024.html" rel="alternate" type="text/html" title="Entrainement janvier 2024" /><published>2024-02-04T00:00:00+01:00</published><updated>2024-02-04T00:00:00+01:00</updated><id>https://bds.run/2024/02/04/entrainement-janvier-2024</id><content type="html" xml:base="https://bds.run/2024/02/04/entrainement-janvier-2024.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -22,11 +85,7 @@ vim:spell spelllang=fr
 -->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de janvier 2024]]></summary></entry><entry><title type="html">Bilan 2023</title><link href="https://bds.run/2024/01/01/bilan-2023.html" rel="alternate" type="text/html" title="Bilan 2023" /><published>2024-01-01T00:00:00+01:00</published><updated>2024-01-01T00:00:00+01:00</updated><id>https://bds.run/2024/01/01/bilan-2023</id><content type="html" xml:base="https://bds.run/2024/01/01/bilan-2023.html"><![CDATA[<p>364 jours actifs, 539 heures, 7813 kilomètres à rouler et courir, 49811 mètres
 de dénivelé positif, 2 courses.</p>
 
-<p><img class="lozad ctr img-thumbnail" data-src="https://bds.run/assets/2023/12/WHW-1-0fc643ff59b6297d0d55b3481260f548d3a5938f584f5e04e7885ac631f8be09e82a1a91d47ab8fb55a2bd9dbc80d4669aefbc893858980c1fd48cce0d3111cf.jpg" data-proofer-ignore="" /></p>
-
-<noscript>
-  <img class="ctr img-thumbnail" src="https://bds.run/assets/2023/12/WHW-1-0fc643ff59b6297d0d55b3481260f548d3a5938f584f5e04e7885ac631f8be09e82a1a91d47ab8fb55a2bd9dbc80d4669aefbc893858980c1fd48cce0d3111cf.jpg" data-proofer-ignore="" />
-</noscript>
+<p><img class="ctr img-thumbnail" src="/assets/images/2023/12/WHW-1.jpg" alt="Photo of Bilan 2023" data-proofer-ignore="" /></p>
 
 <!--
 vim:spell spelllang=fr
@@ -144,67 +203,4 @@ Même pas les guiboles et la caboche pour aller chercher un modeste sub 5h.</p>
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="compétition" /><summary type="html"><![CDATA[Compte rendu de mon trail de la digue]]></summary></entry><entry><title type="html">Entrainement août 2023</title><link href="https://bds.run/2023/09/04/entrainement-aout-2023.html" rel="alternate" type="text/html" title="Entrainement août 2023" /><published>2023-09-04T00:00:00+02:00</published><updated>2023-09-04T00:00:00+02:00</updated><id>https://bds.run/2023/09/04/entrainement-aout-2023</id><content type="html" xml:base="https://bds.run/2023/09/04/entrainement-aout-2023.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>518.3 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>6965 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>69:55 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'août 2023]]></summary></entry><entry><title type="html">Entrainement juillet 2023</title><link href="https://bds.run/2023/08/01/entrainement-juillet-2023.html" rel="alternate" type="text/html" title="Entrainement juillet 2023" /><published>2023-08-01T00:00:00+02:00</published><updated>2023-08-01T00:00:00+02:00</updated><id>https://bds.run/2023/08/01/entrainement-juillet-2023</id><content type="html" xml:base="https://bds.run/2023/08/01/entrainement-juillet-2023.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>711.6 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>3221 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>44:55 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de juillet 2023]]></summary></entry><entry><title type="html">Entrainement juin 2023</title><link href="https://bds.run/2023/07/02/entrainement-juin-2023.html" rel="alternate" type="text/html" title="Entrainement juin 2023" /><published>2023-07-02T00:00:00+02:00</published><updated>2023-07-02T00:00:00+02:00</updated><id>https://bds.run/2023/07/02/entrainement-juin-2023</id><content type="html" xml:base="https://bds.run/2023/07/02/entrainement-juin-2023.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>730.5 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>2658 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>46:35 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de juin 2023]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="compétition" /><summary type="html"><![CDATA[Compte rendu de mon trail de la digue]]></summary></entry></feed>
