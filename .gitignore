@@ -1,5 +1,6 @@
 .asset-cache/
 .bundle/
+.jampack
 .jekyll-assets-cache/
 .jekyll-cache/
 .rake_tasks

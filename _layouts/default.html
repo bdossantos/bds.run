@@ -30,19 +30,7 @@
     {% feed_meta %}
 
     <!-- CSS -->
-    {% if jekyll.environment == 'production' %} {% asset critical.css @inline %}
-    {% endif %}
-
-    <link
-      rel="preload"
-      href="{% asset main.css @path %}"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-      data-proofer-ignore
-    />
-
-    <noscript>{% asset main.css data-proofer-ignore %}</noscript>
-    {% asset lozad/dist/lozad @inline %}
+    <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">
     <div id="main">
@@ -79,10 +67,5 @@
         <p>© {{ site.time | date: "%Y" }} bds.run</p>
       </footer>
     </div>
-
-    <script>
-      const observer = lozad();
-      observer.observe();
-    </script>
   </body>
 </html>

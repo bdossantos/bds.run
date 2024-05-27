@@ -1,14 +1,8 @@
 {% for i in (1..include.count) %}
 <img
-  class="lozad ctr img-thumbnail"
-  data-src="{{ include.photos | append: '-' | append: i | append: '.jpg' | asset:'@path @magick:quality=90' }}"
+  class="ctr img-thumbnail"
+  src="/assets/images/{{ include.photos | append: '-' | append: i | append: '.jpg' }}"
+  alt="Photo of {{ page.title }} #{{ i }}"
   data-proofer-ignore
 />
-<noscript>
-  <img
-    class="ctr img-thumbnail"
-    src="{{ include.photos | append: '-' | append: i | append: '.jpg' | asset:'@path @magick:quality=90' }}"
-    data-proofer-ignore
-  />
-</noscript>
 {% endfor %}
