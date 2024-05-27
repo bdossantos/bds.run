@@ -6,7 +6,7 @@ LIBS_DIR = '_libs'
 BUILD_DIR = '_build'
 NPM = `which npm`.chomp
 WGET = `which wget`.chomp
-UNCSS = 'node_modules/uncss/bin/uncss'
+JAMPACK = './node_modules/.bin/jampack'
 JEKYLL_ENV = ENV['JEKYLL_ENV'] || 'development'
 
 desc 'Jekyll build'
@@ -15,15 +15,12 @@ task :jekyll_build do
   system "rm -rf #{BUILD_DIR}"
   config = File.exist?("_config_#{JEKYLL_ENV}.yml") ? ",_config_#{JEKYLL_ENV}.yml" : nil
 
-  system 'touch _assets/stylesheets/critical.css' if JEKYLL_ENV == 'production'
   system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}" || exit(1)
 
   if JEKYLL_ENV == 'production'
-    puts '--> Run UnCSS'
-    system "#{UNCSS} #{BUILD_DIR}/index.html --stylesheets " \
-      "file://$(find $PWD/_build/assets -type f -name 'main-*.css') " \
-      '> _assets/stylesheets/critical.css' || exit(1)
     system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}" || exit(1)
+    puts '--> Run jampack'
+    system "#{JAMPACK} #{BUILD_DIR}" || exit(1)
   end
 end
 

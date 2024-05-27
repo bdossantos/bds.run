@@ -9,15 +9,15 @@ highlighter: rouge
 future: false
 lsi: false
 exclude:
+  - .jampack
   - Dockerfile
   - Gemfile*
   - LICENSE
   - README.md
   - Rakefile
-  - node_modules
   - docker-compose.yml
+  - node_modules
 plugins:
-  - jekyll-assets
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
@@ -37,21 +37,6 @@ social:
     - https://keybase.io/bdossantos
     - https://www.strava.com/athletes/6925704
 google_site_verification: "J4i94TW6V0a5ka7ZluORmLjmPWkMZNm67tOjXuDyB0I"
-assets:
-  caching:
-    path: ".jekyll-cache/assets"
-    type: memory
-    enabled: true
-  compression: true
-  destination: "/assets"
-  sources:
-    - _assets/images
-    - _assets/stylesheets
-    - _assets/javascripts
-    - node_modules
-  plugins:
-    img: { optim: {} }
-  gzip: true
 links:
   - title: Blog
     url: /

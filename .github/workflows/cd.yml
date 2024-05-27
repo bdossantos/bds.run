@@ -19,6 +19,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           cache: npm
+      - uses: actions/cache@v3
+        with:
+          path: ".jampack"
+          key: jampack-${{ github.run_id }}
+          restore-keys: |
+            jampack
       - name: Build
         run: |
           env JEKYLL_ENV=production bundle exec rake build

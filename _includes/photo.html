@@ -1,13 +1,6 @@
 <img
-  class="lozad ctr img-thumbnail"
-  data-src="{{ include.photo | asset:'@path @magick:quality=90' }}"
+  class="ctr img-thumbnail"
+  src="/assets/images/{{ include.photo }}"
+  alt="Photo of {{ page.title }}"
   data-proofer-ignore
 />
-
-<noscript>
-  <img
-    class="ctr img-thumbnail"
-    src="{{ include.photo | asset:'@path @magick:quality=90' }}"
-    data-proofer-ignore
-  />
-</noscript>
