@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2024-05-30T08:24:40+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement avril 2024</title><link href="https://bds.run/2024/05/02/entrainement-avril-2024.html" rel="alternate" type="text/html" title="Entrainement avril 2024" /><published>2024-05-02T00:00:00+02:00</published><updated>2024-05-02T00:00:00+02:00</updated><id>https://bds.run/2024/05/02/entrainement-avril-2024</id><content type="html" xml:base="https://bds.run/2024/05/02/entrainement-avril-2024.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2024-06-06T11:37:43+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement mai 2024</title><link href="https://bds.run/2024/06/06/entrainement-mai-2024.html" rel="alternate" type="text/html" title="Entrainement mai 2024" /><published>2024-06-06T00:00:00+02:00</published><updated>2024-06-06T00:00:00+02:00</updated><id>https://bds.run/2024/06/06/entrainement-mai-2024</id><content type="html" xml:base="https://bds.run/2024/06/06/entrainement-mai-2024.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>274.8 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>3760 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>36:30 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mai 2024]]></summary></entry><entry><title type="html">Entrainement avril 2024</title><link href="https://bds.run/2024/05/02/entrainement-avril-2024.html" rel="alternate" type="text/html" title="Entrainement avril 2024" /><published>2024-05-02T00:00:00+02:00</published><updated>2024-05-02T00:00:00+02:00</updated><id>https://bds.run/2024/05/02/entrainement-avril-2024</id><content type="html" xml:base="https://bds.run/2024/05/02/entrainement-avril-2024.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -173,34 +194,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de septembre 2023]]></summary></entry><entry><title type="html">Trail de la digue</title><link href="https://bds.run/2023/09/23/trail-de-la-digue.html" rel="alternate" type="text/html" title="Trail de la digue" /><published>2023-09-23T00:00:00+02:00</published><updated>2023-09-23T00:00:00+02:00</updated><id>https://bds.run/2023/09/23/trail-de-la-digue</id><content type="html" xml:base="https://bds.run/2023/09/23/trail-de-la-digue.html"><![CDATA[<p>Je suis parti la fleur au fusil, car je n’ai pas beaucoup galopé cette année
-et encore moins ces dernières semaines.</p>
-
-<p>Départ probablement un peu rapide car très roulant. Au ravito du 21k je me
-rends compte que je n’ai bu que 500ml, c’est cela de trop papoter avec ses
-camarades de route. Je gloups 500ml d’eau gazeuse mais me rends compte que
-c’est un truc avec adjonction de gaz et pas une St Yorre. Dommage pour moi,
-j’ai roté les 10 bornes suivants.</p>
-
-<p>J’arrive au ravito du 35 pile au moment du départ du 22k. Je laisse passer
-quelques garennes mais reste sur mon petit rythme régulier. Les mollets
-commencent à couiner, le manques de bornes se fait sentir.</p>
-
-<p>Les derniers 5 bornes m’ont un peu dépité et paru très long, du single pour
-faire du single et quelques gars du 22 qui me collait un peu trop aux basques.
-Même pas les guiboles et la caboche pour aller chercher un modeste sub 5h.</p>
-
-<p>Panards OK cette fois ci malgré les 3 traversées de cours d’eau.</p>
-
-<p>Voilà, vous savez tout.</p>
-
-<h3 id="ma-course">Ma course</h3>
-
-<div class="strava-embed-placeholder lozad" data-embed-type="activity" data-embed-id="8936984585">
-</div>
-
-<script async="" src="https://strava-embeds.com/embed.js"></script>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="compétition" /><summary type="html"><![CDATA[Compte rendu de mon trail de la digue]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de septembre 2023]]></summary></entry></feed>
