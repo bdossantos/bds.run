@@ -8,6 +8,6 @@
     "uncss": "^0.17.3"
   },
   "devDependencies": {
-    "@divriots/jampack": "^0.25.0"
+    "@divriots/jampack": "^0.27.1"
   }
 }
