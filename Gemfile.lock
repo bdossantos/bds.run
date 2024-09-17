@@ -27,7 +27,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.1.7.7)
+    activesupport (6.1.7.8)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -35,7 +35,6 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
-    base64 (0.2.0)
     bigdecimal (3.1.8)
     classifier-reborn (2.3.0)
       fast-stemmer (~> 1.0)
@@ -52,13 +51,13 @@ GEM
     exifr (1.4.0)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
-    faraday (2.8.1)
-      base64
-      faraday-net_http (>= 2.0, < 3.1)
-      ruby2_keywords (>= 0.0.4)
+    faraday (2.11.0)
+      faraday-net_http (>= 2.0, < 3.4)
+      logger
     faraday-multipart (1.0.4)
       multipart-post (~> 2)
-    faraday-net_http (3.0.2)
+    faraday-net_http (3.3.0)
+      net-http
     fast-stemmer (1.0.2)
     fastimage (2.3.1)
     ffi (1.17.0)
@@ -146,12 +145,15 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.6.1)
     matrix (0.4.2)
     mercenary (0.4.0)
     mini_magick (5.0.1)
     mini_portile2 (2.8.7)
-    minitest (5.23.1)
+    minitest (5.25.1)
     multipart-post (2.4.1)
+    net-http (0.4.1)
+      uri
     nokogiri (1.16.6)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -173,7 +175,6 @@ GEM
       ffi (~> 1.0)
     rexml (3.3.7)
     rouge (4.3.0)
-    ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -189,7 +190,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     sassc (2.4.0)
       ffi (~> 1.9)
-    strava-ruby-client (2.1.0)
+    strava-ruby-client (2.2.0)
       activesupport
       faraday (>= 2.0)
       faraday-multipart (>= 1.0)
@@ -203,9 +204,10 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.6.0)
+    uri (0.13.1)
     webrick (1.8.1)
     yell (2.2.2)
-    zeitwerk (2.6.15)
+    zeitwerk (2.6.18)
 
 PLATFORMS
   arm64-darwin-22
