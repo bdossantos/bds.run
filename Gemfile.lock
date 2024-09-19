@@ -66,13 +66,13 @@ GEM
     ffi (1.17.0-x86_64-darwin)
     forwardable-extended (2.6.0)
     fspath (3.1.2)
-    google-protobuf (4.28.1)
+    google-protobuf (4.28.2)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.28.1-arm64-darwin)
+    google-protobuf (4.28.2-arm64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.28.1-x86_64-darwin)
+    google-protobuf (4.28.2-x86_64-darwin)
       bigdecimal
       rake (>= 13)
     hashie (5.0.0)
