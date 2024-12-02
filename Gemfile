@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'classifier-reborn'
 gem 'html-proofer', '4.4.3'
 gem 'image_optim'
-gem 'image_optim_pack', '0.11.1.20240914'
+gem 'image_optim_pack', '0.11.1.20241130'
 # https://github.com/jekyll/jekyll/issues/8049
 gem "jekyll", '4.3.4'
 gem 'mini_magick'
