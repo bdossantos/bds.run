@@ -16,8 +16,6 @@ Github : github.com/
 Google Closure compiler : code.google.com/intl/fr/closure/compiler/
 YUI Compressor : yui.github.io/yuicompressor/
 HTML Compressor : code.google.com/p/htmlcompressor/
-Lozad : apoorv.pro/lozad.js/
-Raspberry Pi : http://www.raspberrypi.org/
 Debian : https://www.debian.org/
 
 /* SITE */

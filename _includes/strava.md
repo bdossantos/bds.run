@@ -1,5 +1,5 @@
 <iframe
-  class='lozad'
+  loading='lazy'
   height='405'
   width='100%'
   frameborder='0'

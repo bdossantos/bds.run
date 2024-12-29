@@ -5,6 +5,7 @@
       class="ctr img-thumbnail"
       src="/assets/images/{{ include.photos | append: '-' | append: i | append: '.jpg' }}"
       alt="Photo of {{ page.title }} #{{ i }}"
+      loading="lazy"
       data-proofer-ignore
     />
   </figure>
