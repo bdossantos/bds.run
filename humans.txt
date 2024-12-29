@@ -23,5 +23,5 @@ Debian : https://www.debian.org/
 /* SITE */
 Last update: {{ site.time | date: '%F' }}
 Standards: HTML5, CSS3
-Components: Normalize.css, Lozad.js
+Components: Picoss
 Software: Jekyll, Vim, Git, Mac OS X

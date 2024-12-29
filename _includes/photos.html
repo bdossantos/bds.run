@@ -1,8 +1,12 @@
 {% for i in (1..include.count) %}
-<img
-  class="ctr img-thumbnail"
-  src="/assets/images/{{ include.photos | append: '-' | append: i | append: '.jpg' }}"
-  alt="Photo of {{ page.title }} #{{ i }}"
-  data-proofer-ignore
-/>
+<section>
+  <figure>
+    <img
+      class="ctr img-thumbnail"
+      src="/assets/images/{{ include.photos | append: '-' | append: i | append: '.jpg' }}"
+      alt="Photo of {{ page.title }} #{{ i }}"
+      data-proofer-ignore
+    />
+  </figure>
+</section>
 {% endfor %}

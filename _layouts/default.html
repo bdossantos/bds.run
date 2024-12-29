@@ -30,42 +30,37 @@
     {% feed_meta %}
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/pico.min.css" />
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">
-    <div id="main">
+    <main class="container">
       <header>
-        <h1>
-          <a id="title" href="/"> bds.run </a>
-        </h1>
+        <hgroup>
+          <h1>
+            <a href="/">bds.run</a>
+          </h1>
+          <i>Carnet d'entrainement, récits de course, etc ...</i>
+        </hgroup>
 
-        <p id="baseline">Carnet d'entrainement, récits de course, etc ...</p>
-
-        <nav
-          role="navigation"
-          id="top-nav"
-          itemscope
-          itemtype="http://schema.org/SiteNavigationElement"
-        >
+        <nav>
           <ul>
             {% for link in site.links %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            <li>
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
             {% endfor %}
           </ul>
         </nav>
       </header>
 
-      <div id="content">{{ content }}</div>
+      <main class="container">{{ content }}</main>
 
-      <footer id="footer">
-        <p id="footlinks">
-          <a href="https://www.strava.com/athletes/6925704">Strava</a>
-          <a href="https://twitter.com/benjamin_ds" rel="me">Twitter</a>
-          <a href="/atom.xml">RSS</a>
-        </p>
-
-        <p>© {{ site.time | date: "%Y" }} bds.run</p>
+      <footer class="container">
+        <hr />
+        <center>
+          <small class="secondary">© {{ site.time | date: "%Y" }} bds.run</small>
+        </center>
       </footer>
-    </div>
+    </main>
   </body>
 </html>
