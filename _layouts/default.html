@@ -32,7 +32,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/pico.min.css" />
   </head>
-  <body itemscope itemtype="http://schema.org/WebPage">
+  <body>
     <main class="container">
       <header class="container">
         <hgroup>
@@ -40,17 +40,17 @@
             <a href="/">bds.run</a>
           </h1>
           <i>Carnet d'entrainement, récits de course, etc ...</i>
-        </hgroup>
 
-        <nav>
-          <ul>
-            {% for link in site.links %}
-            <li>
-              <a href="{{ link.url }}">{{ link.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </nav>
+          <nav>
+            <ul>
+              {% for link in site.links %}
+              <li>
+                <b><a href="{{ link.url }}">{{ link.title }}</a></b>
+              </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </hgroup>
       </header>
 
       <main class="container">{{ content }}</main>
