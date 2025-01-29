@@ -101,7 +101,7 @@ GEM
     image_size (3.4.0)
     in_threads (1.6.0)
     io-event (1.7.5)
-    jekyll (4.4.0)
+    jekyll (4.4.1)
       addressable (~> 2.4)
       base64 (~> 0.2)
       colorator (~> 1.0)
