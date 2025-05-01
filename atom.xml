@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2025-04-02T10:11:31+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement mars 2025</title><link href="https://bds.run/2025/04/02/entrainement-mars-2025.html" rel="alternate" type="text/html" title="Entrainement mars 2025" /><published>2025-04-02T00:00:00+02:00</published><updated>2025-04-02T00:00:00+02:00</updated><id>https://bds.run/2025/04/02/entrainement-mars-2025</id><content type="html" xml:base="https://bds.run/2025/04/02/entrainement-mars-2025.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2025-05-01T09:32:35+02:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement avril 2025</title><link href="https://bds.run/2025/05/01/entrainement-avril-2025.html" rel="alternate" type="text/html" title="Entrainement avril 2025" /><published>2025-05-01T00:00:00+02:00</published><updated>2025-05-01T00:00:00+02:00</updated><id>https://bds.run/2025/05/01/entrainement-avril-2025</id><content type="html" xml:base="https://bds.run/2025/05/01/entrainement-avril-2025.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>517.7 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>3047 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>33:42 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'avril 2025]]></summary></entry><entry><title type="html">Entrainement mars 2025</title><link href="https://bds.run/2025/04/02/entrainement-mars-2025.html" rel="alternate" type="text/html" title="Entrainement mars 2025" /><published>2025-04-02T00:00:00+02:00</published><updated>2025-04-02T00:00:00+02:00</updated><id>https://bds.run/2025/04/02/entrainement-mars-2025</id><content type="html" xml:base="https://bds.run/2025/04/02/entrainement-mars-2025.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -179,25 +200,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'août 2024]]></summary></entry><entry><title type="html">Entrainement juillet 2024</title><link href="https://bds.run/2024/08/01/entrainement-juillet-2024.html" rel="alternate" type="text/html" title="Entrainement juillet 2024" /><published>2024-08-01T00:00:00+02:00</published><updated>2024-08-01T00:00:00+02:00</updated><id>https://bds.run/2024/08/01/entrainement-juillet-2024</id><content type="html" xml:base="https://bds.run/2024/08/01/entrainement-juillet-2024.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>501.8 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>5567 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>31:07 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de juillet 2024]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'août 2024]]></summary></entry></feed>
