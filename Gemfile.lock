@@ -25,7 +25,7 @@ GEM
       metrics (~> 0.12)
       traces (~> 0.15)
     base64 (0.2.0)
-    benchmark (0.4.0)
+    benchmark (0.4.1)
     bigdecimal (3.1.9)
     classifier-reborn (2.3.0)
       fast-stemmer (~> 1.0)
@@ -148,12 +148,11 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.6)
+    logger (1.7.0)
     matrix (0.4.2)
     mercenary (0.4.0)
     metrics (0.12.1)
-    mini_magick (5.2.0)
-      benchmark
+    mini_magick (5.3.0)
       logger
     mini_portile2 (2.8.8)
     minitest (5.25.4)
