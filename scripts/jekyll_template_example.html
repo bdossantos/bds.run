@@ -1,0 +1,55 @@
+<!-- Example Jekyll template usage for activity summary data -->
+<!-- This file shows how to use the generated _data/activity_summary.yml in Jekyll templates -->
+
+<div class="activity-summary">
+  <h2>Activity Summary</h2>
+  
+  <div class="stats-overview">
+    <div class="stat">
+      <span class="number">{{ site.data.activity_summary.total_activities }}</span>
+      <span class="label">Total Activities</span>
+    </div>
+    
+    <div class="stat">
+      <span class="number">{{ site.data.activity_summary.totals.distance_kilometers }}</span>
+      <span class="label">Kilometers</span>
+    </div>
+    
+    <div class="stat">
+      <span class="number">{{ site.data.activity_summary.totals.duration_hours }}</span>
+      <span class="label">Hours</span>
+    </div>
+    
+    <div class="stat">
+      <span class="number">{{ site.data.activity_summary.totals.calories }}</span>
+      <span class="label">Calories</span>
+    </div>
+  </div>
+
+  <div class="activity-types">
+    <h3>Activity Breakdown</h3>
+    {% for activity in site.data.activity_summary.by_activity_type %}
+      <div class="activity-type">
+        <h4>{{ activity[0] }}</h4>
+        <p>{{ activity[1].count }} activities • {{ activity[1].total_distance | divided_by: 1000 | round: 1 }}km</p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="recent-activity">
+    <h3>Recent Activity (Last 30 Days)</h3>
+    <p>
+      {{ site.data.activity_summary.recent_activity.last_30_days.count }} activities 
+      averaging {{ site.data.activity_summary.recent_activity.last_30_days.avg_per_day }} per day
+    </p>
+  </div>
+
+  <div class="date-range">
+    <p>
+      <small>
+        Data spans from {{ site.data.activity_summary.date_range.earliest }} 
+        to {{ site.data.activity_summary.date_range.latest }}
+      </small>
+    </p>
+  </div>
+</div>
