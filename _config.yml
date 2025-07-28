@@ -42,6 +42,8 @@ links:
     url: /
   - title: Archives
     url: /archives.html
+  - title: Statistiques
+    url: /statistics.html
   - title: CV
     url: /cv.html
 feed:
