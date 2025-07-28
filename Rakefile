@@ -105,3 +105,9 @@ task :clean_activites_csv do
   system "find #{ACTIVITIES} -type f -name '*.csv' | \
           xargs -n 1 -P 4 sed -i '/Activities by bdossantos/d'"
 end
+
+desc 'Generate activity summary from CSV data'
+task :generate_activity_summary do
+  puts '--> Generating activity summary'
+  system 'ruby scripts/generate_activity_summary.rb' || exit(1)
+end
