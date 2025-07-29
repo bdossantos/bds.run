@@ -1,210 +1,319 @@
-activity_types:
-  Climbing: 1
-  Cycling: 2936
-  Gravel Cycling: 11
-  Hiking: 125
-  Indoor Cycling: 3
-  Indoor Rowing: 17
-  Indoor Sport & Fitness: 319
-  Kayaking: 2
-  Other: 659
-  Running: 1616
-  Sailing: 2
-  Swimming: 21
-  Trail Running: 41
-  Treadmill Running: 50
-  Virtual Cycling: 170
-  Walking: 868
-  Weight Training: 74
-  Yoga: 1
-recent_activities:
-- calories: 23.0
-  date: '2025-07-28'
-  distance: 0.0
-  duration: 856.63
-  type: Indoor Sport & Fitness
-- calories: 496.0
-  date: '2025-07-27'
-  distance: 6701.0
-  duration: 2197.64
-  type: Running
-- calories: 209.0
-  date: '2025-07-26'
-  distance: 2214.0
-  duration: 3149.98
-  type: Walking
-- calories: 571.0
-  date: '2025-07-26'
-  distance: 7515.0
-  duration: 2440.74
-  type: Running
-- calories: 78.0
-  date: '2025-07-25'
-  distance: 839.0
-  duration: 577.59
-  type: Walking
-- calories: 532.0
-  date: '2025-07-25'
-  distance: 5792.0
-  duration: 1716.88
-  type: Running
-- calories: 217.0
-  date: '2025-07-25'
-  distance: 7372.0
-  duration: 1406.9
-  type: Cycling
-- calories: 200.0
-  date: '2025-07-25'
-  distance: 7557.0
-  duration: 1388.37
-  type: Cycling
-- calories: 6.0
-  date: '2025-07-24'
-  distance: 0.0
-  duration: 121.61
-  type: Weight Training
-- calories: 73.0
-  date: '2025-07-24'
-  distance: 769.0
-  duration: 698.76
-  type: Walking
-- calories: 45.0
-  date: '2025-07-24'
-  distance: 714.0
-  duration: 720.81
-  type: Walking
-- calories: 108.0
-  date: '2025-07-23'
-  distance: 1453.0
-  duration: 1010.18
-  type: Walking
-- calories: 190.0
-  date: '2025-07-23'
-  distance: 7289.0
-  duration: 1413.6
-  type: Cycling
-- calories: 185.0
-  date: '2025-07-23'
-  distance: 7669.0
-  duration: 1509.42
-  type: Cycling
-- calories: 128.0
-  date: '2025-07-22'
-  distance: 2233.0
-  duration: 2310.2
-  type: Walking
-- calories: 152.0
-  date: '2025-07-22'
-  distance: 2002.0
-  duration: 1607.19
-  type: Walking
-- calories: 108.0
-  date: '2025-07-21'
-  distance: 600.0
-  duration: 2025.6
-  type: Walking
-- calories: 83.0
-  date: '2025-07-20'
-  distance: 957.0
-  duration: 1041.17
-  type: Walking
-- calories: 117.0
-  date: '2025-07-20'
-  distance: 919.0
-  duration: 1305.34
-  type: Walking
-- calories: 791.0
-  date: '2025-07-20'
-  distance: 14484.02
-  duration: 4476.7
-  type: Virtual Cycling
+---
+generated_at: 2025-07-29 18:41:06 UTC
 total_activities: 6916
-total_calories: 2358926.0
-total_distance_km: 63302.5
-total_duration_hours: 4616.0
-yearly_stats:
-- calories: 104729.0
-  count: 447
-  distance: 2543507.4699999997
-  duration: 963150.3800000005
-  year: '2025'
-- calories: 160155.0
-  count: 749
-  distance: 4177363.519999999
-  duration: 1593804.0300000005
-  year: '2024'
-- calories: 271828.0
-  count: 992
-  distance: 7803895.97
-  duration: 2122438.0800000005
-  year: '2023'
-- calories: 223130.0
-  count: 905
-  distance: 7808293.389999999
-  duration: 1734111.370000001
-  year: '2022'
-- calories: 255896.0
-  count: 748
-  distance: 8715627.250000002
-  duration: 1729394.7200000002
-  year: '2021'
-- calories: 328370.0
-  count: 701
-  distance: 8116657.800000002
-  duration: 2063372.4000000004
-  year: '2020'
-- calories: 185469.0
-  count: 511
-  distance: 7825828.13
-  duration: 1724562.740000002
-  year: '2019'
-- calories: 130338.0
-  count: 269
-  distance: 3942238.9
-  duration: 964177.4200000004
-  year: '2018'
-- calories: 107306.0
-  count: 277
-  distance: 3053769.6
-  duration: 804359.0400000004
-  year: '2017'
-- calories: 150978.0
-  count: 282
-  distance: 2542545.2800000003
-  duration: 854238.6199999998
-  year: '2016'
-- calories: 41408.0
-  count: 101
-  distance: 714556.4000000001
-  duration: 243893.66
-  year: '2015'
-- calories: 64023.0
-  count: 153
-  distance: 1063723.1
-  duration: 330390.0
-  year: '2014'
-- calories: 110331.0
-  count: 250
-  distance: 1703009.0
-  duration: 473368.0
-  year: '2013'
-- calories: 142687.0
-  count: 302
-  distance: 2097259.0
-  duration: 631747.0
-  year: '2012'
-- calories: 71681.0
-  count: 177
-  distance: 1041409.0
-  duration: 339353.0
-  year: '2011'
-- calories: 2063.0
-  count: 14
-  distance: 27750.0
-  duration: 9306.0
-  year: '2010'
-- calories: 8534.0
-  count: 38
-  distance: 125110.0
-  duration: 37543.0
-  year: '2009'
+date_range:
+  earliest: '2009-02-07'
+  latest: '2025-07-28'
+  span_days: 6015
+by_activity_type:
+  Cycling:
+    count: 2936
+    total_duration: 6881814.59
+    total_distance: 38732841.35
+    total_calories: 796507.0
+    avg_duration: 2343.94
+    avg_distance: 13219.4
+    avg_calories: 292.62
+  Running:
+    count: 1616
+    total_duration: 4208928.06
+    total_distance: 13171267.98
+    total_calories: 923452.0
+    avg_duration: 2604.53
+    avg_distance: 8155.58
+    avg_calories: 572.15
+  Walking:
+    count: 868
+    total_duration: 2171476.97
+    total_distance: 2069474.67
+    total_calories: 177078.0
+    avg_duration: 2501.7
+    avg_distance: 2384.19
+    avg_calories: 204.48
+  Other:
+    count: 659
+    total_duration: 1292265.65
+    total_distance: 4238225.0
+    total_calories: 253536.0
+    avg_duration: 1960.95
+    avg_distance: 6601.6
+    avg_calories: 396.15
+  Indoor Sport & Fitness:
+    count: 319
+    total_duration: 324248.57
+    total_distance: 0.0
+    total_calories: 8173.0
+    avg_duration: 1016.45
+    avg_distance: 0
+    avg_calories: 60.1
+  Virtual Cycling:
+    count: 170
+    total_duration: 376468.64
+    total_distance: 2758991.79
+    total_calories: 50007.0
+    avg_duration: 2214.52
+    avg_distance: 16229.36
+    avg_calories: 295.9
+  Hiking:
+    count: 125
+    total_duration: 654604.98
+    total_distance: 706198.8
+    total_calories: 51783.0
+    avg_duration: 5236.84
+    avg_distance: 5741.45
+    avg_calories: 421.0
+  Weight Training:
+    count: 74
+    total_duration: 99912.97
+    total_distance: 0.0
+    total_calories: 5306.0
+    avg_duration: 1350.18
+    avg_distance: 0
+    avg_calories: 72.68
+  Treadmill Running:
+    count: 50
+    total_duration: 70307.62
+    total_distance: 221383.2
+    total_calories: 17100.0
+    avg_duration: 1406.15
+    avg_distance: 4427.66
+    avg_calories: 342.0
+  Trail Running:
+    count: 41
+    total_duration: 403017.45
+    total_distance: 816779.0
+    total_calories: 58134.0
+    avg_duration: 9829.69
+    avg_distance: 19921.44
+    avg_calories: 1490.62
+  Swimming:
+    count: 21
+    total_duration: 12892.38
+    total_distance: 5582.03
+    total_calories: 1279.0
+    avg_duration: 613.92
+    avg_distance: 279.1
+    avg_calories: 67.32
+  Indoor Rowing:
+    count: 17
+    total_duration: 7805.85
+    total_distance: 22759.99
+    total_calories: 1317.0
+    avg_duration: 459.17
+    avg_distance: 1338.82
+    avg_calories: 77.47
+  Gravel Cycling:
+    count: 11
+    total_duration: 92880.4
+    total_distance: 532577.0
+    total_calories: 14176.0
+    avg_duration: 8443.67
+    avg_distance: 48416.09
+    avg_calories: 1288.73
+  Indoor Cycling:
+    count: 3
+    total_duration: 1842.23
+    total_distance: 0.0
+    total_calories: 109.0
+    avg_duration: 614.08
+    avg_distance: 0
+    avg_calories: 54.5
+  Sailing:
+    count: 2
+    total_duration: 4277.26
+    total_distance: 20742.0
+    total_calories: 136.0
+    avg_duration: 2138.63
+    avg_distance: 10371.0
+    avg_calories: 68.0
+  Kayaking:
+    count: 2
+    total_duration: 5493.9
+    total_distance: 5721.0
+    total_calories: 290.0
+    avg_duration: 2746.95
+    avg_distance: 2860.5
+    avg_calories: 145.0
+  Yoga:
+    count: 1
+    total_duration: 3600.0
+    total_distance: 0.0
+    total_calories: 0.0
+    avg_duration: 3600.0
+    avg_distance: 0
+    avg_calories: 0
+  Climbing:
+    count: 1
+    total_duration: 7371.94
+    total_distance: 0.0
+    total_calories: 543.0
+    avg_duration: 7371.94
+    avg_distance: 0
+    avg_calories: 543.0
+totals:
+  duration_seconds: 16619209.46
+  duration_hours: 4616.45
+  distance_meters: 63302543.81
+  distance_kilometers: 63302.54
+  calories: 2358926.0
+  elevation_gain_meters: 408490.0
+averages:
+  duration_seconds: 2403.36
+  distance_meters: 9752.36
+  calories: 363.7
+  heartrate: 116.98
+  speed_mps: 3.79
+monthly_trends:
+  2025-07:
+    count: 64
+    total_duration: 136946.0
+    total_distance: 317208.23
+    total_calories: 15537.0
+  2025-06:
+    count: 73
+    total_duration: 125352.83
+    total_distance: 321875.75
+    total_calories: 15004.0
+  2025-05:
+    count: 67
+    total_duration: 161709.65
+    total_distance: 389843.95
+    total_calories: 16316.0
+  2025-04:
+    count: 69
+    total_duration: 150516.1
+    total_distance: 516918.92
+    total_calories: 17123.0
+  2025-03:
+    count: 62
+    total_duration: 119889.82
+    total_distance: 263102.76
+    total_calories: 12899.0
+  2025-02:
+    count: 54
+    total_duration: 136014.29
+    total_distance: 368176.1
+    total_calories: 13234.0
+  2025-01:
+    count: 58
+    total_duration: 132721.69
+    total_distance: 366381.76
+    total_calories: 14616.0
+  2024-12:
+    count: 46
+    total_duration: 107884.11
+    total_distance: 320344.58
+    total_calories: 11451.0
+  2024-11:
+    count: 55
+    total_duration: 106804.83
+    total_distance: 358372.83
+    total_calories: 11565.0
+  2024-10:
+    count: 49
+    total_duration: 117959.72
+    total_distance: 224370.51
+    total_calories: 10750.0
+  2024-09:
+    count: 58
+    total_duration: 103244.83
+    total_distance: 197505.56
+    total_calories: 8910.0
+  2024-08:
+    count: 74
+    total_duration: 201534.78
+    total_distance: 600760.12
+    total_calories: 17366.0
+yearly_trends:
+  '2025':
+    count: 447
+    total_duration: 963150.38
+    total_distance: 2543507.47
+    total_calories: 104729.0
+  '2024':
+    count: 749
+    total_duration: 1593804.03
+    total_distance: 4177363.52
+    total_calories: 160155.0
+  '2023':
+    count: 992
+    total_duration: 2122438.08
+    total_distance: 7803895.97
+    total_calories: 271828.0
+  '2022':
+    count: 905
+    total_duration: 1734111.37
+    total_distance: 7808293.39
+    total_calories: 223130.0
+  '2021':
+    count: 748
+    total_duration: 1729394.72
+    total_distance: 8715627.25
+    total_calories: 255896.0
+  '2020':
+    count: 701
+    total_duration: 2063372.4
+    total_distance: 8116657.8
+    total_calories: 328370.0
+  '2019':
+    count: 511
+    total_duration: 1724562.74
+    total_distance: 7825828.13
+    total_calories: 185469.0
+  '2018':
+    count: 269
+    total_duration: 964177.42
+    total_distance: 3942238.9
+    total_calories: 130338.0
+  '2017':
+    count: 277
+    total_duration: 804359.04
+    total_distance: 3053769.6
+    total_calories: 107306.0
+  '2016':
+    count: 282
+    total_duration: 854238.62
+    total_distance: 2542545.28
+    total_calories: 150978.0
+  '2015':
+    count: 101
+    total_duration: 243893.66
+    total_distance: 714556.4
+    total_calories: 41408.0
+  '2014':
+    count: 153
+    total_duration: 330390.0
+    total_distance: 1063723.1
+    total_calories: 64023.0
+  '2013':
+    count: 250
+    total_duration: 473368.0
+    total_distance: 1703009.0
+    total_calories: 110331.0
+  '2012':
+    count: 302
+    total_duration: 631747.0
+    total_distance: 2097259.0
+    total_calories: 142687.0
+  '2011':
+    count: 177
+    total_duration: 339353.0
+    total_distance: 1041409.0
+    total_calories: 71681.0
+  '2010':
+    count: 14
+    total_duration: 9306.0
+    total_distance: 27750.0
+    total_calories: 2063.0
+  '2009':
+    count: 38
+    total_duration: 37543.0
+    total_distance: 125110.0
+    total_calories: 8534.0
+recent_activity:
+  last_30_days:
+    count: 71
+    total_duration: 145934.66
+    total_distance: 341772.23
+    total_calories: 16815.0
+    avg_per_day: 2.37
