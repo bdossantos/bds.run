@@ -28,6 +28,10 @@ permalink: /stats.html
     <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.total_calories }}</h4>
     <small>Calories brûlées</small>
   </div>
+  <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.total_elevation_gain_m }} m</h4>
+    <small>Dénivelé total</small>
+  </div>
 </div>
 
 ### Répartition par type d'activité
@@ -94,6 +98,7 @@ permalink: /stats.html
     <th>Distance (km)</th>
     <th>Temps (h)</th>
     <th>Calories</th>
+    <th>Dénivelé (m)</th>
   </tr>
 </thead>
 <tbody>
@@ -105,6 +110,7 @@ permalink: /stats.html
     <td>{{ yeardata.distance | divided_by: 1000.0 | round: 0 }}</td>
     <td>{{ yeardata.duration | divided_by: 3600.0 | round: 0 }}</td>
     <td>{{ yeardata.calories | round: 0 }}</td>
+    <td>{{ yeardata.elevation_gain | round: 0 }}</td>
   </tr>
   {% endif %}
 {% endfor %}
