@@ -14,17 +14,17 @@ This Ruby script generates a comprehensive YAML summary from activities CSV data
 
 ### Basic Usage
 ```bash
-ruby scripts/generate_activity_summary.rb
+ruby _scripts/generate_activity_summary.rb
 ```
 
 ### Custom Paths
 ```bash
-ruby scripts/generate_activity_summary.rb data/activities.csv output/summary.yml
+ruby _scripts/generate_activity_summary.rb data/activities.csv output/summary.yml
 ```
 
 ### Help
 ```bash
-ruby scripts/generate_activity_summary.rb --help
+ruby _scripts/generate_activity_summary.rb --help
 ```
 
 ## Integration with Build Process
@@ -101,5 +101,5 @@ No additional gems required.
 
 Run the test suite:
 ```bash
-ruby scripts/test_activity_summary.rb
+ruby _scripts/test_activity_summary.rb
 ```

@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 # Simple test script to verify the activity summary generator
-require_relative '../scripts/generate_activity_summary'
+require_relative '../_scripts/generate_activity_summary'
 require 'yaml'
 
 puts "Testing Activity Summary Generator..."
