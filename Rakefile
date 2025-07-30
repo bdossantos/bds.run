@@ -109,5 +109,5 @@ end
 desc 'Generate activity summary from CSV data'
 task :generate_activity_summary do
   puts '--> Generating activity summary'
-  system 'ruby scripts/generate_activity_summary.rb' || exit(1)
+  system 'ruby _scripts/generate_activity_summary.rb' || exit(1)
 end
