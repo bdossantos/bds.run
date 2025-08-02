@@ -1,9 +1,9 @@
 ---
 activity_types:
+  Walking: 873
+  Running: 1618
+  Cycling: 2942
   Indoor Sport & Fitness: 319
-  Running: 1616
-  Walking: 868
-  Cycling: 2936
   Weight Training: 74
   Virtual Cycling: 170
   Trail Running: 41
@@ -19,6 +19,84 @@ activity_types:
   Climbing: 1
   Kayaking: 2
 recent_activities:
+- date: '2025-08-02'
+  type: Running
+  distance: 7782.0
+  duration: 2547.25
+  calories: 551.0
+  elevation_gain: 85
+- date: '2025-08-02'
+  type: Walking
+  distance: 7806.0
+  duration: 7634.99
+  calories: 518.0
+  elevation_gain: 98
+- date: '2025-08-01'
+  type: Walking
+  distance: 491.0
+  duration: 471.73
+  calories: 58.0
+  elevation_gain: 6
+- date: '2025-08-01'
+  type: Cycling
+  distance: 7518.0
+  duration: 1456.66
+  calories: 216.0
+  elevation_gain: 20
+- date: '2025-08-01'
+  type: Cycling
+  distance: 7441.0
+  duration: 1406.37
+  calories: 216.0
+  elevation_gain: 24
+- date: '2025-07-31'
+  type: Walking
+  distance: 1646.0
+  duration: 3677.53
+  calories: 232.0
+  elevation_gain: 35
+- date: '2025-07-31'
+  type: Walking
+  distance: 1324.0
+  duration: 1346.0
+  calories: 129.0
+  elevation_gain: 29
+- date: '2025-07-31'
+  type: Walking
+  distance: 797.0
+  duration: 748.23
+  calories: 53.0
+  elevation_gain: 3
+- date: '2025-07-31'
+  type: Running
+  distance: 6739.0
+  duration: 2075.7
+  calories: 536.0
+  elevation_gain: 47
+- date: '2025-07-30'
+  type: Cycling
+  distance: 7399.0
+  duration: 1482.26
+  calories: 211.0
+  elevation_gain: 21
+- date: '2025-07-30'
+  type: Cycling
+  distance: 7559.0
+  duration: 1469.43
+  calories: 237.0
+  elevation_gain: 20
+- date: '2025-07-29'
+  type: Cycling
+  distance: 7354.0
+  duration: 1409.35
+  calories: 208.0
+  elevation_gain: 26
+- date: '2025-07-29'
+  type: Cycling
+  distance: 7541.0
+  duration: 1492.28
+  calories: 236.0
+  elevation_gain: 19
 - date: '2025-07-28'
   type: Indoor Sport & Fitness
   distance: 0.0
@@ -44,17 +122,11 @@ recent_activities:
   calories: 209.0
   elevation_gain: 25
 - date: '2025-07-25'
-  type: Cycling
-  distance: 7557.0
-  duration: 1388.37
-  calories: 200.0
-  elevation_gain: 17
-- date: '2025-07-25'
-  type: Cycling
-  distance: 7372.0
-  duration: 1406.9
-  calories: 217.0
-  elevation_gain: 30
+  type: Walking
+  distance: 839.0
+  duration: 577.59
+  calories: 78.0
+  elevation_gain: 3
 - date: '2025-07-25'
   type: Running
   distance: 5792.0
@@ -62,95 +134,23 @@ recent_activities:
   calories: 532.0
   elevation_gain: 40
 - date: '2025-07-25'
-  type: Walking
-  distance: 839.0
-  duration: 577.59
-  calories: 78.0
-  elevation_gain: 3
-- date: '2025-07-24'
-  type: Walking
-  distance: 714.0
-  duration: 720.81
-  calories: 45.0
-  elevation_gain: 3
-- date: '2025-07-24'
-  type: Walking
-  distance: 769.0
-  duration: 698.76
-  calories: 73.0
-  elevation_gain: 0
-- date: '2025-07-24'
-  type: Weight Training
-  distance: 0.0
-  duration: 121.61
-  calories: 6.0
-  elevation_gain: 0
-- date: '2025-07-23'
   type: Cycling
-  distance: 7669.0
-  duration: 1509.42
-  calories: 185.0
-  elevation_gain: 19
-- date: '2025-07-23'
-  type: Cycling
-  distance: 7289.0
-  duration: 1413.6
-  calories: 190.0
+  distance: 7372.0
+  duration: 1406.9
+  calories: 217.0
   elevation_gain: 30
-- date: '2025-07-23'
-  type: Walking
-  distance: 1453.0
-  duration: 1010.18
-  calories: 108.0
-  elevation_gain: 22
-- date: '2025-07-22'
-  type: Walking
-  distance: 2002.0
-  duration: 1607.19
-  calories: 152.0
-  elevation_gain: 6
-- date: '2025-07-22'
-  type: Walking
-  distance: 2233.0
-  duration: 2310.2
-  calories: 128.0
-  elevation_gain: 3
-- date: '2025-07-21'
-  type: Walking
-  distance: 600.0
-  duration: 2025.6
-  calories: 108.0
-  elevation_gain: 24
-- date: '2025-07-20'
-  type: Virtual Cycling
-  distance: 14484.0
-  duration: 4476.7
-  calories: 791.0
-  elevation_gain: 1037
-- date: '2025-07-20'
-  type: Walking
-  distance: 919.0
-  duration: 1305.34
-  calories: 117.0
-  elevation_gain: 9
-- date: '2025-07-20'
-  type: Walking
-  distance: 957.0
-  duration: 1041.17
-  calories: 83.0
-  elevation_gain: 41
-total_activities: 6916
-total_calories: 2358926
-total_distance_km: 63302.5
-total_duration_hours: 4616
-total_elevation_gain_m: 408490
+total_activities: 6929
+total_calories: 2362327
+total_distance_km: 63373.9
+total_duration_hours: 4624
+total_elevation_gain_m: 408923
 yearly_stats:
 - year: '2025'
-  count: 447
-  distance: 2543507.47
-  duration: 963150.38
-  calories: 104729.0
-  elevation_gain: 20426
+  count: 460
+  distance: 2614904.47
+  duration: 990368.16
+  calories: 108130.0
+  elevation_gain: 20859
 - year: '2024'
   count: 749
   distance: 4177363.52
