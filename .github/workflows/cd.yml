@@ -15,7 +15,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
           cache: npm
       - uses: actions/cache@v4
