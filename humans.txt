@@ -16,7 +16,7 @@ HTML Compressor : code.google.com/p/htmlcompressor/
 Debian : https://www.debian.org/
 
 /* SITE */
-Last update: 2025-10-16
+Last update: 2025-10-27
 Standards: HTML5, CSS3
 Components: Picoss
 Software: Jekyll, Vim, Git, Mac OS X
