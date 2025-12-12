@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           cache: npm
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: ".jampack"
           key: jampack-${{ github.run_id }}
