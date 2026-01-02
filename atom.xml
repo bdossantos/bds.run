@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2025-12-29T19:08:42+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Entrainement novembre 2025</title><link href="https://bds.run/2025/12/02/entrainement-novembre-2025.html" rel="alternate" type="text/html" title="Entrainement novembre 2025" /><published>2025-12-02T00:00:00+01:00</published><updated>2025-12-02T00:00:00+01:00</updated><id>https://bds.run/2025/12/02/entrainement-novembre-2025</id><content type="html" xml:base="https://bds.run/2025/12/02/entrainement-novembre-2025.html"><![CDATA[<table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://bds.run/atom.xml" rel="self" type="application/atom+xml" /><link href="https://bds.run/" rel="alternate" type="text/html" /><updated>2026-01-02T20:23:57+01:00</updated><id>https://bds.run/atom.xml</id><title type="html">bds.run</title><author><name>Benjamin Dos Santos</name></author><entry><title type="html">Bilan 2025</title><link href="https://bds.run/2026/01/02/bilan-2025.html" rel="alternate" type="text/html" title="Bilan 2025" /><published>2026-01-02T00:00:00+01:00</published><updated>2026-01-02T00:00:00+01:00</updated><id>https://bds.run/2026/01/02/bilan-2025</id><content type="html" xml:base="https://bds.run/2026/01/02/bilan-2025.html"><![CDATA[<p>364 jours actifs, 418 heures, 4303 kilomètres à rouler, courir mais surtout
+marcher, 36888 mètres de dénivelé positif, aucune course, des pépins physiques.</p>
+
+<section>
+  <figure>
+    <img class="ctr img-thumbnail" src="/assets/images/2026/01/GR340-1.jpg" alt="Photo of Bilan 2025" loading="lazy" data-proofer-ignore="" />
+  </figure>
+</section>
+
+<p>📸 Sly</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="bilan" /><summary type="html"><![CDATA[Bilan sportif de ma saison 2025]]></summary></entry><entry><title type="html">Entrainement décembre 2025</title><link href="https://bds.run/2026/01/02/entrainement-decembre-2025.html" rel="alternate" type="text/html" title="Entrainement décembre 2025" /><published>2026-01-02T00:00:00+01:00</published><updated>2026-01-02T00:00:00+01:00</updated><id>https://bds.run/2026/01/02/entrainement-decembre-2025</id><content type="html" xml:base="https://bds.run/2026/01/02/entrainement-decembre-2025.html"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td>Distance</td>
+      <td>228.6 km</td>
+    </tr>
+    <tr>
+      <td>Gain d’altitude</td>
+      <td>2337 m</td>
+    </tr>
+    <tr>
+      <td>Durée</td>
+      <td>33:32 h:m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Course à pied + vélo + commute</p>
+
+<!--
+vim:spell spelllang=fr
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de décembre 2025]]></summary></entry><entry><title type="html">Entrainement novembre 2025</title><link href="https://bds.run/2025/12/02/entrainement-novembre-2025.html" rel="alternate" type="text/html" title="Entrainement novembre 2025" /><published>2025-12-02T00:00:00+01:00</published><updated>2025-12-02T00:00:00+01:00</updated><id>https://bds.run/2025/12/02/entrainement-novembre-2025</id><content type="html" xml:base="https://bds.run/2025/12/02/entrainement-novembre-2025.html"><![CDATA[<table>
   <tbody>
     <tr>
       <td>Distance</td>
@@ -166,46 +200,4 @@ vim:spell spelllang=fr
 
 <!--
 vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'avril 2025]]></summary></entry><entry><title type="html">Entrainement mars 2025</title><link href="https://bds.run/2025/04/02/entrainement-mars-2025.html" rel="alternate" type="text/html" title="Entrainement mars 2025" /><published>2025-04-02T00:00:00+02:00</published><updated>2025-04-02T00:00:00+02:00</updated><id>https://bds.run/2025/04/02/entrainement-mars-2025</id><content type="html" xml:base="https://bds.run/2025/04/02/entrainement-mars-2025.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>262.9 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>1757 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>28:17 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de mars 2025]]></summary></entry><entry><title type="html">Entrainement février 2025</title><link href="https://bds.run/2025/03/12/entrainement-fevrier-2025.html" rel="alternate" type="text/html" title="Entrainement février 2025" /><published>2025-03-12T00:00:00+01:00</published><updated>2025-03-12T00:00:00+01:00</updated><id>https://bds.run/2025/03/12/entrainement-fevrier-2025</id><content type="html" xml:base="https://bds.run/2025/03/12/entrainement-fevrier-2025.html"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td>Distance</td>
-      <td>368.3 km</td>
-    </tr>
-    <tr>
-      <td>Gain d’altitude</td>
-      <td>2860 m</td>
-    </tr>
-    <tr>
-      <td>Durée</td>
-      <td>30:11 h:m</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Course à pied + vélo + commute</p>
-
-<!--
-vim:spell spelllang=fr
--->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois de février 2025]]></summary></entry></feed>
+-->]]></content><author><name>Benjamin Dos Santos</name></author><category term="entrainement" /><summary type="html"><![CDATA[Bilan sportif du mois d'avril 2025]]></summary></entry></feed>
