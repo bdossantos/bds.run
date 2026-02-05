@@ -1,11 +1,11 @@
 ---
 activity_types:
-  Cycling: 3011
-  Running: 1662
-  Walking: 1073
-  Trail Running: 48
-  Virtual Cycling: 185
-  Indoor Sport & Fitness: 326
+  Walking: 1143
+  Trail Running: 51
+  Indoor Sport & Fitness: 327
+  Running: 1670
+  Virtual Cycling: 192
+  Cycling: 3019
   Gravel Cycling: 13
   Weight Training: 82
   Sailing: 4
@@ -19,138 +19,138 @@ activity_types:
   Climbing: 1
   Kayaking: 2
 recent_activities:
-  - date: "2026-01-02"
-    type: Cycling
-    distance: 7577.0
-    duration: 1564.54
-    calories: 257.0
-    elevation_gain: 22
-  - date: "2026-01-02"
-    type: Cycling
-    distance: 7309.0
-    duration: 1692.75
-    calories: 192.0
-    elevation_gain: 25
-  - date: "2026-01-01"
+  - date: "2026-02-05"
     type: Walking
-    distance: 3579.0
-    duration: 3526.12
-    calories: 356.0
-    elevation_gain: 35
-  - date: "2026-01-01"
+    distance: 984.0
+    duration: 1104.41
+    calories: 76.0
+    elevation_gain: 15
+  - date: "2026-02-04"
     type: Walking
-    distance: 1837.0
-    duration: 1531.13
-    calories: 157.0
-    elevation_gain: 27
-  - date: "2026-01-01"
-    type: Running
-    distance: 10000.0
-    duration: 3149.17
-    calories: 755.0
-    elevation_gain: 80
-  - date: "2025-12-31"
-    type: Running
-    distance: 6334.0
-    duration: 2044.0
-    calories: 535.0
-    elevation_gain: 47
-  - date: "2025-12-30"
-    type: Walking
-    distance: 598.0
-    duration: 804.73
-    calories: 49.0
-    elevation_gain: 30
-  - date: "2025-12-30"
-    type: Walking
-    distance: 766.0
-    duration: 644.73
-    calories: 51.0
-    elevation_gain: 33
-  - date: "2025-12-30"
-    type: Running
-    distance: 7108.0
-    duration: 2225.24
-    calories: 554.0
-    elevation_gain: 60
-  - date: "2025-12-29"
-    type: Walking
-    distance: 1485.0
-    duration: 1288.7
-    calories: 119.0
-    elevation_gain: 7
-  - date: "2025-12-28"
-    type: Walking
-    distance: 1073.0
-    duration: 3046.4
-    calories: 192.0
-    elevation_gain: 5
-  - date: "2025-12-28"
-    type: Walking
-    distance: 1385.0
-    duration: 1125.34
-    calories: 132.0
-    elevation_gain: 0
-  - date: "2025-12-28"
-    type: Walking
-    distance: 1453.0
-    duration: 1303.66
-    calories: 114.0
-    elevation_gain: 0
-  - date: "2025-12-27"
-    type: Walking
-    distance: 1556.0
-    duration: 1398.47
-    calories: 165.0
-    elevation_gain: 3
-  - date: "2025-12-27"
-    type: Walking
-    distance: 5716.0
-    duration: 5894.45
-    calories: 623.0
-    elevation_gain: 13
-  - date: "2025-12-26"
-    type: Walking
-    distance: 6329.0
-    duration: 7186.53
-    calories: 559.0
-    elevation_gain: 12
-  - date: "2025-12-25"
-    type: Walking
-    distance: 1402.0
-    duration: 1390.77
+    distance: 1519.0
+    duration: 1515.72
     calories: 116.0
+    elevation_gain: 56
+  - date: "2026-02-04"
+    type: Walking
+    distance: 1761.0
+    duration: 1617.11
+    calories: 92.0
+    elevation_gain: 50
+  - date: "2026-02-03"
+    type: Walking
+    distance: 970.0
+    duration: 1256.92
+    calories: 115.0
+    elevation_gain: 14
+  - date: "2026-02-03"
+    type: Trail Running
+    distance: 6122.0
+    duration: 2112.79
+    calories: 450.0
+    elevation_gain: 96
+  - date: "2026-02-03"
+    type: Walking
+    distance: 671.0
+    duration: 496.28
+    calories: 58.0
+    elevation_gain: 4
+  - date: "2026-02-02"
+    type: Walking
+    distance: 1574.0
+    duration: 1827.92
+    calories: 147.0
+    elevation_gain: 20
+  - date: "2026-02-02"
+    type: Trail Running
+    distance: 6054.0
+    duration: 1837.61
+    calories: 386.0
+    elevation_gain: 49
+  - date: "2026-02-02"
+    type: Walking
+    distance: 488.0
+    duration: 287.16
+    calories: 27.0
+    elevation_gain: 0
+  - date: "2026-02-02"
+    type: Indoor Sport & Fitness
+    distance: 62.0
+    duration: 129.22
+    calories: 11.0
+    elevation_gain: 0
+  - date: "2026-02-01"
+    type: Running
+    distance: 5985.0
+    duration: 2138.95
+    calories: 305.0
+    elevation_gain: 43
+  - date: "2026-02-01"
+    type: Walking
+    distance: 2513.0
+    duration: 2062.42
+    calories: 238.0
     elevation_gain: 32
-  - date: "2025-12-25"
+  - date: "2026-02-01"
     type: Walking
-    distance: 1050.0
-    duration: 1203.58
-    calories: 94.0
-    elevation_gain: 7
-  - date: "2025-12-24"
+    distance: 1206.0
+    duration: 959.53
+    calories: 98.0
+    elevation_gain: 17
+  - date: "2026-02-01"
     type: Walking
-    distance: 2966.0
-    duration: 2389.26
-    calories: 306.0
-    elevation_gain: 18
-  - date: "2025-12-24"
+    distance: 2912.0
+    duration: 3143.97
+    calories: 229.0
+    elevation_gain: 46
+  - date: "2026-01-31"
     type: Walking
-    distance: 3250.0
-    duration: 5595.4
-    calories: 292.0
-    elevation_gain: 37
-total_activities: 7300
-total_calories: 2455408
-total_distance_km: 65086.8
-total_duration_hours: 4864
-total_elevation_gain_m: 425090
+    distance: 671.0
+    duration: 1484.91
+    calories: 103.0
+    elevation_gain: 21
+  - date: "2026-01-30"
+    type: Walking
+    distance: 2257.0
+    duration: 2027.16
+    calories: 206.0
+    elevation_gain: 51
+  - date: "2026-01-30"
+    type: Walking
+    distance: 1645.0
+    duration: 1295.01
+    calories: 101.0
+    elevation_gain: 22
+  - date: "2026-01-29"
+    type: Walking
+    distance: 1704.0
+    duration: 1553.51
+    calories: 146.0
+    elevation_gain: 25
+  - date: "2026-01-29"
+    type: Walking
+    distance: 1509.0
+    duration: 1068.57
+    calories: 110.0
+    elevation_gain: 15
+  - date: "2026-01-28"
+    type: Walking
+    distance: 1627.0
+    duration: 1155.15
+    calories: 123.0
+    elevation_gain: 45
+total_activities: 7397
+total_calories: 2472955
+total_distance_km: 65419.8
+total_duration_hours: 4912
+total_elevation_gain_m: 428657
 yearly_stats:
   - year: "2026"
-    count: 5
-    distance: 30302.0
-    duration: 11463.71
-    calories: 1717.0
-    elevation_gain: 189
+    count: 102
+    distance: 363232.69
+    duration: 182353.86
+    calories: 19264.0
+    elevation_gain: 3756
   - year: "2025"
     count: 826
     distance: 4297487.61
