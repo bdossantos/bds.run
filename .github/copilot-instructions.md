@@ -46,3 +46,4 @@ JEKYLL_ENV=production bundle exec rake build  # production build
 - Permalinks follow the pattern `/:year/:month/:day/:title.html`
 - Ruby files use `frozen_string_literal: true`
 - The build output goes to `_build/`
+- Commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/) specification (e.g. `feat: add new feature`, `fix: correct a bug`, `docs: update readme`, `chore: update dependencies`)
