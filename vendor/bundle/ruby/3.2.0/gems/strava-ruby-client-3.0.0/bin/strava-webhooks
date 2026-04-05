@@ -1,0 +1,57 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'dotenv/load'
+require 'webrick'
+require 'strava-ruby-client'
+
+logger = Logger.new($stdout)
+logger.level = Logger::INFO
+
+client = Strava::Webhooks::Client.new(
+  client_id: ENV.fetch('STRAVA_CLIENT_ID', nil),
+  client_secret: ENV.fetch('STRAVA_CLIENT_SECRET', nil),
+  logger: logger
+)
+
+case ARGV[0]
+when 'create'
+  callback_url = ARGV[1]
+  raise 'Missing callback_url.' unless callback_url
+
+  client.logger.info "Subscribing to #{callback_url} ..."
+  subscription = client.create_push_subscription(callback_url: callback_url, verify_token: 'token')
+  puts subscription
+when 'delete'
+  id = ARGV[1]
+  raise 'Missing id.' unless id
+
+  client.logger.info "Unsubscribing #{id} ..."
+  client.delete_push_subscription(id: id)
+  client.logger.info 'Done.'
+when 'handle'
+  server = WEBrick::HTTPServer.new(Port: 4242)
+
+  trap 'INT' do
+    server.shutdown
+  end
+
+  server.mount_proc '/' do |req, res|
+    case req.request_method
+    when 'GET'
+      challenge = Strava::Webhooks::Models::Challenge.new(req.query)
+      res.content_type = 'application/json'
+      res.body = challenge.response.to_json
+    when 'POST'
+      event = Strava::Webhooks::Models::Event.new(JSON.parse(req.body))
+      server.logger.info event
+      res.content_type = 'application/json'
+      res.body = { ok: true }.to_json
+    end
+  end
+  server.start
+else
+  client.push_subscriptions.each do |s|
+    puts s
+  end
+end

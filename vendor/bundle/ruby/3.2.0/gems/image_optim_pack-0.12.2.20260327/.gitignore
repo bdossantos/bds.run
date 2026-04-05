@@ -1,0 +1,7 @@
+/build/
+/download/
+
+Gemfile.lock
+/*.gem
+/.bundle
+/tmp/
