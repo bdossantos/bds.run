@@ -35,6 +35,31 @@ puts "✓ Contains recent activities"
 raise "Should have yearly stats" unless summary['yearly_stats']
 puts "✓ Contains yearly stats"
 
+# New data fields
+raise "Should have activity_type_details" unless summary['activity_type_details']
+puts "✓ Contains activity type details: #{summary['activity_type_details'].keys.length} types"
+
+raise "Should have averages" unless summary['averages']
+puts "✓ Contains averages: HR=#{summary['averages']['heartrate']}, speed=#{summary['averages']['speed_mps']} m/s"
+
+raise "Should have date_range" unless summary['date_range']
+puts "✓ Contains date range: #{summary['date_range']['earliest']} to #{summary['date_range']['latest']}"
+
+raise "Should have monthly_trends" unless summary['monthly_trends']
+puts "✓ Contains monthly trends: #{summary['monthly_trends'].keys.length} months"
+
+raise "Should have personal_records" unless summary['personal_records']
+puts "✓ Contains personal records: #{summary['personal_records'].keys.join(', ')}"
+
+raise "Should have recent_summary" unless summary['recent_summary']
+puts "✓ Contains recent summary (last 30 days)"
+
+raise "Should have totals" unless summary['totals']
+puts "✓ Contains totals summary"
+
+raise "Should have daily_counts" unless summary['daily_counts']
+puts "✓ Contains daily counts: #{summary['daily_counts'].keys.length} days"
+
 # Test YAML output
 yaml_content = YAML.load_file('/tmp/test_summary.yml')
 raise "YAML output should match summary" unless yaml_content == summary
