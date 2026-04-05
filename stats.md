@@ -489,17 +489,33 @@ Données basées sur {{ summary.total_activities }} activités enregistrées dep
     }).addTo(map);
 
     var bounds = [];
+    var distances = racesData.features
+      .map(function(f) { return f.properties['Distance (km)'] || 0; })
+      .filter(function(d) { return d > 0; });
+    var maxDist = Math.max.apply(null, distances) || 100;
+
     racesData.features.forEach(function(feature) {
       var coords = feature.geometry.coordinates;
       if (!coords || coords[0] === null || coords[1] === null) return;
       var lat = coords[1];
       var lng = coords[0];
       var props = feature.properties;
+      var dist = props['Distance (km)'] || 0;
+      var radius = 5 + (dist / maxDist) * 15;
       var popup = '<strong>' + (props['Race name'] || '') + '</strong><br>' +
                   (props['Date'] ? props['Date'].split(' ')[0] : '') + '<br>' +
                   (props['Distance (km)'] ? props['Distance (km)'] + ' km' : '') +
                   (props['Total elevation gain (m)'] ? ' · D+ ' + props['Total elevation gain (m)'] + 'm' : '');
-      L.marker([lat, lng]).addTo(map).bindPopup(popup);
+      L.circleMarker([lat, lng], {
+        radius: radius,
+        fillColor: primaryColor,
+        color: '#fff',
+        weight: 2,
+        opacity: 1,
+        fillOpacity: 0.85
+      }).addTo(map)
+        .bindPopup(popup)
+        .bindTooltip(props['Race name'] || '', { direction: 'top', offset: [0, -radius] });
       bounds.push([lat, lng]);
     });
     if (bounds.length > 0) {
