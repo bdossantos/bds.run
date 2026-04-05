@@ -13,27 +13,27 @@ permalink: /stats.html
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 2rem 0;">
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.total_activities }}</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ summary.total_activities }}</h4>
     <small>Activités totales</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.total_distance_km }} km</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ summary.total_distance_km }} km</h4>
     <small>Distance totale</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.total_duration_hours }}h</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ summary.total_duration_hours }}h</h4>
     <small>Temps total</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.total_calories }}</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ summary.total_calories }}</h4>
     <small>Calories brûlées</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.total_elevation_gain_m }} m</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ summary.total_elevation_gain_m }} m</h4>
     <small>Dénivelé total</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.date_range.span_days }}</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ summary.date_range.span_days }}</h4>
     <small>Jours d'activité</small>
   </div>
 </div>
@@ -44,23 +44,23 @@ permalink: /stats.html
 {% assign last30 = summary.recent_summary.last_30_days %}
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 2rem 0;">
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ last30.count }}</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ last30.count }}</h4>
     <small>Activités</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ last30.total_distance | divided_by: 1000.0 | round: 1 }} km</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ last30.total_distance | divided_by: 1000.0 | round: 1 }} km</h4>
     <small>Distance</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ last30.total_duration | divided_by: 3600.0 | round: 1 }}h</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ last30.total_duration | divided_by: 3600.0 | round: 1 }}h</h4>
     <small>Temps</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ last30.total_calories | round: 0 }}</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ last30.total_calories | round: 0 }}</h4>
     <small>Calories</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ last30.avg_per_day }}</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ last30.avg_per_day }}</h4>
     <small>Activités/jour</small>
   </div>
 </div>
@@ -174,13 +174,13 @@ permalink: /stats.html
   {% assign pct_count = current_year.count | times: 100.0 | divided_by: previous_year.count | round: 1 %}
   <small>Progression distance vs {{ previous_year.year }} :</small>
   <div style="background: var(--pico-background-color); border-radius: 0.25rem; overflow: hidden; height: 1.5rem; margin: 0.25rem 0;">
-    <div style="background: var(--pico-primary-color); height: 100%; width: {% if pct_distance > 100 %}100{% else %}{{ pct_distance }}{% endif %}%; display: flex; align-items: center; justify-content: center;">
+    <div style="background: var(--pico-primary); height: 100%; width: {% if pct_distance > 100 %}100{% else %}{{ pct_distance }}{% endif %}%; display: flex; align-items: center; justify-content: center;">
       <small style="color: white; font-weight: bold;">{{ pct_distance }}%</small>
     </div>
   </div>
   <small>Progression activités vs {{ previous_year.year }} :</small>
   <div style="background: var(--pico-background-color); border-radius: 0.25rem; overflow: hidden; height: 1.5rem; margin: 0.25rem 0;">
-    <div style="background: var(--pico-primary-color); height: 100%; width: {% if pct_count > 100 %}100{% else %}{{ pct_count }}{% endif %}%; display: flex; align-items: center; justify-content: center;">
+    <div style="background: var(--pico-primary); height: 100%; width: {% if pct_count > 100 %}100{% else %}{{ pct_count }}{% endif %}%; display: flex; align-items: center; justify-content: center;">
       <small style="color: white; font-weight: bold;">{{ pct_count }}%</small>
     </div>
   </div>
@@ -191,37 +191,37 @@ permalink: /stats.html
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 2rem 0;">
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">
       {{ summary.averages.distance_meters | divided_by: 1000.0 | round: 1 }} km
     </h4>
     <small>Distance moyenne</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">
       {{ summary.averages.duration_seconds | divided_by: 60.0 | round: 0 }} min
     </h4>
     <small>Durée moyenne</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">
       {{ summary.averages.calories | round: 0 }}
     </h4>
     <small>Calories moyennes</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">
       {{ summary.averages.heartrate | round: 0 }} bpm
     </h4>
     <small>FC moyenne</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">
       {{ summary.averages.speed_mps | times: 3.6 | round: 1 }} km/h
     </h4>
     <small>Vitesse moyenne</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">
       {{ summary.averages.elevation_gain_meters | round: 0 }} m
     </h4>
     <small>D+ moyen</small>
@@ -236,19 +236,19 @@ permalink: /stats.html
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 2rem 0;">
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ years_active }}</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ years_active }}</h4>
     <small>Années d'activité</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.total_activities | divided_by: years_active | round: 0 }}</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ summary.total_activities | divided_by: years_active | round: 0 }}</h4>
     <small>Activités/an</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ activities_per_week }}</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ activities_per_week }}</h4>
     <small>Activités/semaine</small>
   </div>
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
-    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary-color);">{{ summary.totals.max_elevation_in_activity }} m</h4>
+    <h4 style="margin: 0 0 0.5rem 0; color: var(--pico-primary);">{{ summary.totals.max_elevation_in_activity }} m</h4>
     <small>Altitude max atteinte</small>
   </div>
 </div>
@@ -298,7 +298,7 @@ Données basées sur {{ summary.total_activities }} activités enregistrées dep
 
 <script>
 (function() {
-  var primaryColor = getComputedStyle(document.documentElement).getPropertyValue('--pico-primary-color').trim() || '#1095c1';
+  var primaryColor = getComputedStyle(document.documentElement).getPropertyValue('--pico-primary').trim() || '#1095c1';
   var textColor = getComputedStyle(document.documentElement).getPropertyValue('--pico-color').trim() || '#333';
   var gridColor = getComputedStyle(document.documentElement).getPropertyValue('--pico-muted-border-color').trim() || '#e0e0e0';
 
