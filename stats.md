@@ -66,7 +66,7 @@ permalink: /stats.html
 </div>
 {% endif %}
 
-### Heatmap d'activité (12 derniers mois)
+### Heatmap d'activité (dernière année)
 
 <div id="heatmap" style="margin: 2rem 0;"></div>
 
