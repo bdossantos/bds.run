@@ -258,6 +258,7 @@ class ActivitySummaryGenerator
       next if type_activities.empty?
 
       with_distance = type_activities.select { |a| a[:distance] > 0 }
+      with_duration = type_activities.select { |a| a[:duration] > 0 }
       with_elevation = type_activities.select { |a| a[:elevation_gain] > 0 }
       with_speed = type_activities.select { |a| a[:avg_speed] > 0 }
 
@@ -267,12 +268,10 @@ class ActivitySummaryGenerator
         records[type]['longest_distance_km'] = (longest[:distance] / 1000).round(2)
         records[type]['longest_distance_date'] = longest[:date]&.to_s
       end
-      unless with_distance.empty?
-        longest_dur = type_activities.select { |a| a[:duration] > 0 }.max_by { |a| a[:duration] }
-        if longest_dur
-          records[type]['longest_duration_hours'] = (longest_dur[:duration] / 3600).round(2)
-          records[type]['longest_duration_date'] = longest_dur[:date]&.to_s
-        end
+      unless with_duration.empty?
+        longest_dur = with_duration.max_by { |a| a[:duration] }
+        records[type]['longest_duration_hours'] = (longest_dur[:duration] / 3600).round(2)
+        records[type]['longest_duration_date'] = longest_dur[:date]&.to_s
       end
       unless with_elevation.empty?
         most_elev = with_elevation.max_by { |a| a[:elevation_gain] }
