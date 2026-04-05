@@ -1,0 +1,92 @@
+# frozen_string_literal: true
+
+module Strava
+  module Api
+    module Endpoints
+      module Clubs
+        #
+        # List club activities.
+        #
+        # @option options [String] :id
+        #   Club id.
+        # @option options [Integer] :page
+        #   Page number.
+        # @option options [Integer] :per_page
+        #   Number of items per page. Defaults to 30.
+        #
+        def club_activities(id_or_options, options = {}, &block)
+          id, options = parse_args(id_or_options, options)
+          paginate "clubs/#{id}/activities", options, Strava::Models::ClubActivity, &block
+        end
+
+        #
+        # List club / group events.
+        #
+        # @option options [String] :id
+        #   Club id.
+        # @option options [Integer] :page
+        #   Page number.
+        # @option options [Integer] :per_page
+        #   Number of items per page. Defaults to 30.
+        #
+        def club_events(id_or_options, options = {}, &block)
+          id, options = parse_args(id_or_options, options)
+          paginate "clubs/#{id}/group_events", options, Strava::Models::ClubEvent, &block
+        end
+
+        #
+        # List club administrators.
+        #
+        # @option options [String] :id
+        #   Club id.
+        # @option options [Integer] :page
+        #   Page number.
+        # @option options [Integer] :per_page
+        #   Number of items per page. Defaults to 30.
+        #
+        def club_admins(id_or_options, options = {}, &block)
+          id, options = parse_args(id_or_options, options)
+          paginate "clubs/#{id}/admins", options, Strava::Models::ClubAthlete, &block
+        end
+
+        #
+        # Get club.
+        #
+        # @option options [String] :id
+        #   Club id.
+        #
+        def club(id_or_options, options = {})
+          id, options = parse_args(id_or_options, options)
+          Strava::Models::DetailedClub.new(get("clubs/#{id}", options))
+        end
+
+        #
+        # List club members.
+        #
+        # @option options [String] :id
+        #   Club id.
+        # @option options [Integer] :page
+        #   Page number.
+        # @option options [Integer] :per_page
+        #   Number of items per page. Defaults to 30.
+        #
+        def club_members(id_or_options, options = {}, &block)
+          id, options = parse_args(id_or_options, options)
+          paginate "clubs/#{id}/members", options, Strava::Models::ClubAthlete, &block
+        end
+
+        #
+        # List logged-in athlete clubs.
+        #
+        # @option options [Integer] :page
+        #   Page number.
+        # @option options [Integer] :per_page
+        #   Number of items per page. Defaults to 30.
+        #
+        def athlete_clubs(options = {}, &block)
+          paginate 'athlete/clubs', options, Strava::Models::SummaryClub, &block
+        end
+      end
+    end
+  end
+end
