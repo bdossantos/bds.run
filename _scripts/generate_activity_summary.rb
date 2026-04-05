@@ -74,12 +74,20 @@ class ActivitySummaryGenerator
 
     {
       'activity_types' => activity_type_counts,
+      'activity_type_details' => activity_type_summary,
+      'averages' => averages_summary,
+      'date_range' => date_range,
+      'monthly_trends' => monthly_trends,
+      'personal_records' => personal_records,
       'recent_activities' => recent_activities_list,
+      'recent_summary' => recent_activity_summary,
       'total_activities' => @activities.length,
       'total_calories' => @activities.sum { |a| a[:calories] }.round(0),
       'total_distance_km' => (@activities.sum { |a| a[:distance] } / 1000).round(1),
       'total_duration_hours' => (@activities.sum { |a| a[:duration] } / 3600).round(0),
       'total_elevation_gain_m' => @activities.sum { |a| a[:elevation_gain] }.round(0),
+      'totals' => totals_summary,
+      'daily_counts' => daily_activity_counts,
       'yearly_stats' => yearly_stats_original_format
     }
   end
@@ -240,6 +248,77 @@ class ActivitySummaryGenerator
         'avg_per_day' => (recent.length / 30.0).round(2)
       }
     }
+  end
+
+  def personal_records
+    records = {}
+    # Group by main activity types for records
+    %w[Running Cycling Walking Hiking Swimming].each do |type|
+      type_activities = @activities.select { |a| a[:activity] == type }
+      next if type_activities.empty?
+
+      with_distance = type_activities.select { |a| a[:distance] > 0 }
+      with_elevation = type_activities.select { |a| a[:elevation_gain] > 0 }
+      with_speed = type_activities.select { |a| a[:avg_speed] > 0 }
+
+      records[type] = {}
+      unless with_distance.empty?
+        longest = with_distance.max_by { |a| a[:distance] }
+        records[type]['longest_distance_km'] = (longest[:distance] / 1000).round(2)
+        records[type]['longest_distance_date'] = longest[:date]&.to_s
+      end
+      unless with_distance.empty?
+        longest_dur = type_activities.select { |a| a[:duration] > 0 }.max_by { |a| a[:duration] }
+        if longest_dur
+          records[type]['longest_duration_hours'] = (longest_dur[:duration] / 3600).round(2)
+          records[type]['longest_duration_date'] = longest_dur[:date]&.to_s
+        end
+      end
+      unless with_elevation.empty?
+        most_elev = with_elevation.max_by { |a| a[:elevation_gain] }
+        records[type]['max_elevation_gain_m'] = most_elev[:elevation_gain].round(0)
+        records[type]['max_elevation_gain_date'] = most_elev[:date]&.to_s
+      end
+      unless with_speed.empty?
+        fastest = with_speed.max_by { |a| a[:avg_speed] }
+        records[type]['fastest_avg_speed_kmh'] = (fastest[:avg_speed] * 3.6).round(2)
+        records[type]['fastest_avg_speed_date'] = fastest[:date]&.to_s
+      end
+    end
+
+    # Also compute trail running records
+    trail_activities = @activities.select { |a| a[:activity] == 'Trail Running' }
+    unless trail_activities.empty?
+      with_distance = trail_activities.select { |a| a[:distance] > 0 }
+      with_elevation = trail_activities.select { |a| a[:elevation_gain] > 0 }
+
+      records['Trail Running'] = {}
+      unless with_distance.empty?
+        longest = with_distance.max_by { |a| a[:distance] }
+        records['Trail Running']['longest_distance_km'] = (longest[:distance] / 1000).round(2)
+        records['Trail Running']['longest_distance_date'] = longest[:date]&.to_s
+      end
+      unless with_elevation.empty?
+        most_elev = with_elevation.max_by { |a| a[:elevation_gain] }
+        records['Trail Running']['max_elevation_gain_m'] = most_elev[:elevation_gain].round(0)
+        records['Trail Running']['max_elevation_gain_date'] = most_elev[:date]&.to_s
+      end
+    end
+
+    records
+  end
+
+  def daily_activity_counts
+    counts = {}
+    @activities.each do |a|
+      next if a[:date].nil?
+
+      key = a[:date].to_s
+      counts[key] = (counts[key] || 0) + 1
+    end
+    # Return last 365 days only
+    cutoff = (Date.today - 365).to_s
+    counts.select { |date, _| date >= cutoff }.sort_by { |date, _| date }.to_h
   end
 
   def calculate_average(activities, field)
