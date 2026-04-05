@@ -1,5 +1,0 @@
-current directory: /home/runner/work/bds.run/bds.run/vendor/bundle/ruby/3.2.0/gems/sass-embedded-1.89.2/ext/sass
-/usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby -rrubygems /home/runner/work/bds.run/bds.run/vendor/bundle/ruby/3.2.0/gems/rake-13.3.1/exe/rake RUBYARCHDIR\=/home/runner/work/bds.run/bds.run/vendor/bundle/ruby/3.2.0/extensions/x86_64-linux-gnu/3.2.0/sass-embedded-1.89.2 RUBYLIBDIR\=/home/runner/work/bds.run/bds.run/vendor/bundle/ruby/3.2.0/extensions/x86_64-linux-gnu/3.2.0/sass-embedded-1.89.2
-gem install --force --install-dir /home/runner/work/bds.run/bds.run/vendor/bundle/ruby/3.2.0/gems/sass-embedded-1.89.2/ext/sass/ruby --no-document --ignore-dependencies --platform x86_64-linux-gnu --version 1.89.2 sass-embedded
-mv /home/runner/work/bds.run/bds.run/vendor/bundle/ruby/3.2.0/gems/sass-embedded-1.89.2/ext/sass/ruby/gems/sass-embedded-1.89.2-x86_64-linux-gnu/ext/sass/dart-sass dart-sass
-rm -rf /home/runner/work/bds.run/bds.run/vendor/bundle/ruby/3.2.0/gems/sass-embedded-1.89.2/ext/sass/ruby
