@@ -5,6 +5,18 @@ description: Statistiques et analyses des activités sportives
 permalink: /stats.html
 ---
 
+<style>
+@media (max-width: 768px) {
+  .stats-grid-2col {
+    grid-template-columns: 1fr !important;
+  }
+  .stats-grid-2col table {
+    overflow-x: auto;
+    display: block;
+  }
+}
+</style>
+
 {% assign summary = site.data.activity_summary %}
 
 ## Statistiques d'entraînement
@@ -78,7 +90,7 @@ permalink: /stats.html
 
 ### Répartition par type d'activité
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0; align-items: start;">
+<div class="stats-grid-2col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0; align-items: start;">
   <div>
     <canvas id="activityPieChart" height="300"></canvas>
   </div>
@@ -148,7 +160,7 @@ permalink: /stats.html
 {% assign previous_year = summary.yearly_stats[1] %}
 
 {% if current_year and previous_year %}
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+<div class="stats-grid-2col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
   <div>
     <h5>{{ current_year.year }} (en cours)</h5>
     <table>
