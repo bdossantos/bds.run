@@ -1,6 +1,6 @@
 ---
 activity_types:
-  Walking: 1263
+  Walking: 1264
   Virtual Cycling: 205
   Trail Running: 72
   Cycling: 3032
@@ -40,15 +40,15 @@ activity_type_details:
     avg_calories: 530.43
     avg_elevation_gain: 86.78
   Walking:
-    count: 1263
-    total_duration: 3093366.82
-    total_distance: 2884602.36
-    total_calories: 246284.0
-    total_elevation_gain: 29668.0
-    avg_duration: 2449.22
-    avg_distance: 2283.93
-    avg_calories: 195.31
-    avg_elevation_gain: 26.49
+    count: 1264
+    total_duration: 3094585.49
+    total_distance: 2885563.36
+    total_calories: 246364.0
+    total_elevation_gain: 29710.0
+    avg_duration: 2448.25
+    avg_distance: 2282.88
+    avg_calories: 195.22
+    avg_elevation_gain: 26.5
   Other:
     count: 665
     total_duration: 1300734.48
@@ -200,23 +200,23 @@ activity_type_details:
     avg_calories: 543.0
     avg_elevation_gain: 8.0
 averages:
-  duration_seconds: 2388.63
-  distance_meters: 9286.13
-  calories: 351.58
-  heartrate: 115.13
+  duration_seconds: 2388.47
+  distance_meters: 9284.96
+  calories: 351.54
+  heartrate: 115.12
   speed_mps: 3.65
   elevation_gain_meters: 76.94
 date_range:
   earliest: '2009-02-07'
-  latest: '2026-04-06'
-  span_days: 6267
+  latest: '2026-04-07'
+  span_days: 6268
 monthly_trends:
   2026-04:
-    count: 11
-    total_duration: 33686.55
-    total_distance: 65574.52
-    total_calories: 2975.0
-    total_elevation_gain: 619.0
+    count: 12
+    total_duration: 34905.22
+    total_distance: 66535.52
+    total_calories: 3055.0
+    total_elevation_gain: 661.0
   2026-03:
     count: 84
     total_duration: 192946.44
@@ -333,6 +333,12 @@ personal_records:
     max_elevation_gain_m: 4076
     max_elevation_gain_date: '2017-10-20'
 recent_activities:
+- date: '2026-04-07'
+  type: Walking
+  distance: 961.0
+  duration: 1218.67
+  calories: 80.0
+  elevation_gain: 42
 - date: '2026-04-06'
   type: Walking
   distance: 4748.0
@@ -358,17 +364,17 @@ recent_activities:
   calories: 329.0
   elevation_gain: 51
 - date: '2026-04-04'
-  type: Walking
-  distance: 3228.0
-  duration: 4259.35
-  calories: 348.0
-  elevation_gain: 50
-- date: '2026-04-04'
   type: Trail Running
   distance: 8003.0
   duration: 2572.45
   calories: 566.0
   elevation_gain: 61
+- date: '2026-04-04'
+  type: Walking
+  distance: 3228.0
+  duration: 4259.35
+  calories: 348.0
+  elevation_gain: 50
 - date: '2026-04-03'
   type: Walking
   distance: 1641.0
@@ -406,6 +412,12 @@ recent_activities:
   calories: 261.0
   elevation_gain: 77
 - date: '2026-03-31'
+  type: Virtual Cycling
+  distance: 27375.8
+  duration: 3416.17
+  calories: 355.0
+  elevation_gain: 104
+- date: '2026-03-31'
   type: Cycling
   distance: 1192.0
   duration: 237.4
@@ -423,12 +435,6 @@ recent_activities:
   duration: 1913.85
   calories: 161.0
   elevation_gain: 41
-- date: '2026-03-31'
-  type: Virtual Cycling
-  distance: 27375.8
-  duration: 3416.17
-  calories: 355.0
-  elevation_gain: 104
 - date: '2026-03-30'
   type: Walking
   distance: 1018.0
@@ -447,38 +453,31 @@ recent_activities:
   duration: 1838.64
   calories: 467.0
   elevation_gain: 49
-- date: '2026-03-29'
-  type: Walking
-  distance: 3998.0
-  duration: 6781.79
-  calories: 418.0
-  elevation_gain: 85
 recent_summary:
   last_30_days:
-    count: 78
-    total_duration: 190998.74
-    total_distance: 316727.21
-    total_calories: 16595.0
-    total_elevation_gain: 3551.0
-    avg_per_day: 2.6
-total_activities: 7560
-total_calories: 2505699
-total_distance_km: 66033.7
-total_duration_hours: 5015
-total_elevation_gain_m: 435949
+    count: 76
+    total_duration: 184174.7
+    total_distance: 309609.21
+    total_calories: 16091.0
+    total_elevation_gain: 3482.0
+    avg_per_day: 2.53
+total_activities: 7561
+total_calories: 2505779
+total_distance_km: 66034.6
+total_duration_hours: 5016
+total_elevation_gain_m: 435991
 totals:
-  duration_seconds: 18055633.07
-  duration_hours: 5015.45
-  distance_meters: 66033669.54
-  distance_kilometers: 66033.67
-  calories: 2505699.0
-  elevation_gain_meters: 435949.0
-  elevation_loss_meters: 378520.0
-  activities_with_elevation: 6422
+  duration_seconds: 18056851.74
+  duration_hours: 5015.79
+  distance_meters: 66034630.54
+  distance_kilometers: 66034.63
+  calories: 2505779.0
+  elevation_gain_meters: 435991.0
+  elevation_loss_meters: 378535.0
+  activities_with_elevation: 6423
   max_elevation_in_activity: 2808.0
   min_elevation_in_activity: 1.0
 daily_counts:
-  '2025-04-06': 1
   '2025-04-07': 3
   '2025-04-08': 3
   '2025-04-09': 1
@@ -843,13 +842,14 @@ daily_counts:
   '2026-04-04': 3
   '2026-04-05': 1
   '2026-04-06': 2
+  '2026-04-07': 1
 yearly_stats:
 - year: '2026'
-  count: 265
-  distance: 977145.59
-  duration: 554992.23
-  calories: 52008.0
-  elevation_gain: 11048
+  count: 266
+  distance: 978106.59
+  duration: 556210.9
+  calories: 52088.0
+  elevation_gain: 11090
 - year: '2025'
   count: 826
   distance: 4297487.61
