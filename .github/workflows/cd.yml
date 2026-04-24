@@ -3,22 +3,22 @@ name: CI
 
 on:
   push:
-    #branches: [master]
+  #branches: [master]
   pull_request:
-    #branches: [master]
+  #branches: [master]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # ratchet:actions/checkout@v6
+      - uses: ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735 # ratchet:ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # ratchet:actions/setup-node@v6
         with:
           cache: npm
-      - uses: actions/cache@v5
+      - uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # ratchet:actions/cache@v5
         with:
           path: ".jampack"
           key: jampack-${{ github.run_id }}
@@ -29,7 +29,7 @@ jobs:
           env JEKYLL_ENV=production bundle exec rake build
       - name: Deploy 🚀
         if: github.ref == 'refs/heads/master'
-        uses: JamesIves/github-pages-deploy-action@v4.8.0
+        uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f # ratchet:JamesIves/github-pages-deploy-action@v4.8.0
         with:
           branch: gh-pages
           folder: _build
