@@ -51,7 +51,38 @@ Principalement des courses sur route, dont entre autre les [10km Paris centre](h
 
 #### Map
 
-<script src="https://embed.github.com/view/geojson/bdossantos/{{ site.name }}/master/_data/races.geojson?height=400&width=720"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<div id="races-map" style="height: 400px; width: 100%;"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN2GqQQ=" crossorigin=""></script>
+<script>
+  (function () {
+    var map = L.map('races-map').setView([20, 10], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 18
+    }).addTo(map);
+    fetch('https://raw.githubusercontent.com/bdossantos/bds.run/master/_data/races.geojson')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        L.geoJSON(data, {
+          filter: function (feature) {
+            return feature.geometry &&
+              feature.geometry.coordinates &&
+              feature.geometry.coordinates[0] !== null &&
+              feature.geometry.coordinates[1] !== null;
+          },
+          pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, { radius: 6, color: '#fc4c02', fillColor: '#fc4c02', fillOpacity: 0.8 });
+          },
+          onEachFeature: function (feature, layer) {
+            if (feature.properties && feature.properties['Race name']) {
+              layer.bindPopup(feature.properties['Race name']);
+            }
+          }
+        }).addTo(map);
+      });
+  })();
+</script>
 
 ### Index de performance ITRA*
 
@@ -61,7 +92,7 @@ ITRA Performance Index	    |	598       | 598           | 421   | 421   |
 Best ITRA Score             |	616       | 616           | 534   | 0     |
 Races Finished              | 19/20	    | 6/6           | 7/7   | 0/0   |
 
-_* [International Trail Running Association][ITRA]_
+_* [International Trail Running Association][ITRA] — données statiques, voir le [profil live](https://itra.run/RunnerSpace/DOS.SANTOS.Benjamin/557280) pour les chiffres à jour._
 
 ### Références chronométriques
 
