@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mon CV sportif
-description: Benjamin, 32, Runner.
+description: Benjamin Dos Santos, Runner.
 redirect_from:
   - /about
   - /about.html
@@ -13,7 +13,13 @@ cover: 2016/11/MR65-3.jpg
 
 ### Présentation
 
-Benjamin Dos Santos, chausse du 42½, modeste routard reconverti à l'ultra trail.
+{% assign birth_year = 1988 %}
+{% assign birth_month = 5 %}
+{% assign current_year = site.time | date: '%Y' | plus: 0 %}
+{% assign current_month = site.time | date: '%-m' | plus: 0 %}
+{% assign age = current_year | minus: birth_year %}
+{% if current_month < birth_month %}{% assign age = age | minus: 1 %}{% endif %}
+Benjamin Dos Santos, {{ age }} ans, chausse du 42½, modeste routard reconverti à l'ultra trail.
 
 ❤️ J'aime bien  : le Fartlek, les côtes, le zéro drop, les moutons Mérino, faire
 du vélo, voyager, le saumon, le minimalisme.
@@ -92,7 +98,7 @@ courir.
 [100k]: {% post_url /2018/2018-07-06-ecotrail-reykjavik-82km %}
 [ASPTT]: https://asptt08.athle.com/
 [ITRA]: https://itra.run/RunnerSpace/DOS.SANTOS.Benjamin/557280
-[bds]: https://b-ds.fr
+[bds]: https://bds.run
 [twitter]: https://twitter.com/benjamin_ds
 [strava]: https://www.strava.com/athletes/6925704
 
