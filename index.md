@@ -11,11 +11,14 @@ description: Carnet d'entrainement, récits de course, photos de course.
       <a itemprop="name" href="{{ post.url }}">{{ post.title }}</a>
     </h2>
     <p>
-      <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}">
+      <time pubdate datetime="{{ post.date | date: '%Y-%m-%d' }}">
         {{ post.date | date: "%d/%m/%Y" }}
       </time>
        - {{ post.categories | join: ', ' }}
     </p>
   </hgroup>
+  <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
 </section>
 {% endfor %}
+
+<p><a href="/archives.html">Voir tous les articles →</a></p>
