@@ -53,7 +53,7 @@ Principalement des courses sur route, dont entre autre les [10km Paris centre](h
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 <div id="races-map" style="height: 400px; width: 100%;"></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN2GqQQ=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
   (function () {
     var map = L.map('races-map').setView([20, 10], 2);
@@ -80,6 +80,9 @@ Principalement des courses sur route, dont entre autre les [10km Paris centre](h
             }
           }
         }).addTo(map);
+      })
+      .catch(function (err) {
+        console.error('Failed to load races GeoJSON:', err);
       });
   })();
 </script>
