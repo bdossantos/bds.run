@@ -1,16 +1,17 @@
 ---
 activity_types:
-  Walking: 1264
-  Virtual Cycling: 205
-  Trail Running: 72
-  Cycling: 3032
+  Walking: 1320
+  Other: 666
+  Trail Running: 81
+  Virtual Cycling: 207
+  Cycling: 3036
+  Ball Sports: 1
+  Gravel Cycling: 14
   Indoor Sport & Fitness: 329
-  Running: 1664
-  Gravel Cycling: 13
+  Running: 1663
   Weight Training: 82
   Sailing: 4
   Hiking: 133
-  Other: 665
   Swimming: 24
   Treadmill Running: 50
   Indoor Rowing: 17
@@ -20,44 +21,44 @@ activity_types:
   Kayaking: 2
 activity_type_details:
   Cycling:
-    count: 3032
-    total_duration: 7170385.61
-    total_distance: 40172661.35
-    total_calories: 881689.0
-    total_elevation_gain: 162420.0
-    avg_duration: 2364.9
-    avg_distance: 13275.83
-    avg_calories: 312.88
-    avg_elevation_gain: 58.32
+    count: 3036
+    total_duration: 7179395.36
+    total_distance: 40228204.35
+    total_calories: 885377.0
+    total_elevation_gain: 162568.0
+    avg_duration: 2364.75
+    avg_distance: 13276.64
+    avg_calories: 313.74
+    avg_elevation_gain: 58.29
   Running:
-    count: 1664
-    total_duration: 4157021.27
-    total_distance: 12650346.98
-    total_calories: 881578.0
-    total_elevation_gain: 101449.0
-    avg_duration: 2498.21
-    avg_distance: 7606.94
-    avg_calories: 530.43
-    avg_elevation_gain: 86.78
+    count: 1663
+    total_duration: 4148956.27
+    total_distance: 12598346.98
+    total_calories: 877979.0
+    total_elevation_gain: 101321.0
+    avg_duration: 2494.86
+    avg_distance: 7580.23
+    avg_calories: 528.58
+    avg_elevation_gain: 86.75
   Walking:
-    count: 1264
-    total_duration: 3094585.49
-    total_distance: 2885563.36
-    total_calories: 246364.0
-    total_elevation_gain: 29710.0
-    avg_duration: 2448.25
-    avg_distance: 2282.88
-    avg_calories: 195.22
-    avg_elevation_gain: 26.5
+    count: 1320
+    total_duration: 3236552.67
+    total_distance: 3004724.36
+    total_calories: 255622.0
+    total_elevation_gain: 31762.0
+    avg_duration: 2451.93
+    avg_distance: 2276.31
+    avg_calories: 194.09
+    avg_elevation_gain: 27.03
   Other:
-    count: 665
-    total_duration: 1300734.48
+    count: 666
+    total_duration: 1305284.4
     total_distance: 4238225.0
-    total_calories: 254192.0
+    total_calories: 254319.0
     total_elevation_gain: 47600.0
-    avg_duration: 1955.99
+    avg_duration: 1959.89
     avg_distance: 6601.6
-    avg_calories: 393.49
+    avg_calories: 393.07
     avg_elevation_gain: 253.19
   Indoor Sport & Fitness:
     count: 329
@@ -70,15 +71,15 @@ activity_type_details:
     avg_calories: 61.22
     avg_elevation_gain: 0
   Virtual Cycling:
-    count: 205
-    total_duration: 452957.78
-    total_distance: 3380261.83
-    total_calories: 59701.0
-    total_elevation_gain: 40360.0
-    avg_duration: 2209.55
-    avg_distance: 16489.08
-    avg_calories: 292.65
-    avg_elevation_gain: 197.84
+    count: 207
+    total_duration: 457813.12
+    total_distance: 3421734.49
+    total_calories: 60312.0
+    total_elevation_gain: 40586.0
+    avg_duration: 2211.66
+    avg_distance: 16530.12
+    avg_calories: 292.78
+    avg_elevation_gain: 197.02
   Hiking:
     count: 133
     total_duration: 732220.81
@@ -100,15 +101,15 @@ activity_type_details:
     avg_calories: 69.18
     avg_elevation_gain: 0
   Trail Running:
-    count: 72
-    total_duration: 465029.15
-    total_distance: 990845.0
-    total_calories: 70399.0
-    total_elevation_gain: 27005.0
-    avg_duration: 6458.74
-    avg_distance: 13761.74
-    avg_calories: 1005.7
-    avg_elevation_gain: 415.46
+    count: 81
+    total_duration: 476957.15
+    total_distance: 1029674.0
+    total_calories: 73016.0
+    total_elevation_gain: 27299.0
+    avg_duration: 5888.36
+    avg_distance: 12712.02
+    avg_calories: 924.25
+    avg_elevation_gain: 379.15
   Treadmill Running:
     count: 50
     total_duration: 70307.62
@@ -140,15 +141,15 @@ activity_type_details:
     avg_calories: 77.47
     avg_elevation_gain: 0
   Gravel Cycling:
-    count: 13
-    total_duration: 113245.37
-    total_distance: 633882.0
-    total_calories: 17173.0
-    total_elevation_gain: 5503.0
-    avg_duration: 8711.18
-    avg_distance: 48760.15
-    avg_calories: 1321.0
-    avg_elevation_gain: 423.31
+    count: 14
+    total_duration: 118476.53
+    total_distance: 666239.0
+    total_calories: 17917.0
+    total_elevation_gain: 5666.0
+    avg_duration: 8462.61
+    avg_distance: 47588.5
+    avg_calories: 1279.79
+    avg_elevation_gain: 404.71
   Sailing:
     count: 4
     total_duration: 11124.75
@@ -179,6 +180,16 @@ activity_type_details:
     avg_distance: 2860.5
     avg_calories: 145.0
     avg_elevation_gain: 0
+  Ball Sports:
+    count: 1
+    total_duration: 907.45
+    total_distance: 0.0
+    total_calories: 54.0
+    total_elevation_gain: 0.0
+    avg_duration: 907.45
+    avg_distance: 0
+    avg_calories: 54.0
+    avg_elevation_gain: 0
   Yoga:
     count: 1
     total_duration: 3600.0
@@ -200,23 +211,29 @@ activity_type_details:
     avg_calories: 543.0
     avg_elevation_gain: 8.0
 averages:
-  duration_seconds: 2388.47
-  distance_meters: 9284.96
-  calories: 351.54
-  heartrate: 115.12
-  speed_mps: 3.65
-  elevation_gain_meters: 76.94
+  duration_seconds: 2387.95
+  distance_meters: 9225.95
+  calories: 349.9
+  heartrate: 114.85
+  speed_mps: 3.63
+  elevation_gain_meters: 76.52
 date_range:
-  earliest: '2009-02-07'
-  latest: '2026-04-07'
-  span_days: 6268
+  earliest: "2009-02-07"
+  latest: "2026-05-04"
+  span_days: 6295
 monthly_trends:
+  2026-05:
+    count: 11
+    total_duration: 36100.4
+    total_distance: 26425.0
+    total_calories: 2134.0
+    total_elevation_gain: 342.0
   2026-04:
-    count: 12
-    total_duration: 34905.22
-    total_distance: 66535.52
-    total_calories: 3055.0
-    total_elevation_gain: 661.0
+    count: 74
+    total_duration: 169188.62
+    total_distance: 275473.18
+    total_calories: 14421.0
+    total_elevation_gain: 3074.0
   2026-03:
     count: 84
     total_duration: 192946.44
@@ -277,678 +294,672 @@ monthly_trends:
     total_distance: 321875.75
     total_calories: 15004.0
     total_elevation_gain: 3910.0
-  2025-05:
-    count: 67
-    total_duration: 161709.65
-    total_distance: 389843.95
-    total_calories: 16316.0
-    total_elevation_gain: 2727.0
 personal_records:
   Running:
     longest_distance_km: 63.19
-    longest_distance_date: '2017-09-09'
+    longest_distance_date: "2017-09-09"
     longest_duration_hours: 9.52
-    longest_duration_date: '2016-11-26'
+    longest_duration_date: "2016-11-26"
     max_elevation_gain_m: 2524
-    max_elevation_gain_date: '2015-10-31'
-    fastest_avg_speed_kmh: 23.22
-    fastest_avg_speed_date: '2020-07-18'
+    max_elevation_gain_date: "2015-10-31"
+    fastest_avg_speed_kmh: 19.8
+    fastest_avg_speed_date: "2020-05-30"
   Cycling:
     longest_distance_km: 233.56
-    longest_distance_date: '2020-08-22'
+    longest_distance_date: "2020-08-22"
     longest_duration_hours: 11.25
-    longest_duration_date: '2020-07-27'
+    longest_duration_date: "2020-07-27"
     max_elevation_gain_m: 2249
-    max_elevation_gain_date: '2020-08-22'
+    max_elevation_gain_date: "2020-08-22"
     fastest_avg_speed_kmh: 42.77
-    fastest_avg_speed_date: '2020-07-25'
+    fastest_avg_speed_date: "2020-07-25"
   Walking:
     longest_distance_km: 16.0
-    longest_distance_date: '2019-08-17'
+    longest_distance_date: "2019-08-17"
     longest_duration_hours: 5.0
-    longest_duration_date: '2019-08-17'
+    longest_duration_date: "2019-08-17"
     max_elevation_gain_m: 343
-    max_elevation_gain_date: '2024-05-01'
+    max_elevation_gain_date: "2024-05-01"
     fastest_avg_speed_kmh: 34.92
-    fastest_avg_speed_date: '2020-12-25'
+    fastest_avg_speed_date: "2020-12-25"
   Hiking:
     longest_distance_km: 28.14
-    longest_distance_date: '2023-08-05'
+    longest_distance_date: "2023-08-05"
     longest_duration_hours: 7.47
-    longest_duration_date: '2016-06-26'
+    longest_duration_date: "2016-06-26"
     max_elevation_gain_m: 1139
-    max_elevation_gain_date: '2023-08-08'
+    max_elevation_gain_date: "2023-08-08"
     fastest_avg_speed_kmh: 7.7
-    fastest_avg_speed_date: '2017-05-24'
+    fastest_avg_speed_date: "2017-05-24"
   Swimming:
     longest_distance_km: 1.04
-    longest_distance_date: '2018-05-30'
+    longest_distance_date: "2018-05-30"
     longest_duration_hours: 0.71
-    longest_duration_date: '2025-08-12'
+    longest_duration_date: "2025-08-12"
     fastest_avg_speed_kmh: 7.81
-    fastest_avg_speed_date: '2025-08-12'
+    fastest_avg_speed_date: "2025-08-12"
   Trail Running:
     longest_distance_km: 101.22
-    longest_distance_date: '2018-07-06'
+    longest_distance_date: "2018-07-06"
     max_elevation_gain_m: 4076
-    max_elevation_gain_date: '2017-10-20'
+    max_elevation_gain_date: "2017-10-20"
 recent_activities:
-- date: '2026-04-07'
-  type: Walking
-  distance: 961.0
-  duration: 1218.67
-  calories: 80.0
-  elevation_gain: 42
-- date: '2026-04-06'
-  type: Walking
-  distance: 4748.0
-  duration: 6881.16
-  calories: 446.0
-  elevation_gain: 76
-- date: '2026-04-06'
-  type: Walking
-  distance: 3547.0
-  duration: 4259.59
-  calories: 274.0
-  elevation_gain: 62
-- date: '2026-04-05'
-  type: Virtual Cycling
-  distance: 33782.5
-  duration: 3887.93
-  calories: 529.0
-  elevation_gain: 208
-- date: '2026-04-04'
-  type: Walking
-  distance: 5238.0
-  duration: 5832.8
-  calories: 329.0
-  elevation_gain: 51
-- date: '2026-04-04'
-  type: Trail Running
-  distance: 8003.0
-  duration: 2572.45
-  calories: 566.0
-  elevation_gain: 61
-- date: '2026-04-04'
-  type: Walking
-  distance: 3228.0
-  duration: 4259.35
-  calories: 348.0
-  elevation_gain: 50
-- date: '2026-04-03'
-  type: Walking
-  distance: 1641.0
-  duration: 1558.56
-  calories: 92.0
-  elevation_gain: 34
-- date: '2026-04-03'
-  type: Walking
-  distance: 1410.0
-  duration: 1045.62
-  calories: 101.0
-  elevation_gain: 15
-- date: '2026-04-02'
-  type: Walking
-  distance: 1545.0
-  duration: 1308.29
-  calories: 120.0
-  elevation_gain: 15
-- date: '2026-04-01'
-  type: Walking
-  distance: 1404.0
-  duration: 1256.29
-  calories: 109.0
-  elevation_gain: 16
-- date: '2026-04-01'
-  type: Walking
-  distance: 1028.0
-  duration: 824.51
-  calories: 61.0
-  elevation_gain: 31
-- date: '2026-03-31'
-  type: Walking
-  distance: 3734.0
-  duration: 3663.97
-  calories: 261.0
-  elevation_gain: 77
-- date: '2026-03-31'
-  type: Virtual Cycling
-  distance: 27375.8
-  duration: 3416.17
-  calories: 355.0
-  elevation_gain: 104
-- date: '2026-03-31'
-  type: Cycling
-  distance: 1192.0
-  duration: 237.4
-  calories: 27.0
-  elevation_gain: 3
-- date: '2026-03-31'
-  type: Cycling
-  distance: 1608.0
-  duration: 352.21
-  calories: 42.0
-  elevation_gain: 11
-- date: '2026-03-31'
-  type: Walking
-  distance: 1559.0
-  duration: 1913.85
-  calories: 161.0
-  elevation_gain: 41
-- date: '2026-03-30'
-  type: Walking
-  distance: 1018.0
-  duration: 1486.36
-  calories: 151.0
-  elevation_gain: 29
-- date: '2026-03-30'
-  type: Walking
-  distance: 1139.0
-  duration: 1302.62
-  calories: 108.0
-  elevation_gain: 16
-- date: '2026-03-30'
-  type: Trail Running
-  distance: 6202.0
-  duration: 1838.64
-  calories: 467.0
-  elevation_gain: 49
+  - date: "2026-05-04"
+    type: Walking
+    distance: 2058.0
+    duration: 1924.5
+    calories: 123.0
+    elevation_gain: 50
+  - date: "2026-05-04"
+    type: Walking
+    distance: 3443.0
+    duration: 2900.7
+    calories: 209.0
+    elevation_gain: 43
+  - date: "2026-05-03"
+    type: Walking
+    distance: 2442.0
+    duration: 2815.85
+    calories: 299.0
+    elevation_gain: 22
+  - date: "2026-05-03"
+    type: Walking
+    distance: 1057.0
+    duration: 1964.35
+    calories: 119.0
+    elevation_gain: 25
+  - date: "2026-05-03"
+    type: Walking
+    distance: 1720.0
+    duration: 1229.84
+    calories: 107.0
+    elevation_gain: 28
+  - date: "2026-05-02"
+    type: Walking
+    distance: 855.0
+    duration: 938.71
+    calories: 56.0
+    elevation_gain: 33
+  - date: "2026-05-02"
+    type: Walking
+    distance: 3765.0
+    duration: 5051.98
+    calories: 307.0
+    elevation_gain: 25
+  - date: "2026-05-02"
+    type: Walking
+    distance: 6926.0
+    duration: 9638.04
+    calories: 511.0
+    elevation_gain: 45
+  - date: "2026-05-01"
+    type: Walking
+    distance: 3281.0
+    duration: 3075.14
+    calories: 184.0
+    elevation_gain: 50
+  - date: "2026-05-01"
+    type: Walking
+    distance: 878.0
+    duration: 2011.37
+    calories: 92.0
+    elevation_gain: 21
+  - date: "2026-05-01"
+    type: Other
+    distance: 0.0
+    duration: 4549.92
+    calories: 127.0
+    elevation_gain: 0
+  - date: "2026-04-30"
+    type: Walking
+    distance: 2923.0
+    duration: 3157.82
+    calories: 159.0
+    elevation_gain: 58
+  - date: "2026-04-30"
+    type: Walking
+    distance: 1500.0
+    duration: 999.34
+    calories: 65.0
+    elevation_gain: 16
+  - date: "2026-04-29"
+    type: Walking
+    distance: 2776.0
+    duration: 3476.97
+    calories: 191.0
+    elevation_gain: 36
+  - date: "2026-04-29"
+    type: Walking
+    distance: 1500.0
+    duration: 900.0
+    calories: 0.0
+    elevation_gain: 0
+  - date: "2026-04-28"
+    type: Walking
+    distance: 1055.0
+    duration: 1613.31
+    calories: 78.0
+    elevation_gain: 26
+  - date: "2026-04-28"
+    type: Walking
+    distance: 1843.0
+    duration: 2426.45
+    calories: 131.0
+    elevation_gain: 40
+  - date: "2026-04-27"
+    type: Cycling
+    distance: 278.0
+    duration: 204.13
+    calories: 22.0
+    elevation_gain: 2
+  - date: "2026-04-27"
+    type: Cycling
+    distance: 1698.0
+    duration: 393.45
+    calories: 34.0
+    elevation_gain: 7
+  - date: "2026-04-27"
+    type: Cycling
+    distance: 1567.0
+    duration: 347.17
+    calories: 33.0
+    elevation_gain: 11
 recent_summary:
   last_30_days:
-    count: 76
-    total_duration: 184174.7
-    total_distance: 309609.21
-    total_calories: 16091.0
-    total_elevation_gain: 3482.0
-    avg_per_day: 2.53
-total_activities: 7561
-total_calories: 2505779
-total_distance_km: 66034.6
-total_duration_hours: 5016
-total_elevation_gain_m: 435991
+    count: 80
+    total_duration: 199295.75
+    total_distance: 294870.18
+    total_calories: 16072.0
+    total_elevation_gain: 3305.0
+    avg_per_day: 2.67
+total_activities: 7634
+total_calories: 2519279
+total_distance_km: 66270.0
+total_duration_hours: 5063
+total_elevation_gain_m: 438746
 totals:
-  duration_seconds: 18056851.74
-  duration_hours: 5015.79
-  distance_meters: 66034630.54
-  distance_kilometers: 66034.63
-  calories: 2505779.0
-  elevation_gain_meters: 435991.0
-  elevation_loss_meters: 378535.0
-  activities_with_elevation: 6423
+  duration_seconds: 18227235.54
+  duration_hours: 5063.12
+  distance_meters: 66269993.2
+  distance_kilometers: 66269.99
+  calories: 2519279.0
+  elevation_gain_meters: 438746.0
+  elevation_loss_meters: 380908.0
+  activities_with_elevation: 6495
   max_elevation_in_activity: 2808.0
   min_elevation_in_activity: 1.0
 daily_counts:
-  '2025-04-07': 3
-  '2025-04-08': 3
-  '2025-04-09': 1
-  '2025-04-10': 2
-  '2025-04-11': 1
-  '2025-04-12': 2
-  '2025-04-13': 1
-  '2025-04-14': 3
-  '2025-04-15': 3
-  '2025-04-16': 5
-  '2025-04-17': 1
-  '2025-04-18': 2
-  '2025-04-19': 3
-  '2025-04-20': 2
-  '2025-04-21': 1
-  '2025-04-22': 2
-  '2025-04-23': 3
-  '2025-04-24': 2
-  '2025-04-25': 3
-  '2025-04-26': 2
-  '2025-04-27': 1
-  '2025-04-28': 3
-  '2025-04-29': 2
-  '2025-04-30': 1
-  '2025-05-01': 1
-  '2025-05-02': 1
-  '2025-05-03': 4
-  '2025-05-04': 1
-  '2025-05-05': 4
-  '2025-05-06': 3
-  '2025-05-07': 4
-  '2025-05-08': 2
-  '2025-05-09': 1
-  '2025-05-10': 3
-  '2025-05-11': 1
-  '2025-05-12': 2
-  '2025-05-13': 2
-  '2025-05-14': 2
-  '2025-05-15': 2
-  '2025-05-16': 3
-  '2025-05-17': 1
-  '2025-05-18': 2
-  '2025-05-19': 2
-  '2025-05-20': 2
-  '2025-05-21': 3
-  '2025-05-22': 4
-  '2025-05-23': 3
-  '2025-05-24': 1
-  '2025-05-25': 1
-  '2025-05-26': 2
-  '2025-05-27': 2
-  '2025-05-28': 1
-  '2025-05-29': 2
-  '2025-05-30': 2
-  '2025-05-31': 3
-  '2025-06-01': 1
-  '2025-06-02': 3
-  '2025-06-03': 2
-  '2025-06-04': 1
-  '2025-06-05': 3
-  '2025-06-06': 3
-  '2025-06-07': 2
-  '2025-06-08': 1
-  '2025-06-09': 1
-  '2025-06-10': 2
-  '2025-06-11': 2
-  '2025-06-12': 2
-  '2025-06-13': 3
-  '2025-06-14': 4
-  '2025-06-15': 3
-  '2025-06-16': 2
-  '2025-06-17': 4
-  '2025-06-18': 5
-  '2025-06-19': 3
-  '2025-06-20': 1
-  '2025-06-21': 2
-  '2025-06-22': 2
-  '2025-06-23': 2
-  '2025-06-24': 4
-  '2025-06-25': 1
-  '2025-06-26': 3
-  '2025-06-27': 3
-  '2025-06-28': 1
-  '2025-06-29': 4
-  '2025-06-30': 3
-  '2025-07-01': 2
-  '2025-07-02': 1
-  '2025-07-03': 3
-  '2025-07-04': 2
-  '2025-07-05': 4
-  '2025-07-06': 2
-  '2025-07-07': 2
-  '2025-07-08': 4
-  '2025-07-09': 4
-  '2025-07-10': 1
-  '2025-07-11': 1
-  '2025-07-12': 3
-  '2025-07-13': 6
-  '2025-07-14': 1
-  '2025-07-15': 2
-  '2025-07-16': 1
-  '2025-07-17': 1
-  '2025-07-18': 2
-  '2025-07-19': 2
-  '2025-07-20': 3
-  '2025-07-21': 1
-  '2025-07-22': 2
-  '2025-07-23': 3
-  '2025-07-24': 3
-  '2025-07-25': 4
-  '2025-07-26': 2
-  '2025-07-27': 1
-  '2025-07-28': 1
-  '2025-07-29': 2
-  '2025-07-30': 2
-  '2025-07-31': 4
-  '2025-08-01': 3
-  '2025-08-02': 2
-  '2025-08-03': 2
-  '2025-08-04': 1
-  '2025-08-05': 3
-  '2025-08-06': 1
-  '2025-08-07': 3
-  '2025-08-08': 1
-  '2025-08-09': 3
-  '2025-08-10': 4
-  '2025-08-11': 3
-  '2025-08-12': 4
-  '2025-08-13': 1
-  '2025-08-14': 1
-  '2025-08-15': 3
-  '2025-08-16': 2
-  '2025-08-17': 3
-  '2025-08-18': 2
-  '2025-08-19': 4
-  '2025-08-20': 2
-  '2025-08-21': 2
-  '2025-08-22': 2
-  '2025-08-23': 2
-  '2025-08-24': 2
-  '2025-08-25': 2
-  '2025-08-26': 5
-  '2025-08-27': 2
-  '2025-08-28': 1
-  '2025-08-29': 2
-  '2025-08-30': 3
-  '2025-08-31': 1
-  '2025-09-01': 1
-  '2025-09-02': 3
-  '2025-09-03': 3
-  '2025-09-04': 4
-  '2025-09-05': 2
-  '2025-09-06': 3
-  '2025-09-07': 4
-  '2025-09-08': 2
-  '2025-09-09': 3
-  '2025-09-10': 2
-  '2025-09-11': 3
-  '2025-09-12': 2
-  '2025-09-13': 1
-  '2025-09-14': 2
-  '2025-09-15': 1
-  '2025-09-16': 4
-  '2025-09-17': 4
-  '2025-09-18': 2
-  '2025-09-19': 1
-  '2025-09-20': 2
-  '2025-09-21': 3
-  '2025-09-22': 3
-  '2025-09-23': 3
-  '2025-09-24': 2
-  '2025-09-25': 3
-  '2025-09-26': 2
-  '2025-09-27': 2
-  '2025-09-28': 2
-  '2025-09-29': 4
-  '2025-09-30': 2
-  '2025-10-01': 2
-  '2025-10-02': 3
-  '2025-10-03': 2
-  '2025-10-04': 1
-  '2025-10-05': 5
-  '2025-10-06': 1
-  '2025-10-07': 3
-  '2025-10-08': 2
-  '2025-10-09': 3
-  '2025-10-10': 2
-  '2025-10-11': 2
-  '2025-10-12': 2
-  '2025-10-13': 3
-  '2025-10-14': 2
-  '2025-10-15': 3
-  '2025-10-16': 2
-  '2025-10-17': 2
-  '2025-10-18': 2
-  '2025-10-19': 2
-  '2025-10-20': 2
-  '2025-10-21': 2
-  '2025-10-22': 2
-  '2025-10-23': 3
-  '2025-10-24': 3
-  '2025-10-25': 3
-  '2025-10-26': 3
-  '2025-10-27': 2
-  '2025-10-28': 3
-  '2025-10-29': 2
-  '2025-10-30': 2
-  '2025-10-31': 3
-  '2025-11-01': 4
-  '2025-11-02': 5
-  '2025-11-03': 2
-  '2025-11-04': 2
-  '2025-11-05': 3
-  '2025-11-06': 3
-  '2025-11-07': 2
-  '2025-11-09': 1
-  '2025-11-10': 2
-  '2025-11-11': 3
-  '2025-11-12': 3
-  '2025-11-13': 1
-  '2025-11-14': 3
-  '2025-11-15': 2
-  '2025-11-16': 2
-  '2025-11-17': 4
-  '2025-11-18': 2
-  '2025-11-19': 3
-  '2025-11-20': 2
-  '2025-11-21': 2
-  '2025-11-22': 4
-  '2025-11-23': 2
-  '2025-11-24': 1
-  '2025-11-25': 3
-  '2025-11-26': 2
-  '2025-11-27': 1
-  '2025-11-28': 3
-  '2025-11-29': 2
-  '2025-11-30': 2
-  '2025-12-01': 1
-  '2025-12-02': 1
-  '2025-12-03': 1
-  '2025-12-04': 3
-  '2025-12-05': 4
-  '2025-12-06': 3
-  '2025-12-07': 2
-  '2025-12-08': 4
-  '2025-12-09': 3
-  '2025-12-10': 4
-  '2025-12-11': 3
-  '2025-12-12': 3
-  '2025-12-13': 2
-  '2025-12-14': 1
-  '2025-12-15': 3
-  '2025-12-16': 3
-  '2025-12-17': 5
-  '2025-12-18': 3
-  '2025-12-19': 4
-  '2025-12-20': 2
-  '2025-12-21': 2
-  '2025-12-22': 2
-  '2025-12-23': 4
-  '2025-12-24': 3
-  '2025-12-25': 2
-  '2025-12-26': 1
-  '2025-12-27': 2
-  '2025-12-28': 3
-  '2025-12-29': 1
-  '2025-12-30': 3
-  '2025-12-31': 1
-  '2026-01-01': 3
-  '2026-01-02': 2
-  '2026-01-03': 3
-  '2026-01-04': 3
-  '2026-01-05': 3
-  '2026-01-06': 4
-  '2026-01-07': 2
-  '2026-01-08': 2
-  '2026-01-09': 2
-  '2026-01-10': 3
-  '2026-01-11': 2
-  '2026-01-12': 4
-  '2026-01-13': 4
-  '2026-01-14': 4
-  '2026-01-15': 3
-  '2026-01-16': 2
-  '2026-01-17': 4
-  '2026-01-18': 4
-  '2026-01-19': 5
-  '2026-01-20': 5
-  '2026-01-21': 2
-  '2026-01-22': 4
-  '2026-01-23': 2
-  '2026-01-24': 2
-  '2026-01-25': 1
-  '2026-01-26': 2
-  '2026-01-27': 4
-  '2026-01-28': 2
-  '2026-01-29': 2
-  '2026-01-30': 2
-  '2026-01-31': 1
-  '2026-02-01': 4
-  '2026-02-02': 4
-  '2026-02-03': 3
-  '2026-02-04': 2
-  '2026-02-05': 4
-  '2026-02-06': 3
-  '2026-02-07': 4
-  '2026-02-08': 2
-  '2026-02-09': 3
-  '2026-02-10': 4
-  '2026-02-11': 3
-  '2026-02-12': 2
-  '2026-02-13': 1
-  '2026-02-14': 2
-  '2026-02-15': 3
-  '2026-02-16': 4
-  '2026-02-17': 3
-  '2026-02-18': 1
-  '2026-02-19': 3
-  '2026-02-20': 3
-  '2026-02-21': 5
-  '2026-02-22': 2
-  '2026-02-23': 4
-  '2026-02-24': 3
-  '2026-02-25': 2
-  '2026-02-26': 3
-  '2026-02-27': 2
-  '2026-02-28': 3
-  '2026-03-01': 3
-  '2026-03-02': 3
-  '2026-03-03': 2
-  '2026-03-04': 3
-  '2026-03-05': 3
-  '2026-03-06': 3
-  '2026-03-07': 3
-  '2026-03-08': 4
-  '2026-03-09': 5
-  '2026-03-10': 3
-  '2026-03-11': 2
-  '2026-03-12': 2
-  '2026-03-13': 3
-  '2026-03-14': 1
-  '2026-03-15': 1
-  '2026-03-16': 1
-  '2026-03-17': 3
-  '2026-03-18': 2
-  '2026-03-19': 4
-  '2026-03-20': 1
-  '2026-03-21': 2
-  '2026-03-22': 1
-  '2026-03-23': 4
-  '2026-03-24': 3
-  '2026-03-25': 4
-  '2026-03-26': 2
-  '2026-03-27': 3
-  '2026-03-28': 4
-  '2026-03-29': 1
-  '2026-03-30': 3
-  '2026-03-31': 5
-  '2026-04-01': 2
-  '2026-04-02': 1
-  '2026-04-03': 2
-  '2026-04-04': 3
-  '2026-04-05': 1
-  '2026-04-06': 2
-  '2026-04-07': 1
+  "2025-05-04": 1
+  "2025-05-05": 4
+  "2025-05-06": 3
+  "2025-05-07": 4
+  "2025-05-08": 2
+  "2025-05-09": 1
+  "2025-05-10": 3
+  "2025-05-11": 1
+  "2025-05-12": 2
+  "2025-05-13": 2
+  "2025-05-14": 2
+  "2025-05-15": 2
+  "2025-05-16": 3
+  "2025-05-17": 1
+  "2025-05-18": 2
+  "2025-05-19": 2
+  "2025-05-20": 2
+  "2025-05-21": 3
+  "2025-05-22": 4
+  "2025-05-23": 3
+  "2025-05-24": 1
+  "2025-05-25": 1
+  "2025-05-26": 2
+  "2025-05-27": 2
+  "2025-05-28": 1
+  "2025-05-29": 2
+  "2025-05-30": 2
+  "2025-05-31": 3
+  "2025-06-01": 1
+  "2025-06-02": 3
+  "2025-06-03": 2
+  "2025-06-04": 1
+  "2025-06-05": 3
+  "2025-06-06": 3
+  "2025-06-07": 2
+  "2025-06-08": 1
+  "2025-06-09": 1
+  "2025-06-10": 2
+  "2025-06-11": 2
+  "2025-06-12": 2
+  "2025-06-13": 3
+  "2025-06-14": 4
+  "2025-06-15": 3
+  "2025-06-16": 2
+  "2025-06-17": 4
+  "2025-06-18": 5
+  "2025-06-19": 3
+  "2025-06-20": 1
+  "2025-06-21": 2
+  "2025-06-22": 2
+  "2025-06-23": 2
+  "2025-06-24": 4
+  "2025-06-25": 1
+  "2025-06-26": 3
+  "2025-06-27": 3
+  "2025-06-28": 1
+  "2025-06-29": 4
+  "2025-06-30": 3
+  "2025-07-01": 2
+  "2025-07-02": 1
+  "2025-07-03": 3
+  "2025-07-04": 2
+  "2025-07-05": 4
+  "2025-07-06": 2
+  "2025-07-07": 2
+  "2025-07-08": 4
+  "2025-07-09": 4
+  "2025-07-10": 1
+  "2025-07-11": 1
+  "2025-07-12": 3
+  "2025-07-13": 6
+  "2025-07-14": 1
+  "2025-07-15": 2
+  "2025-07-16": 1
+  "2025-07-17": 1
+  "2025-07-18": 2
+  "2025-07-19": 2
+  "2025-07-20": 3
+  "2025-07-21": 1
+  "2025-07-22": 2
+  "2025-07-23": 3
+  "2025-07-24": 3
+  "2025-07-25": 4
+  "2025-07-26": 2
+  "2025-07-27": 1
+  "2025-07-28": 1
+  "2025-07-29": 2
+  "2025-07-30": 2
+  "2025-07-31": 4
+  "2025-08-01": 3
+  "2025-08-02": 2
+  "2025-08-03": 2
+  "2025-08-04": 1
+  "2025-08-05": 3
+  "2025-08-06": 1
+  "2025-08-07": 3
+  "2025-08-08": 1
+  "2025-08-09": 3
+  "2025-08-10": 4
+  "2025-08-11": 3
+  "2025-08-12": 4
+  "2025-08-13": 1
+  "2025-08-14": 1
+  "2025-08-15": 3
+  "2025-08-16": 2
+  "2025-08-17": 3
+  "2025-08-18": 2
+  "2025-08-19": 4
+  "2025-08-20": 2
+  "2025-08-21": 2
+  "2025-08-22": 2
+  "2025-08-23": 2
+  "2025-08-24": 2
+  "2025-08-25": 2
+  "2025-08-26": 5
+  "2025-08-27": 2
+  "2025-08-28": 1
+  "2025-08-29": 2
+  "2025-08-30": 3
+  "2025-08-31": 1
+  "2025-09-01": 1
+  "2025-09-02": 3
+  "2025-09-03": 3
+  "2025-09-04": 4
+  "2025-09-05": 2
+  "2025-09-06": 3
+  "2025-09-07": 4
+  "2025-09-08": 2
+  "2025-09-09": 3
+  "2025-09-10": 2
+  "2025-09-11": 3
+  "2025-09-12": 2
+  "2025-09-13": 1
+  "2025-09-14": 2
+  "2025-09-15": 1
+  "2025-09-16": 4
+  "2025-09-17": 4
+  "2025-09-18": 2
+  "2025-09-19": 1
+  "2025-09-20": 2
+  "2025-09-21": 3
+  "2025-09-22": 3
+  "2025-09-23": 3
+  "2025-09-24": 2
+  "2025-09-25": 3
+  "2025-09-26": 2
+  "2025-09-27": 2
+  "2025-09-28": 2
+  "2025-09-29": 4
+  "2025-09-30": 2
+  "2025-10-01": 2
+  "2025-10-02": 3
+  "2025-10-03": 2
+  "2025-10-04": 1
+  "2025-10-05": 5
+  "2025-10-06": 1
+  "2025-10-07": 3
+  "2025-10-08": 2
+  "2025-10-09": 3
+  "2025-10-10": 2
+  "2025-10-11": 2
+  "2025-10-12": 2
+  "2025-10-13": 3
+  "2025-10-14": 2
+  "2025-10-15": 3
+  "2025-10-16": 2
+  "2025-10-17": 2
+  "2025-10-18": 2
+  "2025-10-19": 2
+  "2025-10-20": 2
+  "2025-10-21": 2
+  "2025-10-22": 2
+  "2025-10-23": 3
+  "2025-10-24": 3
+  "2025-10-25": 3
+  "2025-10-26": 3
+  "2025-10-27": 2
+  "2025-10-28": 3
+  "2025-10-29": 2
+  "2025-10-30": 2
+  "2025-10-31": 3
+  "2025-11-01": 4
+  "2025-11-02": 5
+  "2025-11-03": 2
+  "2025-11-04": 2
+  "2025-11-05": 3
+  "2025-11-06": 3
+  "2025-11-07": 2
+  "2025-11-09": 1
+  "2025-11-10": 2
+  "2025-11-11": 3
+  "2025-11-12": 3
+  "2025-11-13": 1
+  "2025-11-14": 3
+  "2025-11-15": 2
+  "2025-11-16": 2
+  "2025-11-17": 4
+  "2025-11-18": 2
+  "2025-11-19": 3
+  "2025-11-20": 2
+  "2025-11-21": 2
+  "2025-11-22": 4
+  "2025-11-23": 2
+  "2025-11-24": 1
+  "2025-11-25": 3
+  "2025-11-26": 2
+  "2025-11-27": 1
+  "2025-11-28": 3
+  "2025-11-29": 2
+  "2025-11-30": 2
+  "2025-12-01": 1
+  "2025-12-02": 1
+  "2025-12-03": 1
+  "2025-12-04": 3
+  "2025-12-05": 4
+  "2025-12-06": 3
+  "2025-12-07": 2
+  "2025-12-08": 4
+  "2025-12-09": 3
+  "2025-12-10": 4
+  "2025-12-11": 3
+  "2025-12-12": 3
+  "2025-12-13": 2
+  "2025-12-14": 1
+  "2025-12-15": 3
+  "2025-12-16": 3
+  "2025-12-17": 5
+  "2025-12-18": 3
+  "2025-12-19": 4
+  "2025-12-20": 2
+  "2025-12-21": 2
+  "2025-12-22": 2
+  "2025-12-23": 4
+  "2025-12-24": 3
+  "2025-12-25": 2
+  "2025-12-26": 1
+  "2025-12-27": 2
+  "2025-12-28": 3
+  "2025-12-29": 1
+  "2025-12-30": 3
+  "2025-12-31": 1
+  "2026-01-01": 3
+  "2026-01-02": 2
+  "2026-01-03": 3
+  "2026-01-04": 3
+  "2026-01-05": 3
+  "2026-01-06": 4
+  "2026-01-07": 2
+  "2026-01-08": 2
+  "2026-01-09": 2
+  "2026-01-10": 3
+  "2026-01-11": 2
+  "2026-01-12": 4
+  "2026-01-13": 4
+  "2026-01-14": 4
+  "2026-01-15": 3
+  "2026-01-16": 2
+  "2026-01-17": 4
+  "2026-01-18": 4
+  "2026-01-19": 5
+  "2026-01-20": 5
+  "2026-01-21": 2
+  "2026-01-22": 4
+  "2026-01-23": 2
+  "2026-01-24": 2
+  "2026-01-25": 1
+  "2026-01-26": 2
+  "2026-01-27": 4
+  "2026-01-28": 2
+  "2026-01-29": 2
+  "2026-01-30": 2
+  "2026-01-31": 1
+  "2026-02-01": 4
+  "2026-02-02": 4
+  "2026-02-03": 3
+  "2026-02-04": 2
+  "2026-02-05": 4
+  "2026-02-06": 3
+  "2026-02-07": 4
+  "2026-02-08": 2
+  "2026-02-09": 3
+  "2026-02-10": 4
+  "2026-02-11": 3
+  "2026-02-12": 2
+  "2026-02-13": 1
+  "2026-02-14": 2
+  "2026-02-15": 3
+  "2026-02-16": 4
+  "2026-02-17": 3
+  "2026-02-18": 1
+  "2026-02-19": 3
+  "2026-02-20": 3
+  "2026-02-21": 5
+  "2026-02-22": 2
+  "2026-02-23": 4
+  "2026-02-24": 3
+  "2026-02-25": 2
+  "2026-02-26": 3
+  "2026-02-27": 2
+  "2026-02-28": 3
+  "2026-03-01": 3
+  "2026-03-02": 3
+  "2026-03-03": 2
+  "2026-03-04": 3
+  "2026-03-05": 3
+  "2026-03-06": 3
+  "2026-03-07": 3
+  "2026-03-08": 4
+  "2026-03-09": 5
+  "2026-03-10": 3
+  "2026-03-11": 2
+  "2026-03-12": 2
+  "2026-03-13": 3
+  "2026-03-14": 1
+  "2026-03-15": 1
+  "2026-03-16": 1
+  "2026-03-17": 3
+  "2026-03-18": 2
+  "2026-03-19": 4
+  "2026-03-20": 1
+  "2026-03-21": 2
+  "2026-03-22": 1
+  "2026-03-23": 4
+  "2026-03-24": 3
+  "2026-03-25": 4
+  "2026-03-26": 2
+  "2026-03-27": 3
+  "2026-03-28": 4
+  "2026-03-29": 1
+  "2026-03-30": 3
+  "2026-03-31": 5
+  "2026-04-01": 2
+  "2026-04-02": 1
+  "2026-04-03": 2
+  "2026-04-04": 3
+  "2026-04-05": 1
+  "2026-04-06": 2
+  "2026-04-07": 3
+  "2026-04-08": 2
+  "2026-04-09": 2
+  "2026-04-10": 2
+  "2026-04-11": 3
+  "2026-04-12": 3
+  "2026-04-13": 3
+  "2026-04-14": 2
+  "2026-04-15": 2
+  "2026-04-16": 2
+  "2026-04-17": 3
+  "2026-04-18": 1
+  "2026-04-19": 1
+  "2026-04-20": 3
+  "2026-04-21": 2
+  "2026-04-22": 2
+  "2026-04-23": 2
+  "2026-04-24": 4
+  "2026-04-25": 3
+  "2026-04-26": 5
+  "2026-04-27": 7
+  "2026-04-28": 2
+  "2026-04-29": 2
+  "2026-04-30": 2
+  "2026-05-01": 3
+  "2026-05-02": 3
+  "2026-05-03": 3
+  "2026-05-04": 2
 yearly_stats:
-- year: '2026'
-  count: 266
-  distance: 978106.59
-  duration: 556210.9
-  calories: 52088.0
-  elevation_gain: 11090
-- year: '2025'
-  count: 826
-  distance: 4297487.61
-  duration: 1844581.76
-  calories: 199494.0
-  elevation_gain: 36837
-- year: '2024'
-  count: 749
-  distance: 4177363.52
-  duration: 1593804.03
-  calories: 160155.0
-  elevation_gain: 43095
-- year: '2023'
-  count: 992
-  distance: 7803895.97
-  duration: 2122438.08
-  calories: 271828.0
-  elevation_gain: 48674
-- year: '2022'
-  count: 905
-  distance: 7808293.39
-  duration: 1734111.37
-  calories: 223130.0
-  elevation_gain: 44890
-- year: '2021'
-  count: 748
-  distance: 8715627.25
-  duration: 1729394.72
-  calories: 255896.0
-  elevation_gain: 31423
-- year: '2020'
-  count: 701
-  distance: 8116657.8
-  duration: 2063372.4
-  calories: 328370.0
-  elevation_gain: 42882
-- year: '2019'
-  count: 511
-  distance: 7825828.13
-  duration: 1724562.74
-  calories: 185469.0
-  elevation_gain: 48640
-- year: '2018'
-  count: 269
-  distance: 3942238.9
-  duration: 964177.42
-  calories: 130338.0
-  elevation_gain: 24716
-- year: '2017'
-  count: 277
-  distance: 3053769.6
-  duration: 804359.04
-  calories: 107306.0
-  elevation_gain: 18605
-- year: '2016'
-  count: 282
-  distance: 2542545.28
-  duration: 854238.62
-  calories: 150978.0
-  elevation_gain: 33397
-- year: '2015'
-  count: 101
-  distance: 714556.4
-  duration: 243893.66
-  calories: 41408.0
-  elevation_gain: 17924
-- year: '2014'
-  count: 153
-  distance: 1063723.1
-  duration: 330390.0
-  calories: 64023.0
-  elevation_gain: 33818
-- year: '2013'
-  count: 250
-  distance: 1703009.0
-  duration: 473368.0
-  calories: 110331.0
-  elevation_gain: 0
-- year: '2012'
-  count: 302
-  distance: 2097259.0
-  duration: 631747.0
-  calories: 142687.0
-  elevation_gain: 0
-- year: '2011'
-  count: 177
-  distance: 1041409.0
-  duration: 339353.0
-  calories: 71681.0
-  elevation_gain: 0
-- year: '2010'
-  count: 14
-  distance: 27750.0
-  duration: 9306.0
-  calories: 2063.0
-  elevation_gain: 0
-- year: '2009'
-  count: 38
-  distance: 125110.0
-  duration: 37543.0
-  calories: 8534.0
-  elevation_gain: 0
+  - year: "2026"
+    count: 339
+    distance: 1213469.25
+    duration: 726594.7
+    calories: 65588.0
+    elevation_gain: 13845
+  - year: "2025"
+    count: 826
+    distance: 4297487.61
+    duration: 1844581.76
+    calories: 199494.0
+    elevation_gain: 36837
+  - year: "2024"
+    count: 749
+    distance: 4177363.52
+    duration: 1593804.03
+    calories: 160155.0
+    elevation_gain: 43095
+  - year: "2023"
+    count: 992
+    distance: 7803895.97
+    duration: 2122438.08
+    calories: 271828.0
+    elevation_gain: 48674
+  - year: "2022"
+    count: 905
+    distance: 7808293.39
+    duration: 1734111.37
+    calories: 223130.0
+    elevation_gain: 44890
+  - year: "2021"
+    count: 748
+    distance: 8715627.25
+    duration: 1729394.72
+    calories: 255896.0
+    elevation_gain: 31423
+  - year: "2020"
+    count: 701
+    distance: 8116657.8
+    duration: 2063372.4
+    calories: 328370.0
+    elevation_gain: 42882
+  - year: "2019"
+    count: 511
+    distance: 7825828.13
+    duration: 1724562.74
+    calories: 185469.0
+    elevation_gain: 48640
+  - year: "2018"
+    count: 269
+    distance: 3942238.9
+    duration: 964177.42
+    calories: 130338.0
+    elevation_gain: 24716
+  - year: "2017"
+    count: 277
+    distance: 3053769.6
+    duration: 804359.04
+    calories: 107306.0
+    elevation_gain: 18605
+  - year: "2016"
+    count: 282
+    distance: 2542545.28
+    duration: 854238.62
+    calories: 150978.0
+    elevation_gain: 33397
+  - year: "2015"
+    count: 101
+    distance: 714556.4
+    duration: 243893.66
+    calories: 41408.0
+    elevation_gain: 17924
+  - year: "2014"
+    count: 153
+    distance: 1063723.1
+    duration: 330390.0
+    calories: 64023.0
+    elevation_gain: 33818
+  - year: "2013"
+    count: 250
+    distance: 1703009.0
+    duration: 473368.0
+    calories: 110331.0
+    elevation_gain: 0
+  - year: "2012"
+    count: 302
+    distance: 2097259.0
+    duration: 631747.0
+    calories: 142687.0
+    elevation_gain: 0
+  - year: "2011"
+    count: 177
+    distance: 1041409.0
+    duration: 339353.0
+    calories: 71681.0
+    elevation_gain: 0
+  - year: "2010"
+    count: 14
+    distance: 27750.0
+    duration: 9306.0
+    calories: 2063.0
+    elevation_gain: 0
+  - year: "2009"
+    count: 38
+    distance: 125110.0
+    duration: 37543.0
+    calories: 8534.0
+    elevation_gain: 0
