@@ -50,6 +50,65 @@ permalink: /stats.html
   </div>
 </div>
 
+### 🌍 Tour du monde
+
+{% assign cycling_km = 0 %}
+{% assign foot_km = 0 %}
+{% assign cycling_types = "Cycling,Virtual Cycling,Gravel Cycling,Indoor Cycling" | split: "," %}
+{% assign foot_types = "Running,Trail Running,Treadmill Running,Walking,Hiking" | split: "," %}
+{% for type in summary.activity_type_details %}
+  {% if cycling_types contains type[0] %}
+    {% assign cycling_km = cycling_km | plus: type[1].total_distance %}
+  {% endif %}
+  {% if foot_types contains type[0] %}
+    {% assign foot_km = foot_km | plus: type[1].total_distance %}
+  {% endif %}
+{% endfor %}
+{% assign cycling_km = cycling_km | divided_by: 1000.0 | round: 0 %}
+{% assign foot_km = foot_km | divided_by: 1000.0 | round: 0 %}
+{% assign total_laps = summary.total_distance_km | times: 1.0 | divided_by: 40075.0 | round: 2 %}
+{% assign cycling_laps = cycling_km | times: 1.0 | divided_by: 40075.0 | round: 2 %}
+{% assign foot_laps = foot_km | times: 1.0 | divided_by: 40075.0 | round: 2 %}
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
+  <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
+    <h4 style="margin: 0 0 0.25rem 0; color: var(--pico-primary);">{{ total_laps }}x 🌍</h4>
+    <small>Tour(s) de la Terre au total</small>
+    <div style="margin-top: 0.5rem;">
+      {% assign total_laps_int = total_laps | floor %}
+      {% assign total_pct = total_laps | minus: total_laps_int | times: 100 | round: 0 %}
+      <div style="background: var(--pico-muted-border-color); border-radius: 0.25rem; overflow: hidden; height: 0.5rem;">
+        <div style="background: var(--pico-primary); height: 100%; width: {{ total_pct }}%;"></div>
+      </div>
+      <small style="color: var(--pico-muted-color);">{{ total_pct }}% vers le prochain tour · {{ summary.total_distance_km }} km</small>
+    </div>
+  </div>
+  <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
+    <h4 style="margin: 0 0 0.25rem 0; color: var(--pico-primary);">{{ cycling_laps }}x 🚴</h4>
+    <small>Tour(s) de la Terre en vélo</small>
+    <div style="margin-top: 0.5rem;">
+      {% assign cycling_laps_int = cycling_laps | floor %}
+      {% assign cycling_pct = cycling_laps | minus: cycling_laps_int | times: 100 | round: 0 %}
+      <div style="background: var(--pico-muted-border-color); border-radius: 0.25rem; overflow: hidden; height: 0.5rem;">
+        <div style="background: var(--pico-primary); height: 100%; width: {{ cycling_pct }}%;"></div>
+      </div>
+      <small style="color: var(--pico-muted-color);">{{ cycling_pct }}% vers le prochain tour · {{ cycling_km }} km</small>
+    </div>
+  </div>
+  <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
+    <h4 style="margin: 0 0 0.25rem 0; color: var(--pico-primary);">{{ foot_laps }}x 🏃</h4>
+    <small>Tour(s) de la Terre à pied</small>
+    <div style="margin-top: 0.5rem;">
+      {% assign foot_laps_int = foot_laps | floor %}
+      {% assign foot_pct = foot_laps | minus: foot_laps_int | times: 100 | round: 0 %}
+      <div style="background: var(--pico-muted-border-color); border-radius: 0.25rem; overflow: hidden; height: 0.5rem;">
+        <div style="background: var(--pico-primary); height: 100%; width: {{ foot_pct }}%;"></div>
+      </div>
+      <small style="color: var(--pico-muted-color);">{{ foot_pct }}% vers le prochain tour · {{ foot_km }} km</small>
+    </div>
+  </div>
+</div>
+
 ### 30 derniers jours
 
 {% if summary.recent_summary.last_30_days %}
