@@ -54,6 +54,7 @@ permalink: /stats.html
 
 {% assign cycling_km = 0 %}
 {% assign foot_km = 0 %}
+{% assign earth_circumference_km = 40075.0 %}
 {% assign cycling_types = "Cycling,Virtual Cycling,Gravel Cycling,Indoor Cycling" | split: "," %}
 {% assign foot_types = "Running,Trail Running,Treadmill Running,Walking,Hiking" | split: "," %}
 {% for type in summary.activity_type_details %}
@@ -66,9 +67,9 @@ permalink: /stats.html
 {% endfor %}
 {% assign cycling_km = cycling_km | divided_by: 1000.0 | round: 0 %}
 {% assign foot_km = foot_km | divided_by: 1000.0 | round: 0 %}
-{% assign total_laps = summary.total_distance_km | times: 1.0 | divided_by: 40075.0 | round: 2 %}
-{% assign cycling_laps = cycling_km | times: 1.0 | divided_by: 40075.0 | round: 2 %}
-{% assign foot_laps = foot_km | times: 1.0 | divided_by: 40075.0 | round: 2 %}
+{% assign total_laps = summary.total_distance_km | times: 1.0 | divided_by: earth_circumference_km | round: 2 %}
+{% assign cycling_laps = cycling_km | times: 1.0 | divided_by: earth_circumference_km | round: 2 %}
+{% assign foot_laps = foot_km | times: 1.0 | divided_by: earth_circumference_km | round: 2 %}
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
   <div style="background: var(--pico-background-color); padding: 1rem; border-radius: 0.25rem; text-align: center;">
