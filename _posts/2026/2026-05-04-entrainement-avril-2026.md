@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Entrainement mars 2026
-description: Bilan sportif du mois de mars 2026
+title: Entrainement avril 2026
+description: Bilan sportif du mois de avril 2026
 category: entrainement
 distance: 275.4 km
 elevation: 3074 m
