@@ -16,7 +16,7 @@ rank: 231
 
 231 sur 1235 arrivants.
 
-{% include strava.md src='https://www.strava.com/activities/620283722/embed/90d8fdd4528843c94b90d66f3a28955ad020a720' %}
+{% include strava_embed.md id='620283722' %}
 
 ### Photos
 

@@ -19,4 +19,4 @@ saison en Mai sur Kilomètre Vertical et Ultra trail "Moyenne" distance.
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/934234360/embed/2ae7446b9b42b9f118e30c81e50fb397b55e4e24' %}
+{% include strava_embed.md id='934234360' %}

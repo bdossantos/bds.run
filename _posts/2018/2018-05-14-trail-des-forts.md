@@ -18,7 +18,7 @@ Contre performance, il est temps de s'y remettre sérieusement !
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/1569642543/embed/13501f4c950e4de73ff43035d815787a8b28ec94' %}
+{% include strava_embed.md id='1569642543' %}
 
 <!--
 vim:spell spelllang=fr

@@ -39,7 +39,7 @@ Next.
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/1240956726/embed/55629669bed02cd5d822750be1e05ebef0f10106' %}
+{% include strava_embed.md id='1240956726' %}
 
 ### Photos
 

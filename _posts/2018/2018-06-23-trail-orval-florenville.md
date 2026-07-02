@@ -21,7 +21,7 @@ Merci Florenville, je reviendrai.
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/1656948799/embed/7cc1c955bed569fda8cb98f704ca6f0d37daf6c0' %}
+{% include strava_embed.md id='1656948799' %}
 
 <!--
 vim:spell spelllang=fr

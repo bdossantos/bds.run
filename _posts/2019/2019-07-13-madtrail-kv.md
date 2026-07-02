@@ -14,7 +14,7 @@ Malade, explosion complète au début, pause, puis second souffle fin du parcour
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/2528160342/embed/d521452b6a8e6f97d9809dd4f16659d833e91f62' %}
+{% include strava_embed.md id='2528160342' %}
 
 <!--
 vim:spell spelllang=fr

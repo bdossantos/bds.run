@@ -15,4 +15,4 @@ rank: 45
 
 Classement 45/448, et environ 1Km dans la mauvaise direction.
 
-{% include strava.md src='https://www.strava.com/activities/583244352/embed/a54b37cdee6560cf8664131fda92c653a8b3a318' %}
+{% include strava_embed.md id='583244352' %}

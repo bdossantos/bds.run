@@ -24,7 +24,7 @@ Place à la récupération.
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/1685950333/embed/35e0011cd9a7ddf3f40b16d636a67a45eee7dad6' %}
+{% include strava_embed.md id='1685950333' %}
 
 ### Photos
 

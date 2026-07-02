@@ -17,7 +17,7 @@ beaucoup de boue, du vent violent sur la Caldera.
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/1008465238/embed/090daebe9f3b0bce37411f13a12d3e8b4996ef28' %}
+{% include strava_embed.md id='1008465238' %}
 
 ### Photos
 
