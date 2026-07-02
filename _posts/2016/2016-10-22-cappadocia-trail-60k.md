@@ -28,7 +28,7 @@ l'eau + sucre. Côté solide je me suis contenté de bananes chopés aux ravitos
 
 36 sur 200 et quelques finisher.
 
-{% include strava.md src='https://www.strava.com/activities/752344313/embed/9c675b4aba6176ec7d755dc0100308193912e790' %}
+{% include strava_embed.md id='752344313' %}
 
 ### Photos
 

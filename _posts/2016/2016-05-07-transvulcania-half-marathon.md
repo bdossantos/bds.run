@@ -31,7 +31,7 @@ pouvais mieux faire. Je termine 72 / 468.
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/568110091/embed/4a5600e157bc5570ad0322d9b3503dc5aa679424' %}
+{% include strava_embed.md id='568110091' %}
 
 ### Photos
 

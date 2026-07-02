@@ -31,7 +31,7 @@ jusqu'à la fin et m’ont évité l’abandon.
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/786321977/embed/5ffd8d5ffc2059e7edf835c9a9e393bfa398b022' %}
+{% include strava_embed.md id='786321977' %}
 
 ### Photos
 

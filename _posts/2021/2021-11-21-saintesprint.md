@@ -32,7 +32,7 @@ Les moins :
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/6315194967/embed/54b909ae172c25bbeffe5129264e450d1a81fdce' %}
+{% include strava_embed.md id='6315194967' %}
 
 <!--
 vim:spell spelllang=fr

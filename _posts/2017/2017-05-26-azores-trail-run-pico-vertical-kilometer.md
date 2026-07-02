@@ -19,4 +19,4 @@ morceau).
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/1006659692/embed/28552b8a8214b810bb79090c13b432c0be2c1053' %}
+{% include strava_embed.md id='1006659692' %}

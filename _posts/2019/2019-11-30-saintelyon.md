@@ -20,7 +20,7 @@ Pas de défaillance ni de gros bobos.
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/2904875567/embed/3933d180da3506f14ed2a0e25c34bef0b0acdee3' %}
+{% include strava_embed.md id='2904875567' %}
 
 <!--
 vim:spell spelllang=fr

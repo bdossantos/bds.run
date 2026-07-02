@@ -45,6 +45,6 @@ dénivelé.
 Magnifique course, avec une fin de parcours très technique et escarpé. A
 refaire, mais avec une meilleure préparation et sans sac à dos ...
 
-{% include strava.md src='https://www.strava.com/activities/566719309/embed/61d017b74ea5896151e7c55aa32548662c5a6b40' %}
+{% include strava_embed.md id='566719309' %}
 
 [1]: https://transvulcania.info/events-item/km-v/

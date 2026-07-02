@@ -16,4 +16,4 @@ me fera perdre pas mal de temps (manque de technique).
 
 ### Ma course
 
-{% include strava.md src='https://www.strava.com/activities/1176431872/embed/a993d60cabc035ad3ba727c9063b945893dde086' %}
+{% include strava_embed.md id='1176431872' %}
