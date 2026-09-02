@@ -135,7 +135,10 @@
   function renderMonthlyChart() {
     var el = document.getElementById('monthlyChart');
     if (!el || !window.Chart) return;
-    var months = (data.monthlyTrends || []).slice().reverse();
+    var monthlyTrends = data.monthlyTrends || {};
+    var months = Object.keys(monthlyTrends).map(function (key) {
+      return [key, monthlyTrends[key]];
+    }).reverse();
     var monthlyLabels = months.map(function (m) { return m[0]; });
     var monthlyDistance = months.map(function (m) { return Math.round((m[1].total_distance / 1000) * 10) / 10; });
     var monthlyElevation = months.map(function (m) { return Math.round(m[1].total_elevation_gain); });
