@@ -1,0 +1,149 @@
+/* Shared styles used across stats.md, index.md and post layout. */
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.stats-grid-wide {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.stats-grid-records {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.stats-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+  align-items: start;
+}
+
+.stat-card {
+  background: var(--pico-background-color);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.stat-card-left {
+  text-align: left;
+}
+
+.stat-card h4,
+.stat-card h5 {
+  margin: 0 0 0.5rem 0;
+  color: var(--pico-primary);
+}
+
+.stat-card table {
+  margin: 0;
+}
+
+.progress-track {
+  background: var(--pico-muted-border-color);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  height: 0.5rem;
+}
+
+.progress-track-lg {
+  height: 1.5rem;
+  margin: 0.25rem 0;
+}
+
+.progress-fill {
+  background: var(--pico-primary);
+  height: 100%;
+}
+
+.progress-fill-label {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-fill-label small {
+  color: var(--pico-primary-inverse);
+  font-weight: bold;
+}
+
+.heatmap-wrapper {
+  display: flex;
+  gap: 1px;
+  overflow-x: auto;
+}
+
+.heatmap-day-labels {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-right: 4px;
+  justify-content: space-around;
+}
+
+.heatmap-day-label {
+  width: 12px;
+  height: 12px;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  color: var(--pico-color);
+}
+
+.heatmap-week {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.heatmap-cell {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.badge-pill {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: var(--pico-primary-background);
+  color: var(--pico-primary-inverse);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .stats-grid-2col {
+    grid-template-columns: 1fr !important;
+  }
+
+  .stats-grid-2col table {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .heatmap-cell,
+  .heatmap-day-label {
+    width: 8px;
+    height: 8px;
+  }
+}

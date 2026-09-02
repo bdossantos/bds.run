@@ -11,6 +11,9 @@ layout: default
           {{ page.date | date: "%d/%m/%Y" }}
         </time>
         - {{ page.categories | join: ', ' }}
+        {% assign words = content | strip_html | number_of_words %}
+        {% assign reading_minutes = words | divided_by: 200 | at_least: 1 %}
+        - <small class="secondary">{{ reading_minutes }} min de lecture</small>
       </p>
     </hgroup>
   </header>
@@ -18,6 +21,24 @@ layout: default
   <section>{{ content }}</section>
 </article>
 
+{% if page.previous or page.next %}
+<nav>
+  <ul>
+    <li>
+      {% if page.previous %}
+      <a href="{{ page.previous.url }}" rel="prev">← {{ page.previous.title }}</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if page.next %}
+      <a href="{{ page.next.url }}" rel="next">{{ page.next.title }} →</a>
+      {% endif %}
+    </li>
+  </ul>
+</nav>
+{% endif %}
+
+{% if site.related_posts and site.related_posts.size > 0 %}
 <footer>
   <section>
     <h4>Sur le même thème :</h4>
@@ -25,3 +46,4 @@ layout: default
     {% include related_posts.html %}
   </section>
 </footer>
+{% endif %}
