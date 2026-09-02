@@ -227,20 +227,29 @@
     var mondayOffset = dayOfWeek === 0 ? -6 : 1 - dayOfWeek;
     startDate.setDate(startDate.getDate() + mondayOffset);
 
-    var html = '<div class="heatmap-wrapper">';
+    var wrapper = document.createElement('div');
+    wrapper.className = 'heatmap-wrapper';
+
     var weekDays = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
-    html += '<div class="heatmap-day-labels">';
+    var dayLabels = document.createElement('div');
+    dayLabels.className = 'heatmap-day-labels';
     for (var wd = 0; wd < 7; wd++) {
-      html += '<div class="heatmap-day-label">' + (wd % 2 === 0 ? weekDays[wd] : '') + '</div>';
+      var dayLabel = document.createElement('div');
+      dayLabel.className = 'heatmap-day-label';
+      dayLabel.textContent = wd % 2 === 0 ? weekDays[wd] : '';
+      dayLabels.appendChild(dayLabel);
     }
-    html += '</div>';
+    wrapper.appendChild(dayLabels);
 
     var current = new Date(startDate);
     while (current <= today) {
-      html += '<div class="heatmap-week">';
+      var week = document.createElement('div');
+      week.className = 'heatmap-week';
       for (var d = 0; d < 7; d++) {
+        var cell = document.createElement('div');
+        cell.className = 'heatmap-cell';
         if (current > today) {
-          html += '<div class="heatmap-cell"></div>';
+          week.appendChild(cell);
         } else {
           var key = current.toISOString().slice(0, 10);
           var count = dailyCounts[key] || 0;
@@ -250,14 +259,16 @@
           else if (count === 2) color = 'rgba(16, 149, 193, 0.55)';
           else if (count <= 4) color = 'rgba(16, 149, 193, 0.8)';
           else color = 'rgba(16, 149, 193, 1)';
-          html += '<div class="heatmap-cell" title="' + key + ': ' + count + ' activité(s)" style="background:' + color + ';"></div>';
+          cell.title = key + ': ' + count + ' activité(s)';
+          cell.style.background = color;
+          week.appendChild(cell);
         }
         current.setDate(current.getDate() + 1);
       }
-      html += '</div>';
+      wrapper.appendChild(week);
     }
-    html += '</div>';
-    heatmapEl.innerHTML = html;
+
+    heatmapEl.replaceChildren(wrapper);
   }
 
   function renderRaceMap() {
