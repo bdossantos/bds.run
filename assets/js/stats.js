@@ -184,19 +184,26 @@
 
   // Returns the current run of consecutive days (ending today or yesterday)
   // that have at least one recorded activity.
+  function localDateKey(date) {
+    var year = date.getFullYear();
+    var month = String(date.getMonth() + 1).padStart(2, '0');
+    var day = String(date.getDate()).padStart(2, '0');
+    return year + '-' + month + '-' + day;
+  }
+
   function computeCurrentStreak(dailyCounts) {
     var streak = 0;
     var day = new Date();
     day.setHours(0, 0, 0, 0);
 
     // Allow the streak to still count if today has no activity yet.
-    var key = day.toISOString().slice(0, 10);
+    var key = localDateKey(day);
     if (!dailyCounts[key]) {
       day.setDate(day.getDate() - 1);
     }
 
     while (true) {
-      key = day.toISOString().slice(0, 10);
+      key = localDateKey(day);
       if (!dailyCounts[key]) break;
       streak += 1;
       day.setDate(day.getDate() - 1);
@@ -254,7 +261,7 @@
         if (current > today) {
           week.appendChild(cell);
         } else {
-          var key = current.toISOString().slice(0, 10);
+          var key = localDateKey(current);
           var count = dailyCounts[key] || 0;
           var color;
           if (count === 0) color = gridColor;

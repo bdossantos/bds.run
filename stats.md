@@ -357,7 +357,7 @@ permalink: /stats.html
 ### Carte des courses
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-<div id="race-map" role="img" aria-label="Carte des courses effectuées" style="height: 400px; border-radius: 0.25rem; margin: 2rem 0; z-index: 0;"></div>
+<div id="race-map" role="region" aria-label="Carte des courses effectuées" style="height: 400px; border-radius: 0.25rem; margin: 2rem 0; z-index: 0;"></div>
 
 ---
 
@@ -383,4 +383,3 @@ Données basées sur {{ summary.total_activities }} activités enregistrées dep
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
 <script src="/assets/js/stats.js" defer></script>
-
