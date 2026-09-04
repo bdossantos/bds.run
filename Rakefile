@@ -1,33 +1,46 @@
+require 'fileutils'
 require 'html-proofer'
 require 'image_optim'
 require 'English'
 
 LIBS_DIR = '_libs'
 BUILD_DIR = '_build'
-NPM = `which npm`.chomp
-WGET = `which wget`.chomp
+NPM = ENV.fetch('NPM', 'npm')
 JAMPACK = './node_modules/.bin/jampack'
 JEKYLL_ENV = ENV['JEKYLL_ENV'] || 'development'
+
+module BuildHelpers
+  def run_command(command, **kwargs)
+    system(*command, **kwargs) || raise("Command failed: #{command.join(' ')}")
+  end
+
+  def jekyll_config_files
+    files = ['_config.yml']
+    production_config = "_config_#{JEKYLL_ENV}.yml"
+    files << production_config if File.exist?(production_config)
+    files
+  end
+end
+
+include BuildHelpers
 
 desc 'Jekyll build'
 task :jekyll_build do
   puts '--> Jekyll build'
-  system "rm -rf #{BUILD_DIR}"
-  config = File.exist?("_config_#{JEKYLL_ENV}.yml") ? ",_config_#{JEKYLL_ENV}.yml" : nil
+  FileUtils.rm_rf(BUILD_DIR)
 
-  system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}" || exit(1)
+  run_command(['jekyll', 'build', '-d', BUILD_DIR, '--config', *jekyll_config_files])
 
   if JEKYLL_ENV == 'production'
-    system "jekyll build -d #{BUILD_DIR} --config _config.yml#{config}" || exit(1)
     puts '--> Run jampack'
-    system "#{JAMPACK} #{BUILD_DIR}" || exit(1)
+    run_command([JAMPACK, BUILD_DIR])
   end
 end
 
 desc 'npm install'
 task :npm_install do
   puts '--> Grab front-end packages with npm'
-  system "#{NPM} install"
+  run_command([NPM, 'install'])
 end
 
 desc 'Minify all html'
@@ -42,17 +55,18 @@ task :minify_html do
 end
 
 desc 'Gzip'
-task :gzip, [:ext] => [:gzip_all] do |_t, args|
-  puts "--> GZipping '#{args.ext}'"
-  system "find #{BUILD_DIR} -type f -name '*.#{args.ext}' -print0 | " \
+task :gzip, [:ext] do |_t, args|
+  ext = args[:ext] || 'html'
+  puts "--> GZipping '#{ext}'"
+  system "find #{BUILD_DIR} -type f -name '*.#{ext}' -print0 | " \
          "xargs -0 -I % -P 4 -n 1 sh -c 'gzip -9 < % > %.gz'"
 end
 
 desc 'GZip All'
 task :gzip_all do
-  Rake::Task[:gzip].execute('html')
-  Rake::Task[:gzip].execute('css')
-  Rake::Task[:gzip].execute('js')
+  %w[html css js].each do |ext|
+    Rake::Task[:gzip].invoke(ext)
+  end
 end
 
 desc 'Test for 404s'
@@ -80,14 +94,13 @@ end
 desc 'Full build task'
 task :build do
   puts '--> Start build'
-  Rake::Task['npm_install'].invoke
-  Rake::Task['jekyll_build'].invoke
-  Rake::Task['minify_html'].invoke
-  Rake::Task['gzip_all'].invoke
-  Rake::Task['fix_files_permissions'].invoke
-  Rake::Task['check_html'].invoke
+  %i[npm_install jekyll_build minify_html gzip_all fix_files_permissions check_html].each do |task_name|
+    Rake::Task[task_name].invoke
+  end
   puts '--> End'
 end
+
+task :default => :build
 
 desc 'Clean activities CSV'
 task :clean_activites_csv do
