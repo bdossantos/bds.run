@@ -9,7 +9,7 @@ gem 'image_optim_pack'
 gem "jekyll"
 gem 'mini_magick'
 gem 'rake'
-gem 'sass'
+gem 'sass-embedded'
 gem 'strava-ruby-client'
 gem 'uglifier'
 

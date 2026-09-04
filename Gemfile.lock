@@ -17,7 +17,7 @@ GEM
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
     base64 (0.3.0)
-    bigdecimal (3.3.1)
+    bigdecimal (4.1.2)
     classifier-reborn (2.3.0)
       fast-stemmer (~> 1.0)
       matrix (~> 0.4)
@@ -49,13 +49,13 @@ GEM
     ffi (1.17.4-x86_64-darwin)
     forwardable-extended (2.6.0)
     fspath (3.1.2)
-    google-protobuf (4.35.1)
+    google-protobuf (4.36.1)
       bigdecimal
       rake (~> 13.3)
-    google-protobuf (4.35.1-arm64-darwin)
+    google-protobuf (4.36.1-arm64-darwin)
       bigdecimal
       rake (~> 13.3)
-    google-protobuf (4.35.1-x86_64-darwin)
+    google-protobuf (4.36.1-x86_64-darwin)
       bigdecimal
       rake (~> 13.3)
     hashie (5.1.0)
@@ -166,18 +166,13 @@ GEM
     rexml (3.4.4)
     rouge (4.7.0)
     safe_yaml (1.0.5)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-embedded (1.102.0)
+    sass-embedded (1.104.0)
       google-protobuf (~> 4.31)
       rake (>= 13)
-    sass-embedded (1.102.0-arm64-darwin)
+    sass-embedded (1.104.0-arm64-darwin)
       google-protobuf (~> 4.31)
-    sass-embedded (1.102.0-x86_64-darwin)
+    sass-embedded (1.104.0-x86_64-darwin)
       google-protobuf (~> 4.31)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
     securerandom (0.4.1)
     strava-ruby-client (3.1.0)
       activesupport
@@ -217,7 +212,7 @@ DEPENDENCIES
   jekyll-sitemap
   mini_magick
   rake
-  sass
+  sass-embedded
   strava-ruby-client
   uglifier
 
