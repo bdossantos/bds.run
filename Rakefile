@@ -29,7 +29,7 @@ task :jekyll_build do
   puts '--> Jekyll build'
   FileUtils.rm_rf(BUILD_DIR)
 
-  run_command(['jekyll', 'build', '-d', BUILD_DIR, '--config', *jekyll_config_files])
+  run_command(['jekyll', 'build', '-d', BUILD_DIR, '--config', jekyll_config_files.join(',')])
 
   if JEKYLL_ENV == 'production'
     puts '--> Run jampack'
@@ -65,6 +65,7 @@ end
 desc 'GZip All'
 task :gzip_all do
   %w[html css js].each do |ext|
+    Rake::Task[:gzip].reenable
     Rake::Task[:gzip].invoke(ext)
   end
 end
