@@ -321,7 +321,7 @@ PLATFORMS
 
 DEPENDENCIES
   classifier-reborn
-  html-proofer
+  html-proofer (~> 5.2)
   image_optim
   image_optim_pack
   jekyll
