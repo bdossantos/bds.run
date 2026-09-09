@@ -197,7 +197,7 @@ GEM
     matrix (0.4.3)
     mercenary (0.4.0)
     metrics (0.15.0)
-    mini_magick (5.3.3)
+    mini_magick (5.4.0)
       logger
     mini_portile2 (2.8.9)
     minitest (6.0.6)
