@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "@picocss/pico": "^2.1.1",
-    "html-minifier": "4.0.0",
+    "html-minifier": "5.0.1",
     "uncss": "^0.17.3"
   },
   "devDependencies": {
